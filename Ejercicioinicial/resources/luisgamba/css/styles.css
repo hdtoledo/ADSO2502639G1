@@ -1,7 +1,10 @@
 body{
-    background: rgb(203, 182, 182);   
+    background: rgb(110, 114, 129);   
 }
 .titulos{
-    color: aqua;
+    color: rgb(231, 231, 68);
     font-size: 3rem;
+}
+.container .container-p img{
+    height: 3px;
 }
