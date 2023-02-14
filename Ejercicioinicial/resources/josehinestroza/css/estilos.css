@@ -32,3 +32,9 @@ h3{
     position: relative;
     border-radius: 50%;
 }
+
+.img{
+    width: 150px;   
+    height: 250;
+
+}
