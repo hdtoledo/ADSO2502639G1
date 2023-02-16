@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 body{
     background: url(./imagenes/18702139_sep09.jpg);
     background-size: cover;
@@ -5,12 +8,21 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 hr{
-    border-style: dotted;
+    border-style: dashed;
     border-width: 3px;
 }
 
+
+
 h1{
     color: rgb(221, 255, 0);
+    font-weight: 400;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p{
+    font-family: 'VT323', monospace;
+
 }
 
 h2{
@@ -35,5 +47,9 @@ a{
 }
 
 .contenido :visited{
+    color: aqua;
+}
+
+.video1 :visited{
     color: aqua;
 }
