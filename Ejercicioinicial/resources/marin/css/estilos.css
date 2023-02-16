@@ -1,0 +1,13 @@
+h1{
+    color: brown;
+    font-size: medium;
+
+
+    
+}
+p{
+    color: blue;
+    line-height: 1.5em;
+}
+li{list-style: none;}
+li{list-style: square outside;}
