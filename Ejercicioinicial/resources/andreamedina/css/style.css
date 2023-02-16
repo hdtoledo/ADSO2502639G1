@@ -1,0 +1,16 @@
+h1 {
+    color: rgb(214, 85, 106);
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #9adce7;
+}
+
+h1 {
+    background: url("fondo-encabezado.jpg") no-repeat center;
+}
