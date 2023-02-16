@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body{
+    background: url(./imagenes/18702139_sep09.jpg);
+    background-size: cover;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+hr{
+    border-style: dashed;
+    border-width: 3px;
+}
+
+
+
+h1{
+    color: rgb(221, 255, 0);
+    font-weight: 400;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p{
+    font-family: 'VT323', monospace;
+
+}
+
+h2{
+    color: rgb(34, 255, 0);
+}
+
+th{
+    color: gold;
+}
+body{
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
+.perfil img{
+    border: 0;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+
+.contenido :visited{
+    color: aqua;
+}
+
+.video1 :visited{
+    color: aqua;
+}
