@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>curriculum</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div id=""header" class="center">
+    <div class= "container">
         <ul id="menu" class="inline">
             <li>
                 <a href="#experiencia">Experiencia profesional</a>
@@ -26,7 +27,7 @@
             </li>
         </ul>
     </div>
-
+    <div class="info">
     <div id=""me">
     <h1>Karol Tatiana Angarita Valero</h1>
     <p>
@@ -43,8 +44,9 @@
 
     </div>
     <hr>
-    <h2 id="experiencia">Experiencia profesional</h2>
-    <table id="expertise">
+    <fieldset>
+        <legend>Experiencia profesional</legend>
+    <table id="experiencia">
         <thead>
             <tr>
                 <th>Empresa / Organización</th>
@@ -71,55 +73,16 @@
                 <td>Desarrolador - Programador</td>
                 <td>Bogotá</td>
                 <td>Febrero 2017 - Marzo 2018</td>
-            </tr>
-            <tr>
-                <td>Adecco Colombia S.A.</td>
-                <td>Programador de planeacion</td>
-                <td>Pereira</td>
-                <td>Febrero 2018 - Julio 2022</td>
-            </tr>
-            <tr>
-                <td>Turrisystem</td>
-                <td>Programador</td>
-                <td>Bogotá</td>
-                <td>Diciembre 2019 - Marzo 2021</td>
-            </tr>
-            <tr>
-                <td>CONFIDENTIAL</td>
-                <td>Desarrollador en Java</td>
-                <td>Bogotá</td>
-                <td>Diciembre 2018 - Actualidad</td>
-            </tr>
-            <tr>
-                <td>Inetum</td>
-                <td>Programadora SQL Oracle</td>
-                <td>Bogotá</td>
-                <td>Diciembre 2020 - Enero 2023</td>
-            </tr>
-            <tr>
-                <td>Digital future</td>
-                <td>Programador de app fullstack</td>
-                <td>Bogotá</td>
-                <td>Diciembre 2017 - Marzo 2021</td>
-            </tr>
-            <tr>
-                <td>JGB S.A</td>
-                <td>Programador de mantenimiento</td>
-                <td>Cali</td>
-                <td>Marzo 2022 - Actualidad</td>
-            </tr>
         </tbody>
     </table>
-    <hr>
-    <h2 id="habilidades">Habilidades y Conocimientos</h2>
+    </fieldset>
+    <fieldset>
+        <legend>Habilidades y conocimientos</legend>
+        <table id="habilidades">
     <ul>
         <li>
           <strong>Desarrollo Web:</strong>  
-          HTML5, CSS, JavaScript, Python, PHP, MySQL,etc.
-        </li>
-        <li>
-            <strong>Analitica web/Métricas:</strong>
-            Google Analytics, Mixpanek,Sefment.io,etc.
+          HTML5, CSS, JavaScript, MySQL.
         </li>
         <li>
             <strong>Gestion:</strong>
@@ -130,8 +93,10 @@
             Diseño Grafico, Photoshop, Articulos de papeleria y logotipos, folletos, Diseño de interfaz y dibujo digital.
         </li>
     </ul>
-    <hr>
-    <h2 id="educacion">Educación</h2>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Educación</legend>
     <table id="educacion">
         <thead>
             <tr>
@@ -142,24 +107,21 @@
         </thead>
         <tbody>
             <tr>
-                <td>Ingenieria en Software</td>
-                <td>Universidad de los Andes</td>
-                <td>2016</td>
-            </tr>
-            <tr>
                 <td>Analisis y desarrollo de software</td>
                 <td>Sena</td>
-                <td>2013</td>
+                <td>2023</td>
             </tr>
             <tr>
-                <td>Diseño Grafico</td>
-                <td>Universidad Santo Tomas</td>
-                <td>2018</td>
+                <td>Secundaria</td>
+                <td>Luis Calixto Leiva</td>
+                <td>2020</td>
             </tr>
         </tbody>
     </table>
-    <hr>
-    <h2 id="Perfiles Sociales">Perfiles sociales</h2>
+    </fieldset>
+    <fieldset>
+        <legend>Perfiles Sociales</legend>
+        <table id="perfiles sociales">
     <p class="inline">Tambien puedes encontrarme en:</p>
     <ul class=""inline">
     <li>
@@ -172,7 +134,8 @@
         <a href="https://twitter.com/KarolTa28665792" target=""_blank">Twitter</a>
     </li>
     </ul>
-    <hr>
+    </fieldset>
+    </table>
     <h2 id="contactar">Contactar</h2>
     <form id=""email" method=""GET">
         <label for=""to>Para:</label>
@@ -210,6 +173,7 @@
           </a>
     </p>
     </div>
+</div>
     </body>
 </body>
 </html>

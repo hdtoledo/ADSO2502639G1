@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(245, 212, 123);
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container ul{
+    display: flex;
+    background: rgb(230, 153, 81);
+    height: 3rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.container ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.container ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+.container ul li a:hover{
+    color: aliceblue;
+}
+.parrafo{
+    font-size:small;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.perfil img{
+    width: 220px;
+    height: 210px;
+    image-rendering: crisp-edges;
+    opacity: .8;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(187, 77, 77, 0.904);
+    transition: opacity .5s;
+}
