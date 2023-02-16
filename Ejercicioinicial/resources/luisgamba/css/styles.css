@@ -2,9 +2,10 @@ body{
     background: rgb(110, 114, 129);   
 }
 .titulos{
-    color: rgb(231, 231, 68);
+    color: rgb(254, 234, 13);
     font-size: 3rem;
 }
-.container .container-p img{
-    height: 3px;
+.imagen{
+    height:  450px;
+    border-radius: 50%;
 }
