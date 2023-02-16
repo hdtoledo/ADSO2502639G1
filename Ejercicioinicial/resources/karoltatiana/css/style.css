@@ -21,6 +21,10 @@ div{
     margin: 0 auto;
 }
 
+.me{
+    text-align: right;
+}
+
 .container ul{
     display: flex;
     background:#f5cfaf;
@@ -43,4 +47,14 @@ div{
 
 .container ul li a:hover{
     color:#fff7f0;
+}
+
+.perfil img{
+    width: 220px;
+    height: 210px;
+    image-rendering: crisp-edges;
+    opacity: .8;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #884f1e;
+    transition:linear .3s;
 }
