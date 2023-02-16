@@ -1,15 +1,39 @@
 body{
-    background-color: rgb(21, 21, 21);
+    background: url(./imagenes/18702139_sep09.jpg);
+    background-size: cover;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
+hr{
+    border-style: dotted;
+    border-width: 3px;
+}
+
+h1{
+    color: rgb(221, 255, 0);
+}
+
+h2{
+    color: rgb(34, 255, 0);
+}
+
+th{
+    color: gold;
 }
 body{
     font-style: oblique;
-    color: lightgray;
+    color: rgb(255, 255, 255);
 }
 .perfil img{
     border: 0;
     border-radius: 50%;
     width: 120px;
     height: 120px;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+
+.contenido :visited{
+    color: aqua;
 }
