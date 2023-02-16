@@ -1,0 +1,30 @@
+body{
+    background-color: #fae7d6;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+.container ul{
+    display: flex;
+    background:#f5cfaf;
+    height: 4rem;
+    width: 100vw;
+    align-items:center;
+    justify-content:center;
+}
+
+.container ul li{
+    list-style:none;
+    margin-left: 30px;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color:#884f1e;
+    transition:linear,1.5s;
+}
+
+.container ul li a:hover{
+    color:#fff7f0;
+}
