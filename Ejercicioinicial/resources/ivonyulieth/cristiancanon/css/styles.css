@@ -1,0 +1,6 @@
+body{
+background: rgb(237, 238, 236);
+}
+.table thead tr{
+    display: flex;
+    gap: 1rem;}
