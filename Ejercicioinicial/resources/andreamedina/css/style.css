@@ -1,0 +1,50 @@
+h1 {
+    color: rgb(13, 13, 14);
+    font-size: 25px;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #ebeecd;
+}
+
+h1 {
+    background: url("fondo-encabezado.jpg") no-repeat center;
+}
+
+img {
+    width: 250px;
+    margin-right: 25px;
+    border-top: 15px;
+    border-radius: 20px;
+}
+
+th {
+    color: lightcoral;
+    font-size: 20px;
+    font-style: normal;
+    font-family: monospace;
+}
+
+p {
+    font: size 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+td {
+    font: size 19px;
+    font-style: normal;
+    font-family: monospace;
+}
+
+li {
+    font: size 19px;
+    font-style: normal;
+    font-family: monospace;
+}

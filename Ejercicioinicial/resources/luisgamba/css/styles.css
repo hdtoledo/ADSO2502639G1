@@ -1,0 +1,11 @@
+body{
+    background: rgb(110, 114, 129);   
+}
+.titulos{
+    color: rgb(254, 234, 13);
+    font-size: 3rem;
+}
+.imagen{
+    height:  450px;
+    border-radius: 50%;
+}
