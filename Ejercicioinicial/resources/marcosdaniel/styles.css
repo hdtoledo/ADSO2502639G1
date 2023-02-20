@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: blueviolet;
+    background: rgb(233, 218, 61);
     font-family: 'Bebas Neue';
 }
 html{
@@ -13,6 +13,7 @@ html{
     width: 100vw;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 nav{
     position: sticky;
@@ -22,8 +23,7 @@ nav{
 }
 nav ul{
     display: flex;
-    background: red;
-
+    background: rgb(22, 63, 110);
 }
 nav ul li{
     list-style: none;
@@ -40,6 +40,13 @@ nav ul li a{
     font-weight: 900;
     font-size: 1.2rem;
 }
+.c-perfil{
+    display: flex;
+    gap: 4rem;
+    width: 100vw;
+    justify-content: center;
+
+}
 .c-perfil .infopersonal p{
     font-size: 1.4rem;
 }
@@ -52,7 +59,7 @@ nav ul li a{
     image-rendering: crisp-edges;
     opacity: .8;
     border-radius: 50%;
-    box-shadow: 0 0 7px burlywood;
+    box-shadow: 0 0 7px rgb(212, 151, 70);
     transition: opacity .5s;
 }
 .c-perfil img:hover{
@@ -67,11 +74,13 @@ hr{
     margin-top: 1rem;
     width: 80%;
 }
-.perfilprofesional{
+.perfilProfesional{
     display: flex;
-    width: 880px;
+    width: 100vw;
     flex-direction: column;
     scroll-behavior: smooth;
+    justify-content: center;
+    text-align: center;
 }
 .perfilprofesional h1{
     text-align: center;
@@ -80,19 +89,19 @@ hr{
     font-size: 1.4rem;
     font-weight: 500;
 }
-.areaExperiencia p{
+.areaExperiencia {
     display: flex;
     width: 880px;
     flex-direction: column;
     align-items: center;
 }
-.areaExperiencia{
+.areaExperiencia p{
     font-size: 1.4rem;
 }
 .areaExperiencia table{
-    border: 1px solid yellowgreen;
+    border: 1px solid rgb(132, 176, 43);
     border-radius: 15px;
-    background: green;
+    background: rgba(35, 2, 6, 0.449);
     font-size: 2rem;
     padding: .5em;
     width: 700px;
@@ -100,12 +109,12 @@ hr{
     margin: 20px;
 }
 .areaExperiencia table tr th{
-    color: darkred;
+    color: rgb(88, 12, 12);
     font-size: 700;
 }
 .areaExperiencia tablr tr td{
     text-align: center;
-    border-bottom: 1px solid blanchedalmond;
+    border-bottom: 1px solid rgb(31, 29, 141);
 }
 .historialEdu{
     display: flex;
@@ -134,20 +143,23 @@ hr{
 .expWork h1{
     font-size: 40px;
     margin: 0;
+    text-align: center;
 }
 .expWork p{
     font-size: 1.4rem;
 }
-.expWork .experiences .exp-1 p,.expWork .experiences .exp-2 p{
+.expWork .experiencias .exp-1 p,.expWork .experiencias .exp-2 p{
     font-size: 25px;
+    
 }
-.expWork .experiences .exp-1 ul li,.expWork .experiences .exp-2 ul li{
+.expWork .experiencias .exp-1 ul li,.expWork .experiencias .exp-2 ul li{
     font-size: 19px;
+    
 }
 .contacto{
     width: 100vw;
     height: 300px;
-    background: rgba(73, 67, 67, 0.92);
+    background: rgba(139, 24, 24, 0.92);
     display: flex;
     justify-content: center;
     align-items: center;
