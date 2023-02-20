@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #E8DED4;
+    font-family: 'Roboto';
+}
+
+header{
+    display: flex;
+    gap: 4rem;
+    width: 100vw;
+    justify-content: center;
+    background-color: #F22E45;
+    color: rgba(73, 67, 67, 0.92);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+}
+
+hr{
+    border-color: #2E90F2;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    border: 1px solid rgb(134, 129, 129);
+    border-radius: 15px;
+    background: rgb(194, 183, 183);
+    padding: .5em;
+    box-shadow: 0 0 5px rgb(165, 156, 156);
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
