@@ -1,60 +1,174 @@
-body{
-    background-color: #b99372;
-    margin:auto;
-    padding:auto;
-    font-family:'Times New Roman', Times, serif
+/*importar las fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,500&family=Titillium+Web:ital,wght@0,400;0,900;1,400;1,600&family=Yellowtail&display=swap');
+*{
+    font-family:"titilium web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*SECCION INICIO*/
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color:black;
 }
 
-legend{
-    border:solid 1px;
-    border-radius: 15px;
-    background-color: rgb(245, 213, 191);
-    font-size:larger;
-    font-weight: 600;
+.inicio .container-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px; 
 }
 
-div{
-    background-color: #fae7d6;
-    border: 1px solid black;
-    padding: 12px;
-    width: 65%;
-    margin: 0 auto;
+.inicio .container-seccion header{
+    padding: 30px;
 }
 
-.me{
-    text-align: right;
+/*menu lateral*/
+.inicio .container-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #6a6abe;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display:none;
 }
 
-.container ul{
-    display: flex;
-    background:#f5cfaf;
-    height: 4rem;
-    width:auto;
-    align-items:center;
-    justify-content:center;
+.inicio .container-seccion header nav a{
+    display: block;
+    color: #fae7d6;
+    text-decoration:none;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
-.container ul li{
-    list-style:circle;
-    margin-left: 30px;
+.inicio .container-seccion header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family:"yellowtail";
+    text-shadow: 0 0 35px #fff7f0;
 }
 
-.container ul li a{
-    text-decoration:solid;
-    color:#884f1e;
-    transition:linear,1.5s;
+.inicio .container-seccion header .logo .color{
+    color:#6a6abe;
+    font-family:"yellowtail";
 }
 
-.container ul li a:hover{
-    color:#fff7f0;
-}
-
-.perfil img{
-    width: 220px;
-    height: 210px;
-    image-rendering: crisp-edges;
-    opacity: .8;
+.inicio .container-seccion header .nav-bar{
+    position: fixed;
+    background-color: #6a6abe;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    box-shadow: 0 0 7px #884f1e;
-    transition:linear .3s;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .1.5s;
+}
+
+.inicio .container-seccion header .nav-bar:haver{
+    box-shadow: 0 0 35px black;
+
+}
+
+.inicio .container-seccion .info{
+    padding-bottom: 130px;
+}
+
+.inicio .container-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.info .container-seccion .info .social a{
+    display:inline-flex;
+    text-decoration: none;
+    background-color: #000;
+    color: #6a6abe;
+    border: 1px solid #6a6abe;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.inicio .container-seccion .info .social a:hover{
+    color:white;
+    background-color: #6a6abe;
+    box-shadow: 0 0 20px white;
+}
+
+.inicio .container-seccion .foto{
+    position:relative;
+}
+
+.inicio .container-seccion .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #6a6abe;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}  
+
+.titulo-seccion{
+    font-family: "yellowtail";
+    font-size: 1.5 rem;
+}
+/*SECCION SOBRE MI*/
+.sobremi{
+    background-color: aliceblue;
+    padding: 140px 0 100px 0;
+    text-align:center;
+}
+
+.sobremi .container-seccion{
+    max-width: 100px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.sobremi .container-seccion h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.sobremi.container-seccion .especial{
+    color: #6a6abe;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .container-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: #150727;
+}
+
+.sobremi .container-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.sobremi .container-seccion .fila .col{
+    width: 30%;
+} 
+
+.sobremi .container-seccion .fila .col i{
+    color:#6a6abe;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #150727;
+    line-height: 40px;
+    border-radius: 50%;
 }
