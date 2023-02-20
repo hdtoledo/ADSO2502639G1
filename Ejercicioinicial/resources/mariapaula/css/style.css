@@ -9,6 +9,9 @@ body{
     list-style: none;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container ul{
     display: flex;
     background: rgb(230, 153, 81);
