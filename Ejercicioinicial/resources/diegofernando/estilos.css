@@ -1,10 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.perfil{
+    border: 0;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
 body{
     background: url(./imagenes/18702139_sep09.jpg);
     background-size: cover;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+strong{
+    color: aqua;
 }
 
 hr{
@@ -12,7 +39,10 @@ hr{
     border-width: 3px;
 }
 
-
+ul{
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+}
 
 h1{
     color: rgb(221, 255, 0);
@@ -22,34 +52,61 @@ h1{
 
 p{
     font-family: 'VT323', monospace;
+    font-size: 18px;
 
 }
 
 h2{
     color: rgb(34, 255, 0);
+    font-family: 'Press Start 2P', cursive;
 }
 
 th{
     color: gold;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+tbody{
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    justify-content: space-between;
 }
 body{
     font-style: oblique;
     color: rgb(255, 255, 255);
 }
-.perfil img{
-    border: 0;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-}
+
 a{
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    font-size: 18px;
     color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: aqua;
+}
+
+a :visited{
+    font-family: 'VT323', monospace;
+    color: aqua;
 }
 
 .contenido :visited{
     color: aqua;
 }
 
+.video1{
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+}
+
 .video1 :visited{
+    font-family: 'VT323', monospace;
     color: aqua;
 }
+
+
+
+
