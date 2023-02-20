@@ -5,7 +5,10 @@ body{
     padding: 0;
     font-family: cursive;
 }
-
+*{
+    list-style: none;
+    text-decoration: none;
+}
 .container ul{
     display: flex;
     background: rgb(230, 153, 81);
@@ -136,6 +139,14 @@ h2{
     width: 40vw;
     box-shadow: 0 0 10px rgba(161, 5, 5, 0.904);
 }
+.social ul li, a{
+    color: rgb(168, 2, 2);
+    transition: all .5s;
+}
+.social ul li:hover, a:hover{
+    opacity: .7;
+}
+
 .luz{
     margin: 1em;
     margin-left: 27%;
