@@ -1,6 +1,32 @@
-body{
-background: rgb(237, 238, 236);
+body {
+  background: rgb(237, 238, 236);
 }
-.table thead tr{
-    display: flex;
-    gap: 1rem;}
+* {
+  list-style: none;
+  text-decoration: none;
+}
+.table thead tr {
+  display: flex;
+  gap: 3rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(207, 196, 196);
+  font-family: "Nunito";
+}
+.table tbody tr {
+  display: flex;
+  gap: 3rem;
+}
+
+td{
+    padding: 0 30px 0 30px;
+}
+.primary{
+    background: rgb(184, 180, 180);
+}
+.secundary{
+    background-color: rgb(184, 180, 180);
+}
