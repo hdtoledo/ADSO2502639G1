@@ -44,9 +44,14 @@ html{
 img{
     width: 200px;
     border-radius: 295px;
+    
 }
 .Menu {
     padding: 1em;
+}
+.center {
+    display: flex;
+    justify-content: center;
 }
 div ul{
     display: flex;
