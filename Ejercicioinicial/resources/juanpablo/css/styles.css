@@ -1,115 +1,115 @@
-             html {
-                 background-color: #242424;
-             }
-             
-             .Menu {
-                 font-size: 20px;
-             }
-             
-             div ul {
-                 display: flex;
-                 justify-content: right;
-                 background: #242424;
-                 list-style: none;
-             }
-             
-             div li a {
-                 color: white;
-                 display: block;
-                 text-decoration: none;
-                 padding: .7em 1em;
-             }
-             
-             div li a:hover {
-                 background: #444;
-                 color: white;
-             }
-             
-             .presentacion {
-                 border: solid 2px;
-                 display: flex;
-                 justify-content: center;
-                 border-radius: 8px;
-                 padding: 2rem;
-                 margin: 4rem;
-                 box-shadow: 4px 4px 0px;
-             }
-             
-             .imagen {
-                 width: 200px;
-                 margin-right: 25px;
-                 border-radius: 10px;
-             }
-             
-             picture {
-                 font-style: italic;
-             }
-             
-             .perfil {}
-             
-             .logo {
-                 width: 50px;
-                 border-radius: 0%;
-             }
-             
-             .boton {
-                 border-radius: 6px;
-                 padding: 0.7rem 0.7rem;
-                 background-color: #333;
-                 border: none;
-                 cursor: pointer;
-                 color: white;
-             }
-             
-             .boton:hover {
-                 background-color: #444;
-                 box-shadow: 1px 1px white;
-                 transition: 0.6s;
-             }
-             
-             p {
-                 color: white;
-             }
-             
-             form {
-                 width: 500px;
-                 margin: 0 auto;
-                 text-align: left;
-                 padding: 20px;
-                 border: none;
-                 border-radius: 5px;
-             }
-             
-             label {
-                 display: block;
-                 margin-bottom: 10px;
-                 font-size: 18px;
-                 font-weight: bold;
-             }
-             
-             input,
-             textarea {
-                 width: 100%;
-                 padding: 12px 20px;
-                 margin-bottom: 20px;
-                 border: 1px solid #ccc;
-                 border-radius: 4px;
-                 box-sizing: border-box;
-                 font-size: 16px;
-             }
-             
-             .contacto {
-                 display: flex;
-                 justify-content: space-around;
-                 border-radius: 8px;
-                 padding: 2rem;
-                 margin: 2rem;
-             }
-             
-             h1 {
-                 color: lightgray;
-             }
-             
-             label {
-                 color: lightgray
-             }
+html {
+    background-color: #242424;
+}
+
+.Menu {
+    font-size: 20px;
+}
+
+div ul {
+    display: flex;
+    justify-content: right;
+    background: #242424;
+    list-style: none;
+}
+
+div li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .7em 1em;
+}
+
+div li a:hover {
+    background: #444;
+    color: white;
+}
+
+.presentacion {
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 4rem;
+    box-shadow: 4px 4px 0px;
+}
+
+.imagen {
+    width: 200px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+picture {
+    font-style: italic;
+}
+
+.perfil {}
+
+.logo {
+    width: 50px;
+    border-radius: 0%;
+}
+
+.boton {
+    border-radius: 6px;
+    padding: 0.7rem 0.7rem;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.boton:hover {
+    background-color: #444;
+    box-shadow: 1px 1px white;
+    transition: 0.6s;
+}
+
+p {
+    color: white;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+h1 {
+    color: lightgray;
+}
+
+label {
+    color: lightgray
+}
