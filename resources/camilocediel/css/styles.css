@@ -33,6 +33,7 @@ h2{
 }
 p{
     text-align: right;
+    text-transform: capitalize;
 }
 
 hr{
