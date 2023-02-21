@@ -1,23 +1,28 @@
 body{
-background-color: rgba(119, 128, 128, 0.564);
+background-color: rgba(207, 236, 247, 0.543);
 
 margin: 2rem;
+
 }
 h1{
-    color: rgb(244, 87, 39);
+    color: rgb(39, 60, 244);
     font-size: large;
     text-align: center;
 
 }
+h3{
+    color: rgb(39, 60, 244);
+}
+
 nav{
     position: sticky;
-    margin: 0%;
-    top: 0px;
+    margin:0%;
+    top:0px;
     z-index: 10;
 }
 nav ul{
     display: flex;
-    background: rgb(36, 33, 33);
+    background: rgb(10, 6, 240);
     justify-content: space-between;
 }
 nav ul li{
@@ -32,16 +37,32 @@ nav ul li:hover{
 }
 nav ul li a{
     text-decoration: none;
-    color: rgb(255, 244, 40);
+    color: rgb(243, 243, 240);
     font-weight: 900;
     font-size: 1.2rem;
 }
-.tabla{
+
+
+#tabla{
     display: flex;
     width: 100vw;
-    justify-content: center;
+    margin: 5% auto;
 }
 .imagen{
-    height:  450px;
+    height:  200px;
     border-radius: 50%;
+}
+
+
+#date_pers {
+ 
+    position: sticky;
+    color: rgb(7, 7, 6);
+    font-size: 1.2rem;
+    background: rgba(68, 66, 66, 0.166);
+    box-shadow: 0 0 5px rgb(10, 10, 10);
+}
+#perfil_p{
+    line-height: 30px;
+   
 }
