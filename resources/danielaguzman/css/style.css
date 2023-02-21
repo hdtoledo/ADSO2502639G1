@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Outfit:wght@500&display=swap');
+
+body{background-color: aquamarine(216, 247,236);
+
+}
+.titulos{ color:aquamarine(113,52,52);
+font-size:3rem;}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul{ 
+    display: flex;
+    background: rgba(169, 245, 251, 0.92);
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+    transition: all .5s;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.C-perfil{
+    display: flex;
+    gap: 4rem;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+.C-perfil .infoPersonal p{
+    font-size: 1.4rem;
+}
+.C-perfil .infoPersonal{
+    width: 700px;
+}
+.C-perfil img{
+    width: 230px;
+    height: 230px;
+    image-rendering: crisp-edges;
+    opacity: .8;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(127, 230, 239, 0.904);
+    transition: opacity .5s;
+}
+.C-perfil img:hover{
+    opacity: .7;
+}
+.C-perfil .infoPersonal h1{
+    color: rgb(23, 21, 21);
+    font-weight: 900;
+}
+hr{
+    border-color: rgba(16, 15, 15, 0.87);
+    margin-top: 1rem;
+    width: 80%;
+}
+.areaExperiencia{
+    display: flex;
+    width: 880px;
+    flex-direction: column;
+    align-items: center;
+}
+.areaExperiencia p{
+    font-size: 1.4rem;
+}
+nav ul li:hover{
+    opacity: .7;
+    background: rgba(18, 213, 239, 0.87);
+}
