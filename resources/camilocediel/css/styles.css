@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(208, 204, 204);
+   
+}
+
+img{
+    width: 220px;
+    height: 210px;
+    image-rendering: crisp-edges;
+    opacity: .8;
+    border-radius: 50px;
+    box-shadow: 0 0 7px;
+    transition: linear .3s;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+
+}
+p{
+    text-align: right;
+}
+
+hr{
+    border-color: rgba(235, 231, 231, 0.87);
+    margin-top: 1rem;
+    width: 80%;
+}
+
+nav{
+    position: sticky;
+    margin: 0;
+    top: -17px;
+    z-index: 10;
+}
+nav ul{ 
+    display: flex;
+    background: rgba(247, 246, 246, 0.92);
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+    transition: all .5s;
+}
+nav ul li:hover{
+    opacity: .7;
+    background: rgba(14, 216, 64, 0.87);
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.container a{
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 3px;
+    box-shadow: 2px 2px 0px;
+
+}
+
+    .container.perfil{
+        border: solid 2px;
+     display: flex;
+     justify-content: center;
+     border-radius: 8px;
+     padding: 3px;
+     margin: 3px;
+     box-shadow: 2px 2px 0px;
+    }
+    
