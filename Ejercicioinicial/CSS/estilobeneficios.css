@@ -1,0 +1,24 @@
+body
+{ width: 845px;
+  margin: 20 auto;
+  background-color: #ffffff;
+  padding: 0 20px 20px 20px;
+  border: 1px solid black;
+}
+
+hr
+{
+   background-color: #036;
+   border: 2px double #23A455;
+   font-size: 16px;
+}
+
+
+
+h1  
+{
+   font-family: "Courier New";
+   font-size: 25px;
+   color: #1B1E18 ;
+   background-color: #4054B2 ;
+}
