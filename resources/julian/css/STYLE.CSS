@@ -1,5 +1,11 @@
 body{
-    background-color: rgb(160, 173, 173);}
+    background: url(https://img.freepik.com/foto-gratis/niebla-apodera-alpes-chamonix-francia-fondo-pantalla-telefono-movil_53876-160150.jpg?w=2000);
+    background-size: cover;
+}
+
+
+        
+    
 h1{
     color: rgb(3, 3, 3);
     font-size: 3rem;
@@ -11,6 +17,5 @@ h1{
         color:rgb(15, 15, 15);
     font-family: "titan one",cursive;
     line-height: 1em;
-align-items: center;   
+    align-items: center;   
 }
-
