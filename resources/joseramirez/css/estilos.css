@@ -2,6 +2,7 @@ body{
 background-color: rgba(119, 128, 128, 0.564);
 
 margin: 2rem;
+
 }
 h1{
     color: rgb(244, 87, 39);
@@ -9,10 +10,11 @@ h1{
     text-align: center;
 
 }
+
 nav{
     position: sticky;
-    margin: 0%;
-    top: 0px;
+    margin:0%;
+    top:0px;
     z-index: 10;
 }
 nav ul{
@@ -36,12 +38,27 @@ nav ul li a{
     font-weight: 900;
     font-size: 1.2rem;
 }
+
+
 .tabla{
     display: flex;
     width: 100vw;
     justify-content: center;
 }
 .imagen{
-    height:  450px;
+    height:  200px;
     border-radius: 50%;
+}
+
+
+#date_pers {
+   
+    position: sticky;
+    color: rgb(7, 7, 6);
+    font-size: 1.2rem;
+    background: rgba(91, 89, 89, 0.283);
+}
+#perfil_p{
+    line-height: 30px;
+    margin: left; 
 }
