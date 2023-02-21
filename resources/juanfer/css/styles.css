@@ -8,6 +8,12 @@ body{
 html{
     scroll-behavior: smooth;
 }
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
 .container{
     display: flex;
     width: 100vw;
@@ -16,13 +22,14 @@ html{
 }
 nav{
     position: sticky;
-    margin: 0;
     top: -17px;
+    margin: 0;
     z-index: 10;
 }
 nav ul{ 
     display: flex;
     background: rgba(73, 67, 67, 0.92);
+    border-radius: 0px 0 5px 5px;
 }
 nav ul li{
     list-style: none;
@@ -38,6 +45,15 @@ nav ul li a{
     color: antiquewhite;
     font-weight: 900;
     font-size: 1.2rem;
+}
+nav ul li div{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+nav ul li button i{
+    color: antiquewhite;
+    font-size: 1.3rem;
 }
 .C-perfil{
     display: flex;
@@ -64,7 +80,6 @@ nav ul li a{
     opacity: .7;
 }
 .C-perfil .infoPersonal h1{
-    color: black;
     font-weight: 900;
 }
 hr{
@@ -179,5 +194,16 @@ hr{
 /* ! DarkMode ! */
 
 .darkMode{
+    background: rgb(84, 79, 79);
+    color: white;
+}
+.darkModeUl{
     background: grey;
+}
+.darkModeHr{
+    border-color: antiquewhite;
+}
+.darkModeContac{
+    background: grey;
+    color: antiquewhite;
 }
