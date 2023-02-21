@@ -2,7 +2,7 @@
     list-style: none;
 }
 body{
-    background: rgb(169, 173, 183);   
+    background: rgb(153, 134, 163);   
 }
 .titulos{
     text-align: center;
@@ -30,14 +30,12 @@ nav ul li{
 }
 nav ul li:hover{
     opacity: .7;
-    background: rgb(149, 163, 177);
+    background: rgb(36, 73, 132);
     transition: .5s;
 }
 nav ul li a{
     text-decoration: none;
-    color: rgb(188, 202, 98);
+    color: rgb(81, 60, 162);
     font-weight: 900;
     font-size: 1.2rem;
 }
-
-
