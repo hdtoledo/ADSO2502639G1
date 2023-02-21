@@ -68,3 +68,7 @@ body{
     gap: 3rem;
     font-size: 1.6rem;
 }
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
