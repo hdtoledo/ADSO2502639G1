@@ -245,3 +245,34 @@ html{
 .experiencia .container-seccion .info .col{
     width: 45%;
 }
+
+.experiencia .container-seccion .info .col .titulo{
+    display: inline-block;
+    color: #6a6abe;
+    font-weight: bold;
+    border: 2px solid #6a6abe;
+    padding: 10px;
+}
+
+.experiencia .container-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.experiencia .container-seccion .info .col table .datos{
+    margin-top: 30px;
+    border-bottom: 1px solid #bab9b9;
+}
+
+.experiencia .container-seccion .info .col table h4{
+    margin-top: 10px;
+}
+
+.experiencia .container-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.experiencia .container-seccion .info .col table p{
+    font-size: 14px;
+}

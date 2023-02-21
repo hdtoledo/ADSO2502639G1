@@ -1,19 +1,15 @@
-
-// const miTexto = document.getElementById("textoEjemplo");
-// miTexto.style.color = "red";
-
-// function cambiarBlue(){
-//     miTexto.style.color = "blue"
+// function changeState(state){
+//     if (state == true){
+//         return false
+//     } else if(state == false) {
+//         return true
+//     }
 // }
 
-// function cambiarRed(){
-//     miTexto.style.color = "red"
+// let estado = new Boolean(true)
+
+// const body = document.querySelector('body')
+
+// function darkMode(){
+//     console.log(changeState(estado))
 // }
-
-window.onclick = myFunction;
-
-function myFunction() {
-    document.getElementsByTagName("BODY")[0].style.backgroundColor = "rgb(77, 71, 71)";
-}
-
-// background: rgb(207, 196, 196);
