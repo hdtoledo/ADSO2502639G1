@@ -10,7 +10,7 @@ h1 {
 }
 
 body {
-    background-color: #f1f3e0;
+    background-color: #f5f8dc;
 }
 
 .Menu ul {
@@ -39,7 +39,7 @@ div ul li a:hover {
 
 hr {
     display: flex;
-    background-color: rgb(245, 205, 152);
+    background-color: rgb(248, 201, 140);
     height: 1rem;
     width: 100vw;
     align-items: center;
@@ -58,8 +58,8 @@ img {
 }
 
 th {
-    color: rgb(243, 85, 85);
-    font-size: 20px;
+    color: rgb(245, 74, 74);
+    font-size: 24px;
     font-style: normal;
     font-family: monospace;
     font-weight: bold;
@@ -69,7 +69,7 @@ th {
 }
 
 p {
-    font: size 20px;
+    font: size 22px;
     font-family: cursive;
     text-align: center;
 }
