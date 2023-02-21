@@ -1,0 +1,94 @@
+h1{
+    color: black;
+    font-size: 30px;
+    font-style: inherit;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+
+}
+h2{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration:teal;
+    text-transform: uppercase;
+
+}
+h3 {
+    color:black;
+    font-size: 30px;
+
+}
+p{
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+img {
+    width: 250px;
+    margin-right: 20px;
+    border-top: 15px;
+    border-radius: 20px;
+    
+}
+th {
+    color :palevioletred;
+    font-size: 20px;
+    text-transform: none;
+
+}
+li a{ 
+    color: white;
+    text-align: center;
+
+
+}
+.menu ul {
+    display:flex;
+    background-color:rgb(156, 166, 156);
+    height: 3rem;
+    width:100vw ;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    
+}
+html{
+    font-size: large;
+    background-color:rgb(231, 223, 223);
+}
+div ul li a{
+    display: flex;
+    justify-content:space-around;
+    padding: 0cm;
+    margin: 10px;
+    background: rgb(30, 14, 14);
+
+}
+div ul li a:hover{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .7em 1em;
+    
+
+}
+div li{
+    list-style: nome;
+    margin-left: 20px;
+
+}
+hr{
+    display: flex;
+}
+label {
+    font: size 19px;
+    font-style: normal;
+    font-family: monospace;
+    text-align: center;
+    
+}
+.hola{
+    width: 30px;
+}
