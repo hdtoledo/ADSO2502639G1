@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,8 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>Curriculum</title>
 </head>
-<body>
+
+<body class="light">
     <div class="container">
         <nav>
             <ul>
@@ -17,39 +19,44 @@
                 <li><a href="#historialEdu">Historico Educativo</a></li>
                 <li><a href="#expWork">Experiencias laborales</a></li>
                 <li><a href="#contacto">Contactar</a></li>
+                <li><button onclick="darkModeOff()"><i class="fa-regular fa-sun"></i></button></li>
+                <li><button onclick="darkMode()"><i class="fa-regular fa-moon"></i></button></li>
             </ul>
         </nav>
         <div class="C-perfil">
             <img src="./imgs/img-01.jfif" alt="img-perfil">
             <div class="infoPersonal" id="infoPersonal">
                 <h1>Juan Fernando Calderon</h1>
-                <p>Un Ingeniero de Software es un profesional que se encarga de la creación de software de calidad, aplicando conocimiento científico y estadístico,
-                Los ingenieros de software se enfocan en la solución de problemas a través de sistemas informáticos, para satisfacer las necesidades del mercado.</p>
+                <p>Un Ingeniero de Software es un profesional que se encarga de la creación de software de calidad,
+                    aplicando conocimiento científico y estadístico,
+                    Los ingenieros de software se enfocan en la solución de problemas a través de sistemas informáticos,
+                    para satisfacer las necesidades del mercado.</p>
                 <i class="fa-brands fa-linkedin"></i><span> JuanferGG</span>
                 <i class="fa-brands fa-github"></i><span> JuanferGG</span>
             </div>
         </div>
 
-        <hr>
+        <hr class="hr" id="hr">
 
         <div class="perfilProfesional" id="perfilProfesional">
             <h1>Perfil Profesional</h1>
-            <p>Este perfil puede realizar actividades relacionadas con otros donde la programación 
-            es su principal tarea, sin embargo, el ingeniero de software tiene las 
-            habilidades y conocimientos para liderar equipos de trabajo, llevar a cabo 
-            planes estructurados de solución de problemas y tiene pensamiento estratega.
+            <p>Este perfil puede realizar actividades relacionadas con otros donde la programación
+                es su principal tarea, sin embargo, el ingeniero de software tiene las
+                habilidades y conocimientos para liderar equipos de trabajo, llevar a cabo
+                planes estructurados de solución de problemas y tiene pensamiento estratega.
             </p>
         </div>
 
-        <hr>
+        <hr class="hr" id="hr">
 
         <div class="areaExperiencia" id="experiencia">
             <h1>Areas de Experiencia</h1>
-            <span>Áreas afines en las cuales me he desempeñado a lo largo de los años como desarrollador de software.</span>
+            <span>Áreas afines en las cuales me he desempeñado a lo largo de los años como desarrollador de
+                software.</span>
             <div class="table">
                 <table>
                     <tr>
-                        <th>Fronted</th>
+                        <th>Frontend</th>
                         <th>Backed</th>
                     </tr>
                     <tr>
@@ -76,12 +83,12 @@
             </div>
         </div>
 
-        <hr>
+        <hr class="hr" id="hr">
 
         <div class="historialEdu" id="historialEdu">
             <h1>Historico Educativo - Conocimientos</h1>
-            <p>Estos son los conocimientos que he adquirido año tras año 
-            y me han construido poco a poco como persona y me han hecho lo que soy hoy en día.
+            <p>Estos son los conocimientos que he adquirido año tras año
+                y me han construido poco a poco como persona y me han hecho lo que soy hoy en día.
             </p>
             <div class="conocimientos">
                 <ul>
@@ -99,11 +106,12 @@
             </div>
         </div>
 
-        <hr>
+        <hr class="hr" id="hr">
 
         <div class="expWork" id="expWork">
             <h1>Experiencias Laborales</h1>
-            <p>Estas son algunas de las experiencias que atravez de los años he logrado adquirir con las diferentes empresas en las que he sido parte.</p>
+            <p>Estas son algunas de las experiencias que atravez de los años he logrado adquirir con las diferentes
+                empresas en las que he sido parte.</p>
 
             <div class="experiences">
                 <div class="exp-1">
@@ -117,7 +125,8 @@
                 <div class="exp-2">
                     <p><b>10/2022 Programador Full Stack, Finanbest, Madrid</b></p>
                     <ul>
-                        <li>Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5.</li>
+                        <li>Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL,
+                            HTML5.</li>
                         <li>Realización de test de aplicaciones.</li>
                         <li>Solución de incidencias.</li>
                     </ul>
@@ -127,7 +136,7 @@
 
         <div class="contacto" id="contacto">
             <div class="infoContacto">
-                <h3>Contacto:</h3> 
+                <h3>Contacto:</h3>
                 <span>Cel: 3177576245</span><br>
                 <span>Tel: 20013812</span><br>
                 <span>Correo: juanfe15777@gmail.com</span><br>
@@ -138,7 +147,7 @@
 
     </div>
 </body>
+<script src="./js/index.js"></script>
 <script src="https://kit.fontawesome.com/b7470ea251.js" crossorigin="anonymous"></script>
-<script src="./js/index.js
-"></script>
+
 </html>
