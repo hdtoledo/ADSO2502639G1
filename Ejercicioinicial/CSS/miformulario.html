@@ -1,0 +1,94 @@
+<HTML>
+
+<HEAD>
+<TITLE>Elementos de entrada y seleccion HTML</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="EstiloFormulario.css">
+</HEAD>
+
+<BODY>
+
+<H1>Elementos de entrada y seleccion HTML</H1>
+
+<FORM ACTION="MiFormulario.html" METHOD="post">
+<center>
+<H2>1. TEXT</H2>
+Introduzca la cadena a buscar:
+<INPUT TYPE="text" NAME="cadena" VALUE="valor por defecto" SIZE="20">
+<HR>
+
+<H3>2. RADIO</H3>
+Sexo:
+<INPUT TYPE="radio" NAME="sexo" VALUE="mujer" CHECKED>Mujer
+<INPUT TYPE="radio" NAME="sexo" VALUE="hombre">Hombre
+<HR>
+
+<H3>3. CHECKBOX</H3>
+Extras:
+<INPUT TYPE="checkbox" NAME="extras[]" VALUE="garaje" CHECKED>Garaje
+<INPUT TYPE="checkbox" NAME="extras[]" VALUE="piscina" CHECKED>Piscina
+<INPUT TYPE="checkbox" NAME="extras[]" VALUE="jardin" CHECKED>Jardin
+<HR>
+
+<H3>4. BUTTON</H3>
+<INPUT TYPE="button" NAME="actualizar" VALUE="Actualizar datos">
+<HR>
+
+<H3>5. FILE</H3>
+Fichero:
+<INPUT TYPE="file" NAME="fichero">
+<H3>6. PASSWORD</H3>
+Contraseña: <INPUT TYPE="password" NAME="clave">
+<HR>
+<H3>7. SUBMIT</H3>
+<INPUT TYPE="submit" NAME="enviar" VALUE="Enviar datos">
+<HR>
+<H2>8. Elemento SELECT</H2>
+<H3>8.1 SELECT SIMPLE</H3>
+Color:
+<SELECT NAME="color">
+<OPTION VALUE="rojo" SELECTED>Rojo
+<OPTION VALUE="verde" SELECTED>Verde
+<OPTION VALUE="azul" SELECTED>Azul
+</SELECT>
+<HR>
+<H3>8.2 SELECT MULTIPLE</H3>
+Idiomas:
+<SELECT MULTIPLE SIZE="3" NAME="idiomas[]">
+<OPTION VALUE="ingles" SELECTED>Ingles
+<OPTION VALUE="frances">Frances
+<OPTION VALUE="aleman">Aleman
+<OPTION VALUE="holandes">Holandés 
+</SELECT>
+<HR>
+
+<H3>8.3 SELECT ANIDADO</H3>
+Articulacion SENA:
+<SELECT NAME="1. Articulacion SENA">
+<OPTION SELECTED LABEL="Seleccione" VALUE="Seleccione">Ninguno</OPTION>
+<OPTGROUP LABEL="1.1 Grado 9">
+<OPTION LABEL="1.1.1 Introduccion" VALUE="1.1.1"></OPTION>
+<OPTION LABEL="1.1.2 Emprendimiento" VALUE="1.1.2"></OPTION>
+</OPTGROUP>
+<OPTGROUP LABEL="1.2 Grado 10">
+<OPTION LABEL="1.2.1 Algoritmos" VALUE="1.2.1"></OPTION>
+<OPTION LABEL="1.2.2 Visual Basic" VALUE="1.2.2"></OPTION>
+<OPTION LABEL="1.2.3 MySQL Server" VALUE="1.2.3"></OPTION>
+</OPTGROUP>
+<OPTGROUP LABEL="1.3 Grado 11">
+<OPTION LABEL="1.3.1 PHP" VALUE="IRX_3.7R"></OPTION>
+<OPTION LABEL="1.3.2 MySQL" VALUE="IRX_3.5R"></OPTION>
+</OPTGROUP>
+</SELECT>
+
+<H2>9. Elemento TEXTATEA</H2>
+Comentario:
+<TEXTAREA COLS="50" ROWS="5" NAME="comentario">
+Este libro me parece...
+</TEXTAREA>
+<BR><BR> <HR><BR>
+
+<INPUT TYPE="submit" NAME="enviar" VALUE="Enviar">
+<INPUT TYPE="reset" VALUE="reiniciar">
+</center>
+</FORM> </BODY>
+</HTML>
