@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
 #body{
-    background-color: rgb(177, 220, 255);
+    background-color: rgb(192, 226, 253);
     font-size: large;
     font-family: cursive;
 }
@@ -12,6 +12,7 @@
     text-align: center;
     color: gray;
     background-color: gray
+    text crimson;
 }
 
 #nombre{
@@ -20,6 +21,8 @@
 }
 
 .imagen img{
+    position: relative;
+    left: 550px;
     width: 220px;
     height: 210px;
     image-rendering: crisp-edges;
@@ -45,6 +48,8 @@ text-align: center;
     }
 
 #tabla{
+    position: relative;
+    left: 100px;
     width: 80vw;
     border: solid;
     border-radius: 20px;
@@ -61,6 +66,8 @@ text-align: center;
 /*tabla de educacion*/
 
 #tablae{
+    position: relative;
+    left: 270px;
     width: 60%;
     border: solid;
     border-radius: 20px;
@@ -87,4 +94,9 @@ text-align: center;
     text-align: center;
     text-shadow: 3px 5px gray;  
 }
+
+#interaccion
+
+
+
 

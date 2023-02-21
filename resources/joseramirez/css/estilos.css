@@ -1,0 +1,47 @@
+body{
+background-color: rgba(119, 128, 128, 0.564);
+
+margin: 2rem;
+}
+h1{
+    color: rgb(244, 87, 39);
+    font-size: large;
+    text-align: center;
+
+}
+nav{
+    position: sticky;
+    margin: 0%;
+    top: 0px;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    background: rgb(36, 33, 33);
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+    transition: all .5s;
+}
+nav ul li:hover{
+    opacity: .7;
+    background: rgb(30, 110, 189);
+    transition: .5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 244, 40);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.tabla{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.imagen{
+    height:  450px;
+    border-radius: 50%;
+}
