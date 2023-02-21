@@ -66,5 +66,9 @@ body{
     width: 700px;
     align-items: center;
     gap: 3rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
 }
