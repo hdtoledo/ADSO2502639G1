@@ -18,26 +18,41 @@ img{
 h1{
     text-align: center;
     text-transform: uppercase;
-    font-size: xx-large;
-
+    font-size: xx-large;;
+    color: white;
 
 }
 
+
+
+#info{
+    text-align: start
+    text-transform
+
+}
 h2{
     text-align: center;
     text-transform: uppercase;
     font-size: large;
+    color: white;
+  
+
 }
 
+.icono{
+    width: 60px;
+    height: 60px;
 
 }
-p{
-    text-align: right;
-    text-transform: capitalize;
+.icono1{
+    width: 60px;
+    height: 60px;
 }
+
+    
 
 hr{
-    border-color: rgba(235, 231, 231, 0.87);
+    border-color: rgba(78, 199, 243, 0.92);
     margin-top: 1rem;
     width: 80%;
 }
@@ -50,7 +65,7 @@ nav{
 }
 nav ul{ 
     display: flex;
-    background: rgba(247, 246, 246, 0.92);
+    background: rgba(78, 199, 243, 0.92);
 }
 nav ul li{
     list-style: none;
@@ -59,11 +74,11 @@ nav ul li{
 }
 nav ul li:hover{
     opacity: .7;
-    background: rgba(14, 216, 64, 0.87);
+    background: rgba(26, 27, 27, 0.972);
 }
 nav ul li a{
     text-decoration: none;
-    color: rgb(9, 9, 9);
+    color: rgb(239, 232, 232);
     font-weight: 900;
     font-size: 1.2rem;
 }
@@ -89,3 +104,83 @@ nav ul li a{
      box-shadow: 2px 2px 0px;
     }
     
+    
+    #experiencia{
+        display: flex;
+        background: rgba(78, 199, 243, 0.92);
+        justify-content: center;
+    }
+    
+
+    #expertise{
+        width: 700px;
+        height: 200px;
+        margin: 0 auto;
+        text-align: center;
+        border: solid 2px;
+        justify-content: center;
+        border-radius: 8px;
+        padding: 3px;
+        box-shadow: 2px 2px 0px;
+    }
+
+       
+    #habilidades{
+        display: flex;
+        background: rgba(78, 199, 243, 0.92);
+        justify-content: center;
+    }
+
+#educacion{
+    display: flex;
+        background: rgba(78, 199, 243, 0.92);
+        justify-content: center;
+}
+
+#perfiles-sociales{
+    display: flex;
+        background: rgba(78, 199, 243, 0.92);
+        justify-content: center;
+}
+
+#hability{
+    border:solid;
+    
+}
+
+
+#education{
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 2px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 2px 2px 0px;
+}
+
+#contenido{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 2px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 2px 2px 0px;
+    text-align: left;
+}
+
+
+    
+   
+ 
+
+
+
+
+
+
+

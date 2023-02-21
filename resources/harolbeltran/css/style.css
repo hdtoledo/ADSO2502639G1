@@ -1,5 +1,5 @@
 h1{
-    color: palevioletred;
+    color: black;
     font-size: 30px;
     font-style: inherit;
     text-align: center;
@@ -30,6 +30,7 @@ img {
     margin-right: 20px;
     border-top: 15px;
     border-radius: 20px;
+    
 }
 th {
     color :palevioletred;
@@ -37,13 +38,15 @@ th {
     text-transform: none;
 
 }
-li { 
-    color: black;
+li a{ 
+    color: white;
+    text-align: center;
+
 
 }
-.Menu ul {
+.menu ul {
     display:flex;
-    background-color:rgb(129, 142, 129);
+    background-color:rgb(156, 166, 156);
     height: 3rem;
     width:100vw ;
     align-items: center;
@@ -60,8 +63,7 @@ div ul li a{
     justify-content:space-around;
     padding: 0cm;
     margin: 10px;
-    background: black;
-    list-style: none;
+    background: rgb(30, 14, 14);
 
 }
 div ul li a:hover{
@@ -69,6 +71,7 @@ div ul li a:hover{
     display: block;
     text-decoration: none;
     padding: .7em 1em;
+    
 
 }
 div li{
@@ -78,4 +81,14 @@ div li{
 }
 hr{
     display: flex;
+}
+label {
+    font: size 19px;
+    font-style: normal;
+    font-family: monospace;
+    text-align: center;
+    
+}
+.hola{
+    width: 30px;
 }
