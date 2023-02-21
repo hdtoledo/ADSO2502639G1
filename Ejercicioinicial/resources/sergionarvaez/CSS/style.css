@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
 #body{
     background-color: rgb(177, 220, 255);
     font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
 }
-
 #navegacion{
     width: 100%;
     margin: 10px;
+    border: solid;
+    border-radius: 20px;
+    text-align: center;
+    color: gray;
+    background-color: gray
+    text crimson;
 }
 
 #nombre{
@@ -14,14 +20,14 @@
     text-shadow: 3px 5px gray;   
 }
 
-#imagen{
-width: 220px;
-height: 210px;
-image-rendering: crisp-edges;
-opacity: .8;
-border-radius: 50%;
-box-shadow: 0 0 7px rgb(187, 77, 77, 0.904);
-transition: opacity .5s;
+.imagen img{
+    width: 220px;
+    height: 210px;
+    image-rendering: crisp-edges;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(187, 77, 77, 0.904);
+    transition: opacity .1s;
+    max-width: 200px;
 }
 
 #info{
@@ -32,7 +38,7 @@ text-align: center;
 
 #experiencia{
     text-align: center;
-    text-shadow: 3px 5px gray;
+    text-shadow: 3px 5px gray;  
 }
 
 #cabecera{
@@ -50,15 +56,36 @@ text-align: center;
 
 #habilidades{
     text-align: center;
+    text-shadow: 3px 5px gray;  
 }
 
 /*tabla de educacion*/
 
-#educacion{
+#tablae{
     width: 60%;
     border: solid;
     border-radius: 20px;
     text-align: center;
 }
 
+/* educacion*/
+
+#educacion{
+    text-align: center;
+    text-shadow: 3px 5px gray;  
+}
+
 /* perfiles sociales*/
+
+#perfiles {
+    text-align: center;
+    text-shadow: 3px 5px gray;  
+}
+
+/* contactar*/
+
+#contactar{
+    text-align: center;
+    text-shadow: 3px 5px gray;  
+}
+
