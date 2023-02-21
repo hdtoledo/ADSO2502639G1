@@ -1,5 +1,5 @@
 /*importar las fuente*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,500&family=Titillium+Web:ital,wght@0,400;0,900;1,400;1,600&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
 *{
     font-family:"titilium web";
     margin: 0;
@@ -14,7 +14,7 @@ html{
     url("img/fondo.jpg");
     background-size: cover;
     background-position: center center;
-    color:black;
+    color:white;
 }
 
 .inicio .container-seccion{
@@ -42,8 +42,8 @@ html{
 
 .inicio .container-seccion header nav a{
     display: block;
-    color: #fae7d6;
-    text-decoration:none;
+    color: white;
+    text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -51,13 +51,13 @@ html{
 .inicio .container-seccion header .logo{
     font-weight: bold;
     font-size: 2.5rem;
-    font-family:"yellowtail";
-    text-shadow: 0 0 35px #fff7f0;
+    font-family:"Yellowtail";
+    text-shadow: 0 0 35px white;
 }
 
 .inicio .container-seccion header .logo .color{
     color:#6a6abe;
-    font-family:"yellowtail";
+    font-family:"Yellowtail";
 }
 
 .inicio .container-seccion header .nav-bar{
@@ -69,11 +69,11 @@ html{
     border-radius: 50%;
     line-height: 50px;
     cursor: pointer;
-    transition: .1.5s;
+    transition: .3s;
 }
 
-.inicio .container-seccion header .nav-bar:haver{
-    box-shadow: 0 0 35px black;
+.inicio .container-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px white;
 
 }
 
@@ -82,12 +82,17 @@ html{
 }
 
 .inicio .container-seccion .info h1{
+    font-weight: normal;
     font-size: 3rem;
     letter-spacing: 5px;
 }
 
-.info .container-seccion .info .social a{
-    display:inline-flex;
+.inicio .container-seccion .info .redes{
+    margin: 20px 0;
+}
+
+.inicio .container-seccion .info .redes a{
+    display:inline-block;
     text-decoration: none;
     background-color: #000;
     color: #6a6abe;
@@ -100,7 +105,7 @@ html{
     transition: .3s;
 }
 
-.inicio .container-seccion .info .social a:hover{
+.inicio .container-seccion .info .redes a:hover{
     color:white;
     background-color: #6a6abe;
     box-shadow: 0 0 20px white;
@@ -120,13 +125,17 @@ html{
     transform: translateX(-50%);
 }  
 
+/*ESTILOS GENERALES*/
+
 .titulo-seccion{
-    font-family: "yellowtail";
+    font-family: "Yellowtail";
     font-size: 1.5 rem;
 }
+
 /*SECCION SOBRE MI*/
+
 .sobremi{
-    background-color: aliceblue;
+    background-color: #e6e6e6;
     padding: 140px 0 100px 0;
     text-align:center;
 }
@@ -142,7 +151,7 @@ html{
     font-size: 30px;
 }
 
-.sobremi.container-seccion .especial{
+.sobremi .container-seccion .especial{
     color: #6a6abe;
     font-weight: bold;
     margin-top: 15px;
@@ -150,25 +159,60 @@ html{
 .sobremi .container-seccion p{
     max-width: 700px;
     margin: auto;
-    color: #150727;
+    color: #666;
 }
 
-.sobremi .container-seccion .fila{
+/*SECCION HABILIDADES*/
+
+.habilidades{
+    padding: 88px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/fondo.jpng");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+}
+
+.habilidades .container-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.habilidades .container-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.habilidades .container-seccion .fila{
     display: flex;
-    margin-top: 30px;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
-.sobremi .container-seccion .fila .col{
-    width: 30%;
-} 
+.habilidades .container-seccion .fila .col{
+    width: 47%;
+    text-align: left;
+}
 
-.sobremi .container-seccion .fila .col i{
-    color:#6a6abe;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #150727;
-    line-height: 40px;
-    border-radius: 50%;
+.habilidades .container-seccion .fila .col .cont-barra{
+    display:flex;
+    align-items: center;
+}
+
+.habilidades .container-seccion .barra{
+    display: flex;
+    border: 1px solid #6a6abe;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.habilidades .container-seccion .barra .e{
+    background-color: #363636;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
 }
