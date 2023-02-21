@@ -63,9 +63,9 @@ th {
     font-style: normal;
     font-family: monospace;
     font-weight: bold;
-    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    justify-content: center;
 }
 
 p {
@@ -96,5 +96,5 @@ label {
 }
 
 .hola {
-    width: 30px;
+    width: 50px;
 }
