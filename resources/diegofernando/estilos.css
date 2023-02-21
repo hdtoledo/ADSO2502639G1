@@ -107,5 +107,9 @@ a :visited{
     color: aqua;
 }
 
+.imagenes2{
+    display: flex;
+    justify-content: end;
+}
 
 
