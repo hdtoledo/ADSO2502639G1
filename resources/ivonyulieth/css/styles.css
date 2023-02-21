@@ -1,13 +1,16 @@
-body{
-background-color: rgba(119, 128, 128, 0.564);
-
-margin: 2rem;
+*{
+    list-style: none;
 }
-h1{
-    color: rgb(244, 87, 39);
-    font-size: large;
+body{
+    background: rgb(169, 173, 183);   
+}
+.titulos{
     text-align: center;
-
+    color: brown;
+}
+.imagen{
+    height:  px;
+    border-radius: 50%;
 }
 nav{
     position: sticky;
@@ -17,7 +20,7 @@ nav{
 }
 nav ul{
     display: flex;
-    background: rgb(36, 33, 33);
+    background: rgb(106, 164, 195);
     justify-content: space-between;
 }
 nav ul li{
@@ -27,21 +30,14 @@ nav ul li{
 }
 nav ul li:hover{
     opacity: .7;
-    background: rgb(30, 110, 189);
+    background: rgb(149, 163, 177);
     transition: .5s;
 }
 nav ul li a{
     text-decoration: none;
-    color: rgb(255, 244, 40);
+    color: rgb(188, 202, 98);
     font-weight: 900;
     font-size: 1.2rem;
 }
-.tabla{
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-}
-.imagen{
-    height:  450px;
-    border-radius: 50%;
-}
+
+
