@@ -216,3 +216,32 @@ html{
     height: 30px;
     margin-right: 2px;
 }
+
+/*Secion Experiencia*/
+
+.experiencia{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.experiencia .container-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.experiencia .container-seccion .h3{
+    text-transform:uppercase;
+    font-size: 30px;
+}
+
+.experiencia .container-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.experiencia .container-seccion .info .col{
+    width: 45%;
+}
