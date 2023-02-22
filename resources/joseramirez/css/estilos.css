@@ -43,10 +43,11 @@ nav ul li a{
 }
 
 
-#tabla{
+#tabla {
     display: flex;
     width: 100vw;
-    margin: 5% auto;
+    margin: 10% auto;
+    text-align: center;
 }
 .imagen{
     height:  200px;
@@ -65,4 +66,12 @@ nav ul li a{
 #perfil_p{
     line-height: 30px;
    
+}
+#contactar{
+    position: sticky;
+    color: rgb(7, 7, 6);
+    font-size: 1.2rem;
+    text-align: center;
+    background: rgba(68, 66, 66, 0.166);
+    box-shadow: 0 0 5px rgb(10, 10, 10);
 }
