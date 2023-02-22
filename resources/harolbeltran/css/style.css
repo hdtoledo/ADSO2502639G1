@@ -11,19 +11,21 @@ h2{
     color:black;
     font-size: 30px;
     text-align: center;
-    text-decoration:teal;
+    text-decoration:rgb(69, 75, 75);
     text-transform: uppercase;
 
 }
 h3 {
     color:black;
     font-size: 30px;
+    
 
 }
 p{
     font-size: smaller;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+      
 }
 img {
     width: 250px;
@@ -33,7 +35,7 @@ img {
     
 }
 th {
-    color :palevioletred;
+    color :blackgit ;
     font-size: 20px;
     text-transform: none;
 
@@ -44,16 +46,7 @@ li a{
 
 
 }
-.menu ul {
-    display:flex;
-    background-color:rgb(156, 166, 156);
-    height: 3rem;
-    width:100vw ;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    
-}
+
 html{
     font-size: large;
     background-color:rgb(231, 223, 223);
@@ -64,6 +57,7 @@ div ul li a{
     padding: 0cm;
     margin: 10px;
     background: rgb(30, 14, 14);
+    
 
 }
 div ul li a:hover{
@@ -87,8 +81,18 @@ label {
     font-style: normal;
     font-family: monospace;
     text-align: center;
-    
 }
 .hola{
     width: 30px;
 }
+.menu {
+    display:flex;
+    background-color:rgb(159, 99, 73);
+    height: 3rem;
+    width:100vw ;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    
+}
+
