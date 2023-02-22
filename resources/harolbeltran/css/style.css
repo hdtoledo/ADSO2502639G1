@@ -27,11 +27,13 @@ p{
     text-align: center;
       
 }
-img {
-    width: 250px;
-    margin-right: 20px;
-    border-top: 15px;
-    border-radius: 20px;
+.contenedor {
+    width: 10px;
+    margin-right: 10px;
+    border-top: 10px;
+    border-radius: 10px;
+    display: flexbox;
+    justify-content: flex-start;
     
 }
 th {
@@ -69,30 +71,45 @@ div ul li a:hover{
 
 }
 div li{
-    list-style: nome;
+    list-style: none;
     margin-left: 20px;
 
 }
 hr{
     display: flex;
 }
-label {
+.label {
     font: size 19px;
     font-style: normal;
     font-family: monospace;
     text-align: center;
+}
+*{
+    list-style: none;
 }
 .hola{
     width: 30px;
 }
 .menu {
     display:flex;
-    background-color:rgb(159, 99, 73);
+    background-color:rgb(244, 240, 239);
     height: 3rem;
     width:100vw ;
     align-items: center;
     justify-content: center;
     padding: 1em;
+    list-style: none;
     
 }
+.harol{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
 
