@@ -1,0 +1,83 @@
+h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+p{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    color:rgb(0, 0, 0);
+    font-size: smaller;
+    text-transform:none;
+    font-family:cursive;
+    font-size: 20px;
+}
+
+h3{
+    color:rgb(2, 2, 2);
+    text-decoration: rgb(51, 50, 43);
+    text-transform:none;
+    font-family:cursive;
+    text-align: center;
+    font-size: 25px;
+}
+th{
+    color:rgb(0, 0, 0);
+    text-transform:capitalize;
+}
+li{
+    color:rgb(3, 3, 3);
+    text-transform:none;
+}
+html{
+    background-color: rgb(204, 202, 207);
+}
+img{
+    width: 180px;
+    border-radius: 10px;
+}
+.div-img{
+display: flex;
+justify-content: center;
+}
+.menu {
+    padding: 1em;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+div ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 10px;
+    background: rgb(17, 17, 17);
+    list-style: none;
+}
+div li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    padding: .7em 1em;
+
+}
+div li a:hover{
+    background: rgb(163, 163, 163);
+}
+
+html{
+    font-size:large;
+}
+.icono{
+width: 50px;
+justify-content: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+}

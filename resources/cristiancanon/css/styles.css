@@ -1,0 +1,33 @@
+body {
+  background: rgb(237, 238, 236);
+}
+* {
+  list-style: none;
+  text-decoration: none;
+}
+.table thead tr,tr {
+    display: flex;
+    gap: 2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+tr:hover{background-color: coral;}
+
+.table thead tr{
+  text-align: center;
+}
+
+
+body {
+    margin: 10;
+    padding: 0;
+    background: rgb(207, 196, 196);
+    font-family: "Nunito";
+}
+
+table tr{
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+}

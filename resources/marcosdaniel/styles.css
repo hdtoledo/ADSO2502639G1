@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(233, 218, 61);
+    font-family: 'Bebas Neue';
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    position: sticky;
+    margin: 0;
+    top: -17px;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    background: rgb(22, 63, 110);
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+    transition: all .5s;
+}
+nav ul li:hover{
+    opacity: .7;
+    background: yellow;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.c-perfil{
+    display: flex;
+    gap: 4rem;
+    width: 100vw;
+    justify-content: center;
+
+}
+.c-perfil .infopersonal p{
+    font-size: 1.4rem;
+}
+.c-perfil .infopersonal{
+    width: 700px;
+}
+.c-perfil img{
+    width: 230px;
+    height: 230px;
+    image-rendering: crisp-edges;
+    opacity: .8;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgb(212, 151, 70);
+    transition: opacity .5s;
+    
+}
+.c-perfil img:hover{
+    opacity: .7;
+}
+.c-perfil .infopersonal h1{
+    color: black;
+    font-weight: 900;
+}
+hr{
+    border-color: black;
+    margin-top: 1rem;
+    width: 80%;
+}
+.perfilProfesional{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    justify-content: center;
+    text-align: center;
+}
+.perfilprofesional h1{
+    text-align: center;
+}
+.perfilprofesional p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.areaExperiencia {
+    display: flex;
+    width: 880px;
+    flex-direction: column;
+    align-items: center;
+}
+.areaExperiencia p{
+    font-size: 1.4rem;
+}
+.areaExperiencia table{
+    border: 1px solid rgb(132, 176, 43);
+    border-radius: 15px;
+    background: rgba(35, 2, 6, 0.449);
+    font-size: 2rem;
+    padding: .5em;
+    width: 700px;
+    box-shadow: 0 0 5px blanchedalmond;
+    margin: 20px;
+}
+.areaExperiencia table tr th{
+    color: rgb(88, 12, 12);
+    font-size: 700;
+}
+.areaExperiencia tablr tr td{
+    text-align: center;
+    border-bottom: 1px solid rgb(31, 29, 141);
+}
+.historialEdu{
+    display: flex;
+    flex-direction: column;
+    width: 880px;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.historialEdu h1{
+    display: inline !important;
+}
+.historialEdu .conocimientos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.historialEdu .conocimientos ul li{
+    list-style: none;
+}
+.expWork{
+    display: flex;
+    width: 880px;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.expWork h1{
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+
+}
+.expWork p{
+    font-size: 1.4rem;
+}
+.expWork .experiencia .exp-1 p,.expWork .experiencia .exp-2 p{
+    font-size: 25px;
+    
+}
+.expWork .experiencia .exp-1 ul li,.expWork .experiencia .exp-2 ul li{
+    font-size: 19px;
+    
+}
+.contacto{
+    width: 100vw;
+    height: 300px;
+    background: rgba(139, 24, 24, 0.92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto .infoContacto h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.contacto .infoContacto span{
+    color: white;
+    font-size: 20px;
+}
+.contacto .infoContacto span a{
+    text-decoration: none;
+    color: white;
+
+    transition: all .5s;
+}
+.contacto .infoContacto span a:hover{
+    color: aqua;
+}
+.expWork{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}

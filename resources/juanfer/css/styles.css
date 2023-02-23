@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Outfit:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(207, 196, 196);
+    font-family: 'Nunito';
+}
+html{
+    scroll-behavior: smooth;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    position: sticky;
+    top: -17px;
+    margin: 0;
+    z-index: 10;
+}
+nav ul{ 
+    display: flex;
+    background: rgba(73, 67, 67, 0.92);
+    border-radius: 0px 0 5px 5px;
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+    transition: all .5s;
+}
+nav ul li:hover{
+    opacity: .7;
+    background: rgba(133, 121, 121, 0.87);
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+nav ul li div{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+nav ul li button i{
+    color: antiquewhite;
+    font-size: 1.3rem;
+}
+.C-perfil{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 4rem;
+}
+.C-perfil .infoPersonal{
+    width: 700px;
+}
+.C-perfil .infoPersonal p{
+    font-size: 1.4rem;
+}
+.C-perfil img{
+    width: 230px;
+    height: 230px;
+    image-rendering: crisp-edges;
+    opacity: .8;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(180, 165, 165, 0.904);
+    transition: opacity .5s;
+}
+.C-perfil img:hover{
+    opacity: .7;
+}
+.C-perfil .infoPersonal h1{
+    font-weight: 900;
+}
+hr{
+    border-color: rgba(73, 67, 67, 0.87);
+    margin-top: 1rem;
+    width: 80%;
+}
+.perfilProfesional{
+    display: flex;
+    width: 880px;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+.perfilProfesional h1{
+    text-align: center;
+}
+.perfilProfesional p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.areaExperiencia{
+    display: flex;
+    width: 880px;
+    flex-direction: column;
+    align-items: center;
+}
+.areaExperiencia p{
+    font-size: 1.4rem;
+}
+.areaExperiencia table{
+    border: 1px solid rgb(134, 129, 129);
+    border-radius: 15px;
+    background: rgb(194, 183, 183);
+    font-size: 2rem;
+    padding: .5em;
+    width: 700px;
+    box-shadow: 0 0 5px rgb(165, 156, 156);
+    margin: 20px;
+}
+.areaExperiencia table tr th{
+    color: red;
+    font-weight: 700;
+}
+.areaExperiencia table tr td{
+    text-align: center;
+    border-bottom: 1px solid rgb(228, 206, 204);
+}
+.historialEdu{
+    display: flex;
+    flex-direction: column;
+    width: 880px;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.historialEdu h1{
+    display: inline !important;
+}
+.historialEdu .conocimientos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.historialEdu .conocimientos ul li{
+    list-style: none;
+}
+.expWork{
+    display: flex;
+    width: 880px;
+    align-items: center;
+    flex-direction: column;
+}
+.expWork h1{
+    font-size: 40px;
+    margin: 0;
+}
+.expWork p{
+    font-size: 1.4rem;
+}
+.expWork .experiences .exp-1 p,.expWork .experiences .exp-2 p{
+    font-size: 25px;
+}
+.expWork .experiences .exp-1 ul li,.expWork .experiences .exp-2 ul li{
+    font-size: 19px;
+}
+.contacto{
+    width: 100vw;
+    height: 300px;
+    background: rgba(73, 67, 67, 0.92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto .infoContacto h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.contacto .infoContacto span{
+    color: white;
+    font-size: 20px;
+}
+.contacto .infoContacto span a{
+    text-decoration: none;
+    color: white;
+
+    transition: all .5s;
+}
+.contacto .infoContacto span a:hover{
+    color: aqua;
+}
+
+/* ! DarkMode ! */
+
+.darkMode{
+    background: rgb(84, 79, 79);
+    color: white;
+}
+.darkModeUl{
+    background: grey;
+}
+.darkModeHr{
+    border-color: antiquewhite;
+}
+.darkModeContac{
+    background: grey;
+    color: antiquewhite;
+}
