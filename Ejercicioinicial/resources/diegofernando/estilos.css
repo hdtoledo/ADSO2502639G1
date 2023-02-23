@@ -106,7 +106,21 @@ a :visited{
     font-family: 'VT323', monospace;
     color: aqua;
 }
+.perfil{
+    border: 0;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+}
 
-
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
 
 
