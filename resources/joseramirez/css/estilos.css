@@ -1,17 +1,18 @@
 body{
-background-color: rgba(207, 236, 247, 0.543);
+background-color: rgba(92, 94, 94, 0.68);
 
-margin: 2rem;
+margin: 3rem;
+padding: 0;
 
 }
 h1{
-    color: rgb(39, 60, 244);
+    color: rgb(241, 241, 235);
     font-size: large;
     text-align: center;
 
 }
 h3{
-    color: rgb(39, 60, 244);
+    color: rgb(242, 243, 250);
 }
 
 nav{
@@ -56,14 +57,19 @@ nav ul li a{
 
 
 #date_pers {
- 
+    display: table-cell;
+    padding: 10px;
     position: sticky;
     color: rgb(7, 7, 6);
     font-size: 1.2rem;
-    background: rgba(68, 66, 66, 0.166);
+    background: rgba(79, 76, 76, 0.858);
     box-shadow: 0 0 5px rgb(10, 10, 10);
 }
 #perfil_p{
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+    
     line-height: 30px;
    
 }
