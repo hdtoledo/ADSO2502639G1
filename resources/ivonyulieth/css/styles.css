@@ -63,6 +63,12 @@ nav ul li a{
     font-size: 1.2rem;
 }
 
+#container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center
+}
 .container a{
     border: solid 2px;
     display: flex;
@@ -94,7 +100,7 @@ nav ul li a{
     
 
     #expertise{
-        width: 700px;
+        width: 70px;
         height: 200px;
         margin: 0 auto;
         text-align: center;
@@ -104,6 +110,7 @@ nav ul li a{
         padding: 3px;
         box-shadow: 2px 2px 0px;
         border:solid;
+      
     }
 
        
@@ -111,6 +118,7 @@ nav ul li a{
         display: flex;
         justify-content: center;
         border:solid;
+    
     }
 
 #educacion{
@@ -210,9 +218,12 @@ hr {
 
 img {
     width: 250px;
+
     margin-right: 25px;
     border-top: 15px;
     border-radius: 20px;
+   
+ 
 }
 
 th {
@@ -304,6 +315,7 @@ nav ul li a{
     border-radius: 10%;
     box-shadow: 0 0 6px rgb(72, 51, 51) (109, 66, 66, 0.904);
     transition: opacity .5s;
+
 }
 .C-perfil img:hover{
     opacity: .7;
@@ -318,3 +330,4 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     }
+
