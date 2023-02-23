@@ -141,7 +141,7 @@ html{
 }
 
 .sobremi .container-seccion{
-    max-width: 100px;
+    max-width: 150px;
     margin: auto;
     padding: 0 10px;
 }
@@ -279,7 +279,7 @@ html{
 
 /*SECCION CONTACTO*/
 
-.contacto {
+.contacto{
     background-color: #bab9b9;
     padding: 140px 0 100px 0;
     color: #000000;
@@ -300,4 +300,12 @@ html{
 .contacto .container-seccion .fila{
     display: flex;
     justify-content: space-around;
+}
+
+.contacto .container-seccion .fila .col{
+    margin-top: 50px;
+}
+
+.contacto .container-seccion .fila .col h2{
+    color: #5757a7;
 }
