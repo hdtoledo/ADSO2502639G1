@@ -14,7 +14,7 @@ html{
     url("img/fondo.jpg");
     background-size: cover;
     background-position: center center;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 .inicio .container-seccion{
@@ -52,7 +52,7 @@ html{
     font-weight: bold;
     font-size: 2.5rem;
     font-family:"Yellowtail";
-    text-shadow: 0 0 35px white;
+    text-shadow: 0 0 35px #ababe8;
 }
 
 .inicio .container-seccion header .logo .color{
@@ -141,7 +141,7 @@ html{
 }
 
 .sobremi .container-seccion{
-    max-width: 100px;
+    max-width: 150px;
     margin: auto;
     padding: 0 10px;
 }
@@ -172,7 +172,7 @@ html{
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .habilidades .container-seccion{
@@ -275,4 +275,37 @@ html{
 
 .experiencia .container-seccion .info .col table p{
     font-size: 14px;
+}
+
+/*SECCION CONTACTO*/
+
+.contacto{
+    background-color: #bab9b9;
+    padding: 140px 0 100px 0;
+    color: #000000;
+    text-align: center;
+}
+
+.contacto .container-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .container-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.contacto .container-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto .container-seccion .fila .col{
+    margin-top: 50px;
+}
+
+.contacto .container-seccion .fila .col h2{
+    color: #5757a7;
 }
