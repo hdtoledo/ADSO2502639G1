@@ -61,6 +61,7 @@ nav ul li a{
     border-radius: 50%;
     box-shadow: 0 0 7px rgb(212, 151, 70);
     transition: opacity .5s;
+    
 }
 .c-perfil img:hover{
     opacity: .7;
@@ -139,20 +140,23 @@ hr{
     width: 880px;
     align-items: center;
     flex-direction: column;
+    
+    
 }
 .expWork h1{
     font-size: 40px;
     margin: 0;
     text-align: center;
+
 }
 .expWork p{
     font-size: 1.4rem;
 }
-.expWork .experiencias .exp-1 p,.expWork .experiencias .exp-2 p{
+.expWork .experiencia .exp-1 p,.expWork .experiencia .exp-2 p{
     font-size: 25px;
     
 }
-.expWork .experiencias .exp-1 ul li,.expWork .experiencias .exp-2 ul li{
+.expWork .experiencia .exp-1 ul li,.expWork .experiencia .exp-2 ul li{
     font-size: 19px;
     
 }
@@ -181,4 +185,13 @@ hr{
 }
 .contacto .infoContacto span a:hover{
     color: aqua;
+}
+.expWork{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
