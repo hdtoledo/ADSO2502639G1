@@ -14,7 +14,7 @@ html{
     url("img/fondo.jpg");
     background-size: cover;
     background-position: center center;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 .inicio .container-seccion{
@@ -52,7 +52,7 @@ html{
     font-weight: bold;
     font-size: 2.5rem;
     font-family:"Yellowtail";
-    text-shadow: 0 0 35px white;
+    text-shadow: 0 0 35px #ababe8;
 }
 
 .inicio .container-seccion header .logo .color{
@@ -112,11 +112,12 @@ html{
 }
 
 .inicio .container-seccion .foto{
-    position:relative;
+    position: relative;
 }
 
 .inicio .container-seccion .foto img{
-    max-width: 200px;
+    max-width: 180px;
+    max-height: 180px;
     border-radius: 50%;
     border: 5px solid #6a6abe;
     position: absolute;
@@ -129,19 +130,20 @@ html{
 
 .titulo-seccion{
     font-family: "Yellowtail";
-    font-size: 1.5 rem;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 /*SECCION SOBRE MI*/
 
 .sobremi{
     background-color: #e6e6e6;
-    padding: 140px 0 100px 0;
+    padding: 100px 0 100px 0;
     text-align:center;
 }
 
 .sobremi .container-seccion{
-    max-width: 100px;
+    max-width: 500px;
     margin: auto;
     padding: 0 10px;
 }
@@ -151,15 +153,18 @@ html{
     font-size: 30px;
 }
 
-.sobremi .container-seccion .especial{
-    color: #6a6abe;
+.sobremi .container-seccion p{
+    color: #444481;
     font-weight: bold;
     margin-top: 15px;
-}
-.sobremi .container-seccion p{
     max-width: 700px;
-    margin: auto;
-    color: #666;
+    font-size: large;
+}
+
+.sobremi .container-seccion a{
+    color:#9c51a6;
+    font-weight: bold;
+    font-size: larger;
 }
 
 /*SECCION HABILIDADES*/
@@ -172,7 +177,7 @@ html{
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .habilidades .container-seccion{
@@ -181,9 +186,9 @@ html{
     padding: 0 10px;
 }
 
-.habilidades .container-seccion h3{
+.habilidades .container-seccion h1{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .habilidades .container-seccion .fila{
@@ -230,9 +235,9 @@ html{
     padding: 0 10px;
 }
 
-.experiencia .container-seccion .h3{
+.experiencia .container-seccion h1{
     text-transform:uppercase;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .experiencia .container-seccion .info{
@@ -275,4 +280,38 @@ html{
 
 .experiencia .container-seccion .info .col table p{
     font-size: 14px;
+}
+
+/*SECCION CONTACTO*/
+
+.contacto{
+    background-color: #bab9b9;
+    padding: 140px 0 100px 0;
+    color: #000000;
+    text-align: center;
+}
+
+.contacto .container-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .container-seccion h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.contacto .container-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto .container-seccion .fila .col{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.contacto .container-seccion .fila .col h2{
+    color: #5757a7;
 }

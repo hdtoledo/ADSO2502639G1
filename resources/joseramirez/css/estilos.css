@@ -1,23 +1,29 @@
 body{
-background-color: rgba(119, 128, 128, 0.564);
+background-color: rgba(92, 94, 94, 0.68);
 
-margin: 2rem;
+margin: 3rem;
+padding: 0;
+
 }
 h1{
-    color: rgb(244, 87, 39);
+    color: rgb(241, 241, 235);
     font-size: large;
     text-align: center;
 
 }
+h3{
+    color: rgb(242, 243, 250);
+}
+
 nav{
     position: sticky;
-    margin: 0%;
-    top: 0px;
+    margin:0%;
+    top:0px;
     z-index: 10;
 }
 nav ul{
     display: flex;
-    background: rgb(36, 33, 33);
+    background: rgb(10, 6, 240);
     justify-content: space-between;
 }
 nav ul li{
@@ -32,16 +38,46 @@ nav ul li:hover{
 }
 nav ul li a{
     text-decoration: none;
-    color: rgb(255, 244, 40);
+    color: rgb(243, 243, 240);
     font-weight: 900;
     font-size: 1.2rem;
 }
-.tabla{
+
+
+#tabla {
     display: flex;
     width: 100vw;
-    justify-content: center;
+    margin: 10% auto;
+    text-align: center;
 }
 .imagen{
-    height:  450px;
+    height:  200px;
     border-radius: 50%;
+}
+
+
+#date_pers {
+    display: table-cell;
+    padding: 10px;
+    position: sticky;
+    color: rgb(7, 7, 6);
+    font-size: 1.2rem;
+    background: rgba(79, 76, 76, 0.858);
+    box-shadow: 0 0 5px rgb(10, 10, 10);
+}
+#perfil_p{
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+    
+    line-height: 30px;
+   
+}
+#contactar{
+    position: sticky;
+    color: rgb(7, 7, 6);
+    font-size: 1.2rem;
+    text-align: center;
+    background: rgba(68, 66, 66, 0.166);
+    box-shadow: 0 0 5px rgb(10, 10, 10);
 }

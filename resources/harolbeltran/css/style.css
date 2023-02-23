@@ -1,5 +1,5 @@
 h1{
-    color: palevioletred;
+    color: rgb(253, 251, 251);
     font-size: 30px;
     font-style: inherit;
     text-align: center;
@@ -8,60 +8,57 @@ h1{
 
 }
 h2{
-    color:black;
+    color:hsl(0, 25%, 98%);
     font-size: 30px;
     text-align: center;
-    text-decoration:teal;
+    text-decoration:rgb(69, 75, 75);
     text-transform: uppercase;
 
 }
 h3 {
-    color:black;
+    color:white;
     font-size: 30px;
+    
 
 }
 p{
     font-size: smaller;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+      
 }
-img {
-    width: 250px;
+.contenedor {
+    width: 25px;
     margin-right: 20px;
-    border-top: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
+    
+    
 }
 th {
-    color :palevioletred;
+    color :blackgit ;
     font-size: 20px;
     text-transform: none;
 
 }
-li { 
-    color: black;
+li a{ 
+    color: white;
+    text-align: center;
+    
+
 
 }
-.Menu ul {
-    display:flex;
-    background-color:rgb(129, 142, 129);
-    height: 3rem;
-    width:100vw ;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    
-}
+
 html{
     font-size: large;
-    background-color:rgb(231, 223, 223);
+    background-color:rgb(158, 149, 149);
 }
 div ul li a{
     display: flex;
     justify-content:space-around;
     padding: 0cm;
     margin: 10px;
-    background: black;
-    list-style: none;
+    background: rgb(185, 179, 179);
+    
 
 }
 div ul li a:hover{
@@ -69,13 +66,42 @@ div ul li a:hover{
     display: block;
     text-decoration: none;
     padding: .7em 1em;
+    
 
 }
 div li{
-    list-style: nome;
+    list-style: none;
     margin-left: 20px;
 
 }
 hr{
     display: flex;
 }
+.label {
+    font: size 19px;
+    font-style: normal;
+    font-family: monospace;
+    text-align: center;
+}
+
+.hola{
+    width: 30px;  
+}
+.inline{
+    display:flex;
+    background-color:rgb(244, 240, 239);
+    height: 3rem;
+    width:100vw ;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    list-style: none; 
+
+}
+
+
+
+
+
+
+

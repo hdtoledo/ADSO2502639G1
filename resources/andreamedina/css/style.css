@@ -2,7 +2,7 @@ h1 {
     color: rgb(13, 13, 14);
     font-size: 28px;
     font-style: normal;
-    font-family: monospace;
+    font-family: Challenge The World;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -15,7 +15,7 @@ body {
 
 .Menu ul {
     display: flex;
-    background-color: rgb(245, 205, 152);
+    background-color: rgb(233, 231, 111);
     height: 3rem;
     width: 100vw;
     align-items: center;
@@ -39,7 +39,7 @@ div ul li a:hover {
 
 hr {
     display: flex;
-    background-color: rgb(248, 201, 140);
+    background-color: rgb(233, 231, 111);
     height: 1rem;
     width: 100vw;
     align-items: center;
@@ -52,16 +52,16 @@ h1 {
 
 img {
     width: 250px;
-    margin-right: 25px;
+    margin-right: 30px;
     border-top: 15px;
-    border-radius: 20px;
+    border-radius: 250px;
 }
 
 th {
-    color: rgb(245, 74, 74);
-    font-size: 24px;
+    color: rgb(247, 66, 66);
+    font-size: 18px;
     font-style: normal;
-    font-family: monospace;
+    font-family: Challenge The World;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -69,32 +69,65 @@ th {
 }
 
 p {
-    font: size 22px;
+    font-size: 20px;
     font-family: cursive;
     text-align: center;
 }
 
 td {
-    font: size 19px;
+    font: size 7px;
     font-style: normal;
-    font-family: monospace;
+    font-family: Challenge The World;
     text-align: center;
 }
 
 li {
-    font: size 21px;
+    font: size 7px;
     font-style: normal;
-    font-family: monospace;
-    text-align: justify;
+    font-family: Challenge The World;
+    text-align: center;
 }
 
 label {
     font: size 19px;
     font-style: normal;
-    font-family: monospace;
-    text-align: center;
+    font-family: Challenge The World;
 }
 
 .hola {
     width: 50px;
+    text-align: center;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    margin-left: 16%;
+    border: solid 3px;
+    border-radius: 20px;
+    padding: 2em;
+    height: 7rem;
+    width: 60vw;
+    box-shadow: 0 0 10px rgba(233, 236, 54, 0.904);
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-size: 20px;
+    font-style: normal;
+    font-family: Challenge The World;
+    text-align: center;
+}
+
+.imagen {
+    width: 35px;
+}
+
+h2 {
+    font-size: 15px;
 }

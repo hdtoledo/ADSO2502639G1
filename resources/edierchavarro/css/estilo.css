@@ -1,37 +1,32 @@
 h1{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     text-align: center;
-    font-size: 30 px;
-    text-decoration: gold;
-    text-transform: uppercase;
-}
-h1{
-    background:rgb(0, 0, 0) ;
+    font-size: 25px;
+    font-family: cursive;
 }
 p{
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
     text-align: center;
 }
 h2{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-size: smaller;
-    text-decoration: rgb(51, 50, 43);
     text-transform:none;
-    background: rgb(46, 46, 46);
-    font-family: 'Courier New', Courier, monospace;
+    font-family:cursive;
+    font-size: 20px;
 }
-h2{
-    font-size: 15px;
-}
+
 h3{
     color:rgb(2, 2, 2);
     text-decoration: rgb(51, 50, 43);
     text-transform:none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:cursive;
+    text-align: center;
+    font-size: 25px;
 }
 th{
-    color:rgb(21, 0, 255);
+    color:rgb(0, 0, 0);
     text-transform:capitalize;
 }
 li{
@@ -42,11 +37,14 @@ html{
     background-color: rgb(204, 202, 207);
 }
 img{
-    width: 200px;
-    border-radius: 295px;
-    
+    width: 180px;
+    border-radius: 10px;
 }
-.Menu {
+.div-img{
+display: flex;
+justify-content: center;
+}
+.menu {
     padding: 1em;
 }
 .center {
@@ -77,4 +75,9 @@ html{
 }
 .icono{
 width: 50px;
+justify-content: center;
+}
+div {
+    display: flex;
+    justify-content: center;
 }
