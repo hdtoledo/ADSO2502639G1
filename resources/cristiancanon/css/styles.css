@@ -5,28 +5,29 @@ body {
   list-style: none;
   text-decoration: none;
 }
-.table thead tr {
-  display: flex;
-  gap: 3rem;
+.table thead tr,tr {
+    display: flex;
+    gap: 2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
+tr:hover{background-color: coral;}
+
+.table thead tr{
+  text-align: center;
+}
+
 
 body {
-  margin: 0;
-  padding: 0;
-  background: rgb(207, 196, 196);
-  font-family: "Nunito";
-}
-.table tbody tr {
-  display: flex;
-  gap: 3rem;
+    margin: 10;
+    padding: 0;
+    background: rgb(207, 196, 196);
+    font-family: "Nunito";
 }
 
-td{
-    padding: 0 30px 0 30px;
-}
-.primary{
-    background: rgb(184, 180, 180);
-}
-.secundary{
-    background-color: rgb(184, 180, 180);
+table tr{
+  display: flex;
+  gap: 2rem;
+  text-align: center;
 }
