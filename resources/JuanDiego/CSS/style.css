@@ -1,16 +1,25 @@
-* {
-    margin: 0px;
-    padding: 0px;
+html,
+body {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-p {
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sangria {
     padding-left: 1rem;
 }
 
 .head {
     display: grid;
-    width: 800px;
+    max-width: 800px;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     align-items: center;
@@ -54,29 +63,34 @@ p {
 }
 
 .me {
-    padding: 3em;
+    padding: 25px;
 }
 
 .edu {
-    padding: 3em;
+    padding: 25px;
 }
 
 .skill {
-    padding: 3em;
+    padding: 30px;
 }
 
 .project {
-    padding: 5vw;
+    padding: 40px;
 }
 
 .contact {
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 250px;
+    min-width: 760px;
     background-color: rgb(30, 30, 30);
     color: white;
+}
+
+.contact-list {
+    list-style: none;
 }
 
 .bar {
@@ -90,14 +104,15 @@ p {
 .br {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0 20px;
 }
 
 .h {
     display: flex;
     align-items: center;
     height: 60px;
-    padding: 13px;
+    padding: 9px;
     font-size: 5em;
     color: brown;
     width: 8rem;
@@ -111,7 +126,25 @@ p {
     .container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding: 40vw;
+        max-width: 600px;
+        padding: 100px;
+        margin: auto;
         padding-top: 0;
     }
-  }
+    .head {
+        padding: 60px;
+    }
+}
+
+@media (max-width: 800px) {
+    .head {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        align-items: center;
+        justify-content: center;
+        padding: 60px;
+        margin: auto;
+        min-width: 650px;
+    }
+}
