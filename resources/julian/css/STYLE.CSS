@@ -42,3 +42,8 @@ h1{
 h2{
     font-family: 'Archivo Black', cursive;
 }
+.contactar{
+    align-self: center;
+    align-items: last baseline;
+    
+}
