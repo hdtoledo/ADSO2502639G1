@@ -8,10 +8,12 @@
         <title>Juan Diego Arenas</title>
     </head>
     <body>
+        <canvas class="background"></canvas>    
+        <script src="./js/particles.js-master/dist/particles.js"></script>
         <div class="head">
             <img
-                src="https://www.becas-santander.com/content/dam/becasmicrosites/blog/metodolog%C3%ADas-de-desarrollo-de-software.jpg"
-                alt="Desarrollador de Software"
+            src="https://www.becas-santander.com/content/dam/becasmicrosites/blog/metodolog%C3%ADas-de-desarrollo-de-software.jpg"
+            alt="Desarrollador de Software"
             />
             <div>
                 <h1 class="title">JUAN DIEGO ARENAS</h1>
@@ -21,7 +23,7 @@
         <div class="container">
             <div class="me">
                 <h2>Sobre mí</h2>
-                <p>
+                <p class="sangria">
                     Soy un desarrollador de software y programador con
                     experiencia en tecnologías actuales como Python y
                     JavaScript, React y node, y con la intención de aprender
@@ -41,12 +43,12 @@
             <div class="skill">
                 <h2>Skills</h2>
 				<div class="bar">
-					<div class="br">
-						<div class="e">JavaScript</div>
+                    <div class="br">
+                        <div class="e">JavaScript</div>
 						<div class="h">·····</div>
 					</div>
 					<div class="br">
-						<div class="e">Node.js</div>
+                        <div class="e">Node.js</div>
 						<div class="h">·····</div>
 					</div>
 					<div class="br">
@@ -62,7 +64,7 @@
 						<div class="h">·····</div>
 					</div>
 					<div class="br">
-						<div class="e">React.js</div>
+						<div class="e">React.js    </div>
 						<div class="h">·····</div>
 					</div>
 				</div>
@@ -73,7 +75,7 @@
                     <li>
                         2022 Software Administrativo y de Gestión Aplicada
                         <ul>
-                            <li>
+                            <li class="sangria">
                                 Actualmente estoy desarrollando el proyecto
                                 SAGA, que busca mejorar la administración
                                 horaria, y la comunicación del SENA con el fin
@@ -88,7 +90,7 @@
                     <li>
                         2022 Ruta FullStack
                         <ul>
-                            <li>
+                            <li class="sangria">
                                 Actualmente me estoy formando en la ruta de
                                 programación FullStack con la plataforma de Open
                                 Bootcamp
@@ -100,7 +102,7 @@
                     <li>
                         2021 Visión por computadora
                         <ul>
-                            <li>
+                            <li class="sangria">
                                 Desarrollé una inteligencia artificial capaz de
                                 detectar objetos en la pantalla por medio de la
                                 cámara
@@ -114,7 +116,7 @@
         <div class="contact">
             <h2>Contacto</h2>
             <br />
-            <ul>
+            <ul class="contact-list">
                 <li>(+57)320 2766813</li>
                 <li>(+57)302 6024361</li>
                 <li>Arenas250421@gmail.com</li>
@@ -122,4 +124,11 @@
             </ul>
         </div>
     </body>
+    <script>
+    window.onload = function() {
+        Particles.init({
+            selector: '.background'
+        });
+    };
+    </script>
 </html>
