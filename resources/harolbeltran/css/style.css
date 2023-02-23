@@ -82,18 +82,6 @@ hr{
     text-align: center;
 }
 
-
-.menu {
-    display:flex;
-    background-color:rgb(244, 240, 239);
-    height: 3rem;
-    width:100vw ;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    list-style: none;
-    
-}
 .hola{
     width: 50px;  
 }
