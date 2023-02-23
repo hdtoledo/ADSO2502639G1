@@ -1,0 +1,151 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(179, 145, 33, 0.2);
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sangria {
+    padding-left: 1rem;
+}
+
+.head {
+    display: grid;
+    max-width: 800px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    align-items: center;
+    padding: 60px;
+    padding-bottom: 0;
+    margin: auto;
+}
+
+.head img {
+    margin: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    display: grid;
+    width: 1150px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    margin: auto;
+}
+
+.me {
+    padding: 25px;
+}
+
+.edu {
+    padding: 25px;
+}
+
+.skill {
+    padding: 30px;
+}
+
+.project {
+    padding: 40px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    min-width: 760px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.bar {
+    display: grid;
+    grid-area: auto;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: space-around;
+    flex-direction: column;
+}
+
+.br {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.h {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 9px;
+    font-size: 5em;
+    color: brown;
+    width: 8rem;
+}
+
+.e {
+    padding-left: 1em;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 600px;
+        padding: 100px;
+        margin: auto;
+        padding-top: 0;
+    }
+    .head {
+        padding: 60px;
+    }
+}
+
+@media (max-width: 800px) {
+    .head {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        align-items: center;
+        justify-content: center;
+        padding: 60px;
+        margin: auto;
+        min-width: 650px;
+    }
+}

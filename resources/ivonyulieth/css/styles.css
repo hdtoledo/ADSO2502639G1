@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(208, 204, 204);
+   
+   
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;;
+    color: white;
+}
+
+#info{
+    text-align: start
+    text-transform
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    color: rgb(144, 30, 35);
+}
+.icono{
+    width: 60px;
+    height: 60px;
+}
+.icono1{
+    width: 60px;
+    height: 60px;
+}
+
+hr{
+    border-color: rgb(54, 47, 47) (77, 93, 99, 0.306);
+    margin-top: 1rem;
+    width: 80%;
+}
+
+nav{
+    position: sticky;
+    margin: 0;
+    top: -17px;
+    z-index: 10;
+}
+nav ul{ 
+    display: flex;
+    background: rgba(13, 115, 153, 0.92);
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+    transition: all .5s;
+}
+nav ul li:hover{
+    opacity: .7;
+    background: rgba(26, 27, 27, 0.972);
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(239, 232, 232);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.container a{
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 3px;
+    box-shadow: 2px 2px 0px;
+
+}
+
+    .container.perfil{
+        border: solid 2px;
+     display: flex;
+     justify-content: center;
+     border-radius: 8px;
+     padding: 3px;
+     margin: 3px;
+     box-shadow: 2px 2px 0px;
+    }
+    
+    
+    #experiencia{
+        display: flex;
+        background: rgba(189, 164, 164, 0.984) (94, 128, 106, 0.92);
+        justify-content: center;
+        border:solid;
+    }
+    
+
+    #expertise{
+        width: 700px;
+        height: 200px;
+        margin: 0 auto;
+        text-align: center;
+        border: solid 2px;
+        justify-content: center;
+        border-radius: 8px;
+        padding: 3px;
+        box-shadow: 2px 2px 0px;
+        border:solid;
+    }
+
+       
+    #habilidades{
+        display: flex;
+        justify-content: center;
+        border:solid;
+    }
+
+#educacion{
+    display: flex;
+        justify-content: center;
+        border:solid;
+}
+
+#perfiles-sociales{
+    display: flex;
+        justify-content: center;
+        border:solid;
+}
+
+#hability{
+    display: flex;
+    justify-content: ce;
+    border:solid;
+    border:solid; border: #272915;
+    
+}
+
+
+#education{
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 2px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 2px 2px 0px;
+}
+
+#contenido{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 2px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 2px 2px 0px;
+    text-align: left;
+    border:solid;
+}
+h1 {
+    color: rgb(13, 13, 14);
+    font-size: 28px;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #f5f8dc;
+}
+
+.Menu ul {
+    display: flex;
+    background-color: rgb(35, 69, 79);
+    height: 3rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+div li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all.5s;
+}
+
+div ul li a:hover {
+    color: rgb(97, 162, 166);
+}
+
+hr {
+    display: flex;
+    background-color: rgb(177, 218, 201);
+    height: 1rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+img {
+    width: 250px;
+    margin-right: 25px;
+    border-top: 15px;
+    border-radius: 20px;
+}
+
+th {
+    color: rgb(37, 69, 114);
+    font-size: 15px;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+p {
+    font: size 22px;
+    font-family: cursive;
+    text-align: center;
+}
+
+td {
+    font: size 19px;
+    font-style: normal;
+    font-family: monospace;
+    text-align: center;
+}
+
+li {
+    font: size 21px;
+    font-style: normal;
+    font-family: monospace;
+    text-align: justify;
+}
+
+label {
+    font: size 19px;
+    font-style: normal;
+    font-family: monospace;
+    text-align: center;
+}
+
+.hola {
+    width: 50px;
+}
+nav{
+    position: sticky;
+    margin: 0%;
+    top: 0px;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    background: rgb(202, 202, 133);
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+    transition: all .5s;
+}
+nav ul li:hover{
+    opacity: .7;
+    background: rgb(30, 110, 189);
+    transition: .5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(247, 8, 8);
+    font-weight: 900;
+    font-size: 1.2remy
+}
+
+.C-perfil{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 4rem;
+}
+.C-perfil .infoPersonal{
+    width: 700px;
+}
+.C-perfil .infoPersonal p{
+    font-size: 1.4rem;
+}
+.C-perfil img{
+    width: 230px;
+    height: 230px;
+    image-rendering: crisp-edges;
+    opacity: .8;
+    border-radius: 10%;
+    box-shadow: 0 0 6px rgb(72, 51, 51) (109, 66, 66, 0.904);
+    transition: opacity .5s;
+}
+.C-perfil img:hover{
+    opacity: .7;
+}
+.C-perfil .infoPersonal h1{
+    font-weight: 900;
+} 
+.me{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
