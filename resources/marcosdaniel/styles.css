@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: rgb(86, 188, 188);
+    background: rgb(8, 178, 234);
     font-family: 'Bebas Neue';
 }
 html{
@@ -23,7 +23,7 @@ nav{
 }
 nav ul{
     display: flex;
-    background: rgb(22, 63, 110);
+    background: rgb(28, 174, 50);
 }
 nav ul li{
     list-style: none;
@@ -36,7 +36,7 @@ nav ul li:hover{
 }
 nav ul li a{
     text-decoration: none;
-    color: blanchedalmond;
+    color: rgb(5, 4, 3);
     font-weight: 900;
     font-size: 1.2rem;
 }
@@ -110,12 +110,12 @@ hr{
     margin: 20px;
 }
 .areaExperiencia table tr th{
-    color: rgb(10, 1, 1);
+    color: rgb(4, 2, 2);
     font-size: 700;
 }
 .areaExperiencia tablr tr td{
     text-align: center;
-    border-bottom: 1px solid rgb(103, 102, 207);
+    border-bottom: 1px solid rgb(45, 144, 20);
 }
 .historialEdu{
     display: flex;
