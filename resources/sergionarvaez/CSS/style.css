@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 #body{
     background-color: rgb(183, 255, 215);
     font-size: large;
-    font-family: cursive;
 }
 #navegacion{
     width: 100%;
@@ -109,6 +111,11 @@ text-align: center;
     border: solid white; 
 }
 
+#redes{
+    text-align: center;
+    list-style-type: square;
+}
+
 /* contactar*/
 
 #contactar{
@@ -121,6 +128,7 @@ text-align: center;
 
 #medios{
 text-align: center;
+list-style-type: circle;
 background-color: rgb(145, 255, 193);
 border: solid white;
 border-radius: 10px;
@@ -128,9 +136,6 @@ width: 600px;
 margin: 0 auto;
 }
 
-#redes{
-    text-align: center;
-}
 
 
 
