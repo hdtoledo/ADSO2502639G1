@@ -70,5 +70,6 @@ body{
 }
 .logos{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3rem;
 }
