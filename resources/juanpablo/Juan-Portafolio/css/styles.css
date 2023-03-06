@@ -11,7 +11,7 @@
                                 }
                                 
                                 .container-header {
-                                    background-color: rgb(19, 114, 223);
+                                    background-color: #24292e;
                                     position: fixed;
                                     width: 100%;
                                     top: 0;
@@ -54,7 +54,7 @@
                                 }
                                 
                                 .container-header header nav ul li a:hover {
-                                    color: rgb(6, 85, 177);
+                                    opacity: .7;
                                 }
                                 
                                 .nav-responsive {
@@ -71,7 +71,7 @@
                                 }
                                 
                                 .inicio {
-                                    background: rgb(6, 85, 177);
+                                    background:#24292e;
                                     background-size: cover;
                                     height: 100vh;
                                     color: #242424;
@@ -81,7 +81,7 @@
                                 
                                 .inicio .container-banner {
                                     padding: 20px;
-                                    background-color: #ffff;
+                                    background-color:#fafbfc;
                                     max-width: 350px;
                                     margin: auto;
                                     text-align: center;
@@ -90,7 +90,7 @@
                                 
                                 .inicio .container-banner img {
                                     margin-top: 40px;
-                                    border: 7px solid rgb(19, 114, 223);
+                                    border: 7px solid #0366d6;
                                     display: block;
                                     width: 80%;
                                     margin: auto;
@@ -109,10 +109,10 @@
                                 }
                                 
                                 .inicio .container-banner .redes a {
-                                    color: rgb(19, 114, 223);
+                                    color: #0366d6;
                                     display: inline-block;
                                     text-decoration: none;
-                                    border: 1px solid rgb(19, 114, 223);
+                                    border: 1px solid #0366d6;
                                     border-radius: 100%;
                                     width: 42px;
                                     height: 42px;
@@ -127,8 +127,8 @@
                                 }
                                 
                                 .sobremi {
-                                    background-color: #ffff;
-                                    color: rgb(19, 114, 223);
+                                    background-color:#24292e ;
+                                    color: #fff;
                                     padding: 50px 20px
                                 }
                                 
@@ -151,7 +151,7 @@
                                 }
                                 
                                 .sobremi .container-section p span {
-                                    color: rgb(19, 114, 223);
+                                    color:#ffff;
                                     font-weight: bold;
                                 }
                                 
@@ -183,7 +183,7 @@
                                 }
                                 
                                 .sobremi .fila .col ul li span {
-                                    background-color: rgb(19, 114, 223);
+                                    background-color: #0366d6;
                                     color: #ffff;
                                     padding: 3px;
                                     font-weight: bold;
@@ -198,8 +198,8 @@
                                 .sobremi .fila .col .container-intereses .interes {
                                     width: 100px;
                                     height: 100px;
-                                    color: #ffff;
-                                    background-color: rgb(19, 114, 223);
+                                    color:#fff;
+                                    background-color:#0366d6;
                                     border-radius: 10px;
                                     margin: 0 15px 15px 0;
                                     display: flex;
@@ -210,11 +210,11 @@
                                 }
                                 
                                 .interes i {
-                                    color: #ffff;
+                                    color:#ffff ;
                                 }
                                 
                                 .sobremi .fila .col .container-intereses .interes:hover {
-                                    opacity: .80;
+                                    opacity: .5;
                                     cursor: pointer;
                                 }
                                 
@@ -226,15 +226,19 @@
                                 .sobremi button {
                                     cursor: pointer;
                                     background-color: transparent;
-                                    border: 2px solid rgb(19, 114, 223);
+                                    border: 2px;
                                     width: fit-content;
                                     display: block;
                                     margin: 20px auto;
                                     padding: 10px 22px;
                                     font-size: 16px;
-                                    color: ;
+                                    color:#fff ;
                                     position: relative;
                                     z-index: 10;
+                                }
+
+                                button i{
+                                    color: #fff;
                                 }
                                 
                                 .sobremi button .overlay {
@@ -250,6 +254,8 @@
                                 
                                 .sobremi button:hover .overlay {
                                     width: 100%;
+                                    border: 2px solid #0366d6;
+                                    
                                 }
                                 
                                 button:hover i {
@@ -728,3 +734,159 @@
                                 .contacto button:hover .overlay {
                                     width: 100%;
                                 }
+
+                                .contacto .col img{
+                                    width: 100%;
+                    
+                                }
+
+                                .contacto .col .info{
+                                    position:absolute;
+                                    top:40%;
+                                    background-color: #242424;
+                                    padding: 20px;
+                                    width: 350px;
+                                    left:50%;
+                                    transform:translate( -50%, -50%);
+
+                                }
+
+                                .contacto .col .info ul{
+                                    list-style: none;
+                                } 
+
+                                .contacto .col .info ul li{
+                                    margin-bottom: 20px;
+                                }
+
+                                .contacto .col .info ul li i{
+                                    color:#1cb698;
+                                    display: inline-block;
+                                    margin-right: 20px;
+                                }
+
+                                footer{
+                                     background-color: #242424;
+                                     color: #ffff;
+                                     padding:  50px 0 30px 0;
+                                     text-align: center;
+                                     position: relative;
+                                      width: 100%;
+
+                                }
+                                footer .redes{
+                                     margin-bottom: 20px;
+                                }
+
+                                footer .redes a {
+                                    color:#fff;
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    border: 1px solid #ffff;
+                                    border-radius: 100%;
+                                    width: 42px;
+                                    height: 42px;
+                                    line-height:  42px;
+                                    margin:40px 5px;
+                                    font-size: 20px;
+                                    transition: 3s;
+
+
+
+                                }
+
+                                 footer .arriba{
+                                    display: block;
+                                    width: 50px;
+                                    height: 50px;
+                                    background-color:#1cb698 ;
+                                    color: #fff;
+                                    position: absolute;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    top:-25px;
+                                    border-radius: 50%;
+                                    line-height: 50px;
+                                    font-size: 18px;
+
+                                 }
+
+                                 @media screen and (max-width:980px) {
+                                    nav{
+                                        display: none;
+                                    }
+                                    .nav-responsive{
+                                        display: block;
+                                    }
+                                    nav.responsive{
+                                        display: block;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 75px;
+                                        background-color: #252a2e;
+                                        width: 180px;
+                                    }
+                                    nav.responsive ul{
+                                        display: block !important;
+                                    }
+                                    nav.responsive ul li{
+                                        border-bottom: 1px solid #fff;
+                                        padding: 10px 0;
+                                    }
+                                    
+                                 }
+
+                                 @media screen and (max-width:700px){
+                                    .sobremi .fila{
+                                        display: block;
+                                    }
+                                    .sobremi .fila .col{
+                                        width:  fit-content;
+                                        
+                                    }
+                                    .skills .fila{
+                                        display: block;
+                                        
+                                    }
+                                    .skills .fila .col {
+                                        width: 100%;
+                                    }
+                                    
+                                    .skills .fila .col .barra-skill{
+                                        width: 100%;
+                                    }
+                                    .curriculum .fila{
+                                        display: block;
+                                    }
+                                    .curriculum .fila .col {
+                                        width: 90%;
+
+                                    }
+
+                                    
+                                    .curriculum .fila .derecha{
+                                        margin-left: 20px;
+                                    }
+                                    .portafolio .galeria{
+                                        display: block;
+                                        width: 100%;
+
+                                    }
+                                    .portafolio .galeria .proyecto{
+                                        max-width: 100%;
+                                    }
+                                    .portafolio .galeria .proyecto img{
+                                        max-width: 100%;
+                                    }
+                                    .contacto .fila{
+                                        display: block;
+                                    }
+                                    .contacto .fila .col{
+                                        width: 100%;
+                                    }
+
+
+
+                                 }
+
+                                 

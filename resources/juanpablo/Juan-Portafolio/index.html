@@ -19,30 +19,33 @@
                 <a href="#">JP</a>
 
             </div>
+            
 
-            <nav id="nav">
+           
+
+            <nav id="nav" >
                 <ul>
                     <li>
-                        <a href="#inicio">Inicio</a>
+                        <a href="#inicio" onclick="seleccionar()">Inicio</a>
                     </li>
                     <li>
-                        <a href="#about_me">About</a>
+                        <a href="#sobremi" onclick="seleccionar()">About</a>
                     </li>
                     <li>
-                        <a href="#skills">Skills</a>
+                        <a href="#skills" onclick="seleccionar()">Skills</a>
                     </li>
                     <li>
-                        <a href="#curriculum">Curriculum</a>
+                        <a href="#curriculum" onclick="seleccionar()">Curriculum</a>
                     </li>
                     <li>
-                        <a href="#portafolio">Portafolio</a>
+                        <a href="#portafolio" onclick="seleccionar()">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#portafolio">Contact</a>
+                        <a href="#contacto" onclick="seleccionar()">Contact</a>
                     </li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -493,6 +496,20 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+       
+    </footer>
+    <script src="script.js"></script>
 
 
 
