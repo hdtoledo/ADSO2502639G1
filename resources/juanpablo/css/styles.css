@@ -11,7 +11,7 @@
                                 }
                                 
                                 .container-header {
-                                    background-color: #24292e;
+                                    background-color: #1e2326;
                                     position: fixed;
                                     width: 100%;
                                     top: 0;
@@ -31,7 +31,7 @@
                                 .container-header header .logo a {
                                     font-family: "righteous";
                                     font-size: 36px;
-                                    color: #ffff;
+                                    color:  #fff;
                                     text-decoration: none;
                                 }
                                 
@@ -49,17 +49,15 @@
                                     text-decoration: none;
                                 }
                                 
-                                i {
-                                    color: rgb(19, 114, 223);
-                                }
+                               
                                 
                                 .container-header header nav ul li a:hover {
                                     opacity: .7;
                                 }
                                 
                                 .nav-responsive {
-                                    background-color: #ffff;
-                                    color: rgb(6, 85, 177);
+                                    background-color:rgb(19, 114, 223);
+                                    color:#ffff;
                                     padding: 5px 10px;
                                     border-radius: 5px;
                                     cursor: pointer;
@@ -71,7 +69,7 @@
                                 }
                                 
                                 .inicio {
-                                    background:#24292e;
+                                    background:#fff;
                                     background-size: cover;
                                     height: 100vh;
                                     color: #242424;
@@ -81,7 +79,7 @@
                                 
                                 .inicio .container-banner {
                                     padding: 20px;
-                                    background-color:#fafbfc;
+                                    background-color:hsl(195, 9%, 91%);
                                     max-width: 350px;
                                     margin: auto;
                                     text-align: center;
@@ -127,7 +125,7 @@
                                 }
                                 
                                 .sobremi {
-                                    background-color:#24292e ;
+                                    background-color:#1e2326 ;
                                     color: #fff;
                                     padding: 50px 20px
                                 }
@@ -151,7 +149,7 @@
                                 }
                                 
                                 .sobremi .container-section p span {
-                                    color:#ffff;
+                                    color:rgb(19, 114, 223);
                                     font-weight: bold;
                                 }
                                 
@@ -177,8 +175,9 @@
                                     margin: 12px 0;
                                 }
                                 
-                                .sobremi.fila .col ul li strong {
+                                .sobremi .fila .col ul li strong {
                                     display: inline-block;
+                                    color:rgb(19, 114, 223);
                                     width: 130px;
                                 }
                                 
@@ -199,7 +198,7 @@
                                     width: 100px;
                                     height: 100px;
                                     color:#fff;
-                                    background-color:#0366d6;
+                                    background-color:#252a2e;
                                     border-radius: 10px;
                                     margin: 0 15px 15px 0;
                                     display: flex;
@@ -214,7 +213,7 @@
                                 }
                                 
                                 .sobremi .fila .col .container-intereses .interes:hover {
-                                    opacity: .5;
+                                    background-color: #0366d6;
                                     cursor: pointer;
                                 }
                                 
@@ -267,6 +266,8 @@
                                 }
                                 
                                 .skills {
+                                    background-color: #252a2e;
+                                    color: #fff;
                                     padding: 50px 20px;
                                 }
                                 
@@ -306,7 +307,7 @@
                                 .skills .skill .barra-skill {
                                     height: 8px;
                                     width: 80%;
-                                    background-color: rgb(19, 114, 223);
+                                    background-color: #131517;
                                     position: relative;
                                     margin-bottom: 30px;
                                 }
@@ -474,7 +475,7 @@
                                 }
                                 
                                 .curriculum {
-                                    background-color: rgb(6, 85, 177);
+                                    background-color: #1e2326;
                                     color: #ffff;
                                     padding: 50px 20px;
                                 }
@@ -507,17 +508,17 @@
                                 }
                                 
                                 .curriculum .fila .izquierda {
-                                    border-right: 2px solid rgb(19, 114, 223);
+                                    border-right: 2px solid #252a2e;
                                 }
                                 
                                 .curriculum .fila .derecha {
-                                    border-left: 2px solid rgb(19, 114, 223);
+                                    border-left: 2px solid #252a2e;
                                 }
                                 
                                 .curriculum .fila .item {
                                     padding: 25px;
                                     margin-bottom: 30px;
-                                    background-color: rgb(19, 114, 223);
+                                    background-color: #252a2e;
                                     position: relative;
                                 }
                                 
@@ -527,7 +528,7 @@
                                 }
                                 
                                 .curriculum .fila .item .casa {
-                                    color: rgb(6, 85, 177);
+                                    color: #0366d6;
                                     font-size: 22px;
                                     font-weight: bold;
                                     display: block;
@@ -535,7 +536,7 @@
                                 
                                 .curriculum .fila .item .fecha {
                                     display: block;
-                                    color: rgb(6, 85, 177);
+                                    color: #0366d6;
                                     margin-bottom: 10px;
                                 }
                                 
@@ -544,18 +545,18 @@
                                 }
                                 
                                 .curriculum .fila .izq {
-                                    border-right: 2px solid #fff;
+                                    border-right: 2px solid #0366d6;
                                     margin-right: 20px;
                                 }
                                 
                                 .curriculum .fila .der {
-                                    border-left: 2px solid #fff;
+                                    border-left: 2px solid #0366d6;
                                     margin-left: 20px;
                                 }
                                 
                                 .curriculum .fila .item .conectori {
                                     height: 2px;
-                                    background-color: #ffff;
+                                    background-color: #0366d6;
                                     width: 47px;
                                     position: absolute;
                                     top: 50%;
@@ -568,7 +569,7 @@
                                     height: 10px;
                                     width: 10px;
                                     border-radius: 50%;
-                                    background-color: #ffff;
+                                    background-color: #0366d6;
                                     float: right;
                                     position: relative;
                                     bottom: 4px;
@@ -576,7 +577,7 @@
                                 
                                 .curriculum .fila .item .conectord {
                                     height: 2px;
-                                    background-color: #ffff;
+                                    background-color:#0366d6 ;
                                     width: 47px;
                                     position: absolute;
                                     top: 50%;
@@ -589,7 +590,7 @@
                                     height: 10px;
                                     width: 10px;
                                     border-radius: 50%;
-                                    background-color: #ffff;
+                                    background-color: #0366d6;
                                     float: left;
                                     position: relative;
                                     bottom: 4px;
@@ -601,7 +602,7 @@
                                 }
                                 
                                 .portafolio {
-                                    background-color: rgb(6, 85, 177);
+                                    background-color: #252a2e;
                                     color: #ffff;
                                     padding: 50px 20px;
                                 }
@@ -643,7 +644,7 @@
                                     width: 100%;
                                     height: 100%;
                                     text-align: center;
-                                    background: linear-gradient( rgba(19, 114, 223, .5), rgba(19, 114, 223, .5));
+                                    background: linear-gradient( rgba(19, 114, 223, .6), rgba(19, 114, 223, .6));
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: center;
@@ -668,7 +669,7 @@
                                 
                                 .contacto {
                                     background-image: url(../img/contact_bg.png);
-                                    background-color: rgb(19, 114, 223);
+                                    background-color:#1e2326;
                                     color: #fff;
                                     padding: 50px 0;
                                 }
@@ -702,20 +703,21 @@
                                     padding: 18px;
                                     border: none;
                                     margin-bottom: 20px;
-                                    background-color: #fff;
-                                    color: #242424;
+                                    background-color: #252a2e;
+                                    color: #fff;
                                     font-size: 18px;
                                 }
                                 
                                 .contacto button {
                                     cursor: pointer;
                                     background-color: transparent;
-                                    border: 2px solid #ffff;
+                                    border: 2px solid #fff;
                                     width: fit-content;
                                     display: block;
                                     margin: 20px auto;
                                     padding: 10px 22px;
                                     font-size: 16px;
+                                    color: #fff;
                                     position: relative;
                                     z-index: 10;
                                 }
@@ -726,7 +728,7 @@
                                     left: 0;
                                     width: 0;
                                     height: 100%;
-                                    background-color: #fff;
+                                    background-color: #0366d6;
                                     transition: 1s;
                                     z-index: -1;
                                 }
@@ -743,7 +745,7 @@
                                 .contacto .col .info{
                                     position:absolute;
                                     top:40%;
-                                    background-color: #242424;
+                                    background-color: #252a2e;
                                     padding: 20px;
                                     width: 350px;
                                     left:50%;
@@ -760,14 +762,14 @@
                                 }
 
                                 .contacto .col .info ul li i{
-                                    color:#1cb698;
+                                    color:#0366d6;
                                     display: inline-block;
                                     margin-right: 20px;
                                 }
 
                                 footer{
-                                     background-color: #242424;
-                                     color: #ffff;
+                                     background-color: #252a2e;
+                                     color: #fff;
                                      padding:  50px 0 30px 0;
                                      text-align: center;
                                      position: relative;
@@ -799,7 +801,7 @@
                                     display: block;
                                     width: 50px;
                                     height: 50px;
-                                    background-color:#1cb698 ;
+                                    background-color:#0366d6 ;
                                     color: #fff;
                                     position: absolute;
                                     left: 50%;
