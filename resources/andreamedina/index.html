@@ -4,189 +4,398 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1 , initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <title>Document03</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 
 <body>
-    <h1>Curiculum</h1>
-    <p>
-        <div class="Menu">
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">AM</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#Inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a> </li>
 
-            <ul>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
 
-                <li>
-                    <a href="#id_1">Experencia Laboral</a>
-                </li>
-                <li>
-                    <a href="#id_2">Habilidades y conocimientos</a>
-                </li>
-                <li>
-                    <a href="#id_3">Educacion</a>
-                </li>
-                <li>
-                    <a href="#id_4">Perfiles sociales</a>
-                </li>
-                <li><a href="#id_5">Contactar</a>
-                </li>
-            </ul>
+        </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/Andrea.jpeg" alt="">
+            </div>
+            <h1>Paula Andrea Medina</h1>
+            <h2>Programador Junior</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
 
 
         </div>
-        <h1>Paula Andrea Medina </h1>
-        <div[class]="presentacion">
-            <center><img class="img" src="./img/Andrea .jpeg" alt="kvothe"></center>
 
-            <p>
-                "No sé cuanto tardaré en alcanzar mis sueños, pero lo que sí sé es que nunca desistiré."
-            </p>
-            <hr>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre mi</h2>
+            <p><span>Hola,soy Andrea Medina</span> soy aprendiz de SENA.</p>
+        </div>
 
-            <h1 id="#id_1" ">Experiencia Laboral</h1>
-            <div class="tabla ">
-            <table id="expertise ">
-
-                    <thead>
-                        <tr>
-                            <th>Empresa</th>
-                            <th> Organizacion</th>
-                            <th>Localización</th>
-                            <th>Desde-hasta</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Rojas Garrido </td>
-                            <td>Emprendimiento</td>
-                            <td>Agrado(H)</td>
-                            <td>2010 - 2013</td>
-                        </tr>
-                        <tr>
-                            <td>Sede del rosario</td>
-                            <td>Primeroas auxilios</td>
-                            <td>Agrado(H)</td>
-                            <td>2014 - 2017</td>
-                        </tr>
-                        <tr>
-                            <td>Institucion la merced</td>
-                            <td>Electronica</td>
-                            <td>Agrado(H)</td>
-                            <td>2018 -2021</td>
-                        </tr>
-                        <tr>
-                            <td>SENA</td>
-                            <td>Software</td>
-                            <td>Agrado(H)</td>
-                            <td>2022 - 2024 </td>
-                        </tr>
-
-                    </tbody>
-                </table>
+        <div class=fila ">
+            <div class="col ">
+            <h3> Datos personales</h3>
+            <ul>
+                <li><strong>Cumpleaños</strong> 25-07-2002</li>
+                <li><strong> Telefono</strong> 3102813354</li>
+                <li><strong>Email</strong> paulaandreamedinaperdomo@gmail.com</li>
+                <li><strong>Direccion</strong> Agrado, Huila,Colombia</li>
+                <li><strong>Cargo</strong> Aprendiz</li>
                 
-            </div>
-                <h1 id="#id_2 ">Habilidades y Conocimientos</h1>
-                <div class="tabla "
-                <table id="habilidades "
-                <ul
-                    <li><strong>Desarrollo web:</strong> HTML5, CSS3, JavaScript, Python</li>
-                    <li><strong>Gestión</strong>: Conocimiento de nuevas tecnologias, investigar tendencias informaticas</li>
-                    <li><strong>Emprendimiento:</strong> dominio del lenguage de programacion</li>
-                    <li><strong>Realizacion </strong>: estudiar, comprender y replicar codigos</li>
-                </ul>
-            </div>
-                
-                <h1 id="#id_3 ">Educación</h1>
-                <div class="tabla ">
-                <table id="educacion ">
-                    <thead>
-                        <tr>
-                            <th>Curso</th>
-                            <th>Título</th>
-                            <th>Entidad</th>
-                            <th>Promoción</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <tr>
-                            <td> Creacion de una empresa</td>
-                            <td>Institucion la merced</td>
-                            <td>2019</td>
-                        </tr>
-                        <tr>
-                            <td>Servicio social</td>
-                            <td>Empresa agua y aseo</td>
-                            <td> 2019</td>
-                        </tr>
-                        <tr>
-                            <td>Proyecto lava manos automatico</td>
-                            <td>Institucion la merced</td>
-                            <td>2020</td>
-                        </tr>
-                        <tr>
-                            <td>Tecnico electronico</td>
-                            <td>Institucion la merced</td>
-                            <td>2021</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-                <hr>
-                <h1>Perfiles Sociales</h1>
-                
-            <center>
-                <a href="https://web.facebook.com/paulaandrea.medina.7798 "><img class="hola " src="./img/facebook.png " alt=" "></a>
-                <a href=" https://www.instagram.com/ "> <img class="hola " src="img/instagram.png " alt=" "></a>
-                <a href=" https://www.whatsapp.com/?lang=es "> <img class="hola " src= "img/whatsapp.png " alt=" "></a>
-                <a href="https://twitter.com/ "> <img class="hola " src= "img/twitter.png " alt=" "></a>
-                <a href=" https://github.com/ "> <img class="hola " src= "img/github.png " alt=" "></a>
-
-            </center>
-
-
-                <hr>
-                <h1 id="#id_5 ">Contactar</h1>
-                <table id="contactar "
-
-                <div>
-                    
-                    <img class="imagen "src="img/gmail.png " alt="kvothe ">
-                    <h2> paulaandreamedinaperdomo@gmail.com</h2>
-                    <img class="imagen " src="img/telefono.png "alt="kvothe ">
-                    <h2> 3102813354</h2>
-
-
-
+            </ul>
+        </div>
+        
+        <div class="col ">
+            <h3>Intereses</h3>
+            <div class="container-intereses ">
+                <div class="interes ">
+                    <i class="fa-solid fa-gamepad "></i>
+                    <span>Juegos</span>
+                </div>
+                <div class="interes ">
+                    <i class="fa-solid fa-headphones "></i>
+                    <span>Musica</span>
+                </div>
+                <div class="interes ">
+                    <i class="fa-solid fa-film "></i>
+                    <span>Peliculas</span>
+                </div>
+                <div class="interes ">
+                    <i class="fa-solid fa-book "></i>
+                    <span>Libros</span>
+                </div>
+                <div class="interes ">
+                    <i class="fa-solid fa-camera "></i>
+                    <span>Fotografia</span>
+                </div>
+                <div class="interes ">
+                    <i class="fa-solid fa-laptop "></i>
+                    <span>Tecnologia</span>
+                </div>
+                <div class="interes ">
+                    <i class="fa-regular fa-futbol "></i>
+                    <span>Deporte</span>
+                </div>
+                <div class="interes ">
+                    <i class="fa-solid fa-plane "></i>
+                    <span>Viajar</span>
                 </div>
 
-            
+            </div>
 
-            
-            
+        </div>
+        
+    </div>
+    <button>
+        Descargar CV <i class="fa-solid fa-download "></i>
+        <span class="overlay "></span>
+        </button>
+        </section>
+
+        <section id="skills " class="skills ">
+            <div class="container-section ">
+                <h2>Skills</h2>
+                <div class="fila ">
+                    <div class="col ">
+                        <h3>Technical Skills</h3>
+                        <div class="skill ">
+                            <span>Javascript</span>
+                            <div class="barra-skill ">
+                                <div class="progreso javascript ">
+            <span>75%</span>
+        </div>
+        </div>
+        </div>
+        <div class="skill ">
+            <span>HTML & CSS</span>
+            <div class="barra-skill ">
+                <div class="progreso htmlcss ">
+                    <span>89%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill ">
+            <span>Photoshop</span>
+            <div class="barra-skill ">
+                <div class="progreso photoshop ">
+                    <span>90%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill ">
+            <span>Wordpress</span>
+            <div class="barra-skill ">
+                <div class="progreso wordpress ">
+                    <span>80%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill ">
+            <span>React</span>
+            <div class="barra-skill ">
+                <div class="progreso react ">
+                    <span>70%</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col ">
+            <h3>Professional Skills</h3>
+            <div class="skill ">
+                <span>Comunicacion</span>
+                <div class="barra-skill ">
+                    <div class="progreso comunicacion ">
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill ">
+                <span>Trabajo en equipo</span>
+                <div class="barra-skill ">
+                    <div class="progreso trabajo en equipo ">
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill ">
+                <span>Creatividad</span>
+                <div class="barra-skill ">
+                    <div class="progreso creatividad ">
+                        <span>99%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill ">
+                <span>Dedicacion</span>
+                <div class="barra-skill ">
+                    <div class="progreso dedicacion ">
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill ">
+                <span>Proyect Management</span>
+                <div class="barra-skill ">
+                    <div class="progreso proyect management ">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
 
+        </div>
+        </div>
+    </section>
 
 
+    <section id="curriculum " class="curriculum ">
+        <div class="container-section ">
+            <h2> Curriculum</h2>
+            <div class="fila ">
+                <div class="col izquierda ">
+                    <h3>Educacion</h3>
+                    <div class="item izq ">
+                        <h4> Arte y Multimedia</h4>
+                        <span class="casa ">Universidad de Oxford</span>
+                        <span class="fecha ">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectori ">
+                            <div class="circuloi "></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq ">
+                        <h4> Arte y Multimedia</h4>
+                        <span class="casa ">Universidad de Oxford</span>
+                        <span class="fecha ">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectori ">
+                            <div class="circuloi "></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq ">
+                        <h4> Arte y Multimedia</h4>
+                        <span class="casa ">Universidad de Oxford</span>
+                        <span class="fecha ">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectori ">
+                            <div class="circuloi "></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha ">
+                    <h3>Experencia de trabajo</h3>
+                    <div class="item der ">
+                        <h4> Frontend Developer</h4>
+                        <span class="casa ">Nombre compañia</span>
+                        <span class="fecha ">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectord ">
+                            <div class="circulod "></div>
+                        </div>
+                    </div>
+
+                    <div class="item der ">
+                        <h4> Frontend Developer</h4>
+                        <span class="casa ">Nombre de compañia</span>
+                        <span class="fecha ">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectord ">
+                            <div class="circulod "></div>
+                        </div>
+                    </div>
+
+                    <div class="item der ">
+                        <h4> Frontend Developer</h4>
+                        <span class="casa ">Nombre de compañia</span>
+                        <span class="fecha ">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectord ">
+                            <div class="circulod "></div>
+                        </div>
+                    </div>
+                </div>
 
 
+            </div>
+        </div>
 
+                
 
+    </section>
+    
+    <section id="portfolio " class="portfolio ">
+        <div class="container-section ">
+            <h2>Portfolio</h2>
+            <div class="galeria ">
+                <div class="proyecto ">
+                    <img src="img/p1.jpg " alt=" ">
+                    <div class="overlay ">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto ">
+                    <img src="img/p2.jpg " alt=" ">
+                    <div class="overlay ">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto ">
+                    <img src="img/p3.jpg " alt=" ">
+                    <div class="overlay ">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto ">
+                    <img src="img/p4.jpg " alt=" ">
+                    <div class="overlay ">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto ">
+                    <img src="img/p5.jpg " alt=" ">
+                    <div class="overlay ">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto ">
+                    <img src="img/p6.jpg " alt=" ">
+                    <div class="overlay ">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="contacto " class="contacto ">
+        <div class="container-section ">
+            <h2>Contacto</h2>
+            <div class="fila ">
 
+                <div class="col ">
+                    <input type="text " placeholder="Tu Nombre ">
+                    <input type="email " placeholder="Numero Telefonico ">
+                    <input type="text " placeholder="Direccion de correo ">
+                    <input type="text " placeholder="Tema ">
+                    <textarea name=" "id=" " cols="30 " rows="10 " placeholder="Tu Mensaje "></textarea>
+                    <button>Enviar  <i class="fa-solid fa-paper-plane "></i>
+                        <span class="overlay "></span>
+                    </button>
+                    </div>
 
+                    <div class="col ">
+                        <img src="img/ubicacion.png " alt=" ">
+                        <div class="info ">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot "></i>
+                                    Agrado, Huila, Colombia
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen "></i>
+                                    Llameme: 3102813354
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope "></i>
+                                    E-mail: paulaandreamedinaperdomo@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio " class="arriba ">
+            <i class="fa-solid fa-angles-up "></i>
+        </a>
+        <div class="redes ">
+            <a href="# "><i class="fa-brands fa-facebook-f "></i></a>
+            <a href="# "><i class="fa-brands fa-twitter "></i></a>
+            <a href="# "><i class="fa-brands fa-instagram "></i></a>
+            <a href="# "><i class="fa-brands fa-linkedin-in "></i></a>
+        </div>
+    </footer>
+    <script src="js/js.js "></script>
 
-
-
-
-
-
-
-    </p>
 
 </body>
 
