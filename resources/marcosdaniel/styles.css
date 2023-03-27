@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: rgb(233, 218, 61);
+    background: rgb(8, 178, 234);
     font-family: 'Bebas Neue';
 }
 html{
@@ -23,7 +23,7 @@ nav{
 }
 nav ul{
     display: flex;
-    background: rgb(22, 63, 110);
+    background: rgb(28, 174, 50);
 }
 nav ul li{
     list-style: none;
@@ -32,11 +32,11 @@ nav ul li{
 }
 nav ul li:hover{
     opacity: .7;
-    background: yellow;
+    background: rgb(144, 144, 22);
 }
 nav ul li a{
     text-decoration: none;
-    color: blanchedalmond;
+    color: rgb(5, 4, 3);
     font-weight: 900;
     font-size: 1.2rem;
 }
@@ -61,6 +61,7 @@ nav ul li a{
     border-radius: 50%;
     box-shadow: 0 0 7px rgb(212, 151, 70);
     transition: opacity .5s;
+    
 }
 .c-perfil img:hover{
     opacity: .7;
@@ -99,9 +100,9 @@ hr{
     font-size: 1.4rem;
 }
 .areaExperiencia table{
-    border: 1px solid rgb(132, 176, 43);
+    border: 1px solid rgb(84, 117, 19);
     border-radius: 15px;
-    background: rgba(35, 2, 6, 0.449);
+    background: rgba(93, 7, 17, 0.449);
     font-size: 2rem;
     padding: .5em;
     width: 700px;
@@ -109,12 +110,12 @@ hr{
     margin: 20px;
 }
 .areaExperiencia table tr th{
-    color: rgb(88, 12, 12);
+    color: rgb(4, 2, 2);
     font-size: 700;
 }
 .areaExperiencia tablr tr td{
     text-align: center;
-    border-bottom: 1px solid rgb(31, 29, 141);
+    border-bottom: 1px solid rgb(45, 144, 20);
 }
 .historialEdu{
     display: flex;
@@ -139,27 +140,30 @@ hr{
     width: 880px;
     align-items: center;
     flex-direction: column;
+    
+    
 }
 .expWork h1{
     font-size: 40px;
     margin: 0;
     text-align: center;
+
 }
 .expWork p{
     font-size: 1.4rem;
 }
-.expWork .experiencias .exp-1 p,.expWork .experiencias .exp-2 p{
+.expWork .experiencia .exp-1 p,.expWork .experiencia .exp-2 p{
     font-size: 25px;
     
 }
-.expWork .experiencias .exp-1 ul li,.expWork .experiencias .exp-2 ul li{
+.expWork .experiencia .exp-1 ul li,.expWork .experiencia .exp-2 ul li{
     font-size: 19px;
     
 }
 .contacto{
     width: 100vw;
     height: 300px;
-    background: rgba(139, 24, 24, 0.92);
+    background: rgba(184, 82, 82, 0.92);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,4 +185,13 @@ hr{
 }
 .contacto .infoContacto span a:hover{
     color: aqua;
+}
+.expWork{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
 }

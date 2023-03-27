@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 #body{
     background-color: rgb(183, 255, 215);
     font-size: large;
-    font-family: cursive;
 }
 #navegacion{
     width: 100%;
     margin: 10px;
-    border: solid;
+    border: solid white;
+    background-color:  aqua;
     border-radius: 20px;
     text-align: center;
     color: gray;
@@ -48,7 +51,8 @@ text-align: center;
 
 #experiencia{
     text-align: center;
-    text-shadow: 3px 5px rgb(204, 204, 204);     
+    text-shadow: 3px 5px rgb(204, 204, 204); 
+    background-color: aqua;    
 }
 
 #cabecera{
@@ -58,7 +62,8 @@ text-align: center;
 #tabla{
     width: 800px;
     margin: 0 auto;
-    border: solid;
+    border: solid white;
+    background-color:  rgb(145, 255, 193);
     border-radius: 20px;
     text-align: center;  
 }
@@ -67,7 +72,12 @@ text-align: center;
 
 #habilidades{
     text-align: center;
-    text-shadow: 3px 5px rgb(204, 204, 204);   
+    text-shadow: 3px 5px rgb(204, 204, 204);  
+    background-color: aqua; 
+}
+
+#contenido{
+text-align: center;
 }
 
 /*tabla de educacion*/
@@ -75,7 +85,8 @@ text-align: center;
 #tablae{
     width: 600px;
     margin: 0 auto;
-    border: solid;
+    border: solid white;
+    background-color:  rgb(145, 255, 193);
     border-radius: 20px;
     text-align: center;
     justify-content: center;
@@ -85,7 +96,9 @@ text-align: center;
 
 #educacion{
     text-align: center;
-    text-shadow: 3px 5px rgb(204, 204, 204);   
+    text-shadow: 3px 5px rgb(204, 204, 204);  
+    background-color: aqua; 
+    border: solid white;
 }
 
 
@@ -93,18 +106,34 @@ text-align: center;
 
 #perfiles {
     text-align: center;
-    text-shadow: 3px 5px rgb(204, 204, 204);    
+    text-shadow: 3px 5px rgb(204, 204, 204); 
+    background-color: aqua;  
+    border: solid white; 
 }
 
 #redes{
     text-align: center;
+    list-style-type: square;
 }
 
 /* contactar*/
 
 #contactar{
     text-align: center;
-    text-shadow: 3px 5px rgb(204, 204, 204);     
+    text-shadow: 3px 5px rgb(204, 204, 204);    
+    border: solid white;
+    background-color: aqua;
+    
+}
+
+#medios{
+text-align: center;
+list-style-type: circle;
+background-color: rgb(145, 255, 193);
+border: solid white;
+border-radius: 10px;
+width: 600px;
+margin: 0 auto;
 }
 
 

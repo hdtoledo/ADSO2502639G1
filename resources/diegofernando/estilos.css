@@ -106,10 +106,27 @@ a :visited{
     font-family: 'VT323', monospace;
     color: aqua;
 }
+.perfil{
+    border: 0;
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+}
 
+<<<<<<< HEAD:Ejercicioinicial/resources/diegofernando/estilos.css
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+=======
 .imagenes2{
     display: flex;
     justify-content: end;
+>>>>>>> b91586922b50045c3120476865b2e7f05f91b270:resources/diegofernando/estilos.css
 }
 
 

@@ -1,52 +1,77 @@
+
+* {
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+  }
 body{
-background-color: rgba(207, 236, 247, 0.543);
+background-color: rgb(183, 208, 225);
 
 margin: 2rem;
+padding: 0;
 
 }
 h1{
-    color: rgb(39, 60, 244);
+    color: rgb(241, 241, 235);
     font-size: large;
     text-align: center;
 
 }
 h3{
-    color: rgb(39, 60, 244);
+    color: rgb(242, 243, 250);
 }
-
 nav{
     position: sticky;
     margin:0%;
-    top:0px;
+    top: 2px;
     z-index: 10;
 }
 nav ul{
     display: flex;
-    background: rgb(10, 6, 240);
+    background: rgb(95, 132, 162);
     justify-content: space-between;
 }
-nav ul li{
+
+
+  
+nav  ul li {
+    position: relative;
     list-style: none;
-    padding: 1rem;
-    transition: all .5s;
-}
-nav ul li:hover{
-    opacity: .7;
-    background: rgb(30, 110, 189);
-    transition: .5s;
-}
-nav ul li a{
+  }
+  
+ nav ul li a {
+    position: relative;
+    font-size: medium;
     text-decoration: none;
-    color: rgb(243, 243, 240);
-    font-weight: 900;
-    font-size: 1.2rem;
-}
+    line-height: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff; /* proporcionar un color de texto legible */
+  }
+  
+  nav ul li a::before {
+    content: attr(data-text);
+    position: absolute;
+    color: var(--clr, #ffffff); /* proporcionar un valor de fallback para --clr */
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 8px solid var(--clr, #ffffff); /* proporcionar un valor de fallback para --clr */
+    -webkit-text-stroke: 1px var(--clr, #ffffff); /* proporcionar un valor de fallback para --clr */
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 25px var(--clr, #ffffff)); /* proporcionar un valor de fallback para --clr */
+  }
+  
 
-
-#tabla{
+#tabla {
     display: flex;
     width: 100vw;
-    margin: 5% auto;
+    margin: 10% auto;
+    text-align: center;
 }
 .imagen{
     height:  200px;
@@ -55,14 +80,25 @@ nav ul li a{
 
 
 #date_pers {
- 
+    display: table-cell;
+    padding: 10px;
     position: sticky;
     color: rgb(7, 7, 6);
     font-size: 1.2rem;
-    background: rgba(68, 66, 66, 0.166);
-    box-shadow: 0 0 5px rgb(10, 10, 10);
+    background: rgba(95, 132, 162);
+    box-shadow: 0 0 5px rgb(7, 7, 7);
 }
 #perfil_p{
-    line-height: 30px;
-   
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+    line-height: 30px;   
+}
+#contactar{
+    position: sticky;
+    color: rgb(7, 7, 6);
+    font-size: 1.2rem;
+    text-align: center;
+    background: rgba(95, 132, 162);
+    box-shadow: 0 0 5px rgb(10, 10, 10);
 }
