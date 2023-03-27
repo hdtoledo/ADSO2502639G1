@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgba(179, 145, 33, 0.2);
 }
 
 .background {
