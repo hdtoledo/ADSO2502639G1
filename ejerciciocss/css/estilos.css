@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    font-size: medium;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+p{
+    color: blue;
+    line-height: 1.5em;
+}
+li{
+    list-style: none;
+    list-style: square outside;
+    list-style-type: upper-roman;
+}

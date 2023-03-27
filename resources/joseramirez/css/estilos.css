@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+  }
+body{
+background-color: rgb(183, 208, 225);
+
+margin: 2rem;
+padding: 0;
+
+}
+h1{
+    color: rgb(241, 241, 235);
+    font-size: large;
+    text-align: center;
+
+}
+h3{
+    color: rgb(242, 243, 250);
+}
+nav{
+    position: sticky;
+    margin:0%;
+    top: 2px;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    background: rgb(95, 132, 162);
+    justify-content: space-between;
+}
+
+
+  
+nav  ul li {
+    position: relative;
+    list-style: none;
+  }
+  
+ nav ul li a {
+    position: relative;
+    font-size: medium;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff; /* proporcionar un color de texto legible */
+  }
+  
+  nav ul li a::before {
+    content: attr(data-text);
+    position: absolute;
+    color: var(--clr, #ffffff); /* proporcionar un valor de fallback para --clr */
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 8px solid var(--clr, #ffffff); /* proporcionar un valor de fallback para --clr */
+    -webkit-text-stroke: 1px var(--clr, #ffffff); /* proporcionar un valor de fallback para --clr */
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 25px var(--clr, #ffffff)); /* proporcionar un valor de fallback para --clr */
+  }
+  
+
+#tabla {
+    display: flex;
+    width: 100vw;
+    margin: 10% auto;
+    text-align: center;
+}
+.imagen{
+    height:  200px;
+    border-radius: 50%;
+}
+
+
+#date_pers {
+    display: table-cell;
+    padding: 10px;
+    position: sticky;
+    color: rgb(7, 7, 6);
+    font-size: 1.2rem;
+    background: rgba(95, 132, 162);
+    box-shadow: 0 0 5px rgb(7, 7, 7);
+}
+#perfil_p{
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+    line-height: 30px;   
+}
+#contactar{
+    position: sticky;
+    color: rgb(7, 7, 6);
+    font-size: 1.2rem;
+    text-align: center;
+    background: rgba(95, 132, 162);
+    box-shadow: 0 0 5px rgb(10, 10, 10);
+}
