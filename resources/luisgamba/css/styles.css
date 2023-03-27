@@ -538,6 +538,10 @@
     text-align: center;
     padding: 20px 0;
  }
+ .portafolio a {
+    color:#FFF;
+    text-decoration: none;
+ }
  .portafolio .galeria {
     display: flex;
     flex-wrap: wrap;

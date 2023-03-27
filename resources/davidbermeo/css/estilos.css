@@ -12,7 +12,7 @@ html{
         text-transform: uppercase;
     }
     h1{
-        background:rgb(0, 0, 0) ;
+        background:rgb(248, 245, 245) ;
     }
     p{
         font-size: 20px;
@@ -80,6 +80,9 @@ html{
     
     html{
         font-size:large;
+    }
+    .icono{
+        width: 60px;
     }
 
       
