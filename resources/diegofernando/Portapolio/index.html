@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Portapolio</title>
+</head>
+
+<body>
+    <style></style>
+
+    <!-- MENU HEADER -->
+
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">MI PORTAFOLIO</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Ejercicios</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/perfil.png" alt="">
+            </div>
+            <h1>X H O P E</h1>
+            <h2>Diseñador Grafico</h2>
+            <div class="redes">
+                <a href="https://web.facebook.com/diegofernando.polohome" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/ekisjope" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/equisjoup/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCN8U1HfruznSOR2Gy-TkHJg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Diego.</span> Soy desarrollador web y experto en el diseño grafico,
+                con una experiencia de mas de 2 años en el area, estoy interesado por el mundo de la
+                 animacion 2D y 3D para en un futuro poder crear un proyecto independiente basado en
+                este arte.</p>
+            <div class="fila">
+
+                <!-- DATOS PERSONALES -->
+
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            11-10-2003
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +57 310 3561567
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            pecioso999@gmail.com
+                        </li>
+                        <li>
+                            <strong>Canal</strong>
+                            https://www.youtube.com/@xhope4731
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Vereda Santa Marta, Garzon, Huila, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Aprendiz</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- INTERESES -->
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Peliculas</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografia</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Tecnologia</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+
+                <!-- SKILLS TECNICAS -->
+
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span class="porcentaje">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span class="porcentaje">89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span class="porcentaje">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adobe Premiere</span>
+                        <div class="barra-skill">
+                            <div class="progreso wordpress">
+                                <span class="porcentaje">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Blender</span>
+                        <div class="barra-skill">
+                            <div class="progreso react">
+                                <span class="porcentaje">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROFESIONAL SKILLS -->
+
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span class="porcentaje">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso equipo">
+                                <span class="porcentaje">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span class="porcentaje">99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span class="porcentaje">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyect">
+                                <span class="porcentaje">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Diseño Grafico</h4>
+                        <span class="casa">SENA - Megacolegio</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>- Creacion y diseño de paginas web. <br>
+                            - Edicion de imagenes y videos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso de Unity</h4>
+                        <span class="casa">OpenBootcamp</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>- Manejo del programa Unity para la creacion de videojuegos. <br>
+                        - Modelado 2D y 3D para  personajes. <br>
+                         - Manejo de texturas y terreno.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Frontend</h4>
+                        <span class="casa">SENA - Garzon</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>- Proyecto SAGA <br>
+                            - Proyectos personales. <br>
+                            - Proyectos independientes en grupos.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Blender Developer</h4>
+                        <span class="casa">Animope</span>
+                        <span class="fecha">2024 - 2025</span>
+                        <p>- Modelado de personajes. <br>
+                            - Animacion 3D.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                        <div class="item der">
+                            <h4>CGI & VFX Developer</h4>
+                            <span class="casa">DHC Films</span>
+                            <span class="fecha">2021 - 2022</span>
+                            <p>- Desarrollo del CGI en el Rewind Hispano 2021 y 2022 <br>
+                                - Desarrollo de efectos visuales y sonoros en proyectos pequeños.
+                            </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                            <div class="item der">
+                                <h4>Director y Animador</h4>
+                                <span class="casa">Animope</span>
+                                <span class="fecha">2023 - 2024</span>
+                                <p>- Fundador y director del proyecto X. <br>
+                                    - Direccion Audiovisual. <br>
+                                    - Animacion y modelado de personajes. 
+                                </p>
+                                <div class="conectord">
+                                    <div class="circulod"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCION EJERCICIOS -->
+
+            <section id="portafolio" class="portafolio">
+                <div class="container-section">
+                    <h2>Ejercicios</h2>
+                    <div class="galeria">
+                        <div class="proyecto">
+                            <img src="imagenes/Ejercicio 1.png" alt="">
+                            <a href="./Pages/Curriculum/" target="_blank">
+                                <div class="overlay">
+                                    <h3>Curriculum</h3>
+                                    <p>Ejercicio 1</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="proyecto">
+                            <img src="imagenes/Ejercicio 2.png" alt="">
+                            <a href="./Pages/Ejercicios CSS/" target="_blank">
+                            <div class="overlay">
+                                <h3>Ejercicios con CSS</h3>
+                                <p>Ejercicio 2</p>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="proyecto">
+                            <img src="imagenes/Ejercicio 3.png" alt="">
+                            <a href="https://github.com/XH0PE/ramas-prueba" target="_blank">
+                                <div class="overlay">
+                                <h3>Repo-Prueba</h3>
+                                <p>Ejercicio 3</p>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="proyecto">
+                            <img src="imagenes/Ejercicio 4.png" alt="">
+                            <a href="https://github.com/XH0PE/Ejercicios-JS" target="_blank">
+                            <div class="overlay">
+                                <h3>Ejercicios JS</h3>
+                                <p>Ejercicicio 4</p>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="proyecto">
+                            <img src="imagenes/Ejercicio 5.png" alt="">
+                            <a href="https://github.com/XH0PE/Ejercicios-JS-v2" target="_blank">
+                                <div class="overlay">
+                                <h3>Ejercicicios JS <br> Volumen 2</h3>
+                                <p>Ejercicio 5</p>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="proyecto">
+                            <img src="imagenes/Ejercicio 6.png" alt="">
+                            <a href="./Pages/Ejercicio-2/" target="_blank">
+                            <div class="overlay">
+                                <h3>Calculadora</h3>
+                                <p>Ejercicio 6</p>
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCION CONTACTO -->
+
+            <section id="contacto" class="contacto">
+                <div class="container-section">
+                    <h2>Contacto</h2>
+                    <div class="fila">
+
+                        <!-- FORMULARIO -->
+
+                        <div class="col">
+                            <input type="text" placeholder="Tu Nombre">
+                            <input type="text" placeholder="Numero Telefonico">
+                            <input type="email" placeholder="Direccion de Correo">
+                            <input type="text" placeholder="Tema">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                            <button>Enviar <i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </div>
+
+                        <!-- MAPA -->
+
+                        <div class="col">
+                            <img src="img/ubicacion2.png" alt="">
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        Vereda Santamarta, Garzon, Huila, Colombia
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-mobile-screen"></i>
+                                        Llamame: +57 310 356 1567
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-envelope"></i>
+                                        E-mail: pecioso99@gmail.com
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECCION  FOOTER -->
+
+            </section>
+            <footer>
+                <a href="#inicio" class="arriba">
+                    <i class="fa-solid fa-angles-up"></i>
+                </a>
+                <div class="redes">
+                    <a href="https://web.facebook.com/diegofernando.polohome" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/ekisjope" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/equisjoup/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/XH0PE" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </footer>
+            <script src="js/index.js"></script>
+        </body>
+        </html>
