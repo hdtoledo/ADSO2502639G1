@@ -100,6 +100,32 @@ html{
     width: 80%;
     margin: auto;
     border-radius: 100%;
+    animation: rotar 10s infinite linear; 
+}
+
+@keyframes rotar {
+    0%{
+    transform: rotate(0deg);
+    border: 10px solid #00ffcc;
+    box-shadow: 0px 0px 30px #00ffcc;
+    }
+    25%{
+        border: 10px solid rgb(0, 217, 255);
+        box-shadow: 0px 0px 30px rgb(0, 217, 255);
+    }
+    50%{
+        border: 10px solid rgb(8, 0, 255);
+        box-shadow: 0px 0px 30px rgb(8, 0, 255);
+    }
+    75%{
+    border: 10px solid #ffffff;
+    box-shadow: 0px 0px 30px #ffffff;
+    }
+    100%{
+        transform: rotate(360deg);
+        border: 10px solid #00ffcc;
+        box-shadow: 0px 0px 30px #00ffcc;
+        }
 }
 
 .inicio .container-banner h1{
