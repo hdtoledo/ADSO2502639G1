@@ -11,7 +11,7 @@ html {
 }
 
 .container-header {
-    background: rgb(26, 25, 25);
+    background: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
     top: 0;
@@ -31,7 +31,7 @@ html {
 .container-header header .logo a {
     font-family: Challenge The World;
     font-size: 36px;
-    color: rgb(121, 121, 121);
+    color: rgb(189, 110, 241);
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ html {
 
 .container-header header nav ul li a {
     text-align: none;
-    color: rgb(255, 255, 255);
+    color: rgb(8, 10, 10);
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -50,32 +50,36 @@ html {
 }
 
 .container-header header nav ul li a:hover {
-    color: rgb(121, 121, 121);
+    color: rgb(189, 110, 241);
 }
 
 .nav-responsive {
-    background-color: rgb(1, 1, 1);
-    color: rgb(255, 243, 243);
+    background-color: rgb(189, 110, 241);
+    color: rgb(10, 11, 12);
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
 }
 
+img {
+    width: 350px;
+    border-radius: px;
+}
 
-
-.inicio{
-    background:linear-gradient(to top, rgba(0, 0, 0, .8),rgba(0, 0, 0, .1)), url("../img/1366_2000.jpeg") no-repeat center center;
+.inicio {
+    background: rgb(255, 255, 255);
     background-size: cover;
     height: 100vh;
-    color: rgb(255, 255, 255);
+    color: rgb(9, 10, 10);
     display: flex;
     align-items: center;
 }
 
 .inicio .container-banner {
     padding: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(234, 226, 245);
+    ;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -83,17 +87,18 @@ html {
 }
 
 .container-banner img {
-    margin-top:40px;
+    margin-top: 40px;
+    border: 10px solid rgb(184, 96, 243);
     display: block;
-    width: 100%;
+    width: 80%;
     margin: auto;
-    border-radius: 100px;
+    border-radius: 100%;
 }
 
 .inicio .container-banner h1 {
     margin-top: 40px;
     font-size: 42px;
-    font-family: cursive;
+    font-family: Challenge The World;
 }
 
 .inicio .container-banner h2 {
@@ -102,10 +107,12 @@ html {
 }
 
 .inicio .container-banner .redes a {
-    color: rgb(255, 255, 255);
+    color: rgb(85, 9, 184);
+    ;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid rgb(180, 178, 178);
+    border: 1px solid rgb(85, 9, 184);
+    ;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -116,74 +123,84 @@ html {
 }
 
 .inicio .container-banner .redes a:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(242, 245, 248);
 }
 
-
-
-
-
-
-.sobremi{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 50 px 20px;
+.sobremi {
+    background-color: rgb(234, 226, 245);
+    color: rgb(12, 14, 20);
+    padding: 50px 20px;
 }
-.sobremi .container-section{
+
+.sobremi .container-section {
     max-width: 1100px;
     margin: auto;
 }
-.sobremi h2{
+
+.sobremi h2 {
     font-size: 48px;
-    font-family: "righteous";
+    font-family: Challenge The World;
     text-align: center;
     padding: 20px 0;
 }
-.sobremi .container-section p{
+
+.sobremi .container-section p {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
-.sobremi .container-section p span{
-    color: rgb(121, 121, 121);
+
+.sobremi .container-section p span {
+    color: rgb(85, 9, 184);
+    ;
     font-weight: bold;
 }
-.sobremi .fila{
+
+.sobremi .fila {
     display: flex;
 }
-.sobremi .fila .col{
+
+.sobremi .fila .col {
     width: 50%;
 }
-.sobremi .fila .col h3{
+
+.sobremi .fila .col h3 {
     font-size: 28px;
-    font-family: "righteous";
+    font-family: Challenge The World;
     margin-bottom: 25px;
 }
-.sobremi .fila .col ul{
+
+.sobremi .fila .col ul {
     list-style: none;
 }
-.sobremi .fila .col ul li{
-    margin: 12px 0px;
+
+.sobremi .fila .col ul li {
+    margin: 12px 0;
 }
-.sobremi .fila .col ul li strong{
+
+.sobremi .fila .col ul li strong {
     display: inline-block;
-    color: rgb(121, 121, 121);
+    color: rgb(85, 9, 184);
+    ;
     width: 130px;
 }
-.sobremi .fila .col ul li span{
-    background-color: rgb(0, 0, 0);
+
+.sobremi .fila .col ul li span {
+    background-color: rgb(215, 167, 247);
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
 }
-.sobremi .fila .col .container-intereses{
+
+.sobremi .fila .col .container-intereses {
     display: flex;
     flex-wrap: wrap;
 }
-.sobremi .fila .col .container-intereses .interes{
+
+.sobremi .fila .col .container-intereses .interes {
     width: 100px;
     height: 100px;
-    background-color: rgb(108, 108, 108);
+    background-color: rgb(252, 248, 255);
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -192,186 +209,196 @@ html {
     justify-content: center;
     transition: .3s;
 }
-.sobremi .fila .col .container-intereses .interes:hover{
-    background-color: rgb(121, 121, 121);
+
+.sobremi .fila .col .container-intereses .interes:hover {
+    background-color: rgb(194, 179, 250);
 }
-.sobremi .fila .col .container-intereses .interes i{
-    font-size: 30px;
+
+.sobremi .fila .col .container-intereses .interes i {
+    font-size: 20px;
     margin-bottom: 10px;
 }
-.sobremi button{
+
+.sobremi button {
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(3, 6, 17);
     width: fit-content;
+    display: block;
+    margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: white;
+    color: rgb(0, 9, 14);
     position: relative;
     z-index: 10;
 }
-.sobremi button .overlay{
+
+.sobremi button .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(194, 179, 250);
     z-index: -1;
-    transition: 1s;   
+    transition: 1s;
 }
 
-.sobremi button:hover .overlay{
+.sobremi button:hover .overlay {
     width: 100%;
 }
 
-
-
-
-.skills{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+.skills {
+    background-color: rgb(234, 226, 245);
+    color: rgb(8, 8, 8);
     padding: 50px 20px;
 }
 
-
-
-
-.skills .container-section{
+.skills .container-section {
     max-width: 1100px;
     margin: auto;
 }
 
-
-
-
-.skills h2{
+.skills h2 {
     font-size: 48px;
-    font-family:righteous;
+    font-family: Challenge The World;
     text-align: center;
     padding: 20px 0;
 }
 
-
-
-
-.skills .fila{
+.skills .fila {
     display: flex;
 }
 
-.skills .fila .col{
+.skills .fila .col {
     width: 50%;
     padding: 0 20px;
 }
 
-.skills .fila .col h3{
-font-size: 28px;
-font-family:ighteous;
-margin-bottom: 25px;
+.skills .fila .col h3 {
+    font-size: 28px;
+    font-family: Challenge The World;
+    margin-bottom: 25px;
 }
 
-
-
-
-.skills .skill > span{
+.skills .skill>span {
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
 }
 
-.skills .skill .barra-skill{
+.skills .skill .barra-skill {
     height: 8px;
     width: 80%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(85, 9, 184);
     position: relative;
     margin-bottom: 30px;
 }
 
-.skills .skill .progreso{
-    background-color: rgb(255, 255, 255);
+.skills .skill .progreso {
+    background-color: rgb(210, 198, 253);
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     height: 8px;
 }
 
-.skills .skill .barra-skill span{
+.skills .skill .barra-skill span {
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color:aqua;
+    background-color: rgb(210, 198, 253);
+    ;
     border-radius: 50px;
-    line-height:40px;
+    line-height: 40px;
     text-align: center;
-    top:-17px;
+    top: -17px;
     right: -15px;
     font-size: 14px;
 }
 
-
-
-
-.skills .skill .javascript{
+.skills .skill .javascript {
     width: 0%;
     animation: 2s javascript forwards;
 }
 
-@keyframes javascript{
-0%{width: 0%;}
-100%{width: 75%;}
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
 }
 
-
-
-
-.skills .skill .htmlcss{
+.skills .skill .htmlcss {
     width: 0%;
     animation: 2s htmlcss forwards;
 }
 
-@keyframes htmlcss{
-    0%{width: 0%;}
-    100%{width: 89%;}
+@keyframes htmlcss {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 89%;
+    }
 }
 
-.skills .skill .photoshop{
+.skills .skill .photoshop {
     width: 0%;
     animation: 2s photoshop forwards;
 }
 
-@keyframes photoshop{
-    0%{width: 0%;}
-    100%{width: 90%;}
+@keyframes photoshop {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
 }
 
-.skills .skill .wordpress{
+.skills .skill .wordpress {
     width: 0%;
     animation: 2s wordpress forwards;
 }
 
-@keyframes wordpress{
-    0%{width: 0%;}
-    100%{width: 80%;}
+@keyframes wordpress {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
 }
 
-.skills .skill .react{
+.skills .skill .react {
     width: 0%;
-    animation: 2s react forwards;
+    animation: 2s htmlcss forwards;
 }
 
-@keyframes react{
-    0%{width: 0%;}
-    100%{width: 70%;}
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
 }
 
-.skills .skill .comunicacion{
+.skills .skill .comunicacion {
     width: 0%;
     animation: 2s comunicacion forwards;
 }
 
-@keyframes comunicacion{
-    0%{width: 0%;}
-    100%{width: 100%;}
+@keyframes comunicacion {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
 }
 
 .skills .skill .equipo {
@@ -380,8 +407,12 @@ margin-bottom: 25px;
 }
 
 @keyframes equipo {
-    0% {width: 0%;}
-    100% {width: 90%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
 }
 
 .skills .skill .creatividad {
@@ -390,8 +421,12 @@ margin-bottom: 25px;
 }
 
 @keyframes creatividad {
-    0% { width: 0%;   }
-    100% { width: 99%; }
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 99%;
+    }
 }
 
 .skills .skill .dedicacion {
@@ -400,8 +435,12 @@ margin-bottom: 25px;
 }
 
 @keyframes dedicacion {
-    0% {width: 0%;}
-    100% {width: 80%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
 }
 
 .skills .skill .proyect {
@@ -410,102 +449,97 @@ margin-bottom: 25px;
 }
 
 @keyframes proyect {
-    0% {width: 0%;}
-    100% {width: 70%;}
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
 }
 
-
-
-
-.curriculum{
-    background-color: black;
-    color: azure;
+.curriculum {
+    background-color: rgb(234, 226, 245);
+    color: black;
     padding: 50px 20px;
 }
 
-.curriculum .container-section{
+.curriculum .container-section {
     max-width: 1100px;
     margin: auto;
 }
 
-.curriculum h2{
+.curriculum h2 {
     font-size: 48px;
+    font-family: Challenge The World;
     text-align: center;
-    padding:20px o;
+    padding: 20px 0;
 }
 
-.curriculum .fila{
+.curriculum .fila {
     display: flex;
 }
 
-
-.curriculum .fila .col{
+.curriculum .fila .col {
     width: 49%;
     padding: 0 20px;
 }
 
-.curriculum .fila .col h3{
+.curriculum .fila .col h3 {
     font-size: 28px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   margin-bottom: 25px;
-
+    font-family: Challenge The World;
+    margin-bottom: 25px;
 }
 
-.curriculum .fila .izquierda{
-    border-right: 2px rgb(121, 121, 121);
+.curriculum .fila .izquierda {
+    border-right: 2px solid rgb(85, 9, 184);
+    ;
 }
 
-.curriculum .fila .derecha{
-    border-left: 2px rgb(0, 0, 0)
+.curriculum .fila .derecha {
+    border-left: 2px solid rgb(85, 9, 184);
 }
 
-
-
-
-.curriculum .fila .item{
+.curriculum .fila .item {
     padding: 25px;
     margin-bottom: 30px;
-    background-color: rgb(121, 121, 121);
+    background-color: rgb(210, 198, 253);
+    ;
     position: relative;
 }
 
-.curriculum .fila .item h4{
-font-size: 20px;
-margin-bottom: 10px;
+.curriculum.fila .item {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.curriculum .fila .item .casa{
-    color: aqua;
-    font-size: 22px;
-    font-weight: bold;
+.curriculum .fila .item .casa {
+    color: rgb(85, 9, 184);
+}
+
+.curriculum .fila .item .fecha {
     display: block;
+    color: rgb(85, 9, 184);
+    ;
+    margin-bottom: 10px;
 }
 
-.curriculum .fila .item .fecha{
-display: block;
-color: aqua;
-margin-bottom: 10px;
-}
-
-
-.curriculum .fila .tem p{
+.curriculum .fila .item p {
     line-height: 24px;
 }
 
-.curriculum .fila .izq{
-    border-right: 2px solid aqua;
+.curriculum .fila .izq {
+    border-right: 2px solid rgb(85, 9, 184);
     margin-right: 20px;
 }
 
-.curriculum .fila .der{
-border-left: 2px solid aqua;
-margin-left: 20px;
+.curriculum .fila .der {
+    border-left: 2px solid rgb(85, 9, 184);
+    margin-left: 20px;
 }
 
-
-.curriculum .fila .item .conectori{
+.curriculum .fila .item .conectori {
     height: 2px;
-    background-color: aqua;
+    background-color: rgb(85, 9, 184);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -513,20 +547,20 @@ margin-left: 20px;
     z-index: 5;
 }
 
-.curriculum .fila .item .conectori .circuloi{
+.curriculum .fila .item .conectori .circuloi {
     display: block;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: rgb(85, 9, 184);
     float: right;
     position: relative;
     bottom: 4px;
 }
 
-.curriculum .fila .item .conectord{
+.curriculum .fila .item .conectord {
     height: 2px;
-    background-color: aqua;
+    background-color: rgb(85, 9, 184);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -534,47 +568,47 @@ margin-left: 20px;
     z-index: 5;
 }
 
-.curriculum .fila .item .conectord .circulod{
+.curriculum .fila .item .conectord .circulod {
     display: block;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: rgb(85, 9, 184);
     float: left;
     position: relative;
     bottom: 4px;
 }
 
-.curriculum .fila{
+.curriculum .fila {
     display: flex;
     justify-content: space-between;
 }
 
-.portfolio{
-    background-color: rgb(0, 0, 0);
-    color: azure;
+.portfolio {
+    background-color: rgb(210, 198, 253);
+    color: rgb(3, 3, 3);
     padding: 50px 20px;
 }
 
-.portfolio .container-section{
+.portfolio .container-section {
     max-width: 1100px;
     margin: auto;
 }
 
-.portfolio h2{
+.portfolio h2 {
     font-size: 48px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Challenge The World;
     text-align: center;
     padding: 20px 0;
 }
 
-.portfolio .galeria{
+.portfolio .galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.portfolio .galeria .proyecto{
+.portfolio .galeria .proyecto {
     position: relative;
     max-width: 340px;
     height: fit-content;
@@ -582,18 +616,33 @@ margin-left: 20px;
     cursor: pointer;
 }
 
-.portfolio .galeria img{
+.portfolio .galeria img {
     width: 100%;
     display: block;
 }
 
-.portfolio .galeria .proyecto .overlay{
+.portfolio .galeria .proyecto .overlay {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8),rgba(28,182,152,.8));
+    background: linear-gradient(rgb(222, 215, 247), rgb(222, 215, 247));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.portfolio .galeria .proyecto .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient( rgb(222, 215, 247), rgb(222, 215, 247));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -603,22 +652,23 @@ margin-left: 20px;
     opacity: 0;
 }
 
-.portfolio .galeria .proyecto h3{
-    margin-bottom: 20px;
+.portfolio .galeria .proyecto h3 {
+    margin-bottom: 28px;
     transition: 1s;
 }
-.portfolio .galeria .proyecto .overlay:hover{
-    opacity: 1s;
+
+.portfolio .galeria .proyecto .overlay:hover {
+    opacity: 1;
 }
 
-.portfolio .galeria .proyecto .overlay:hover h3{
+.portfolio .galeria .proyecto .overlay:hover h3 {
     margin-bottom: 0px;
 }
 
 .contacto {
-    background-image: url(../js/index.js);
-    background-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    background-image: url(../Andrea-portafolio/img/contact_bg.png);
+    background-color: rgb(234, 226, 245);
+    color: black;
     padding: 50px 0;
 }
 
@@ -651,21 +701,21 @@ margin-left: 20px;
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color:rgb(253, 253, 253);
-    color: rgb(255, 255, 255);
+    background-color: rgb(210, 198, 253);
+    color: black;
     font-size: 18px;
 }
 
 .contacto button {
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(85, 9, 184);
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: black;
     position: relative;
     z-index: 10;
 }
@@ -676,7 +726,7 @@ margin-left: 20px;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(122, 121, 121);
+    background-color: rgb(194, 179, 250);
     transition: 1s;
     z-index: -1;
 }
@@ -692,7 +742,7 @@ margin-left: 20px;
 .contacto .col .info {
     position: absolute;
     top: 40%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 216, 250);
     ;
     padding: 20px;
     width: 350px;
@@ -709,14 +759,14 @@ margin-left: 20px;
 }
 
 .contacto .col .info ul li i {
-    color: rgb(0, 0, 0);
+    color: rgb(85, 9, 184);
     display: inline-block;
     margin-right: 20px;
 }
 
 footer {
-    background-color: rgb(67, 63, 63);
-    color: rgb(112, 107, 107);
+    background-color: rgb(194, 179, 250);
+    color: white;
     padding: 50px 0 30px 0;
     text-align: center;
     position: relative;
@@ -745,8 +795,8 @@ footer .arriba {
     display: block;
     width: 50px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(121, 121, 121);
+    background-color: rgb(85, 9, 184);
+    color: white;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -774,7 +824,7 @@ footer .arriba {
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: rgb(235, 230, 230);
+        background-color: rgb(194, 179, 250);
         width: 180px;
     }
 }
@@ -791,7 +841,7 @@ footer .arriba {
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(194, 179, 250);
         width: 180px;
     }
     nav.responsive ul {
@@ -800,7 +850,7 @@ footer .arriba {
 }
 
 nav.responsive ul li {
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid black;
     padding: 10px 0;
 }
 
