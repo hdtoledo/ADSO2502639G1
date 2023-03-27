@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    background: rgb(248, 248, 248);
+    font-family: 'Bree Serif', serif;
+}
+h1{
+    color: rgb(57, 169, 30);
+    font-size: 60px;
+    margin: 10px;
+}
+img{
+    width: 200px;
+}
+.encabezado{
+    width: 100%;
+    height: 60px;
+    background: rgba(235, 235, 235, 0.945);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    box-shadow: 0 0 10px rgb(165, 165, 165);
+    gap: 10px;
+}
+.img_logo_SENA{
+    width: 50px;
+    margin-left: 20px;
+    transition: all .7s;
+}
+.img_logo_SENA:hover{
+    opacity: 0.7;
+}
+.encabezado i{
+    color: rgb(57, 169, 30);
+    font-size: 35px;
+    margin-left: 20px;
+}
+.encabezado .search{
+    height: 30px;
+    width: 200px;
+    padding-left: 5px;
+}
+.encabezado .search:focus{
+    height: 30px;
+    width: 350px;
+}
+.btn-enviar_solicitud{
+    color: white;
+    background: rgb(57, 169, 30);
+    padding: 8px 30px 8px 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(57, 169, 30);
+    transition: all .7s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.btns .btn-nav{
+    margin-left: 20px;
+    color: white;
+    background: rgb(57, 169, 30);
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px grey;
+}
+.barras{
+    margin-left: auto;
+    margin-right: 10px;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(146, 146, 146);
+    border-radius: 3px;
+    padding: 5px;
+    transition: all .6s;
+}
+input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(68, 212, 32);
+    box-shadow: 0 0 4px rgb(127, 201, 108);
+}
+.datos_solicitante{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.numero_dias{
+    width: 30px;
+    transition: all .7s;
+    text-align: center;
+}
+.fecha_solicitud{
+    color: gray;
+}
+.solicitante{
+    width: 210px;
+}
+.dependencia_formacion{
+    width: 210px;
+}
+.datos_solicitante .datos_persona{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.input_cc_slicitante{
+    padding-right: 80px;
+}
+.tabla-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+table{
+    margin: 5px;
+}
+.tabla-flex table tr th{
+    background: rgb(106, 235, 74);
+    border: 2px solid black;
+    width: 200px;
+}
+.tabla-flex table tr .descripcion{
+    width: 250px;
+}
+.tabla-flex table tr .observaciones{
+    width: 250px;
+}
+.tabla-flex table tr td{
+    background: rgb(228, 228, 228);
+    border: 1px solid;
+    height: 70px;
+    padding: 10px;
+}
+.datos_solicitante_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.datos_solicitante_2 .destino_bien{
+    width: 230px;
+}
+.datos_solicitante_2 .proposito{
+    width: 250px;
+}
+.firmas-flex{
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.firma-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firmas-linea{
+    padding: 0 30px 0 30px;
+    border-top: 1px solid;
+}
+.salida-ingreso-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+.insert_fila{
+    background: rgb(57, 169, 30);
+    color: white;
+    padding: 5px 30px 5px 30px;
+    transition: all .7s;
+    margin-left: 30px;
+}
+.insert_fila:hover{
+    opacity: .8;
+}
+.btn-imprimir{
+    background: rgb(57, 169, 30);
+    color: white;
+    padding: 5px 30px 5px 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
