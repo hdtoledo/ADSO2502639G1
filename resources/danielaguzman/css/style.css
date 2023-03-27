@@ -1,11 +1,15 @@
 
 
+<<<<<<< HEAD
+
+=======
 body{
     margin: 0;
     padding: 0;
     background: rgba(243, 206, 236, 0.515);
     font-family: 'Nunito';
 }
+>>>>>>> 29ed84acf7faee6622d3fbdef9c0e93c15bdb4ef
 .titulos{ color:aquamarine(113,52,52);
 font-size:3rem;}
 html{
@@ -20,11 +24,19 @@ html{
 
 nav ul{ 
     display: flex;
+<<<<<<< HEAD
+    background: rgba(169, 245, 251, 0.92);
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem;
+=======
     background: rgba(150, 236, 242, 0.92);
 }
 nav ul li{
     list-style: none;
     padding: 0.5rem;
+>>>>>>> 29ed84acf7faee6622d3fbdef9c0e93c15bdb4ef
     transition: all .5s;
 }
 
@@ -77,7 +89,11 @@ nav ul li a{
 }
 nav ul li:hover{
     opacity: .7;
+<<<<<<< HEAD
+    background: rgba(24, 204, 245, 0.87);
+=======
     background: rgba(25, 206, 246, 0.87);
+>>>>>>> 29ed84acf7faee6622d3fbdef9c0e93c15bdb4ef
 }
 
 .perfil img{
@@ -102,7 +118,11 @@ nav ul li:hover{
     background: rgb(33, 230, 248);
     font-size: 1rem;
     padding: .5em;
+<<<<<<< HEAD
+    width: 525px;
+=======
     width: 535px;
+>>>>>>> 29ed84acf7faee6622d3fbdef9c0e93c15bdb4ef
     box-shadow: 0 0 5px rgb(246, 32, 153);
     margin: 20px;
 }

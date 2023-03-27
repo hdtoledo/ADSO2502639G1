@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+body{
+    background-color: rgb(245, 212, 123);
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container ul{
+    display: flex;
+    background: rgb(230, 153, 81);
+    height: 3rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.container ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.container ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+.container ul li a:hover{
+    color: aliceblue;
+}
+.perfil img{
+    width: 220px;
+    height: 220px;
+    image-rendering: crisp-edges;
+    opacity: .8;
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(187, 77, 77, 0.904);
+    transition: opacity .5s;
+}
+.nombre{
+    margin: 2em;
+    text-align: center;
+}
+.perfil{
+    text-align: center;
+}
+.perfil{
+    margin: 1em;
+    margin-left: 27%;
+    border: solid 2px;
+    display: flex;
+    justify-self: center;
+    border-radius: 8px;
+    padding: 2em;
+    height: 12rem;
+    width: 40vw;
+    box-shadow: 0 0 10px rgba(161, 5, 5, 0.904);
+}
+h2{
+    text-align: center;
+}
+.table{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.conocimientos{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.estudio{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.table{
+    margin: 1em;
+    margin-left: 27%;
+    border: solid 2px;
+    display: flex;
+    justify-self: center;
+    border-radius: 8px;
+    padding: 2em;
+    height: 17rem;
+    width: 40vw;
+    box-shadow: 0 0 10px rgba(161, 5, 5, 0.904);
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    
+}
+.estudio{
+    margin: 1em;
+    margin-left: 27%;
+    border: solid 2px;
+    display: flex;
+    justify-self: center;
+    border-radius: 8px;
+    padding: 2em;
+    height: 17rem;
+    width: 40vw;
+    box-shadow: 0 0 10px rgba(161, 5, 5, 0.904);
+}
+.conocimientos{
+    margin: 1em;
+    margin-left: 27%;
+    border: solid 2px;
+    display: flex;
+    justify-self: center;
+    border-radius: 8px;
+    padding: 2em;
+    height: 8rem;
+    width: 40vw;
+    box-shadow: 0 0 10px rgba(161, 5, 5, 0.904);
+}
+.social{
+    margin: 1em;
+    margin-left: 27%;
+    border: solid 2px;
+    display: flex;
+    justify-self: center;
+    border-radius: 8px;
+    padding: 2em;
+    height: 6rem;
+    width: 40vw;
+    box-shadow: 0 0 10px rgba(161, 5, 5, 0.904);
+}
+.social ul li, a{
+    color: rgb(168, 2, 2);
+    transition: all .5s;
+}
+.social ul li:hover, a:hover{
+    opacity: .7;
+}
+
+.luz{
+    margin: 1em;
+    margin-left: 27%;
+    border: solid 2px;
+    display: flex;
+    justify-self: center;
+    border-radius: 8px;
+    padding: 2em;
+    height: 15rem;
+    width: 40vw;
+    box-shadow: 0 0 10px rgba(161, 5, 5, 0.904);
+}
