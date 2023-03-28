@@ -4,5 +4,119 @@
 }
 body{
     font-family: 'Rajdhani';
-    background: url(/resources/luisgamba/);
+    background: url(../img/Mario\ 4k\ Ultra\ HD\ Fondo\ De\ Pantalla\ by\ Yuumei.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#Pantalla-inicial{
+    display: block;
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    background: rgb(255, 255, 255,.7);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+#Pantalla-inicial h1{
+    font-family: 'Rammetto One';
+    font-size: 50px;
+    color: #5972d9;
+}
+button{
+    background: #c566fc;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 20px;
+    border-radius: 30px;
+    border-bottom: 4px solid #4b0872;
+}
+button:hover{
+    border-bottom: 4px solid transparent;
+    background-color: #7705b9;
+}
+#Pantalla-juego{
+    display: none;
+}
+.pregunta-actual{
+    background-color: #000;
+    color: #fff;
+}
+.bien-respondida{
+    background-color: aquamarine;
+    color: #fff;
+}
+.mal-respondida{
+    background-color: #fb797b;
+    color: #fff;
+}
+.contenedor-pregunta{
+    background-color: rgb(255, 255, 255,.7);
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.contenedor-pregunta #pregunta{
+    margin: 0;
+    font-weight: normal;
+}
+.contenedor-pregunta input{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    border: 2px solid #ccc;
+}
+.contenedor-pregunta #letra-pregunta{
+    border: 2px solid #000;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+    background: #fff;
+}
+.container{
+    position: relative;
+    width: 255px;
+    height: 255px;
+    margin: 50px auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: rgb(255, 255, 255,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container #tiempo{
+    font-size: 50px;
+    font-weight: bold;
+}
+.circle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #5972d9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
