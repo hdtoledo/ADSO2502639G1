@@ -1,209 +1,890 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Outfit:wght@500&display=swap');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  background: rgb(198, 188, 188);
+  margin: 0;
+  padding: 0;
+  animation: bodyNormal 1s ease;
+}
+
+.darkH2 {
+  color: antiquewhite;
+  animation: darkH2 1s ease;
+}
+
+@keyframes darkH2 {
+  0% {
+    color: rgb(67, 68, 69);
+  }
+  100% {
+    color: antiquewhite;
+  }
+}
+@keyframes bodyNormal {
+  0% {
+    background-color: rgb(71, 70, 70);
+  }
+  100% {
+    background-color: rgb(198, 188, 188);
+  }
+}
+.darkBody {
+  background-color: rgb(71, 70, 70);
+  animation: darkBody 1s ease;
+}
+
+@keyframes darkBody {
+  0% {
+    background-color: rgb(198, 188, 188);
+  }
+  100% {
+    background-color: rgb(71, 70, 70);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  width: 100vw;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(67, 68, 69);
+  margin: 0;
+  animation: normalH2 1s ease;
+}
+
+@keyframes normalH2 {
+  0% {
+    color: antiquewhite;
+  }
+  100% {
+    color: rgb(67, 68, 69);
+  }
+}
+p {
+  color: rgb(48, 44, 44);
+  font-family: "Poppins", sans-serif;
+  animation: normalP 1s ease;
+}
+
+.darkP {
+  color: rgb(208, 208, 208);
+  animation: darkP 1s ease;
+}
+
+@keyframes darkP {
+  0% {
+    color: rgb(48, 44, 44);
+  }
+  100% {
+    color: rgb(208, 208, 208);
+  }
+}
+@keyframes normalP {
+  0% {
+    color: rgb(208, 208, 208);
+  }
+  100% {
+    color: rgb(48, 44, 44);
+  }
+}
+nav {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  background: rgba(135, 130, 130, 0.847);
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+nav .barsNav {
+  display: none;
+}
+nav .bars {
+  display: none;
+}
+nav .darkMode {
+  position: absolute;
+  left: 95vw;
+  z-index: 10;
+}
+nav .darkMode button {
+  background: none;
+  border: none;
+  font-size: 1.9em;
+  cursor: pointer;
+  color: rgb(55, 49, 49);
+  border-radius: 50%;
+  padding-right: 8px;
+  background: rgb(223, 211, 211);
+}
+nav .moon {
+  position: absolute;
+  left: 95vw;
+  z-index: -10;
+}
+nav .moon button {
+  background: none;
+  border: none;
+  font-size: 1.8em;
+  cursor: pointer;
+  color: antiquewhite;
+  border-radius: 50%;
+  background: rgb(97, 94, 94);
+  padding: 3px;
+}
+nav .nav {
+  display: flex;
+  gap: 1.4em;
+}
+nav .nav li {
+  width: auto;
+  height: fit-content;
+  list-style: none;
+  transition: all 0.5s;
+}
+nav .nav li:hover {
+  background: rgb(185, 179, 179);
+  padding: 0 1em 0 1em;
+  border-bottom: 1.5px solid rgb(255, 255, 255);
+  border-radius: 10px 10px 0 0;
+}
+nav .nav li a {
+  text-decoration: none;
+  height: max-content;
+  color: bisque;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+nav .nav li a:hover {
+  color: rgb(61, 58, 58);
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  nav {
+    height: 3em;
+    z-index: 100;
+  }
+  nav .barsNav {
+    display: flex;
+    background-color: rgba(164, 161, 159, 0.818);
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 70vw;
+    height: 100vh;
+    box-shadow: 0 0 10px rgb(90, 85, 85);
+    animation: closeNav 0.7s ease;
+    justify-content: center;
+  }
+  nav .barsNav img {
+    margin-top: 3em;
+    width: 50vw;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    box-shadow: 0 0 20px rgb(71, 68, 68);
+    cursor: pointer;
+    transition: opacity 1s;
+    animation: animationGG 28s infinite linear;
+  }
+  nav .barsNav img:hover {
+    opacity: 0.8;
+  }
+  @keyframes animationGG {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  nav .barsNav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  nav .barsNav ul li {
+    list-style: none;
+    font-size: 2em;
+    border-bottom: 1px solid grey;
+    width: 60vw;
+  }
+  nav .barsNav ul li a {
+    text-decoration: none;
+    color: rgb(250, 237, 220);
+    transition: color 0.5s;
+  }
+  nav .barsNav ul li a:hover {
+    color: aqua;
+  }
+  @keyframes closeNav {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    100% {
+      top: 0;
+      left: -100%;
+    }
+  }
+  nav .barsNav .close {
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    background: none;
     margin: 0;
     padding: 0;
-    background: rgb(207, 196, 196);
-    font-family: 'Nunito';
-}
-html{
-    scroll-behavior: smooth;
-}
-button{
-    background: none;
     border: none;
     cursor: pointer;
-    padding: 0;
-}
-.container{
+    font-size: 1.2em;
+    color: black;
+  }
+  nav .bars {
     display: flex;
-    width: 100vw;
+    font-size: 1.4em;
+    margin-left: 0.8em;
+  }
+  nav .bars button {
+    background: none;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: rgb(215, 211, 206);
+  }
+  nav .darkMode {
+    left: 90vw;
+  }
+  nav .moon {
+    left: 90vw;
+  }
+  nav .nav {
+    display: none;
+  }
+  .perfil {
     flex-direction: column;
-    align-items: center;
+  }
 }
-nav{
-    position: sticky;
-    top: -17px;
-    margin: 0;
-    z-index: 10;
+/* visible Nav */
+nav .visibleNav {
+  animation: animationBar 0.7s ease;
+  top: 0;
+  left: 0;
 }
-nav ul{ 
-    display: flex;
-    background: rgba(73, 67, 67, 0.92);
-    border-radius: 0px 0 5px 5px;
+@keyframes animationBar {
+  0% {
+    top: 0;
+    left: -100%;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
 }
-nav ul li{
-    list-style: none;
-    padding: 1rem;
-    transition: all .5s;
+
+@keyframes closeNaV {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: -100%;
+  }
 }
-nav ul li:hover{
-    opacity: .7;
-    background: rgba(133, 121, 121, 0.87);
+.moonHiden {
+  visibility: hidden;
 }
-nav ul li a{
-    text-decoration: none;
+
+.moon.sunLogo {
+  z-index: 10;
+}
+
+.perfil {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4em;
+  height: 92vh;
+}
+.perfil img {
+  width: 350px;
+  height: 300px;
+  animation: animateImg 9s infinite ease;
+  box-shadow: 0 0 10px grey;
+  border: 4px solid whitesmoke;
+}
+@keyframes animateImg {
+  0% {
+    border-radius: 30% 50% 40% 50%;
+  }
+  50% {
+    border-radius: 60% 30% 30% 25%;
+  }
+  75% {
+    border-radius: 40% 60% 20% 40%;
+  }
+  100% {
+    border-radius: 30% 50% 40% 50%;
+  }
+}
+.perfil .perfilInfo {
+  display: flex;
+  flex-direction: column;
+  width: 25em;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+.perfil .perfilInfo .darkH2 {
+  color: antiquewhite;
+  animation: darkH2 1s ease;
+}
+@keyframes darkH2 {
+  0% {
+    color: rgb(67, 68, 69);
+  }
+  100% {
     color: antiquewhite;
-    font-weight: 900;
-    font-size: 1.2rem;
+  }
 }
-nav ul li div{
-    display: flex;
-    height: auto;
-    width: auto;
+.perfil h2, .perfil p {
+  text-align: center;
+  font-weight: bold;
 }
-nav ul li button i{
-    color: antiquewhite;
-    font-size: 1.3rem;
+
+.skills {
+  color: #fff;
+  padding: 50px 20px;
 }
-.C-perfil{
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    gap: 4rem;
+
+.skills span {
+  font-size: 1.5em;
+  color: rgb(48, 44, 44);
 }
-.C-perfil .infoPersonal{
-    width: 700px;
+
+.skills p {
+  font-size: 1.3em;
 }
-.C-perfil .infoPersonal p{
-    font-size: 1.4rem;
+
+.skills .container-section {
+  max-width: 1100px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.C-perfil img{
-    width: 230px;
-    height: 230px;
-    image-rendering: crisp-edges;
-    opacity: .8;
-    border-radius: 50%;
-    box-shadow: 0 0 7px rgba(180, 165, 165, 0.904);
-    transition: opacity .5s;
+
+.skills h2 {
+  font-size: 48px;
+  font-family: default;
+  text-align: center;
+  padding: 20px 0;
 }
-.C-perfil img:hover{
-    opacity: .7;
+
+.skills .fila {
+  display: flex;
 }
-.C-perfil .infoPersonal h1{
-    font-weight: 900;
+
+.skills .fila .col {
+  width: 50%;
+  padding: 0 20px;
 }
-hr{
-    border-color: rgba(73, 67, 67, 0.87);
-    margin-top: 1rem;
+
+.skills .fila .col h3 {
+  font-size: 28px;
+  font-family: default;
+  margin-bottom: 25px;
+}
+
+.skills .skill > span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.skills .skill .barra-skill {
+  height: 8px;
+  width: 80%;
+  background-color: rgb(48, 44, 44);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.skills .skill .progreso {
+  background-color: rgb(49, 45, 45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8px;
+}
+
+.skills .skill .barra-skill span {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(105, 99, 99);
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  top: -17px;
+  right: -15px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*? Animacion JavaScript */
+.skills .skill .javascript {
+  width: 0%;
+  animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+.skills .skill .htmlcss {
+  width: 0%;
+  animation: 2s htmlcss forwards;
+}
+
+@keyframes htmlcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
+}
+.skills .skill .photoshop {
+  width: 0%;
+  animation: 2s photoshop forwards;
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.skills .skill .wordpress {
+  width: 0%;
+  animation: 2s wordpress forwards;
+}
+
+@keyframes wordpress {
+  0% {
+    width: 0%;
+  }
+  100% {
     width: 80%;
+  }
 }
-.perfilProfesional{
-    display: flex;
-    width: 880px;
-    flex-direction: column;
-    scroll-behavior: smooth;
+.skills .skill .react {
+  width: 0%;
+  animation: 2s react forwards;
 }
-.perfilProfesional h1{
-    text-align: center;
+
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
 }
-.perfilProfesional p{
-    font-size: 1.4rem;
-    font-weight: 500;
+.skills .skill .comunicacion {
+  width: 0%;
+  animation: 2s comunicacion forwards;
 }
-.areaExperiencia{
-    display: flex;
-    width: 880px;
-    flex-direction: column;
-    align-items: center;
+
+@keyframes comunicacion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
 }
-.areaExperiencia p{
-    font-size: 1.4rem;
+.skills .skill .equipo {
+  width: 0%;
+  animation: 2s equipo forwards;
 }
-.areaExperiencia table{
-    border: 1px solid rgb(134, 129, 129);
-    border-radius: 15px;
-    background: rgb(194, 183, 183);
-    font-size: 2rem;
-    padding: .5em;
-    width: 700px;
-    box-shadow: 0 0 5px rgb(165, 156, 156);
-    margin: 20px;
+
+@keyframes equipo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
 }
-.areaExperiencia table tr th{
-    color: red;
-    font-weight: 700;
+.skills .skill .creatividad {
+  width: 0%;
+  animation: 2s creatividad forwards;
 }
-.areaExperiencia table tr td{
-    text-align: center;
-    border-bottom: 1px solid rgb(228, 206, 204);
+
+@keyframes creatividad {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 99%;
+  }
 }
-.historialEdu{
-    display: flex;
-    flex-direction: column;
-    width: 880px;
-    align-items: center;
-    font-size: 1.4rem;
-    font-weight: 500;
+.skills .skill .dedication {
+  width: 0%;
+  animation: 2s dedication forwards;
 }
-.historialEdu h1{
-    display: inline !important;
+
+@keyframes dedication {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
 }
-.historialEdu .conocimientos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.skills .skill .proyectMag {
+  width: 0%;
+  animation: 2s proyectMag forwards;
 }
-.historialEdu .conocimientos ul li{
-    list-style: none;
+
+@keyframes proyectMag {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
 }
-.expWork{
-    display: flex;
-    width: 880px;
-    align-items: center;
-    flex-direction: column;
+.containerP {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: fit-content;
+  align-items: center;
+  gap: 1.4em;
+  font-size: 2.5em;
 }
-.expWork h1{
-    font-size: 40px;
-    margin: 0;
+.containerP .conatinerCards {
+  display: flex;
+  width: 81vw;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
 }
-.expWork p{
-    font-size: 1.4rem;
+.containerP .conatinerCards .card {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 320px;
+  background-color: rgba(135, 130, 130, 0.847);
+  font-size: 0.5em;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 0 10px rgb(117, 108, 108);
+  align-items: center;
 }
-.expWork .experiences .exp-1 p,.expWork .experiences .exp-2 p{
-    font-size: 25px;
+.containerP .conatinerCards .card a {
+  display: flex;
 }
-.expWork .experiences .exp-1 ul li,.expWork .experiences .exp-2 ul li{
-    font-size: 19px;
+.containerP .conatinerCards .card a img {
+  width: 280px;
+  height: 10em;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  transition: opacity 0.5s;
 }
-.contacto{
+.containerP .conatinerCards .card a img:hover {
+  opacity: 0.6;
+}
+
+.SENA {
+  width: 94vw;
+  height: 100vh;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.SENA .container-section {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.SENA h2 {
+  font-size: 48px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.SENA .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.SENA .galeria .proyecto {
+  position: relative;
+  max-width: 340px;
+  height: fit-content;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.SENA .galeria .proyecto a {
+  text-decoration: none;
+  color: bisque;
+}
+
+.SENA .galeria img {
+  width: 100%;
+  display: block;
+  height: 14em;
+  background-size: cover;
+}
+
+.SENA .galeria .proyecto .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(40, 97, 86, 0.8), rgba(50, 85, 78, 0.6));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1s;
+  font-size: 18px;
+  letter-spacing: 3px;
+  opacity: 0;
+}
+
+.SENA .galeria .proyecto h3 {
+  margin-bottom: 20px;
+  transition: 1s;
+  font-size: 2em;
+}
+
+.SENA .galeria .proyecto .overlay:hover {
+  opacity: 1;
+}
+
+.SENA .galeria .proyecto .overlay:hover h3 {
+  margin-bottom: 0px;
+}
+
+.contacto {
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  background: rgba(135, 130, 130, 0.847);
+  z-index: 10;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contacto .infoContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacto .infoContacto ul {
+  display: flex;
+  gap: 4vw;
+}
+.contacto .infoContacto ul li {
+  list-style: none;
+  font-size: 2em;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: antiquewhite;
+  background: rgb(88, 84, 84);
+  transition: all 0.5s;
+}
+.contacto .infoContacto ul li:hover {
+  cursor: pointer;
+  background: antiquewhite;
+  color: rgb(88, 84, 84);
+  box-shadow: 0 0 10px rgb(183, 176, 167);
+}
+.contacto .getContacto {
+  width: 500px;
+  height: 700px;
+  background: rgba(84, 88, 91, 0.621);
+  box-shadow: 0 0 20px rgb(93, 88, 88);
+  position: relative;
+  z-index: 10;
+  bottom: 100px;
+  left: -100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  animation: closeContact 1s ease;
+}
+@keyframes closeContact {
+  0% {
+    bottom: 100px;
+    position: relative;
+    left: 0;
+  }
+  100% {
+    bottom: 100px;
+    left: -100%;
+  }
+}
+.contacto .getContacto label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: fit-content;
+  gap: 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+}
+.contacto .getContacto label .closeConta {
+  position: absolute;
+  font-size: 1.3em;
+  top: 0.5em;
+  right: 0.5em;
+}
+.contacto .getContacto label span {
+  font-size: 2em;
+  color: antiquewhite;
+}
+.contacto .getContacto label button {
+  background: none;
+  width: fit-content;
+  cursor: pointer;
+  border: none;
+}
+.contacto .getContacto label .submit {
+  background: rgb(79, 73, 73);
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.4em;
+  border-radius: 20px;
+  font-weight: bold;
+  color: antiquewhite;
+  transition: all 0.5s;
+}
+.contacto .getContacto label .submit:hover {
+  background: antiquewhite;
+  color: rgb(79, 73, 73);
+  box-shadow: 0 0 10px rgb(201, 185, 163);
+}
+.contacto .getContacto label input {
+  background: rgb(100, 95, 95);
+  border: none;
+  color: antiquewhite;
+  font-weight: bold;
+  height: 2em;
+  transition: all 0.5s;
+}
+.contacto .getContacto label input:focus {
+  box-shadow: 0 0 10px wheat;
+  border: none;
+}
+.contacto .getContacto label input::placeholder {
+  color: rgb(192, 188, 184);
+}
+.contacto .center {
+  display: flex;
+  width: 100vw;
+  height: fit-content;
+  position: relative;
+  top: -5vh;
+  justify-content: center;
+}
+.contacto .center .starProyect {
+  display: flex;
+  width: fit-content;
+  height: 10vh;
+  background: rgb(145, 140, 140);
+  align-items: center;
+  box-shadow: 0 0 15px rgb(169, 161, 161);
+  border-radius: 10px;
+  padding: 1em;
+  gap: 1em;
+  z-index: 10;
+}
+.contacto .center .starProyect p {
+  width: 300px;
+}
+.contacto .center .starProyect button {
+  background: none;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  background: rgb(217, 204, 187);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.contacto .center .starProyect button:hover {
+  color: bisque;
+  background: rgb(98, 98, 98);
+  box-shadow: 0 0 15px rgb(169, 161, 161);
+}
+
+.contacto .contactoVisible {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 100px;
+  left: 0;
+  animation: contactiVisible 1s ease;
+}
+@keyframes contactiVisible {
+  0% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .contacto {
     width: 100vw;
-    height: 300px;
-    background: rgba(73, 67, 67, 0.92);
-    display: flex;
+    height: 50vh;
+  }
+  .contacto .getContacto {
+    left: -100%;
+    visibility: hidden;
+  }
+  .contacto .starProyect {
+    visibility: hidden;
+  }
+  .contacto .infoContacto ul {
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-}
-.contacto .infoContacto h3{
-    color: white;
-    font-size: 30px;
-    font-weight: bolder;
-}
-.contacto .infoContacto span{
-    color: white;
-    font-size: 20px;
-}
-.contacto .infoContacto span a{
-    text-decoration: none;
-    color: white;
-
-    transition: all .5s;
-}
-.contacto .infoContacto span a:hover{
-    color: aqua;
+    height: fit-content;
+  }
 }
 
-/* ! DarkMode ! */
-
-.darkMode{
-    background: rgb(84, 79, 79);
-    color: white;
-}
-.darkModeUl{
-    background: grey;
-}
-.darkModeHr{
-    border-color: antiquewhite;
-}
-.darkModeContac{
-    background: grey;
-    color: antiquewhite;
-}
+/*# sourceMappingURL=styles.css.map */
