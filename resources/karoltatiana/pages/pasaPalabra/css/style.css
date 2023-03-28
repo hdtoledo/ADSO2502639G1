@@ -45,42 +45,31 @@ button:hover{
     background-color: #7705b9;
 }
 
-#pantalla-inicial {
-    display: none;
-    max-width: 700px;
-    margin: 50px auto;
-    text-align: center;
-    background: rgba(255, 255, 255, .7);
-    padding: 30px;
-    border: 2px solid #000;
-    border-radius: 20px;
-}
-
 /* Pantalla inicial del juego */
 
-#pantalla-inicial {
+#pantalla-juego {
     display: block;
 }
 
 /*Esta clase se agregara dinamicamente*/
 
 .pregunta-actual {
-    background-color: #000;
-    color: #fff;
+    background-color: #000 !important;
+    color: #fff !important;
 }
 
 /*Esta clase se agregara dinamicamente cuando haya respondido correctamente una preguntas*/
 
 .bien-respondida {
-    background-color: #3edbbb;
-    color: #fff;
+    background-color: #3edbbb !important;
+    color: #fff !important;
 }
 
 /*Esta clase se agregara dinamincamente cuando haya respondido incorrectamente una pregunta*/
 
 .mal-respondida{
-    background-color: #fb797b;
-    color: #fff;
+    background-color: #fb797b !important;
+    color: #fff !important;
 }
 
 .contenedor-pregunta {
@@ -157,4 +146,31 @@ button:hover{
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+/*Clase para la pantalla final*/
+#pantalla-final{
+    display: none;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, .7);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+#pantalla-final span{
+    background: #000;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-bottom: 30px;
 }
