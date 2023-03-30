@@ -48,7 +48,7 @@ button:hover{
 /* Pantalla inicial del juego */
 
 #pantalla-juego {
-    display: block;
+    display: none;
 }
 
 /*Esta clase se agregara dinamicamente*/

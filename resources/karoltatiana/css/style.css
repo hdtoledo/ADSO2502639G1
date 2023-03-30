@@ -576,28 +576,25 @@ html{
 
 .portfolio{
     background-color: #25262e;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 50px 20px;
 }
-
 .portfolio .container-section{
     max-width: 1100px;
     margin: auto;
 }
-
 .portfolio h2{
     font-size: 48px;
-        font-family: 'Righteous';
+        font-family: "dosis";
         text-align: center;
         padding: 20px 0;
 }
-
 .portfolio .galeria{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
-
 .portfolio .galeria .proyecto{
     position: relative;
     max-width: 340px;
@@ -605,37 +602,34 @@ html{
     margin: 10px;
     cursor: pointer;
 }
-
 .portfolio .galeria img{
     width: 100%;
+    height: 32vh;
+    width: 300px;
     display: block;
 }
-
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(150, 34, 71, 0.8), rgba(123,34,150,0.8));
+    background: linear-gradient(rgb(179, 29, 212), #d8202f);
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: 1s;
     font-size: 18px;
     letter-spacing: 3px;
-    opacity: 0;
+    opacity: 0%;
 }
-
 .portfolio .galeria .proyecto h3{
     margin-bottom: 20px;
     transition: 1s;
 }
-
 .portfolio .galeria .proyecto .overlay:hover{
     opacity: 1;
 }
-
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
