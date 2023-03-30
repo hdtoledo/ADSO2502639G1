@@ -1,71 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;200;400;600;800&display=swap');
+
+   /* Imporatmos las fuentes con las cuales trabajaremos */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&family=Rammetto+One&display=swap');
+
+
 *{
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Rajdhani';
     background: url(../img/Mario\ 4k\ Ultra\ HD\ Fondo\ De\ Pantalla\ by\ Yuumei.jpeg);
     background-attachment: fixed;
     background-size: cover;
 }
-#Pantalla-inicial{
+
+#pantalla-inicial{
     display: block;
     max-width: 700px;
     margin: 50px auto;
     text-align: center;
-    background: rgb(255, 255, 255,.7);
+    background: rgba(255, 255, 255, .7);
     padding: 30px;
     border: 2px solid #000;
     border-radius: 20px;
 }
-#Pantalla-inicial h1{
+
+#pantalla-inicial h1{
     font-family: 'Rammetto One';
     font-size: 50px;
-    color: #5972d9;
+    color:blue;
 }
+ 
 button{
-    background: #c566fc;
+    background: #212f8f;
     border: none;
     color: #fff;
     font-weight: bold;
     padding: 10px 15px;
     cursor: pointer;
-    margin: 0 20px;
+    margin: 20px 20px;
     border-radius: 30px;
-    border-bottom: 4px solid #4b0872;
+    border-bottom: 4px solid #140872;
 }
+
 button:hover{
     border-bottom: 4px solid transparent;
-    background-color: #7705b9;
+    background-color:  #159fa4;
 }
-#Pantalla-juego{
+
+/* pantalla inicial del juego */
+
+#pantalla-juego{
     display: none;
 }
+
+/* Esta clase se agregan dinamicamente */
+
 .pregunta-actual{
-    background-color: #000;
+    background-color: black;
     color: #fff;
 }
+
+/* Esta clase se agregara dinamicamente cuando haya respondido correctamente una pregunta */
+
 .bien-respondida{
-    background-color: aquamarine;
+    background-color: aqua;
     color: #fff;
 }
+
+/* Esta clase se agregara dinamicamente cuando haya respondido incorrectamente una pregunta */
+
 .mal-respondida{
     background-color: #fb797b;
     color: #fff;
 }
+
 .contenedor-pregunta{
-    background-color: rgb(255, 255, 255,.7);
+    background-color: rgba(255, 255, 255, .7);
     text-align: center;
     max-width: 700px;
     margin: auto;
     border: 2px solid #000;
     border-radius: 20px;
     padding: 0 20px;
+    margin-top: 5em;
 }
+
 .contenedor-pregunta #pregunta{
     margin: 0;
     font-weight: normal;
 }
+
 .contenedor-pregunta input{
     display: inline-block;
     margin: 10px 0;
@@ -78,6 +103,7 @@ button:hover{
     outline: none;
     border: 2px solid #ccc;
 }
+
 .contenedor-pregunta #letra-pregunta{
     border: 2px solid #000;
     display: inline-block;
@@ -87,30 +113,35 @@ button:hover{
     font-size: 30px;
     position: relative;
     bottom: 25px;
-    background: #fff;
+    background: #ccc;
 }
+
 .container{
     position: relative;
     width: 255px;
-    height: 255px;
+    height: 225px;
     margin: 50px auto;
     border: 2px solid #000;
     border-radius: 50%;
-    background: rgb(255, 255, 255,.7);
+    background: rgba(255, 255, 255, .7);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .container #tiempo{
     font-size: 50px;
     font-weight: bold;
 }
+
+/* La siguiente clase es para los circulos de cada letra */
+
 .circle{
     position: absolute;
     width: 50px;
     height: 50px;
     border: 1px solid #000;
-    background: #fff;
+    background-color: #ccc;
     color: #5972d9;
     border-radius: 50%;
     display: flex;
@@ -120,3 +151,50 @@ button:hover{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.pregunta-actual{
+    background-color: #212f8f !important;
+    color: #0f0000 !important;
+}
+
+/* Esta clase se agregan dinamicamente cuando haya respondido correctamente una pregunta */
+
+.bien-respondida{
+    background-color: #212f8f !important;
+    color: #f5f0f0 !important;
+}
+
+/* Esta clase se agregan dinamicamente cuando haya responido incorrectamente una pregunta */
+
+.mal-respondida{
+    background-color: #f86467 !important;
+    color: #fff !important;
+}
+
+/* Clase para la pantalla final */
+#pantalla-final{
+    display: none;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, .7);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+#pantalla-final span{
+    background: #000;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
