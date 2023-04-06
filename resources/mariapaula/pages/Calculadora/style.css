@@ -56,3 +56,13 @@ body {
     color: rgb(188, 192, 188);
     font-size: 2.5rem;
 }
+.calculadora .container-section{
+    max-width: 1100px;
+    margin: auto;
+}
+.calculadora h1{
+    font-size: 50px;
+        font-family: "Rajdhani";
+        text-align: center;
+        padding: 15px 0;
+}
