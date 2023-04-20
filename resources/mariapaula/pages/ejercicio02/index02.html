@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <style>
+        body{
+            background: rgb(4, 197, 245);
+            font-size: 1.2em;
+            font-weight: bold;
+            width: 100vw;
+            overflow-x: hidden;
+        }
+        h1{
+            text-align: center;
+            color: rgb(255, 4, 4);
+        }
+        h2{
+            color: rgb(253, 2, 2);
+        }
+        .ejercicios{
+            width: 100vw;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .ejercicio{
+            width: 600px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: .3em;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgb(5, 0, 17);
+            padding: 1em;
+        }
+        input{
+            background: none;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid rgb(1, 0, 19);
+            font-size: .8em;
+            font-weight: bold;
+            text-align: center;
+        }
+        button{
+            padding: 7px 30px;
+            margin-top: .7em;
+            background: rgb(29, 3, 122);
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 7px grey;
+            color: antiquewhite;
+            cursor: pointer;
+
+            transition: all .7s;
+        }
+        button:hover{
+            color: rgb(82, 77, 77);
+            background: antiquewhite;
+        }
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+    <h1>Ejercicios JavaScript</h1>
+    <div class="ejercicios">
+        <div class="ejercicio">
+            <h2>Ejercicio 01</h2>
+            <p>1. Solicita al usuario su edad y muestra un mensaje que indique si es mayor de edad o no.</p>
+            <input id="ejercicio01" type="number" placeholder="ege">
+            <button id="btn-ej01">Mayor de edad?</button>
+        </div>
+        <div class="ejercicio">
+            <h2>Ejercicio 02</h2>
+            <p>2. Pide al usuario que ingrese un número y muestra un mensaje que indique si es positivo o negativo.</p>
+            <input id="ejercicio02" type="number" placeholder="number">
+            <button id="btn-ej02">Valor Positivo?</button>
+        </div>
+        <div class="ejercicio">
+            <h2>Ejercicio 03</h2>
+            <p>3. Solicita al usuario su nombre y su edad y muestra un mensaje que indique si es mayor de edad o no.</p>
+            <input id="ejercicio03-name" type="text" placeholder="name">
+            <input id="ejercicio03-age" type="number" placeholder="ege">
+            <button id="btn-ej03">Saludar</button>
+        </div>
+        <div class="ejercicio">
+            <h2>Ejercicio 04</h2>
+            <p>4. Pide al usuario que ingrese un número y muestra un mensaje que indique si es par o impar.</p>
+            <input id="ejercicio04" type="number" placeholder="number">
+            <button id="btn-ej04">Par o Impar</button>
+        </div>
+        <div class="ejercicio">
+            <h2>Ejercicio 05</h2>
+            <p>5. Solicita al usuario su nombre y su género, y muestra un mensaje que indique si es hombre o mujer.</p>
+            <input id="ejercicio05-name" type="text" placeholder="name">
+            <input id="ejercicio05-genero" type="text" placeholder="genero">
+            <button id="btn-ej05">Saludo</button>
+        </div>
+    </div>
+</body>
+<script src="./java02.js"></script>
+</html>
