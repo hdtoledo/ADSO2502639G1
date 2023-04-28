@@ -62,11 +62,3 @@ const espar = (num) => {
   console.log(estaEntre20y50(20));
   console.log(estaEntre20y50(50));
   console.log(estaEntre20y50(55));
-  /*7. Crea una función que reciba un objeto con dos propiedades (name y age) y devuelva un
-  mensaje de bienvenida que incluya el nombre y la edad.*/
-  
-  /*8. Crea una función que reciba un array de números y devuelva la suma de todos ellos.*/
-  /*9. Crea una función que reciba un array de números y devuelva true si todos son positivos y
-  false si no.*/
-  /*10. Crea una función que reciba un array de cadenas de texto y devuelva true si todas tienen
-  más de 5 caracteres y false si no.*/
