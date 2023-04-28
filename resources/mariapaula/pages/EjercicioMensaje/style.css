@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&family=Roboto:ital,wght@0,500;1,100;1,400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(218, 233, 222);
+}
+
+.container{
+    background-color: darkorchid;
+    width: 700px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h1 {
+    font-size: 28px;
+    margin: 10px;
+}
+input {
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 1);
+    padding: 5px 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: rgb(48, 236, 63);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0% auto;
+    cursor: pointer;
+}
+.error {
+    background-color: rgb(252, 5, 5);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 0;
+    text-align: center;
+    width: 70%;
+    display: none;
+}
