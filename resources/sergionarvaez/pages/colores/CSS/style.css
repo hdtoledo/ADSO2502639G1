@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+*{
+    font-family: 'Sigmar', cursive;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+
+    width: 300px;
+    background-color: rgb(19, 7, 88);
+    color: rgb(253, 253, 253);
+    padding: 4px;
+    border-radius: 20px;
+    border: 2px solid;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.btn:active {
+    outline: none;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    box-shadow: none;
+}
