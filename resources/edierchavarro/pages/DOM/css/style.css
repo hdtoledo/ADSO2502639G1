@@ -21,7 +21,7 @@ body {
     width: 4rem;
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 /*producto*/
@@ -42,17 +42,17 @@ body {
 
 .product-image {
     /*border: 2px solid black; */
-    background-image: url("../img/bmw-i8-coupe-681x454.jpg");
+    background-image: url("https://i.pinimg.com/originals/eb/8d/55/eb8d551b8efccec38a91563a54fa4327.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px 10px;
+    padding: 40px 20px;
     width: 28rem;
     height: 66%;
 }
 
 .product-description{
-    background-color: #62c256;
+    background-color: #5699c2;
     color: #fff;
     padding-left: 20px;
     margin-top: -67px;

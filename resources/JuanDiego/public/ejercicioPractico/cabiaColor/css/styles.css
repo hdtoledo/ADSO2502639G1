@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+
+}
+
+.boton {
+    border: none;
+    background-color: #7FFFD4;
+    font-size: 35px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px #000;
+}
+
+.boton:active {
+    background-color: #75edc5;
+}

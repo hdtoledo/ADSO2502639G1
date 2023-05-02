@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&family=Rammetto+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rajdhani';
+    background: url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#pantalla-inicial {
+    display: block;
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+#pantalla-inicial h1 {
+    font-family: 'Rammetto One';
+    font-size: 50px;
+    color: #5972d9;
+}
+
+button {
+    background: rgb(197, 102, 252);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 13px 20px;
+    border-radius: 30px;
+    border-bottom: 4px solid #4b0872;
+}
+
+button:hover {
+    border-bottom: 4px solid transparent;
+    background-color: #7705b9;
+}
+
+/* Pantalla inicial del Juego */
+
+#pantalla-juego {
+    display: none;
+}
+
+#salir {
+    position: absolute;
+    font-size: 20px;
+    color: #dfd;
+    /* padding: 9px 9px 7px 9px; */
+    padding: 10px 13px;
+    border-bottom: none;
+    border-radius: 30%;
+    background: rgba(197, 102, 252, .8);
+}
+
+.pregunta-actual {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.bien-respondida {
+    background-color: #3edbbb !important;
+    color: #fff !important;
+}
+
+.mal-respondida {
+    background-color: #fb797b !important;
+    color: #fff !important;
+}
+
+.contenedor-pregunta {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.contenedor-pregunta #pregunta {
+    margin: 0;
+    font-weight: normal;
+}
+
+.contenedor-pregunta input {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #fff;
+}
+
+.contenedor-pregunta #letra-pregunta {
+    border: 2px solid #000;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+    background: #fff;
+}
+
+.container {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    margin: 50px auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #tiempo {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* La siguiente clase es para los circulos de cada letra */
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #5972d9;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
