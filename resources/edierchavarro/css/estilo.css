@@ -184,7 +184,7 @@ html {
 .sobremi .fila .col .container-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: rgb(108, 108, 108);
+    background-color: rgb(63, 63, 63);
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -194,7 +194,7 @@ html {
     transition: .3s;
 }
 .sobremi .fila .col .container-intereses .interes:hover{
-    background-color: rgb(121, 121, 121);
+    background-color: rgb(9, 255, 255);
 }
 .sobremi .fila .col .container-intereses .interes i{
     font-size: 30px;
@@ -586,6 +586,7 @@ margin-left: 20px;
 .portfolio .galeria img{
     width: 100%;
     display: block;
+    height: 340px;
 }
 
 .portfolio .galeria .proyecto .overlay{
@@ -847,4 +848,11 @@ nav.responsive ul li {
         width: 100%;
     }
 }
->>>>>>> 29ed84acf7faee6622d3fbdef9c0e93c15bdb4ef
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    
+}

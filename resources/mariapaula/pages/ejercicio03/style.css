@@ -1,0 +1,77 @@
+body {
+    background: rgb(235, 154, 5);
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(241, 1, 1);
+}
+
+h2 {
+    color: rgb(250, 5, 5);
+}
+
+.ejercicios {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ejercicio {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .3em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(7, 1, 27);
+    padding: 1em;
+}
+
+input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(0, 7, 5);
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    padding: 7px 30px;
+    margin-top: .7em;
+    background: rgb(189, 4, 4);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px grey;
+    color: antiquewhite;
+    cursor: pointer;
+
+    transition: all .7s;
+}
+
+button:hover {
+    color: rgb(82, 77, 77);
+    background: antiquewhite;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
