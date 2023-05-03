@@ -183,7 +183,7 @@ img{
 .sobremi .fila .col .container-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: rgb(108, 108, 108);
+    background-color: rgb(11, 224, 206);
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -293,14 +293,14 @@ margin-bottom: 25px;
     font-size: 14px;
 }
 
-.skill .skill .javascript{
+ .skill.skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
 
 @keyframes javascript{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .htmlcss{
@@ -323,7 +323,7 @@ animation: 2s htmlcss forwards;
     100%{width: 90%;}
 }
 
-.skills .skill .worpress{
+.skill.skill .wordpress{
     width: 0%;
     animation: 2s wordpress forwards;
 }
@@ -333,7 +333,7 @@ animation: 2s htmlcss forwards;
     100%{width: 80%;}
 }
 
-.skill .skills .react{
+.skills .react{
     width: 0%;
     animation: 2s react forwards;
 }
@@ -383,12 +383,12 @@ animation: 2s htmlcss forwards;
     100%{width: 80%;}
 }
 
-skills .skill .proyect {
+.skill.skill .proyect {
     width: 0%;
     animation: 2s proyect forwards;
 }
 
-@keyframes proyect {
+@keyframes proyect{
     0% {width: 0%;}
     100% {width: 70%;}
 }
@@ -411,7 +411,7 @@ skills .skill .proyect {
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
-    padding:20px o;
+    padding:20px ;
 }
 
 .curriculum .fila{
@@ -552,13 +552,14 @@ margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .portfolio .galeria .proyecto{
     position: relative;
     max-width: 340px;
     height: fit-content;
-    margin: 10px;
+    margin: 0px;
     cursor: pointer;
 }
 
@@ -566,6 +567,7 @@ margin-left: 20px;
     width: 100%;
     display: block;
     height: 430px;
+    display: block;
 }
 
 .portfolio .galeria .proyecto .overlay{
@@ -589,7 +591,7 @@ margin-left: 20px;
     transition: 1s;
 }
 .portfolio .galeria .proyecto .overlay:hover{
-    opacity: 1s;
+    opacity: 1;
 }
 
 .portfolio .galeria .proyecto .overlay:hover h3{
