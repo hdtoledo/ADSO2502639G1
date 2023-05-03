@@ -9,7 +9,7 @@ body{
 }
 
 .images{
-    background: url("/carrusel/img/001.jpg");
+    background: url("//carrusel/img/001.jpg");
     width: 900px;
     height: 600px;
     background-position: center;
