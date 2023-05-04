@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>index</title>
+</head>
+
+<body>
+
+    <main>
+        <nav>
+            <div class="bars">
+                <button onclick="navBars()"><i class="uil uil-bars" id="bars"></i></button>
+            </div>
+            <div class="barsNav" id="barsNav">
+                <button onclick="closeNavBars()" class="close"><i class="fa-solid fa-xmark close"></i></button>
+                <ul>
+                    <img src="./img/GG.png" alt="">
+                    <li><a href="#perfil"><i class="uil uil-user-circle user"></i></a></li>
+                    <li><a href="#estudios"><i class="uil uil-bookmark"></i>Estudios</a></li>
+                    <li><a href="#Habilidades"><i class="uil uil-receipt"></i>Habilidades</a></li>
+                    <li><a href="#Proyectos"><i class="uil uil-archive-alt"></i>Proyectos</a></li>
+                    <li><a href="#SENA"><i class="uil uil-archive-alt"></i>Proyectos SENA</a></li>
+                    <li><a href="#contacto"><i class="uil uil-chat-bubble-user"></i>Contacto</a></li>
+                </ul>
+            </div>
+            <ul class="nav">
+                <li><a href="#perfil"><i class="uil uil-user-circle user"></i></a></li>
+                <li><a href="#estudios"><i class="uil uil-bookmark"></i>Estudios</a></li>
+                <li><a href="#Habilidades"><i class="uil uil-receipt"></i>Habilidades</a></li>
+                <li><a href="#Proyectos"><i class="uil uil-archive-alt"></i>Proyectos</a></li>
+                <li><a href="#SENA"><i class="uil uil-archive-alt"></i>Proyectos SENA</a></li>
+                <li><a href="#contacto"><i class="uil uil-chat-bubble-user"></i>Contacto</a></li>
+            </ul>
+            <div class="darkMode" id="darkMode">
+                <button onclick="darkMode()"><i class="fa-solid fa-moon"></i></button>
+            </div>
+            <div class="moon" id="moon">
+                <button onclick="sunMode()"><i class="fa-regular fa-sun"></i></button>
+            </div>
+        </nav>
+
+        <!-- !Perfil -->
+        <div class="perfil" id="perfil">
+            <img src="./img/img-01.jpg" alt="">
+            <div class="perfilInfo">
+                <h2>Juan Fernando Calderon</h2>
+                <p>Un Ingeniero de Software es un profesional que se encarga de la creación de software de calidad,
+                    aplicando conocimiento científico y estadístico, Los ingenieros de software se enfocan en la
+                    solución de problemas a través de sistemas informáticos, para satisfacer las necesidades del
+                    mercado.</p>
+            </div>
+        </div>
+
+        <br>
+        <!-- ! Esrudios -->
+        
+        <div class="estudios" id="estudios">
+            
+        </div>
+
+        <!-- ! Habilidades -->
+        <div id="Habilidades" class="skills">
+            <div class="container-section">
+                <h2>Habilidades</h2>
+                <div class="fila">
+                    <!--? // Technical Skills //  -->
+                    <div class="col">
+                        <h2>Technical Skills</h2>
+                        <div class="skill">
+                            <p>JavaScript</p>
+                            <div class="barra-skill">
+                                <div class="progreso javascript">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>HTML & CSS</p>
+                            <div class="barra-skill">
+                                <div class="progreso htmlcss">
+                                    <span>89%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Photoshop</p>
+                            <div class="barra-skill">
+                                <div class="progreso photoshop">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Wordpress</p>
+                            <div class="barra-skill">
+                                <div class="progreso wordpress">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>React</p>
+                            <div class="barra-skill">
+                                <div class="progreso react">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--? // professional Skills // -->
+                    <div class="col">
+                        <h2>Professional Skills</h2>
+                        <div class="skill">
+                            <div class="skill">
+                                <p>Comunication</p>
+                                <div class="barra-skill">
+                                    <div class="progreso comunicacion">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>Trabajo en Equipo</p>
+                                <div class="barra-skill">
+                                    <div class="progreso equipo">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>Creatividad</p>
+                                <div class="barra-skill">
+                                    <div class="progreso creatividad">
+                                        <span>99%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>Dedication</p>
+                                <div class="barra-skill">
+                                    <div class="progreso dedication">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>Proyect Management</p>
+                                <div class="barra-skill">
+                                    <div class="progreso proyectMag">
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!-- ! Proyectos -->
+        <div class="containerP" id="Proyectos">
+            <h2>Proyectos</h2>
+            <div class="conatinerCards">
+                <div class="card">
+                    <a href="./html/Reloj/index.html"><img src="./img/img-01.PNG" alt=""></a>
+                    <h2>Reloj</h2>
+                    <p>Practica reloj-Analogico</p>
+                </div>
+                <div class="card">
+                    <a href="./html/3-column-preview-card-component-main/index.html"><img src="./img/img-02.PNG" alt=""></a>
+                    <h2>Cards</h2>
+                    <p>Practica cards</p>
+                </div>
+                <div class="card">
+                    <a href="./html/huddle-landing-page-with-single-introductory-section-master/index.html"><img src="./img/img-03.PNG" alt=""></a>
+                    <h2>Single page</h2>
+                    <p>Landing Page Single</p>
+                </div>
+                <div class="card">
+                    <a href="./html/Calculator/index.html"><img src="./img/img-04.PNG" alt=""></a>
+                    <h2>Calculator</h2>
+                    <p>Calculadora Simple</p>
+                </div>
+                <div class="card">
+                    <a href="./html/ThreeJs/index.html"><img src="./img/img-05.PNG" alt=""></a>
+                    <h2>ThreeJs</h2>
+                    <p>pls 20 worlds</p>
+                </div>
+                <div class="card">
+                    <a href="./html/SAGA/index.html"><img src="./img/img-06.PNG" alt=""></a>
+                    <h2>SAGA</h2>
+                    <p>Proximamente</p>
+                </div>
+            </div>
+        </div>
+        <!--! Proyectos SENA   -->
+        <div id="SENA" class="SENA">
+            <div class="container-section">
+                <h2>Proyectos SENA</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <a href="./html/SENA/Portafolio-ADSO/index.html"><img src="./img/proyectsSENA/img01.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Portafolio</h3>
+                                <p>Diseño Web</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://github.com/JuanferGG/ramas-prueba"><img src="./img/proyectsSENA/img02.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Ejercicio Git</h3>
+                                <p>Versionamiento</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://github.com/JuanferGG/ejerciciosJS"><img src="./img/proyectsSENA/img04.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Repositorio Git JS</h3>
+                                <p>Versionamiento</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./html/SENA/calculator/index.html"><img src="./img/proyectsSENA/img03.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Calculator</h3>
+                                <p>Logica</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./ejerciciosJS/index.html"><img src="./img/EjerciciosJS/img-01.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Ejercicios JS</h3>
+                                <p>Logica/Creatividad</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./ejerciciosJS/index02.html"><img src="./img/EjerciciosJS/img-02.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Ejercicios JS02</h3>
+                                <p>Logica/Creatividad</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./ejerciciosJS/DOM/index.html"><img src="./img/EjerciciosJS/img-03.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Ejercicios DOM01</h3>
+                                <p>Logica/Creatividad</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./ejerciciosJS/DOM02/index.html"><img src="./img/EjerciciosJS/img-05.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Ejercicios DOM02</h3>
+                                <p>Logica/Creatividad</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./ejerciciosJS/EjercicioJS/index.html"><img src="./img/EjerciciosJS/img-04.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Ejercicio JS</h3>
+                                <p>Logica/Creatividad</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./ejerciciosJS/Carrusel_JS/index.html"><img src="./img/EjerciciosJS/img-06.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Carrusel</h3>
+                                <p>Logica/Creatividad</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./ejerciciosJS/Consumo API/index.html"><img src="./img/EjerciciosJS/img-08.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Consumo API</h3>
+                                <p>Logica/Creatividad</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="./html/SENA/game/index.html"><img src="./img/EjerciciosJS/img-07.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Game</h3>
+                                <p>Logica/Creatividad</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--! Contacto  -->
+        <br><br>
+        <br><br>
+        <div class="contacto" id="contacto">
+            <div class="center">
+                <div class="starProyect">
+                    <h2>Start a proyect</h2>
+                    <p>Interested in working together? We should queue up a time to chat. I'll buy the coffee.</p>
+                    <button onclick="getContacto()">Let's Go!</button>
+                </div>
+            </div>
+
+            <div class="infoContacto">
+                <h2>CONTACT ME!</h2>
+                <ul>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+
+            <div class="getContacto" id="getContacto">
+                <label for="">
+                    <button onclick="closeContacto()" class="closeConta"><i class="fa-solid fa-xmark closeConta"></i></button>
+                    <span>Nombre</span><input type="text" placeholder="Name">
+                    <span>Email</span><input type="email" placeholder="Email">
+                    <button type="submit" class="submit">Contact Me!</button>
+                </label>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="https://kit.fontawesome.com/b7470ea251.js" crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
