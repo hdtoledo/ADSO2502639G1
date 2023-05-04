@@ -1,0 +1,84 @@
+*, *::before, *::after {
+ box-sizing: border-box;
+ font-family: Gotham Rounded, sans-serif;
+ font-weight: normal;
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(
+      to top,
+      rgba(30, 35, 39, 0.646),
+      rgba(30, 35, 38, 1)
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    background: rgba(15, 199, 231, 0.75);
+    height: 70vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 25px rgba(15, 199, 231, 0.75);
+}
+
+.back .btn-back :active{
+    background-color: rgba(1, 22, 24, 0.75);
+}
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+
+.calculator-grid >button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(3, 177, 216, 0.75);
+    border-radius: 75px;
+    margin: 10px;
+
+}
+.calculator-grid >button:active{
+    background: #fff;
+} 
+
+.span-two{
+    grid-column: span 2;
+}
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(15, 199, 231, 0.75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:  10px;
+    word-wrap: break-word;
+    word-break: break-word;
+    word-break: break-all;
+    border-radius: 25px;
+}
+.output .previus-operand{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: #fff;
+    font-size: 2.5rem;
+}
