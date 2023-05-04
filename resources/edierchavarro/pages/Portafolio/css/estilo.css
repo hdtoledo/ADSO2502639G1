@@ -1,0 +1,850 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Challenge The World;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-header {
+    background: rgb(26, 25, 25);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.container-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.container-header header .logo a {
+    font-family: Challenge The World;
+    font-size: 36px;
+    color: rgb(121, 121, 121);
+    text-decoration: none;
+}
+
+.container-header header ul {
+    display: flex;
+    list-style: none;
+}
+
+.container-header header nav ul li a {
+    text-align: none;
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.container-header header nav ul li a:hover {
+    color: rgb(121, 121, 121);
+}
+
+.nav-responsive {
+    background-color: rgb(1, 1, 1);
+    color: rgb(255, 243, 243);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.inicio{
+    background:linear-gradient(to top, rgba(0, 0, 0, .8),rgba(0, 0, 0, .1)), url("../img/1366_2000.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.inicio .container-banner {
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.container-banner img {
+    margin-top:40px;
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.inicio .container-banner h1 {
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: cursive;
+}
+
+.inicio .container-banner h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.inicio .container-banner .redes a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(180, 178, 178);
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.inicio .container-banner .redes a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+.sobremi{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 50 px 20px;
+}
+.sobremi .container-section{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family: "righteous";
+    text-align: center;
+    padding: 20px 0;
+}
+.sobremi .container-section p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .container-section p span{
+    color: rgb(121, 121, 121);
+    font-weight: bold;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .col{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    font-family: "righteous";
+    margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0px;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: rgb(121, 121, 121);
+    width: 130px;
+}
+.sobremi .fila .col ul li span{
+    background-color: rgb(0, 0, 0);
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .container-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .container-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(108, 108, 108);
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.sobremi .fila .col .container-intereses .interes:hover{
+    background-color: rgb(121, 121, 121);
+}
+.sobremi .fila .col .container-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(246, 246, 246);
+    z-index: -1;
+    transition: 1s;   
+}
+
+.sobremi button:hover .overlay{
+    width: 100%;
+}
+
+
+
+
+.skills{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 50px 20px;
+}
+
+
+
+
+.skills .container-section{
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+
+
+.skills h2{
+    font-size: 48px;
+    font-family:righteous;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+.skills .fila{
+    display: flex;
+}
+
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.skills .fila .col h3{
+font-size: 28px;
+font-family:ighteous;
+margin-bottom: 25px;
+}
+
+
+
+
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skills .skill .progreso{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 8px;
+}
+
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color:aqua;
+    border-radius: 50px;
+    line-height:40px;
+    text-align: center;
+    top:-17px;
+    right: -15px;
+    font-size: 14px;
+}
+
+
+
+
+.skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+
+@keyframes javascript{
+0%{width: 0%;}
+100%{width: 75%;}
+}
+
+
+
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+
+@keyframes htmlcss{
+    0%{width: 0%;}
+    100%{width: 89%;}
+}
+
+.skills .skill .photoshop{
+    width: 0%;
+    animation: 2s photoshop forwards;
+}
+
+@keyframes photoshop{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .wordpress{
+    width: 0%;
+    animation: 2s wordpress forwards;
+}
+
+@keyframes wordpress{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+
+@keyframes react{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+
+@keyframes comunicacion{
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .equipo {
+    width: 0%;
+    animation: 2s equipo forwards;
+}
+
+@keyframes equipo {
+    0% {width: 0%;}
+    100% {width: 90%;}
+}
+
+.skills .skill .creatividad {
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+
+@keyframes creatividad {
+    0% { width: 0%;   }
+    100% { width: 99%; }
+}
+
+.skills .skill .dedicacion {
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+
+@keyframes dedicacion {
+    0% {width: 0%;}
+    100% {width: 80%;}
+}
+
+.skills .skill .proyect {
+    width: 0%;
+    animation: 2s proyect forwards;
+}
+
+@keyframes proyect {
+    0% {width: 0%;}
+    100% {width: 70%;}
+}
+
+
+
+
+.curriculum{
+    background-color: black;
+    color: azure;
+    padding: 50px 20px;
+}
+
+.curriculum .container-section{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.curriculum h2{
+    font-size: 48px;
+    text-align: center;
+    padding:20px o;
+}
+
+.curriculum .fila{
+    display: flex;
+}
+
+
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+
+.curriculum .fila .col h3{
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-bottom: 25px;
+
+}
+
+.curriculum .fila .izquierda{
+    border-right: 2px rgb(121, 121, 121);
+}
+
+.curriculum .fila .derecha{
+    border-left: 2px rgb(0, 0, 0)
+}
+
+
+
+
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: rgb(121, 121, 121);
+    position: relative;
+}
+
+.curriculum .fila .item h4{
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.curriculum .fila .item .casa{
+    color: aqua;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.curriculum .fila .item .fecha{
+display: block;
+color: aqua;
+margin-bottom: 10px;
+}
+
+
+.curriculum .fila .tem p{
+    line-height: 24px;
+}
+
+.curriculum .fila .izq{
+    border-right: 2px solid aqua;
+    margin-right: 20px;
+}
+
+.curriculum .fila .der{
+border-left: 2px solid aqua;
+margin-left: 20px;
+}
+
+
+.curriculum .fila .item .conectori{
+    height: 2px;
+    background-color: aqua;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+.curriculum .fila .item .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+.curriculum .fila .item .conectord{
+    height: 2px;
+    background-color: aqua;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+.curriculum .fila .item .conectord .circulod{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
+.curriculum .fila{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    padding: 50px 20px;
+}
+
+.portfolio .container-section{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.portfolio h2{
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portfolio .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio .galeria .proyecto{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.portfolio .galeria img{
+    width: 100%;
+    display: block;
+}
+
+.portfolio .galeria .proyecto .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(28,182,152,.8),rgba(28,182,152,.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+
+.portfolio .galeria .proyecto h3{
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.portfolio .galeria .proyecto .overlay:hover{
+    opacity: 1s;
+}
+
+.portfolio .galeria .proyecto .overlay:hover h3{
+    margin-bottom: 0px;
+}
+
+.contacto {
+    background-image: url(../js/index.js);
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 50px 0;
+}
+
+.contacto .container-section {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contacto h2 {
+    font-size: 48px;
+    font-family: Challenge The World;
+    text-align: center;
+    padding: 20px;
+}
+
+.contacto .fila {
+    display: flex;
+}
+
+.contacto .col {
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+.contacto .col input,
+.contacto .col textarea {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color:rgb(253, 253, 253);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.contacto button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 10;
+}
+
+.contacto button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(122, 121, 121);
+    transition: 1s;
+    z-index: -1;
+}
+
+.contacto button:hover .overlay {
+    width: 100%;
+}
+
+.contacto .col img {
+    width: 100%;
+}
+
+.contacto .col .info {
+    position: absolute;
+    top: 40%;
+    background-color: rgb(255, 255, 255);
+    ;
+    padding: 20px;
+    width: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contacto .col .info ul {
+    list-style: none;
+}
+
+.contacto .col .info ul li {
+    margin-bottom: 20px;
+}
+
+.contacto .col .info ul li i {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: rgb(67, 63, 63);
+    color: rgb(112, 107, 107);
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes {
+    margin-bottom: 20px;
+}
+
+footer .redes a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: 3s;
+}
+
+footer .arriba {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(121, 121, 121);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 980px) {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width:980px) {
+    nav {
+        display: none;
+    }
+    .nav-responsive {
+        display: block;
+    }
+    nav.responsive {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: rgb(235, 230, 230);
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    nav {
+        display: none;
+    }
+    .nav-responsive {
+        display: block;
+    }
+    nav.responsive {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: rgb(0, 0, 0);
+        width: 180px;
+    }
+    nav.responsive ul {
+        display: block !important;
+    }
+}
+
+nav.responsive ul li {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+@media screen and (max-width:700px) {
+    .sobremi .fila {
+        display: block;
+    }
+    .sobremi .fila .col {
+        width: fit-content;
+    }
+    .skills .fila {
+        display: block;
+    }
+    .skills .fila .col {
+        width: 100%;
+    }
+    .skills .fila .col .barra-skill {
+        width: 100%;
+    }
+    .curriculum .fila {
+        display: block;
+    }
+    .curriculum .fila .col {
+        width: 90%;
+    }
+    .curriculum .fila .derecha {
+        margin-left: 20px;
+    }
+    .portfolio .galeria {
+        display: block;
+        width: 100%;
+    }
+    .portfolio .galeria .proyecto {
+        max-width: 100%;
+    }
+    .portfolio .galeria .proyecto img {
+        width: 100%;
+    }
+    .contacto .fila {
+        display: block;
+    }
+    .contacto .fila .col {
+        width: 100%;
+    }
+}
+>>>>>>> 29ed84acf7faee6622d3fbdef9c0e93c15bdb4ef

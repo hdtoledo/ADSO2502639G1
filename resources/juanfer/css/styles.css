@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   animation: bodyNormal 1s ease;
+  overflow-x: hidden;
 }
 
 .darkH2 {
@@ -615,7 +616,7 @@ nav .visibleNav {
 
 .SENA {
   width: 94vw;
-  height: 100vh;
+  height: fit-content;
   color: #fff;
   padding: 50px 20px;
 }
@@ -636,6 +637,7 @@ nav .visibleNav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 0.5em;
 }
 
 .SENA .galeria .proyecto {
@@ -646,6 +648,7 @@ nav .visibleNav {
   cursor: pointer;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 0 0 30px rgb(49, 47, 47);
 }
 
 .SENA .galeria .proyecto a {
@@ -658,6 +661,7 @@ nav .visibleNav {
   display: block;
   height: 14em;
   background-size: cover;
+  border-radius: 20px;
 }
 
 .SENA .galeria .proyecto .overlay {

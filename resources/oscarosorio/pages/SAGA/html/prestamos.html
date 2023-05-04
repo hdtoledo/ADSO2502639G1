@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestamos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inconsolata:wght@500&family=Secular+One&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/b7470ea251.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilos_prestamos.css">
+</head>
+<body>
+    <div class="encabezado">
+        <img src="../imgs/logo_SENA.png" alt="logo_SENA" class="img_logo_SENA">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" name="search" id="search" placeholder="Search" class="search">
+        <a href="./home.html"><i class="fa-solid fa-house-chimney"></i>HOME</a>
+        <a href="#" class="barras"><i class="fa-solid fa-bars"></i></a>
+    </div>
+    <br><br><br><br>
+    <div class="btns">
+        <a href="../html/asistencias.html" class="btn-nav">Asistencias</a>
+        <a href="#" class="btn-nav">Calendario</a>
+        <a href="../html/noticias.html" class="btn-nav">Noticias</a>
+        <a href="../html/prestamos.html" class="btn-nav">Prestaciones</a>
+        <a href="../html/permisos.html" class="btn-nav">Permisos</a>
+    </div>
+    <h1>Prestamos</h1>
+    <hr>
+    <div class="datos_solicitante">
+        <p>Fecha Solicitud</p>
+        <input type="date" name="fecha_solicitud" id="fecha_solicitud" class="fecha_solicitud">
+        <p>Numero de días</p>
+        <input type="text" name="numero_dias" id="numero_dias" class="numero_dias" placeholder="Días">
+        <p>Regional-Centro de Formacion: </p>
+        <p>HUILA-CENTRO AGROEMPRESARIAL Y DESARROLLO PECUARIO DEL HUILA</p>
+        <p>Cod:952510</p>
+        <br>
+        <div class="datos_persona">
+            <p>Solicitante: </p>
+            <input type="text" name="solicitante" id="solicitante" class="solicitante" placeholder="Nombre solicitante">
+            <p>cc_solicitante:</p>
+            <input type="text" name="cc_solicitante" id="cc_solicitante" placeholder="10072502639" class="input_cc_slicitante">
+        </div>
+        <p>Cargo: </p>
+        <input type="text" name="cargo" id="cargo" class="cargo" placeholder="Ej: Instructor">
+        <br>
+        <p>Dependencia/Programa de formacion: </p>
+        <input type="text" name="dependencia_formacion" id="dependencia_formacion" class="dependencia_formacion" placeholder="Ej: ADSO">
+        <p>Cod. Ficha: </p>
+        <input type="number" name="#" id="#" class="" placeholder="Ej: 2502639">
+        
+        <div class="datos_solicitante_2">
+            <p>Destino del bien: </p>
+            <input type="text" id="destino_bien" name="destino_bien" placeholder="Ej: transferencia tecnologica" class="destino_bien">
+            <p>Municipio: </p>
+            <input type="text" id="municipio" name="municipio" placeholder="Ej: Garzon">
+            <p>Vereda: </p>
+            <input type="text" id="vereda" name="vereda" placeholder="Ej: Zuluaga">
+            <p>Proposito del traslado: </p>
+            <input type="text" id="proposito" name="proposito" placeholder="Na" class="proposito">
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="tabla-flex">    
+        <table id="elementos_prestamo">
+            <tr>
+                <th># Codigo</th>
+                <th>Bien/producto</th>
+                <th class="descripcion">Descripcion del producto</th>
+                <th class="observaciones">Observaciones</th>
+            </tr>
+            <tr>
+                <td>9525526152</td>
+                <td>Computador ASUS</td>
+                <td>Portatil Asus M515da-bq1415</td>
+                <td>CONSECUTIVO 2772307 - TIPO ELEMENTO DEVOLUTIPO 
+                COMPUTADOR PORTATIL MARCA ASUS M515DS-BQ1415</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <input type="button" onclick="insertarFila()" value="Insertar Fila" class="insert_fila">
+    <script>
+        function insertarFila(){
+            let elementos_prestamo = document.getElementById("elementos_prestamo").insertRow(3);
+            let col1 = elementos_prestamo.insertCell(0);
+            let col2 = elementos_prestamo.insertCell(1);
+            let col3 = elementos_prestamo.insertCell(2);
+            let col4 = elementos_prestamo.insertCell(3);
+
+            col1.innerHTML = "";
+            col2.innerHTML = "";
+            col3.innerHTML = "";
+            col4.innerHTML = "";
+        }
+    </script>
+    <br>
+    <hr>
+    <h1>Firmas</h1>
+    <div class="firmas-flex">
+        <div class="firma-img">
+            <img src="../firmas/firma_01.png" alt="">
+            <p class="firmas-linea">Firma solicitante</p>
+        </div>
+        <div class="firma-img">
+            <img src="" alt="">
+            <p class="firmas-linea">VB. Cuentadante</p>
+        </div>
+        <div class="firma-img">
+            <img src="" alt="">
+            <p class="firmas-linea">VB. Subdirector de centro/Coordinador Administrativo</p>
+        </div>
+    </div>
+    <br>
+    <a href="../html/prestamos_firmas.html" class="btn-enviar_solicitud">Enviar solicitud de firmas</a>
+    <br><br>
+    <hr>
+    <br>
+</body>
+</html>

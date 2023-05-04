@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;700 & display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:rgb(236, 204, 163);
+}
+
+.images{
+    background-image: url(/resources/karoltatiana/pages/carrusel/img/001.jpg);
+    width: 900px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 4rem auto;
+    border: 8px solid rgb(212, 17, 17);
+    border-radius: 5px;
+    position: relative;  
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.btn-left, .btn-right{
+    position: absolute;
+    background-color: black;
+    border: 5px solid rgb(0, 81, 255);
+    color: #43b1ff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-left{
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.btn-right{
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
