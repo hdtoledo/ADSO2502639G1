@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Rajdhani';
-    background: url(/resources/sergionarvaez/pages/pasapalabra/img/fondo.jpg);
+    background: url(../img/one-piece.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -17,7 +17,7 @@ body{
     max-width: 700px;
     margin: 50px auto;
     text-align: center;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(220, 25, 25, 0.7);
     padding: 30px;
     border: 2px solid #000;
     border-radius: 20px;
@@ -53,33 +53,31 @@ button:hover{
     max-width: 700px;
     margin: 50px auto;
     text-align: center;
-    background: rgba(255, 255, 255, .7);
+    background: rgba(223, 79, 79, 0.7);
     padding: 30px;
     border: 2px solid #000;
     border-radius: 20px;
 }
 
-/* Pantalla incial del juego */
+
 
 #pantalla-juego{
     display: none;
 }
 
-/* Esta clase se agregara dinamicamente*/
+
 
 .pregunta-actual{
     background-color: #000 !important;
     color: #fff !important;
 }
 
-/* Esta clase se agregara dinamicamente cuando haya respondido correctamente la pregunta */
 
 .bien-respondida{
     background-color: aqua !important;
     color: #fff !important;
 }
 
-/* Esta clase se agregara dinamicamente cuando haya respondido incorrectamente la pregunta */
 
 .mal-respondida{
     background-color: brown !important;
@@ -144,7 +142,6 @@ button:hover{
     font-weight: bold;
 }
 
-/* La siguiente clase es para el circulo de cada letra */
 
 .circle{
     position: absolute;
@@ -163,7 +160,7 @@ button:hover{
 
 }
 
-/* Clase de pantalla final*/
+
 
 #pantalla-final{
     display: none;
