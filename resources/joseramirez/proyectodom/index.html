@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Manipulacion del DOM</title>
+</head>
+
+<body>
+    <div class="product-card">
+        <div class="product-image">
+            <!--<img src="" alt="">-->
+        </div>
+        <div class="product-description">
+            <h3 class="tag">CARRO</h3>
+            <h1 class="product-title">BUGATTI CHIRON </h1>
+            <p class="product-details">
+                <span class="mileage">
+                    <span style="font-size: 1em; color: black;"><i class="fa-solid fa-car"></i>
+                        Velocidad máxima: 420km/h
+                    </span>
+                </span>
+                <span class="fuel">
+                    <span style="font-size: 1em; color: black;"><i class="fa-solid fa-gas-pump"></i></span>
+                    Combustible: 25mpg
+                </span>
+                <span class="safety">
+                    <span style="font-size: 1em; color: black;"><i class="fa-solid fa-shield"></i></span>Seguridad:
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </span>
+            </p>
+            <p>Escoge un color:</p>
+            <div class="colors-price">
+                <div class="colors">
+                    <span class="red"><img src="https://www.bugatti.com/fileadmin/_processed_/sei/p54/se-image-e2f44c114f4561bf4e1b830e37de8842.webp" alt=""></span>
+                    <span class="gray"><img src="https://www.bugatti.com/fileadmin/_processed_/sei/p54/se-image-4dbe42f7fa1d81bbfbaa9c5f7f41dcd3.webp" alt=""></span>
+                    <span class="black"><img src="https://www.bugatti.com/fileadmin/_processed_/sei/p54/se-image-948e7dfc83d905a69e229201323ee13d.webp" alt=""></span>
+                </div>
+                <div class="pricing">
+                    <h2 class="new-price">$134,450</h2>
+                    <h4 class="old-price"><s>$140,500</s></h4>
+                </div>
+            </div>
+            <button id="button">
+                <span style="font-size: 1em; color: white;">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+                <span class="button-text">Agregar al carrito</span>
+            </button>
+            <button class="feedback">
+                <span id="white-button">oh la la! vas a ser el dueño de un Benz</span>
+            </button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
