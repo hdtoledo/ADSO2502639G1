@@ -9,7 +9,7 @@ body{
 }
 
 .images{
-    background: url("//carrusel/img/001.jpg");
+    background-image: url(/resources/karoltatiana/pages/carrusel/img/001.jpg);
     width: 900px;
     height: 600px;
     background-position: center;
@@ -19,7 +19,7 @@ body{
     margin: 4rem auto;
     border: 8px solid rgb(212, 17, 17);
     border-radius: 5px;
-    position: relative;
+    position: relative;  
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
 }
 
