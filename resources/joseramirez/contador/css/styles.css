@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background: #090c6253;
+    height: 50vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.8);
+}
+
+.container h1{
+    font-size: 45px;
+}
+
+.num{
+    font-size: 60px;
+    color: #fff;
+}
+.botons{
+    width: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+button{
+    background: #8394ff5b;
+    width: 115px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.8);
+    font-size: 21px;
+    cursor: pointer;
+}
+.dis:active{
+    background: rgba(255, 0, 0, 0.500);
+    color: white;
+}
+.aum:active{
+    background: rgba(0, 128, 0, 0.500);
+    color: white;
+}
+.rest:active{
+    background: rgba(0, 0, 0, 0.500);
+    color: white;
+}

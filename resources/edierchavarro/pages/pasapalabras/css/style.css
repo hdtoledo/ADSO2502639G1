@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&family=Rammetto+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rajdhani';
+    background: url(https://areajugones.sport.es/wp-content/uploads/2022/10/one-piece-32.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#pantalla-inicial{
+    display: block;
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    background: rgba(0, 179, 255, 0.7);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+#pantalla-inicial h1{
+    font-family: 'Rammetto One';
+    font-size: 50px;
+    color: #ffffff;
+}
+
+button{
+    background: #454444;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 20px;
+    border-radius: 30px;
+    border-bottom: 4px solid #000000;
+}
+
+button:hover{
+    border-bottom: 4px solid transparent;
+    background-color: #a5a0a9;
+}
+
+/* Pantalla inicial del juego */
+
+#pantalla-juego {
+    display: none;
+}
+
+/*Esta clase se agregara dinamicamente*/
+
+.pregunta-actual {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/*Esta clase se agregara dinamicamente cuando haya respondido correctamente una preguntas*/
+
+.bien-respondida {
+    background-color: #00ffcc !important;
+    color: #fff !important;
+}
+
+/*Esta clase se agregara dinamincamente cuando haya respondido incorrectamente una pregunta*/
+
+.mal-respondida{
+    background-color: #fb797b !important;
+    color: #fff !important;
+}
+
+.contenedor-pregunta {
+    background-color: rgba(255, 255, 255, .7);
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.contenedor-pregunta #pregunta {
+    margin: 0;
+    font-weight: normal;
+}
+
+.contenedor-pregunta input{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    border: 2px solid #ccc;
+}
+
+.contenedor-pregunta #letra-pregunta {
+    border: 2px solid #000;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+    background: #fff;
+}
+
+.container {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    margin: 50px auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #tiempo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*La siguiente clase es para los circulos de cada letra*/
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Clase para la pantalla final*/
+#pantalla-final{
+    display: none;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, .7);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+#pantalla-final span{
+    background: #000;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}

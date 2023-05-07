@@ -1,271 +1,479 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./CSS/style.css" />
-        <title>Juan Diego Arenas</title>
-    </head>
-    <body>
-        <canvas class="background"></canvas>    
-        <script src="./js/particles.js-master/dist/particles.js"></script>
-        <div class="head">
-            <img
-            src="https://www.becas-santander.com/content/dam/becasmicrosites/blog/metodolog%C3%ADas-de-desarrollo-de-software.jpg"
-            alt="Desarrollador de Software"
-            />
-            <div>
-                <h1 class="title">JUAN DIEGO ARENAS</h1>
-                <h3 class="subtitle">DESARROLLADOR DE SOFTWARE</h3>
-            </div>
-        </div>
-        <div class="container">
-            <div class="me">
-                <h2>Sobre mí</h2>
-                <p class="sangria">
-                    Soy un desarrollador de software y programador con
-                    experiencia en tecnologías actuales como Python y
-                    JavaScript, React y node, y con la intención de aprender
-                    nuevas tecnologías y reforzar las actuales. Me destaco por
-                    mi liderazgo y buen trabajo en equipo
-                </p>
-            </div>
-            <div class="edu">
-                <h2>Educación</h2>
-                <div>
-                    <h3>Servicio Nacional de Aprendizaje (SENA)</h3>
-                    <h4>2022 - 2023 | Análisis y Desarrollo de Software</h4>
-                    <h3>Misión TIC</h3>
-                    <h4>2022 - 2022 | Stack MERN</h4>
-                </div>
-            </div>
-            <div class="skill">
-                <h2>Skills</h2>
-				<div class="bar">
-                    <div class="br">
-                        <div class="e">JavaScript</div>
-						<div class="h">·····</div>
-					</div>
-					<div class="br">
-                        <div class="e">Node.js</div>
-						<div class="h">·····</div>
-					</div>
-					<div class="br">
-						<div class="e">Mongo DB</div>
-						<div class="h">·····</div>
-					</div>
-					<div class="br">
-						<div class="e">Git & Github</div>
-						<div class="h">·····</div>
-					</div>
-					<div class="br">
-						<div class="e">HTML & CSS</div>
-						<div class="h">·····</div>
-					</div>
-					<div class="br">
-						<div class="e">React.js    </div>
-						<div class="h">·····</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+	<link rel="stylesheet" href="./css/styles.css" />
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<!-- Menu Header -->
+	<div class="container-header">
+		<header>
+			<div class="logo">
+				<a href="#">@JDA.dev</a>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+					<li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+					<li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+					<li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+					<li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+					<li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+				</ul>
+			</nav>
+			<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+	</div>
+
+	<!-- Section Inicio -->
+	<section id="inicio" class="inicio">
+		<div class="container-banner">
+			<div class="container-img">
+				<img src="./img/photo4.jpg" alt="Juan Diego Arenas" />
+			</div>
+			<h1>Juan Diego Arenas</h1>
+			<h2>Developer - Back-end</h2>
+			<div class="redes">
+				<a href="https://www.facebook.com/profile.php?id=100052732161217" target="_blank">
+					<i class="fa-brands fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/jda.dev/" target="_blank">
+					<i class="fa-brands fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/in/juan-diego-arenas-cuellar-a5a234252/" target="_blank">
+					<i class="fa-brands fa-linkedin"></i></a>
+				<a href="https://github.com/JuanDiego-Arenas" target="_blank"><i class="fa-brands fa-github"></i></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Sobre Mi -->
+	<section id="sobremi" class="sobremi">
+		<div class="container-section">
+			<h2>Sobre Mi</h2>
+			<p>
+				<span>Hola, soy Juan Diego,</span> y soy un desarrollador de
+				software y programador con experiencia en tecnologías
+				actuales como Python y JavaScript, React y node, y con la
+				intención de aprender nuevas tecnologías y reforzar las
+				actuales. Me destaco por mi liderazgo y buen trabajo en
+				equipo
+			</p>
+			<div class="fila">
+				<!-- Datos Personales -->
+				<div class="col">
+					<h3>Datos Personales</h3>
+					<ul>
+						<li>
+							<strong>Cumpleaños</strong>
+							08-09-2002
+						</li>
+						<li>
+							<strong>Teléfono</strong>
+							+57 320 276 6813
+						</li>
+						<li>
+							<strong>Email</strong>
+							arenas250421@gmail.com
+						</li>
+						<li>
+							<strong>Website</strong>
+							www.example.dev
+						</li>
+						<li>
+							<strong>Dirección</strong>
+							Garzón, Huila, Colombia
+						</li>
+						<li>
+							<strong>Cargo</strong>
+							Freelance
+						</li>
+					</ul>
+				</div>
+
+				<!-- Intereses -->
+				<div class="col">
+					<h3>Intereses</h3>
+					<div class="container-intereses">
+						<div class="interes">
+							<i class="fa-solid fa-gamepad"></i>
+							<span>Juegos</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-film"></i>
+							<span>Películas</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-book"></i>
+							<span>Libros</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-microchip"></i>
+							<span>Tecnología</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-flask"></i>
+							<span>Ciencia</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-headphones"></i>
+							<span>Música</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-plane"></i>
+							<span>Viajar</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-laptop-file"></i>
+							<span>Aprender</span>
+						</div>
 					</div>
 				</div>
-            </div>
-            <div class="project">
-                <h2>Proyectos y Aprendizaje</h2>
-                <ul>
-                    <li>
-                        2022 Software Administrativo y de Gestión Aplicada
-                        <ul>
-                            <li class="sangria">
-                                Actualmente estoy desarrollando el proyecto
-                                SAGA, que busca mejorar la administración
-                                horaria, y la comunicación del SENA con el fin
-                                de hacer una reducción a las hojas de asistencia
-                                (que no todos llenan) y una estructura para la
-                                difusión de la información
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        2022 Ruta FullStack
-                        <ul>
-                            <li class="sangria">
-                                Actualmente me estoy formando en la ruta de
-                                programación FullStack con la plataforma de Open
-                                Bootcamp
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        2021 Visión por computadora
-                        <ul>
-                            <li class="sangria">
-                                Desarrollé una inteligencia artificial capaz de
-                                detectar objetos en la pantalla por medio de la
-                                cámara
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <br />
-        <div class="contact">
-            <h2>Contacto</h2>
-            <br />
-            <ul class="contact-list">
-                <li>(+57)320 2766813</li>
-                <li>(+57)302 6024361</li>
-                <li>Arenas250421@gmail.com</li>
-                <li>github.com/JuanDiego-Arenas</li>
-            </ul>
-        </div>
-    </body>
-    <script>
-    window.onload = function() {
-        Particles.init({
-            selector: '.background'
-        });
-    };
-    </script>
-</html>
-=======
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./CSS/style.css" />
-        <title>Juan Diego Arenas</title>
-    </head>
-    <body>
-        <canvas class="background"></canvas>    
-        <script src="./js/particles.js-master/dist/particles.js"></script>
-        <div class="head">
-            <img
-            src="https://www.becas-santander.com/content/dam/becasmicrosites/blog/metodolog%C3%ADas-de-desarrollo-de-software.jpg"
-            alt="Desarrollador de Software"
-            />
-            <div>
-                <h1 class="title">JUAN DIEGO ARENAS</h1>
-                <h3 class="subtitle">DESARROLLADOR DE SOFTWARE</h3>
-            </div>
-        </div>
-        <div class="container">
-            <div class="me">
-                <h2>Sobre mí</h2>
-                <p class="sangria">
-                    Soy un desarrollador de software y programador con
-                    experiencia en tecnologías actuales como Python y
-                    JavaScript, React y node, y con la intención de aprender
-                    nuevas tecnologías y reforzar las actuales. Me destaco por
-                    mi liderazgo y buen trabajo en equipo
-                </p>
-            </div>
-            <div class="edu">
-                <h2>Educación</h2>
-                <div>
-                    <h3>Servicio Nacional de Aprendizaje (SENA)</h3>
-                    <h4>2022 - 2023 | Análisis y Desarrollo de Software</h4>
-                    <h3>Misión TIC</h3>
-                    <h4>2022 - 2022 | Stack MERN</h4>
-                </div>
-            </div>
-            <div class="skill">
-                <h2>Skills</h2>
-				<div class="bar">
-                    <div class="br">
-                        <div class="e">JavaScript</div>
-						<div class="h">·····</div>
+			</div>
+			<button>
+				Descargar CV <i class="fa-solid fa-download"></i>
+				<span class="overlay"></span>
+			</button>
+		</div>
+	</section>
+
+	<!-- Section Skills -->
+	<section id="skills" class="skills">
+		<div class="container-section">
+			<h2>Skills</h2>
+			<div class="fila">
+				<!-- Technical Skills -->
+				<div class="col">
+					<h3>Technical Skills</h3>
+					<div class="skill">
+						<span>JavaScript</span>
+						<div class="barra-skill">
+							<div class="progreso javascript">
+								<span>70%</span>
+							</div>
+						</div>
 					</div>
-					<div class="br">
-                        <div class="e">Node.js</div>
-						<div class="h">·····</div>
+					<div class="skill">
+						<span>Node.js</span>
+						<div class="barra-skill">
+							<div class="progreso node">
+								<span>50%</span>
+							</div>
+						</div>
 					</div>
-					<div class="br">
-						<div class="e">Mongo DB</div>
-						<div class="h">·····</div>
+					<div class="skill">
+						<span>Mongo DB</span>
+						<div class="barra-skill">
+							<div class="progreso mongodb">
+								<span>60%</span>
+							</div>
+						</div>
 					</div>
-					<div class="br">
-						<div class="e">Git & Github</div>
-						<div class="h">·····</div>
+					<div class="skill">
+						<span>Git & Github</span>
+						<div class="barra-skill">
+							<div class="progreso git">
+								<span>80%</span>
+							</div>
+						</div>
 					</div>
-					<div class="br">
-						<div class="e">HTML & CSS</div>
-						<div class="h">·····</div>
+					<div class="skill">
+						<span>HTML & CSS</span>
+						<div class="barra-skill">
+							<div class="progreso htmlcss">
+								<span>75%</span>
+							</div>
+						</div>
 					</div>
-					<div class="br">
-						<div class="e">React.js    </div>
-						<div class="h">·····</div>
+					<div class="skill">
+						<span>React.js</span>
+						<div class="barra-skill">
+							<div class="progreso react">
+								<span>45%</span>
+							</div>
+						</div>
 					</div>
 				</div>
-            </div>
-            <div class="project">
-                <h2>Proyectos y Aprendizaje</h2>
-                <ul>
-                    <li>
-                        2022 Software Administrativo y de Gestión Aplicada
-                        <ul>
-                            <li class="sangria">
-                                Actualmente estoy desarrollando el proyecto
-                                SAGA, que busca mejorar la administración
-                                horaria, y la comunicación del SENA con el fin
-                                de hacer una reducción a las hojas de asistencia
-                                (que no todos llenan) y una estructura para la
-                                difusión de la información
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        2022 Ruta FullStack
-                        <ul>
-                            <li class="sangria">
-                                Actualmente me estoy formando en la ruta de
-                                programación FullStack con la plataforma de Open
-                                Bootcamp
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        2021 Visión por computadora
-                        <ul>
-                            <li class="sangria">
-                                Desarrollé una inteligencia artificial capaz de
-                                detectar objetos en la pantalla por medio de la
-                                cámara
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <br />
-        <div class="contact">
-            <h2>Contacto</h2>
-            <br />
-            <ul class="contact-list">
-                <li>(+57)320 2766813</li>
-                <li>(+57)302 6024361</li>
-                <li>Arenas250421@gmail.com</li>
-                <li>github.com/JuanDiego-Arenas</li>
-            </ul>
-        </div>
-    </body>
-    <script>
-    window.onload = function() {
-        Particles.init({
-            selector: '.background'
-        });
-    };
-    </script>
+
+				<!-- Professional Skills -->
+				<div class="col">
+					<h3>Professional Skills</h3>
+					<div class="skill">
+						<span>Comunicación</span>
+						<div class="barra-skill">
+							<div class="progreso communication">
+								<span>80%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Trabajo en Equipo</span>
+						<div class="barra-skill">
+							<div class="progreso team">
+								<span>90%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Creatividad</span>
+						<div class="barra-skill">
+							<div class="progreso creative">
+								<span>90%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Dedicación</span>
+						<div class="barra-skill">
+							<div class="progreso dedication">
+								<span>98%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Project Management</span>
+						<div class="barra-skill">
+							<div class="progreso project">
+								<span>60%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Curriculum -->
+	<section id="curriculum" class="curriculum">
+		<div class="container-section">
+			<h2>Curriculum</h2>
+			<div class="fila">
+				<div class="col izquierda">
+					<h3>Educación</h3>
+					<div class="item izq">
+						<h4>Desarrollo de Software</h4>
+						<span class="casa">Servicio Nacional de Aprendizaje</span>
+						<span class="fecha">2022 - 2023</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur
+							adipisicing elit. Veritatis minus modi laborum.
+						</p>
+						<div class="conector-i">
+							<div class="circulo-i"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<h4>Stack MERN</h4>
+						<span class="casa">Universidad Autónoma de Bucaramanga</span>
+						<span class="fecha">2022 - 2022</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur
+							adipisicing elit. Veritatis minus modi laborum.
+						</p>
+						<div class="conector-i">
+							<div class="circulo-i"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<h4>Ingeniería de Software</h4>
+						<span class="casa">Politécnico GranColombiano</span>
+						<span class="fecha">2024 - 2027</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur
+							adipisicing elit. Veritatis minus modi laborum.
+						</p>
+						<div class="conector-i">
+							<div class="circulo-i"></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Columna derecha -->
+				<div class="col derecha">
+					<h3>Experiencia de Trabajo</h3>
+					<div class="item der">
+						<h4>Analista de Software</h4>
+						<span class="casa">Cootransgar</span>
+						<span class="fecha">2022 - 2022</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur
+							adipisicing elit. Veritatis minus modi laborum.
+						</p>
+						<div class="conector-d">
+							<div class="circulo-d"></div>
+						</div>
+					</div>
+					<div class="item der">
+						<h4>Back-end</h4>
+						<span class="casa">Microsoft</span>
+						<span class="fecha">2022 - 2024</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur
+							adipisicing elit. Veritatis minus modi laborum.
+						</p>
+						<div class="conector-d">
+							<div class="circulo-d"></div>
+						</div>
+					</div>
+					<div class="item der">
+						<h4>Software Developer</h4>
+						<span class="casa">Github.inc</span>
+						<span class="fecha">2024 - 2027</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur
+							adipisicing elit. Veritatis minus modi laborum.
+						</p>
+						<div class="conector-d">
+							<div class="circulo-d"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Portfolio -->
+	<section id="portfolio" class="portfolio">
+		<div class="container-section">
+			<h2>Portfolio</h2>
+			<div class="galeria">
+				<dvi class="proyecto">
+					<img src="./img/p1.1.jpg" alt="Primer proyecto">
+					<div class="overlay">
+						<h3>SAGA</h3>
+						<p>Proyecto Final</p>
+					</div>
+				</dvi>
+				<dvi class="proyecto calculadora">
+					<img src="./img/p2.2.gif" alt="Segundo proyecto">
+					<a href="./public/calculadora-001/index.html" target="_blank">
+						<div class="overlay">
+							<h3>Calculadora</h3>
+							<p>Desarrollo</p>
+						</div>
+					</a>
+				</dvi>
+				<dvi class="proyecto">
+					<img src="./img/p3.3.png" alt="Tercer proyecto">
+					<a href="./public/DOM/index.html" target="_blank">
+						<div class="overlay">
+							<h3>DOM</h3>
+							<p>Desarrollo</p>
+						</div>
+					</a>
+				</dvi>
+				<dvi class="proyecto">
+					<img src="./img/p4.4.jpg" alt="Cuarto proyecto">
+					<a href="./public/ejercicioPractico/cabiaColor/index.html" target="_blank">
+						<div class="overlay">
+							<h3>Cambiar color</h3>
+							<p>Ejercicio Practico</p>
+						</div>
+					</a>
+				</dvi>
+				<dvi class="proyecto">
+					<img src="./img/p5.5.jpg" alt="Quinto proyecto">
+					<a href="./public/ejercicioPractico/cambiarTexto/index.html" target="_blank">
+						<div class="overlay">
+							<h3>Cambiar texto (falta css)</h3>
+							<p>Fotografía</p>
+						</div>
+					</a>
+				</dvi>
+				<dvi class="proyecto">
+					<img src="./img/p6.6.jpeg" alt="Sexto proyecto">
+					<a href="./public/ejercicioPractico/contador/index.html" target="_blank">
+						<div class="overlay">
+							<h3>Contador</h3>
+							<p>Ejercicio Practico</p>
+						</div>
+					</a>
+				</dvi>
+				<dvi class="proyecto">
+					<img src="./img/p6.6.jpeg" alt="Sexto proyecto">
+					<a href="./public/ES6/index.html" target="_blank">
+						<div class="overlay">
+							<h3>ES6(consola)</h3>
+							<p>Ejercicio Practico</p>
+						</div>
+					</a>
+				</dvi>
+				<dvi class="proyecto">
+					<img src="./img/p6.6.jpeg" alt="Sexto proyecto">
+					<a href="./public/pasaPalabra-002/index.html" target="_blank">
+						<div class="overlay">
+							<h3>Pasa Palabras</h3>
+							<p>Desarrollo</p>
+						</div>
+					</a>
+				</dvi>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Contacto -->
+	<section id="contacto" class="contacto">
+		<div class="container-section">
+			<h2>Contacto</h2>
+			<div class="fila">
+
+				<!-- Formulario -->
+				<div class="col">
+					<input type="text" placeholder="Tu Nombre">
+					<input type="text" placeholder="Numero Telefónico">
+					<input type="email" placeholder="Dirección de Correo">
+					<input type="text" placeholder="Tema">
+					<textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+					<button>Enviar <i class="fa-solid fa-paper-plane"></i>
+						<span class="overlay"></span>
+					</button>
+				</div>
+
+				<!-- Mapa -->
+				<div class="col">
+					<img src="./img/ubicacion.png" alt="Mapa">
+					<div class="info">
+						<ul>
+							<li>
+								<i class="fa-solid fa-location-dot"></i>
+								Garzón, Huila, Colombia
+							</li>
+							<li>
+								<i class="fa-solid fa-phone"></i>
+								LLamame: +57 320 276 6813
+							</li>
+							<li>
+								<i class="fa-solid fa-envelope"></i>
+								E-mail: arenas25@gmail.com
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<a href="#inicio" class="arriba">
+			<i class="fa-solid fa-angles-up"></i>
+		</a>
+		<div class="redes">
+			<a href="https://www.facebook.com/profile.php?id=100052732161217" target="_blank"><i
+					class="fa-brands fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/jda.dev/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/juan-diego-arenas-cuellar-a5a234252/" target="_blank"><i
+					class="fa-brands fa-linkedin"></i></a>
+			<a href="https://github.com/JuanDiego-Arenas" target="_blank"><i class="fa-brands fa-github"></i></a>
+		</div>
+	</footer>
+	<script src="./js/script.js"></script>
+</body>
+
 </html>
->>>>>>> 29ed84acf7faee6622d3fbdef9c0e93c15bdb4ef

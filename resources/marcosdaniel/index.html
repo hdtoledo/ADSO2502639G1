@@ -1,146 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>curriculum</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portafolio marcos</title>
 </head>
+
 <body>
-    <div class="container">
-            <nav>
+    <!-- Menu Header-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">MARCRACKXX</a>
+            </div>
+            <nav id="nav">
                 <ul>
-                    <li><a href="#infoPersonal"></a></li>
-                    <li><a href="#perfilProfesional">perfilProfesional</a></li>
-                    <li><a href="#experiencia">areas de Experiencia</a></li>
-                    <li><a href="#historialEdu">Historico Educativo</a></li>
-                    <li><a href="#expWork">Experiencia laborales</a></li>
-                    <li><a href="#contacto">contactar</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
                 </ul>
             </nav>
-        <div class="c-perfil">
-            <img src="./img/img 003.jfif" alt="img-perfil">
-            <div class="infoPersonal" id="infoPersonal">
-                <h1>Marcos Daniel Montealegre</h1>
-                <p>Un ingeniero de sistemas supervisan todos los aspectos de un proyecto o sistema en una variedad de campos, como software, transporte, desarrollo de productos y fabricación.
-                 Su trabajo es desarrollar un sistema que cree un producto desde el principio hasta el final. </p>
-                <i class="fa-brands fa-linkedin"></i><span> Marquitos</span>
-                <i class="fa-brands fa-github"></i><span> Marquitos</span>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
             </div>
-        </div>
-
-        <hr>
-
-        <div class="perfilProfesional" id="perfilProfesional">
-            <h1>perfilProfesional</h1>
-            <p>En este perfil se hacen trabajos de programacion en sistemas encargada del mantenimiento, supervisión, reparación, 
-            creación de scripts, automatización
-            de tareas sobre los servidores y sus sistemas operativos y aplicaciones.
-            </p>
-        </div>
-
-        
-        <hr>
-
-        <div class="areaExperiencia" id="experiencia">
-            <h1>Areas de Experiencia</h1>
-            <span>Áreas afines en las cuales me he desempeñado a lo largo de los años como desarrollador de software.</span>
-            <div class="table">
-                <table>
-                    <tr>
-                        <th>Frontend</th>
-                        <th>Backend</th> 
-                    </tr>
-                    <tr>
-                        <td><i class="fa-brands fa-html5"></i> HTML</td>
-                        <td><i class="fa-brands fa-js"></i> JavaScript</td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa-brands fa-css3-alt"></i> CSS</td>
-                        <td><i class="fa-brands fa-python"></i> python</td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa-brands fa-python"></i> JavaScript</td>
-                        <td><i class="fa-solid fa-duck"></i> ruby</td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa-brands fa-react"></i> React</td>
-                        <td><i class="fa-brands fa-java"></i> Java</td>
-                    </tr>
-                    <tr>
-                        <td>TypeScript</td>
-                        <td>C#</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="historialEdu" id="historialEdu">
-            <h1>historico Educativo - Conocimientos</h1>
-            <p>Un ingeniero de sistemas supervisan todos los aspectos de un proyecto o sistema en una variedad de campos, como software, transporte, desarrollo de productos y fabricación. 
-            Su trabajo es desarrollar un sistema que cree un producto desde el principio hasta el final.
-            </p>
-            <div class="Conocimientos">
-                <ul>
-                    <li>OpenBootcamp-<b>HTML</b></li>
-                    <li>OpenBootcamp-<b>CSS</b></li>
-                    <li>OpenBootcamp-<b>JavaScript</b></li>
-                    <li>OpenBootcamp-<b>Python</b></li>
-                    <li>OpenBootcamp-<b>Ruby</b></li>
-                </ul>
-                <ul>
-                    <li><b>SENA-</b>Analisis y desarrollo de software</li>
-                    <li><b>SENA-</b>Tecnico en Sistemas</li>
-                    <li><b>SENA-</b>Tecnico en programacion</li>
-                </ul>
-          </div>
-      </div>
-  </div>
-
-  <hr>
-
-  <div class="expWork" id="expWork">
-    <h1>Experiencias Laborales</h1>
-    <p>Estas son algunas de las experiencias que atravez de los años que he logrado adquirir con las difrerntes empresas en las que ha sido parte.</p>
-
-    <div class="experiencia">
-        <div class="exp-1">
-            <p><b>10/2021 – Presente Analista – Programador, Servicios Técnicos IT, Bilbao</b></p>
-            <ul>
-                <li>Toma requerimientos con el cliente.</li>
-                <li>Analisis de requerimientos y diseño de aplicaciones.</li>
-                <li>Desarrollo de aplicaciones utilizando React.</li>
-            </ul>
-        </div>
-        <div class="exp-2">
-            <p><b>10/2022 Programador Full Stack, Finanbest, Madrid</b></p>
-            <ul>
-                <li>Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5.</li>
-                <li>Realización de test de aplicaciones.</li>
-                <li>Solución de incidencias.</li>
-            </ul>
-        </div>
+        </header>
     </div>
-  </div>
+    <!-- Section Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/Humpty_alexander_dumpty.png" alt="" />
+            </div>
+            <h1>Marcos D. Montealegre</h1>
+            <h2>Ingeniero de Software - Experto UI/UX</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Section Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mí</h2>
+            <p>
+                <span>Hola, soy Marcos</span> Soy desarrollador de software tambien estoy aprendiendo hacer animacion y stop motion.
+            </p>
+            <div class="fila">
+                <!--Datos Personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-11-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 321 742 1663
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            marcosmontealegre657@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.Marcos.dev
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Garzón, Huila, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Freelance
+                        </li>
+                    </ul>
+                </div>
 
 
+                <!--Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Películas</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografía</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Tecnología</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
 
+    <!-- Section Skills-->
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso Wordpress">
+                                <span>80%</span>
+                            </div>
 
-  <div class="contacto" id="contacto">
-      <div class="infoContacto">
-          <h3>Contacto</h3>
-          <span>Cel: 3217421663</span><br>
-          <span>Tel: 3043368508</span><br>
-          <span>Correo: marcosmontealegre657@gmail.com</span><br>
-          <span>GitHub: <a href="https://github.com/m4rquitos">github/m4rquitos</a></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso react">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Profesional Skills-->
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso Comunicación">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso equipo">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      </div>
-  </div>
-<div>
+    <!--Section Curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Sena cazuca</span>
+                        <span class="fecha">2018 - 2019</span>
+                        <p>Tecnico en sistemas tecnologicas y matematicas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Centro Agroempresarial y Desarrollo Pecuario del Huila</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Analisis y Desarrollo de Software.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">tecnico de sistemas informaticos</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>Reparacion y cambio de equipos informaticos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Column drecha-->
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>content Specialist</h4>
+                        <span class="casa">la vanguardia</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>Elaboracion de contenido para diferentes secciones del periodico.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>content Senior</h4>
+                        <span class="casa">Agencia de Marketing Digital Creativitat</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>creacion de contenido para diferentes tematicas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Viviendas y Locales Garzon</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Creacion de una cartera propia de archivos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Section Portafolio -->
+    <section id="portafolio" class="portafolio">
+        <div class="container-section">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/curriculum logo.jpg" alt="">
+                    <a href="./trabajos/curriculum/index.html" target="_blank">
+                    <div class="overlay">
+                        <h3>curriculum</h3>
+                        <p>ejercicio 001</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/git-github.png" alt="">
+                    <a href="https://github.com/m4rquitos" target="_blank">
+                    <div class="overlay">
+                        <h3>GITHUB</h3>
+                        <p>ejercicio 002</p>
+                    </div>
+                </a>
+                </div>
+                
+        <div class="proyecto">
+                <img src="img/portafolio.png" alt="">
+                <a href="./trabajos/portafolio/index.html" target="_blank">
+                <div class="overlay">
+                    <h3>portafolio</h3>
+                    <p>ejercicio 003</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/git ramas.png" alt="">
+                <a href="https://github.com/m4rquitos/ramas-pruebas" target="_blank">
+                <div class="overlay">
+                    <h3>ramas-prueba</h3>
+                    <p>ejercicio 004</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/ejerci005.png" alt="">
+                <a href="trabajos/ejercicio005/" target="_blank">
+                <div class="overlay">
+                    <h3>javascript</h3>
+                    <p>ejercicio 005</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/ES6.jpg" alt="">
+                <a href="trabajos/ejercicio006/" target="_blank">
+                <div class="overlay">
+                    <h3>ES6</h3>
+                    <p>ejercicio 006</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/calculator.jpg" alt="">
+                <a href="trabajos/calculadora/index.html" target="_blank">
+                <div class="overlay">
+                    <h3>ES6</h3>
+                    <p>ejercicio 007</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/pasapalabra.png" alt="">
+                <a href="trabajos/pasapalabra/index.html" target="_blank">
+                <div class="overlay">
+                    <h3>pasapalabra</h3>
+                    <p>ejercicio 008</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/dom.png" alt="">
+                <a href="trabajos/dom/index.html" target="_blank">
+                <div class="overlay">
+                    <h3>DOM</h3>
+                    <p>ejercicio 009</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/MENSAJE.png" alt="">
+                <a href="trabajos/dom2/index.html" target="_blank">
+                <div class="overlay">
+                    <h3>Mensaje</h3>
+                    <p>ejercicio 013</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/DAME COLOR.png" alt="">
+                <a href="trabajos/dame Color/index.html" target="_blank">
+                <div class="overlay">
+                    <h3>dame color !</h3>
+                    <p>ejercicio 014</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/CONTADOR.png" alt="">
+                <a href="trabajos/contador/index.html" target="_blank">
+                <div class="overlay">
+                    <h3>contador</h3>
+                    <p>ejercicio 015</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/carrusel.png" alt="">
+                <a href="trabajos/carrusel/index.html" target="_blank">
+                <div class="overlay">
+                    <h3>carrusel</h3>
+                    <p>ejercicio 016</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="img/api.png" alt="">
+                <a href="trabajos/api/index.html" target="_blank">
+                <div class="overlay">
+                    <h3>api consumo</h3>
+                    <p>ejercicio 017</p>
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+    <!-- Section Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="email" placeholder="Numero Telefono">
+                    <input type="text" placeholder="Direccion de Correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                    <button>Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa-->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Garzon, Huila, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +57 321 742 1663
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-mail: marcosmontealegre657@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> 
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
-<script src="https://kit.fontawesome.com/b7470ea251.js" crossorigin="anonymus"></script>
+
 </html>
