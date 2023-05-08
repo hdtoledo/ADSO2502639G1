@@ -11,8 +11,10 @@ body {
     background: linear-gradient(
       to top,
       rgba(30, 35, 39, 0.646),
-      rgba(30, 35, 38, 1)
-    );
+      rgba(30, 35, 38, 1) 
+      ),
+      url(../img/pexels-brett-sayles-3653997.jpg) no-repeat center center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,8 +23,8 @@ body {
 
 .container{
     background: rgba(15, 199, 231, 0.75);
-    height: 70vh;
-    width: 40vh;
+    height: 60vh;
+    max-width: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,9 +32,7 @@ body {
     box-shadow: 3px 3px 25px rgba(15, 199, 231, 0.75);
 }
 
-.back .btn-back :active{
-    background-color: rgba(1, 22, 24, 0.75);
-}
+
 .calculator-grid {
     display: grid;
     justify-content: center;
@@ -67,7 +67,6 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: column;
-    padding:  10px;
     word-wrap: break-word;
     word-break: break-word;
     word-break: break-all;

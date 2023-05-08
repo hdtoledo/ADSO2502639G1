@@ -2,17 +2,12 @@
 
 const TOTAL_PREGUNTAS = 10;
 
-//Variable que me lleva la cantidad de preguntas respondidas correctamente
 let cantidadAcertadas = 0;
 
-//variable que controla la pregunta actual.
-//comienza en -1 por que la primera pregunta es la 0
 let preguntaActual = -1;
 
-//arreglo con los estados de las preguntas
 let estadoPreguntas = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-// Total de preguntas del juego 
 
 const bd_juego = [
     {
@@ -67,16 +62,11 @@ const bd_juego = [
     },
 ]
 
-// Variables para controlar el tiempo
 const timer = document.getElementById('tiempo');
-//tiempo del juego en segundos 
 const TIEMPO_DEL_JUEGO = 60;
-//Variable que indica el tiempo restante 
 let tiempoRestante = TIEMPO_DEL_JUEGO;
-//Variable que maneja el contador de tiempo
 let countdown;
 
-//Creamos las letras de la A a la J
 
 const container = document.querySelector('.container');
 for (let i = 1; i <= TOTAL_PREGUNTAS; i++){
@@ -98,21 +88,15 @@ comenzar.addEventListener('click', () => {
     document.getElementById('pantalla-inicial').style.display = 'none';
     document.getElementById('pantalla-juego').style.display = 'block';
 
-    //Iniciamos el contador de tiempo
     iniciarContador();
-    //Cargamos las preguntas
     cargarPreguntas();
 });
 
-//Funcion para iniciar el contador de tiempo
 function iniciarContador() {
     countdown = setInterval(() => {
-        //restamos en segundos al tiempo restante 
         tiempoRestante--;
-        //Actualizamos el tiempo en el DOM
         timer.innerText = tiempoRestante;
 
-        //si el tiempo llega a 0, detiene el contador 
         if(tiempoRestante === 0){
             clearInterval(countdown);
             mostrarPantallaFinal();
@@ -120,14 +104,11 @@ function iniciarContador() {
     }, 1000);
 }
 
-//Funcion para cargar las preguntas
 function cargarPreguntas() {
     preguntaActual++;
-    //controlo si he llegado al final de las preguntas, para iniciar de nuevo.
     if (preguntaActual >= TOTAL_PREGUNTAS) {
         preguntaActual = 0;
     }
-    //controlo si la pregunta ya fue respondida
     if (estadoPreguntas.indexOf(0)>=0){
         while (estadoPreguntas[preguntaActual] ===1 ) {
             preguntaActual++;
@@ -135,13 +116,11 @@ function cargarPreguntas() {
                 preguntaActual = 0;
             }
         }
-        //Ahora si buscamos la pregunta en la base de datos
         document.getElementById('letra-pregunta').textContent = bd_juego[preguntaActual].id;
         document.getElementById('pregunta').textContent = bd_juego[preguntaActual].pregunta;
         let letra = bd_juego[preguntaActual].id;
         document.getElementById(letra).classList.add('pregunta-actual');
     }else{
-        //si ya no hay preguntas por responder, terminamos juego
         clearInterval(countdown);
         mostrarPantallaFinal();
     }
@@ -156,7 +135,6 @@ respuesta.addEventListener("keyup", function (event) {
             alert("Debe ingresar una respuesta");
             return;
         }
-        //obtengo la respuesta ingresada
 
         let respuestaIngresada = respuesta.value.toLowerCase();
         controlarRespuesta(respuestaIngresada);
@@ -164,19 +142,15 @@ respuesta.addEventListener("keyup", function (event) {
 });
 
 function controlarRespuesta(respuestaIngresada){
-    //controlar respuesta correcta
     if (respuestaIngresada == bd_juego[preguntaActual].respuesta){
         alert("Respuesta correcta");
     }
 }
 
 function controlarRespuesta(respuestaIngresada){
-    //controla la respuesta correcta
     if (respuestaIngresada == bd_juego[preguntaActual].respuesta){
-        //alert("respuesta corrrecta");
         cantidadAcertadas++;
 
-        //cambio el estado de la pregunta a 1
         estadoPreguntas[preguntaActual] = 1;
 
         let letra = bd_juego[preguntaActual].id;
@@ -188,13 +162,10 @@ function controlarRespuesta(respuestaIngresada){
         document.getElementById(letra).classList.remove("pregunta-actual");
         document.getElementById(letra).classList.add("mal-respondida");
     }
-    //limpio el input
     respuesta.value ="";
-    //cargo la siguiente pregunta
     cargarPreguntas();
 }
 
-//Boton para pasar de pregunta sin contestar
 let pasar = document.getElementById("pasar");
 pasar.addEventListener("click", function () {
     let letra = bd_juego[preguntaActual].id;
@@ -202,7 +173,6 @@ pasar.addEventListener("click", function () {
     cargarPreguntas();
 })
 
-//Boton para responder pregunta 
 let responder = document.getElementById("responder");
 responder.addEventListener("click", function () {
     if (respuesta.value === "") {
@@ -216,7 +186,6 @@ responder.addEventListener("click", function () {
     respuesta.focus();
 });
 
-//Mostrar pantalla final 
 function mostrarPantallaFinal() {
     document.getElementById("acertadas").textContent = cantidadAcertadas;
     document.getElementById("puntaje").textContent =(cantidadAcertadas * 100) / TOTAL_PREGUNTAS + "% de aciertos";
@@ -224,17 +193,14 @@ function mostrarPantallaFinal() {
     document.getElementById("pantalla-final").style.display = "block";
 }
 
-//Boton para reinciar el juego
 let reiniciar = document.getElementById("reiniciar");
 reiniciar.addEventListener("click", function () {
-    //Reiniciar la variables
     cantidadAcertadas = 0;
     preguntaActual = -1;
     tiempoRestante = TIEMPO_DEL_JUEGO;
     timer.innerText = tiempoRestante;
     estadoPreguntas = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-    //Quitamos la clases de circulos
     let circulos = document.getElementsByClassName("circle");
     for (i=0; i<circulos.length; i++) {
         circulos[i].classList.remove("pregunta-actual");
