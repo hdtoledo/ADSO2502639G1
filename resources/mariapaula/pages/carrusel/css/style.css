@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&family=Roboto:ital,wght@0,500;1,100;1,400&display=swap');
+
+*{
+    font-family: "Rajdnani", sans-serif;
+}
+
+.images{
+    background: url("/carrusel/img/foto1.jpg");
+    width: 600px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 4rem auto;
+    border: 8px solid red;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.btn-left, .btn-right{
+    position: absolute;
+    background-color: black;
+    border: 5px solid red;
+    color: red;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-left{
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+.btn-right{
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
