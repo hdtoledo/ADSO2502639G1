@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+*{
+    font-family: 'Sigmar', cursive;
+}
+
+.images {
+    background: url(/resources/sergionarvaez/pages/carrucel/img/supra1.jpg);
+    width: 900px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 4rem auto;
+    border: 8px solid purple;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.btn-left, .btn-right{
+    position: absolute;
+    background-color: black;
+    border: 5px solid yellow;
+    color: yellow;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-left {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.btn-right {
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}

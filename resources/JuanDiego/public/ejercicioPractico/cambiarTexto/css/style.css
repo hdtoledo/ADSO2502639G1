@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    min-width: 350px;
+}
+
+.showText {
+    cursor: pointer;
+}
+
+.error {
+    display: none;
+    padding: 10px 30px;
+    background-color: rgba(255, 77, 77, .456);
+}
+
+h3 {
+    display: none;
+}

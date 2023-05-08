@@ -46,11 +46,12 @@ h1 {
 
 .disminuir{
     background-color: rgb(238, 191, 130);
-    width: 110px;
+    width: 130px;
     border: none;
     color: rgb(14, 13, 13);
     padding: 1rem;
     font-size: 1.2rem;
+    font-weight: 700;
     border-radius: 0.3rem;
     cursor: pointer;
     box-shadow: 3px 3px 3px rgb(0, 0, 0);
@@ -58,11 +59,12 @@ h1 {
 
 .aumento{
     background-color: rgb(238, 191, 130);
-    width: 110px;
+    width: 130px;
     border: none;
     color: rgb(10, 10, 10);
     padding: 1rem;
     font-size: 1.2rem;
+    font-weight: 700;
     border-radius: 0.3rem;
     cursor: pointer;
     box-shadow: 3px 3px 3px rgb(0, 0, 0);
@@ -70,11 +72,12 @@ h1 {
 
 .Reinicio{
     background-color: rgb(238, 191, 130);
-    width: 100px;
+    width: 130px;
     border: none;
     color: rgb(10, 10, 10);
     padding: 1rem;
     font-size: 1.2rem;
+    font-weight: 700;
     border-radius: 0.3rem;
     cursor: pointer;
     box-shadow: 3px 3px 3px rgb(0, 0, 0);

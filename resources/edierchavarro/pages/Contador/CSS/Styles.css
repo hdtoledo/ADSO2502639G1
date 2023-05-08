@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #e1e1e1;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.container{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container-contador{
+    width: 40rem;
+    border: 1px solid #eee;
+    padding: 1rem;
+    background-color: rgb(121, 121, 121);
+    color: #fff;
+    text-align: center;
+    border-radius: 1.5rem;
+}
+
+.container-contador >*{
+    margin-bottom: 2rem;
+}
+
+.contador{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.buttons button{
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: .8rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons button:active{
+    transform: scale(.98);
+}
+
+button.Quitar{
+    background-color:#000000;
+
+}
+
+button.Resetear{
+    background-color: #fff;
+    color: #000;
+}
+
+button.Agregar{
+    background-color: #000000;
+}

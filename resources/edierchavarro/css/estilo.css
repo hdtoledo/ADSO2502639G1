@@ -184,7 +184,7 @@ html {
 .sobremi .fila .col .container-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: rgb(108, 108, 108);
+    background-color: rgb(63, 63, 63);
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -194,7 +194,7 @@ html {
     transition: .3s;
 }
 .sobremi .fila .col .container-intereses .interes:hover{
-    background-color: rgb(121, 121, 121);
+    background-color: rgb(9, 255, 255);
 }
 .sobremi .fila .col .container-intereses .interes i{
     font-size: 30px;
@@ -372,7 +372,7 @@ margin-bottom: 25px;
 
 @keyframes comunicacion{
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .equipo {
@@ -431,8 +431,9 @@ margin-bottom: 25px;
 
 .curriculum h2{
     font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    padding:20px o;
+    padding:20px 0;
 }
 
 .curriculum .fila{
@@ -552,29 +553,26 @@ margin-left: 20px;
 }
 
 .portfolio{
-    background-color: rgb(0, 0, 0);
-    color: azure;
+    background-color: #25262e;
+    color: rgb(255, 255, 255);
     padding: 50px 20px;
 }
-
 .portfolio .container-section{
     max-width: 1100px;
     margin: auto;
 }
-
 .portfolio h2{
     font-size: 48px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    padding: 20px 0;
+        font-family: "dosis";
+        text-align: center;
+        padding: 20px 0;
 }
-
 .portfolio .galeria{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
-
 .portfolio .galeria .proyecto{
     position: relative;
     max-width: 340px;
@@ -582,36 +580,34 @@ margin-left: 20px;
     margin: 10px;
     cursor: pointer;
 }
-
 .portfolio .galeria img{
     width: 100%;
+    height: 32vh;
+    width: 300px;
     display: block;
 }
-
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8),rgba(28,182,152,.8));
+    background: linear-gradient(rgb(0, 211, 207), #aeaaaa);
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: 1s;
     font-size: 18px;
     letter-spacing: 3px;
-    opacity: 0;
+    opacity: 0%;
 }
-
 .portfolio .galeria .proyecto h3{
     margin-bottom: 20px;
     transition: 1s;
 }
 .portfolio .galeria .proyecto .overlay:hover{
-    opacity: 1s;
+    opacity: 1;
 }
-
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
@@ -652,8 +648,8 @@ margin-left: 20px;
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color:rgb(253, 253, 253);
-    color: rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 
@@ -847,4 +843,11 @@ nav.responsive ul li {
         width: 100%;
     }
 }
->>>>>>> 29ed84acf7faee6622d3fbdef9c0e93c15bdb4ef
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    
+}
