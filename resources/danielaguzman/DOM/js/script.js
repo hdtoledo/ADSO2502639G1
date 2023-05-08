@@ -11,19 +11,19 @@ const itemTag = document.getElementsByTagName("h3")[0];
 redColor.addEventListener("click", function(){
     cartButton.style.background = "red";
     itemTag.style.backgroundColor = "red";
-    imageCard.style.backgroundImage = 'url("/img/rojo.jpeg")';
+    imageCard.style.backgroundImage = 'url("../img/rojo.jpeg")';
 });
 
-grayColor[0].addEventListener("click", function(){
+blueColor.addEventListener("click", function(){
     cartButton.style.background = "blue";
     itemTag.style.backgroundColor = "blue";
-    imageCard.style.backgroundImage = 'url("/DOM/img/azul.jpeg")';
+    imageCard.style.backgroundImage = 'url("../img/azul.jpeg")';
 });
 
 blackColor.addEventListener("click", function(){
     cartButton.style.background = "black";
     itemTag.style.backgroundColor = "black";
-    imageCard.style.backgroundImage = 'url("/DOM/img/negro.jpeg")';
+    imageCard.style.backgroundImage = 'url("../img/negro.jpeg")';
 });
 
 

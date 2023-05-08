@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/JUEGO/img/luaa.avif);
+    background: url(../img/luaa.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
