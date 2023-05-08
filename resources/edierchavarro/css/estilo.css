@@ -56,7 +56,7 @@ html {
 
 .nav-responsive {
     background-color: rgb(1, 1, 1);
-    color: rgb(255, 243, 243);
+    color: rgb(255, 255, 255);
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -86,9 +86,9 @@ html {
 .container-banner img {
     margin-top:40px;
     display: block;
-    width: 100%;
+    width: 80%;
     margin: auto;
-    border-radius: 100px;
+    border-radius: 80px;
 }
 
 .inicio .container-banner h1 {
@@ -103,7 +103,7 @@ html {
 }
 
 .inicio .container-banner .redes a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 255, 255);
     display: inline-block;
     text-decoration: none;
     border: 1px solid rgb(180, 178, 178);
@@ -127,7 +127,7 @@ html {
 
 .sobremi{
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 50 px 20px;
 }
 .sobremi .container-section{
@@ -203,11 +203,11 @@ html {
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(9, 255, 255);
     width: fit-content;
     padding: 10px 22px;
     font-size: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     position: relative;
     z-index: 10;
 }
@@ -217,7 +217,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(0, 255, 255);
     z-index: -1;
     transition: 1s;   
 }
@@ -615,7 +615,7 @@ margin-left: 20px;
 .contacto {
     background-image: url(../js/index.js);
     background-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 50px 0;
 }
 
@@ -673,7 +673,7 @@ margin-left: 20px;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(122, 121, 121);
+    background-color: rgb(0, 255, 255);
     transition: 1s;
     z-index: -1;
 }
@@ -713,7 +713,7 @@ margin-left: 20px;
 
 footer {
     background-color: rgb(67, 63, 63);
-    color: rgb(112, 107, 107);
+    color: rgb(134, 134, 134);
     padding: 50px 0 30px 0;
     text-align: center;
     position: relative;
@@ -725,10 +725,10 @@ footer .redes {
 }
 
 footer .redes a {
-    color: white;
+    color: rgb(0, 255, 255);
     display: inline-block;
     text-decoration: none;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 100%;
     width: 42px;
     height: 42px;
