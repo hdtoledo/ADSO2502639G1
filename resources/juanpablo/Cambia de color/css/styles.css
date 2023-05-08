@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    background: pink;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.miBoton{
+    padding: 1.2rem 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 7px 7px black;
+    background: white;
+    
+}
+
+.miBoton:active {
+    box-shadow: none;
+    background: skyblue;
+
+
+}
