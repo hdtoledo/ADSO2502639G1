@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Manipulacion del DOM</title>
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image">
+
+        </div>
+        <div class="product-description">
+            <h3 class="tag">Carro</h3>
+            <h1 class="product-title">BMW</h1>
+            <p class="product-details">
+                <span class="mileage">
+                    <span style="font-size: 1em; color: black"><i class="fa-solid fa-car"></i></span>
+                    Kilometraje: 7,000 millas
+                </span>
+                <span class="fuel">
+                    <span style="font-size: 1em; color: black"><i class="fa-solid fa-gas-pump"></i></span>
+                    Combustible: 70mpg
+                </span>
+                <span class="safety">
+                    <span style="font-size: 1em; color: black"><i class="fa-solid fa-shield"></i></span>
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </span>
+            </p>
+            <p>Escoge un color:</p>
+            <div class="colors-price">
+                <div class="color">
+                    <span class="red"></span>
+                    <span class="gray"></span>
+                    <span class="black"></span>
+                </div>
+                <div class="pricing">
+                    <h2 class="new-price">$899,500</h2>
+                    <h4 class="old-price"><s>999,500</s></h4>
+                </div>
+            </div>
+            <button id="button">
+                <span style="font-size: 1em; color: rgb(255, 255, 255)">
+                <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+                <span class="button-text">Agregar al carrito</span>
+            </button>
+            <button class="feedback">
+                <span id="white-button">🤩 Guao, vas a ser dueño de un BMW 🎊</span>
+            </button>
+        </div>
+    </div>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
