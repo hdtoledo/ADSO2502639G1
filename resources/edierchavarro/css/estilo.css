@@ -56,7 +56,7 @@ html {
 
 .nav-responsive {
     background-color: rgb(1, 1, 1);
-    color: rgb(255, 243, 243);
+    color: rgb(255, 255, 255);
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -86,9 +86,9 @@ html {
 .container-banner img {
     margin-top:40px;
     display: block;
-    width: 100%;
+    width: 80%;
     margin: auto;
-    border-radius: 100px;
+    border-radius: 80px;
 }
 
 .inicio .container-banner h1 {
@@ -103,7 +103,7 @@ html {
 }
 
 .inicio .container-banner .redes a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 255, 255);
     display: inline-block;
     text-decoration: none;
     border: 1px solid rgb(180, 178, 178);
@@ -127,7 +127,7 @@ html {
 
 .sobremi{
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 50 px 20px;
 }
 .sobremi .container-section{
@@ -184,7 +184,7 @@ html {
 .sobremi .fila .col .container-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: rgb(108, 108, 108);
+    background-color: rgb(63, 63, 63);
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -194,7 +194,7 @@ html {
     transition: .3s;
 }
 .sobremi .fila .col .container-intereses .interes:hover{
-    background-color: rgb(121, 121, 121);
+    background-color: rgb(9, 255, 255);
 }
 .sobremi .fila .col .container-intereses .interes i{
     font-size: 30px;
@@ -203,11 +203,11 @@ html {
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(9, 255, 255);
     width: fit-content;
     padding: 10px 22px;
     font-size: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     position: relative;
     z-index: 10;
 }
@@ -217,7 +217,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(0, 255, 255);
     z-index: -1;
     transition: 1s;   
 }
@@ -372,7 +372,7 @@ margin-bottom: 25px;
 
 @keyframes comunicacion{
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .equipo {
@@ -431,8 +431,9 @@ margin-bottom: 25px;
 
 .curriculum h2{
     font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    padding:20px o;
+    padding:20px 0;
 }
 
 .curriculum .fila{
@@ -552,29 +553,26 @@ margin-left: 20px;
 }
 
 .portfolio{
-    background-color: rgb(0, 0, 0);
-    color: azure;
+    background-color: #25262e;
+    color: rgb(255, 255, 255);
     padding: 50px 20px;
 }
-
 .portfolio .container-section{
     max-width: 1100px;
     margin: auto;
 }
-
 .portfolio h2{
     font-size: 48px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    padding: 20px 0;
+        font-family: "dosis";
+        text-align: center;
+        padding: 20px 0;
 }
-
 .portfolio .galeria{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
-
 .portfolio .galeria .proyecto{
     position: relative;
     max-width: 340px;
@@ -582,36 +580,34 @@ margin-left: 20px;
     margin: 10px;
     cursor: pointer;
 }
-
 .portfolio .galeria img{
     width: 100%;
+    height: 15vh;
+    width: 300px;
     display: block;
 }
-
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8),rgba(28,182,152,.8));
+    background: linear-gradient(rgb(0, 211, 207), #aeaaaa);
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: 1s;
     font-size: 18px;
     letter-spacing: 3px;
-    opacity: 0;
+    opacity: 0%;
 }
-
 .portfolio .galeria .proyecto h3{
     margin-bottom: 20px;
     transition: 1s;
 }
 .portfolio .galeria .proyecto .overlay:hover{
-    opacity: 1s;
+    opacity: 1;
 }
-
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
@@ -619,7 +615,7 @@ margin-left: 20px;
 .contacto {
     background-image: url(../js/index.js);
     background-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 50px 0;
 }
 
@@ -652,8 +648,8 @@ margin-left: 20px;
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color:rgb(253, 253, 253);
-    color: rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 
@@ -677,7 +673,7 @@ margin-left: 20px;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(122, 121, 121);
+    background-color: rgb(0, 255, 255);
     transition: 1s;
     z-index: -1;
 }
@@ -717,7 +713,7 @@ margin-left: 20px;
 
 footer {
     background-color: rgb(67, 63, 63);
-    color: rgb(112, 107, 107);
+    color: rgb(134, 134, 134);
     padding: 50px 0 30px 0;
     text-align: center;
     position: relative;
@@ -729,10 +725,10 @@ footer .redes {
 }
 
 footer .redes a {
-    color: white;
+    color: rgb(0, 255, 255);
     display: inline-block;
     text-decoration: none;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -847,4 +843,11 @@ nav.responsive ul li {
         width: 100%;
     }
 }
->>>>>>> 29ed84acf7faee6622d3fbdef9c0e93c15bdb4ef
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    
+}
