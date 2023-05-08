@@ -1,5 +1,4 @@
-//1. cambiamos el color del car y addToCart button cuando el color es seleccionado 
-// - seleccionamos loe elementos 
+ 
 
 const redColor = document.querySelector(".red");
 const blackColor = document.querySelector(".black");
@@ -9,26 +8,23 @@ const grayColor = document.getElementsByClassName("gray");
 const cartButton = document.getElementById("button");
 const itemTag = document.getElementsByTagName("h3")[0];
 
-// Modificando elementos 
-// - Add Event listeners
-// - Red color 
 
 redColor.addEventListener("click", function(){
     cartButton.style.background = "red";
     itemTag.style.backgroundColor = "red";
-    imageCard.style.backgroundImage = 'url("https://img.remediosdigitales.com/aa6c6c/toyota-supra-heritage-edition-4-/1366_2000.jpg")';
+    imageCard.style.backgroundImage = 'url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.purosautos.com%2Fnovedades%2Fel-urus-el-suv-de-lamborghini-alcanza-un-importante-hito%2F&psig=AOvVaw3jRwGlsOwgjV23LOKjlgYU&ust=1683296613264000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCLjIp9ju2_4CFQAAAAAdAAAAABAV")';
 });
 
 grayColor[0].addEventListener("click", function(){
     cartButton.style.background = "gray";
     itemTag.style.backgroundColor = "gray";
-    imageCard.style.backgroundImage = 'url("http://www.toyotasatelite.mx/images/Producto/132887/SUPRA-1-21218.jpg")';
+    imageCard.style.backgroundImage = 'url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elcarrocolombiano.com%2Fautos-del-mundo%2Flamborghini-urus-mas-radical-y-poderoso-que-nunca-780-hp-de-poder%2F&psig=AOvVaw29qVwvY7DDrYr59HZ8utO2&ust=1683296565981000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCNCHgsHu2_4CFQAAAAAdAAAAABBn")';
 });
 
 blackColor.addEventListener("click", function(){
     cartButton.style.background = "black";
     itemTag.style.backgroundColor = "black";
-    imageCard.style.backgroundImage = 'url("https://elcomercio.pe/resizer/fb8-bS6jRmDrs8M9-6vF0P_ZuH0=/980x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/MEVHEVDZ6FCIDOFOGI6HN3YTHU.jpg")';
+    imageCard.style.backgroundImage = 'url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lamborghini.com%2Fes-en%2Fmodelos%2Furus%2Furus-s&psig=AOvVaw29qVwvY7DDrYr59HZ8utO2&ust=1683296565981000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCNCHgsHu2_4CFQAAAAAdAAAAABBt")';
 });
 
 // - Cart Button 
