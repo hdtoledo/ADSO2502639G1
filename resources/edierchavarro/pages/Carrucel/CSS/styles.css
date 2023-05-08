@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@300;400;500&display=swap');
+
+*{
+    font-family: "poppins" , sans-serif;
+}
+
+.images{
+    background: url("https://www.xtrafondos.com/descargar.php?id=3225&resolucion=2560x1440");
+    width: 900px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 4rem auto;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.btn-left, .btn-right{
+    position: absolute;
+    background-color: rgb(255, 233, 233);
+    border: 5px solid rgb(74, 75, 75);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-left{
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.btn-right{
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
