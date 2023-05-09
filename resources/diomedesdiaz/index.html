@@ -1,181 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-  
-    <title>curriculum vitae: Diomedes Diaz Rocha</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Diomedes Diaz Rocha</title>
 </head>
 
 <body>
-    <div class="info"> 
-  
-        <ul id="menu" class="inline">
-
-             <li><a href="#experiencia">profesonal</a></li>
-             <li><a href="#habildades">habilidades y conocimientos</a></li>
-             <li><a href="#educacion">educacion</a></li>
-             <li><a href="#perfiles sociales">perfiles sociales</a></li>
-             <li><a href="#contactar">contactar</a></li>
-      
-          </ul>
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Diome09</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li>
+                        <a href="#curriculum" onclick="seleccionar()">Curriculum</a>
+                    </li>
+                    <li>
+                        <a href="#portafolio" onclick="seleccionar()">Portafolio</a>
+                    </li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
     </div>
-
-    
-  
-    <div class="info">
-      <h1 class="titulos"> Diomedes Diaz Rocha</h1>
-      <img src="img/WhatsApp Image 2023-02-16 at 9.18.50 AM.jpeg" alt="img" height="300px">
-      <p>Soy alguien responsable y me gusta ayudar a otros, siempre estoy dispuesto a aprender de nuevas experiencias.</p>
-    </div>
-    <hr>
-<div class="info">
-
-      <h2>Experiencia profesional</h2>
-      <table id="expertise">
-  <thead>
-  <tr>
-    <th>Empresa </th>
-    <th>Organización </th>
-    <th>Cargo</th>
-    <th>Localización</th>
-    <th>Desde-hasta</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>I.E.jose celestino mutis</td>
-    <td>tecnico en sistemas</td>
-    <td><garzon-hila></garzon-hila></td>
-    <td>diciembre-2017</td>
-  </tr>
-
-  <tr>
-    <td>Centro Agroempresarial y Desarrollo Pecuario del Huila</del></td>
-    <td>tecnologo analisis y desarrollo de sofware</td>
-    <td>garzon-Huila</td>
-    <td>febrero-20-2023</td>
-  </tr>
- 
-  </tbody>
-     </table>
-</div>
-
-</title>
-<hr>
-
-         <div class="info">
-
-        <h2 id="habilidades">Habilidades y conocimientos</h2>
-        <ul>
-          <li></li>
-            <li><strong>Desarrollo Web</strong> HTML5, CSS3, JavaScript, Python, LESS &amp; SASS, PHP, SEO, Node.js, MySQL, AngularJS, jQuery, Bootstrap, Dojo, responsive design, WordPress, usabilidad, CoffeScript, etc.</li>
-          
-        
-         
-        </ul>
-      </div>
-        <hr>
-        
-        <div class="info">
-            <h1 id="educacion">Educación</h1>
-          
-          <table id="education">
-            <thead>
-            <tr>
-              <th>Título</th>
-              <th>Entidad</th>
-              <th>Promoción</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td>Bachiller academico,</td>
-              <td>I.E.Barrios unidos,</td>
-              <td>2022</td>
-            </tr>
-            <tr>
-              <td>tecnologo: analisis y Desarrollo de sofware</td>
-              
-              <td>Centro Agroempresarial y Desarrollo Pecuario del Huila</td>
-              <td>2023</td>
-            </tr>
-            <tr>
-              
-            </tbody>
-          </table>
+    <!--? /////////////// Inicio ////////////////////  -->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="./img/WhatsApp Image 2023-05-02 at 7.28.31 AM.jpeg" alt="" />
+            </div>
+            <h1>Diomedes Diaz Rocha</h1>
+            <h2>Ingeniero de Software y Sistemas</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
         </div>
-        
-        <hr>
-        <div class="info">
-          <h1 id="redes sociales">Redes sociales</h1>
-        
-        <p class="inline">También puedes encontrarme en:</p>
-        <ul class="inline">
-          
-  <li><a href="https://www.facebook.com/profile.php?id=100085340621018&mibextid=ZbWKwL" target="_blank"><img src="img/diazimg.png"style="border: 6px;;width: 10px,height: 8px;0px"></a></li>
+    </section>
 
-</ul>
-</div>
+    <!--? /////////////// sobremi ////////////////////  -->
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mi</h2>
+            <p>
+                <span>Hola Soy Diomedes ,</span> Soy un desarrollador Web y experto en
+                UI/UX, con una experiencia de 2 años de experiencia en el area.
+            </p>
+            <div class="fila">
+                <div class="col">
+                    <!--? ///// Datos Personales //////  -->
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            13/10/1996
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +57 3102146313
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            diomedesd732@gmail.com
+                        </li>
+                        <li>
+                            <strong>WebSite</strong>
+                            www.diomebrs.dev
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Garzon, Huila, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Freelance
+                        </li>
+                    </ul>
+                </div>
+                <!--? ///// Intereses //////  -->
 
-<hr>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Peliculas</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografias</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
 
-<div
-  id="contactar" class="info">
-  <h1>Contactar</h1>
- 
-<form id="email" method="GET">
+    <!--? /////////////// Section Skills ////////////////////  -->
 
-  <label for="to">Para:</label>
-  <input id="to" type="email" required="">
-  <div id="note">
-    
-  
-  
-  <label for="topic">Temática: </label>
-  <select id="topic">
-    <option>-- Elige un tema --</option>
-    <option>Consulta</option>
-    <option>Propuesta</option>
-    <option>Reporte</option>
-    <option>Otro</option>
-  </select>
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--? // Technical Skills //  -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso wordpress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso react">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--? // professional Skills // -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <div class="skill">
+                            <span>Comunication</span>
+                            <div class="barra-skill">
+                                <div class="progreso comunicacion">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso equipo">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso creatividad">
+                                    <span>99%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedication</span>
+                            <div class="barra-skill">
+                                <div class="progreso dedication">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Proyect Management</span>
+                            <div class="barra-skill">
+                                <div class="progreso proyectMag">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <label for="subject">Asunto: </label>
-  <input id="subject" type="text" required="">
+    <!--? /////////////// Section Curriculum ////////////////////  -->
 
-  <label for="body">Cuerpo:</label>
-  <textarea id="body" required=""></textarea>
-</div>
-  <button type="submit" class="pure-button pure-button-primary">Enviar</button>
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Excepturi.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Excepturi.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Excepturi.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre Compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Excepturi.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre Compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Excepturi.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre Compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Excepturi.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</form>
+    <!--? /////////////// Portafolio ////////////////////  -->
 
-<p
-id="footer" class="info">
-  Cualquier persona puede desarrollar una página como esta a partir de los conocimientos adquiridos en el <span id="video" class="linkify">curso HTML5 desde cero</span>.
-  <br>
+    <section id="portafolio" class="portafolio">
+        <div class="container-section">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="./publico/java script"><img src="./img/descarga.jpeg" alt="" />
+                        <div class="overlay">
+                            <h3>javascript</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/index02.html"><img src="./img/descarga.jpeg" alt="" />
+                        <div class="overlay">
+                            <h3>javascript</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./pages/Calculator/index.html"><img src="./img/calculadora.jpeg" alt="" />
+                        <div class="overlay">
+                            <h3>Calculator</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./publico/repo-dom/index.html"><img src="./img/dom.png" alt="" />
+                        <div class="overlay">
+                            <h3>dom</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./publico/pasapalabras/index.html"><img src="./img/pasapalabra.png" alt="" />
+                        <div class="overlay">
+                            <h3>pasapalabra</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./publico/07/DOM02/index.html"><img src="./img/mensaje.png" alt="" />
+                        <div class="overlay">
+                            <h3>mensaje</h3>
+                            <p>Diseño 3D</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./publico/contador/index.html"><img src="./img/contador.png" alt="" />
+                        <div class="overlay">
+                            <h3>contador</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="./publico/Consumo API/index.html"><img src="./img/consumo api.png" alt="" />
+                        <div class="overlay">
+                            <h3>Consumo API</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/DIOME09/repo-prueba"><img src="./img/diome git.png" alt="" />
+                        <div class="overlay">
+                            <h3>Repo Prueba</h3>
+                            <p>Diseño Web</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <a href="https://validator.w3.org/check?uri=http%3A%2F%2Fhhkaos.github.io&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0" target="_blank">
-    <img style="border:0;width:88px;height:31px" src="https://www.google.com/search?q=imagenes+de+ingenieria+de+sistemas&rlz=1C5CHFA_enCO977CO977&oq=imagenes+de+ingene&aqs=chrome.4.69i57j0i10i512l9.18731j0j7&sourceid=chrome&ie=UTF-8#imgrc=M_aN84CghAK7pM&imgdii=RcpK5PekELnpMM" alt="Valid HTML!">
-  </a>
+    <!--? /////////////// contacto ////////////////////  -->
 
-  <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fhhkaos.github.io&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;vextwarning=&amp;lang=en" target="_blank">
-    <img style="border:0;width:88px;height:31px" src="assets/img/valid-css.png" alt="Valid CSS!">
-  </a>
-</p>
-</div>
-
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--! Form  -->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre" />
+                    <input type="email" placeholder="Tu email" />
+                    <input type="text" placeholder="Tu Telefono" />
+                    <input type="text" placeholder="Tu tema" />
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                    <button>
+                        Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--! Map -->
+                <div class="col">
+                    <img src="./img/ubicacion.png" alt="" />
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Garzon, Huila, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Garzon, Huila, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-mail: diomedesd732@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
 </body>
-</html>
-               
-            
-               
+<script src="./js/index.js"></script>
+<script src="https://kit.fontawesome.com/b7470ea251.js" crossorigin="anonymous"></script>
 
-
-
-
-</body>
 </html>
