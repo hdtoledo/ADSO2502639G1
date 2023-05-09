@@ -1,0 +1,45 @@
+body{
+padding: 0;
+margin: 0;
+background: rgb(167, 155, 155);
+}
+main{
+display: flex;
+width: 100vw;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+main .imgs{
+width: 80%;
+height: 80%;
+border-radius: 2em;
+box-shadow: 0 0 20px rgb(65, 62, 62);
+border: 1px solid rgba(207, 203, 203, 0.39);
+overflow: hidden;
+}
+main .imgs #containerImg{
+background-image: url("/img/imagenes\ 6.png");
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+span{
+font-size: 3em;
+color: white;
+cursor: pointer;
+font-weight: bold;
+text-shadow: 0 0 10px rgb(185, 174, 174);
+}
+main .imgs #btn-left{
+position: relative;
+top: -54%;
+left: 5%;
+z-index: 100;
+}
+main .imgs #btn-right{
+position: relative;
+top: -54%;
+right: -90%;
+z-index: 100;
+}
