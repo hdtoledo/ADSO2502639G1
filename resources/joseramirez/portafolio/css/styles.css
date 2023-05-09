@@ -60,7 +60,7 @@ html {
       rgba(30, 35, 39, 0.646),
       rgba(30, 35, 38, 1)
     ),
-    url(/portafolio/img/fondo.jpg) no-repeat center center;
+    url(../img/fondo.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
   color: #fff;
