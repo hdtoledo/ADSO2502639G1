@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Manipulacion del DOM</title>
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image">
+
+        </div>
+        <div class="product-description">
+            <h3 class="tag">CARRO</h3>
+            <h1 class="product-title">Mercedez Benz C300 2022</h1>
+            <p class="product-details">
+                <span class="mileage">
+                    <span style="font-size:1em; color:black"><i class="fa-solid fa-car"></i></span>
+                    Kilometraje: 4,000millas
+                </span>
+                <span class="fuel">
+                    <span style="font-size:1em; color:black"><i class="fa-solid fa-gas-pump"></i></span>
+                    Combustible: 25mpg
+                </span>
+                <span class="safety">
+                    <span style="font-size: 1em; color:black"><i class="fa-solid fa-shield"></i></span>Seguridad:
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </span>
+            </p>
+            <p>Escoge un color:</p>
+            <div class="colors-price">
+                <div class="colors">
+                    <span class="red"></span>
+                    <span class="gray"></span>
+                    <span class="black"></span>
+                </div>
+                <div class="pricing">
+                    <h2 class="new-prince">$134,450</h2>
+                    <h4 class="old-price"><s>140,500</s></h4>
+                </div>
+            </div>
+            <button id="button">
+                <span style="font-size: 1em; color:azure">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+                <span class="button-text">Agregar al carrito</span>
+            </button>
+            <button class="feedback">
+                <span id="white-button">🥳Guao, vas a ser el dueño de un Benz🎉</span>
+            </button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
