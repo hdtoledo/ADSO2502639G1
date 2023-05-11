@@ -1,41 +1,32 @@
-const btnLeft = document.querySelector(".btn-left");
-const btnRight = document.querySelector(".btn-right");
-const botones = document.querySelector(".btn");
-const imagenes = document.querySelector(".images");
+//* Variables
+let containerImg = document.getElementById('containerImg')
+const arrayImgs = ["url('./img/img-01.jpg')","url('./img/img-02.jpg')","url('./img/img-03.jpg')","url('./img/img-04.jpg')","url('./img/img-05.jpg')","url('./img/img-06.jpg')","url('./img/img-07.jpg')"]
+let iterator = 0
 
-let imgMuestra = ["001","002","003","004","005"];
+//* Btns
+let btn_right = document.getElementById('btn-right')
+let btn_left = document.getElementById('btn-left')
 
-let contador = 0;
-
-btnLeft.addEventListener("click",izquierda);
-btnRight.addEventListener("click",derecha);
-
-const style = () => {
-    imagenes.style.backgroundAttachment= "fixed";
-    imagenes.style.backgroundPosition= "center";
-    imagenes.style.backgroundSize= "1400px 820px";
-    imagenes.style.backgroundRepeat= "no-repeat";
-}
-
-style();
-
-function derecha(){
-    contador++;
-    if(contador>imgMuestra.length-1){
-        contador = 0;
+btn_right.addEventListener('click', () => {
+    if(iterator < (arrayImgs.length - 1)){
+        iterator++
+        containerImg.style.backgroundImage = arrayImgs[iterator]
+    } else {
+        containerImg.style.backgroundImage = arrayImgs[0]
+        iterator = 0
     }
-    imagenes.style.background = `url("img/${imgMuestra[contador]}.jpg")`; 
-    style();
-}
+})
 
-
-function izquierda(){
-    contador--;
-    if(contador<0){
-        contador = 8;
+btn_left.addEventListener('click', () => {
+    if(iterator <= 0 ){
+        iterator = (arrayImgs.length - 1)
+        containerImg.style.backgroundImage = arrayImgs[iterator]
+    } else{
+        iterator--
+        containerImg.style.backgroundImage = arrayImgs[iterator]
     }
-    imagenes.style.background = `url("img/${imgMuestra[contador]}.jpg")`;
-    style();
-}
+    console.log(iterator)
+})
+
 
 
