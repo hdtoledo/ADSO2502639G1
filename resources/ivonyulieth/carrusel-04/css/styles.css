@@ -18,8 +18,8 @@ main .imgs{
     border: 1px solid rgba(207, 203, 203, 0.39);
     overflow: hidden;
 }
-main .imgs #containerImg{
-    background-image: url('../img/img-01.jpg');
+main .imge #containerImg{
+    background-image: url('../img/img-02.jpg');
     background-size: cover;
     width: 100%;
     height: 100%;
