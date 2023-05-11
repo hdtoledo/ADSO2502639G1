@@ -58,4 +58,14 @@ async function getResults() {
         }
     }
 }
-searchBtnEl.addEventListener("click", getResults);
+searchBtnEl.addEventListener("click", getResults);.;ÑÇ´;:
+
+
+
+
+
+
+
+`p.,p¡.p¡.
+
+
