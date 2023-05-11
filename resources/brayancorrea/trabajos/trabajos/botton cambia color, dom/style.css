@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.boton-1{
+    font-family: 'Roboto Slab', serif;
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+    left: 50%;
+    position: relative;
+    translate: x(-50%);
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 6px;
+    border-color:  black ;
+
+
+
+}
