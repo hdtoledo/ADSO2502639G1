@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>pasapalabra</title>
+</head>
+<body>
+    <section id = "pantalla-inicial">
+        <h1>PasaPalabra</h1>
+        <button id="comenzar">Comenzar Juego</button>
+    </section>
+
+    <!---Seccion del juego-->
+    <section id="pantalla-juego">
+        <!--Aqui se generan de forma dinamica las letras-->
+        <div class="container">
+            <span id="tiempo">60</span>
+        </div>
+        <div class="contenedor-pregunta">
+            <span id="letra-pregunta">Z</span>
+            <h2 id="pregunta">Esta es la pregunta ...</h2>
+            <input type="text" id="respuesta" placeholder="Escriba tu respuesta">
+            <div class="botones">
+                <button id="responder">Responder</button>
+                <button id="pasar">Pasa Palabra</button>
+            </div>
+        </div>
+    </section>
+<!--Seccion pantalla final-->
+<section id="pantalla-final">
+    <h1>Resumen del juego</h1>
+    <h3>Acertadas</h3>
+    <span id="acertadas">10</span>
+    <h3 id="puntaje">40% de acierto</h3>
+    <button id="reiniciar">Jugar de Nuevo</button>
+</section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
