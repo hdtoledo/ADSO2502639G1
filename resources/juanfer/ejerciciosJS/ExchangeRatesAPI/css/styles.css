@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: antiquewhite;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+}
+.container h3{
+    margin: 0;
+    color: rgb(66, 61, 61);
+    font-size: 2em;
+    font-weight: bold;
+}
+.container h2{
+    color: tomato;
+    font-size: 3em;
+}
+.container button{
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.result{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(29, 28, 26);
+}
+input{
+    background: none;
+    height: 2em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(26, 25, 25);
+    font-weight: bold;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }

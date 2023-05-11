@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: rgb(196, 196, 136);
+}
+main{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+}
+main h2, span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+main #containImg{
+    width: 600px;
+    height: 500px;
+    background-color: antiquewhite;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(72, 67, 67);
+}
+main button{
+    outline: none;
+    font-size: 1.5em;
+    width: fit-content;
+    background: orangered;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+main .infoAPI{
+    background: rgba(161, 229, 233, 0.849);
+    padding: 1em 1em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(59, 56, 56);
+    margin-top: 1em;
+    display: flex;
+    width: 80%;
+    height: fit-content;
+}
+.infoAPI .info{
+    margin-left: 1em;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infoAPI .info #h2-title{
+    color: tomato;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0;
+}
+.infoAPI .info #explanation{
+    font-size: 1.1em;
+}
