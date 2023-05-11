@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family:'Poppins', sans-serif;  ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(0, 195, 255);
+}
+
+.container {
+    width: 540px;
+    min-height: 200px;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgb(247, 232, 232);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(13, 0, 58, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(0, 102, 255);
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    margin-bottom: 1rem;
+}
+
+ .btnBusqueda {
+    background-color: rgb(0, 153, 255);
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 20px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 4px 5px;
+    cursor: pointer;
+    position: relative;
+}
+button{
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    box-shadow: 2px 3px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+button:active{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: none;
+}
+
+.resultado {
+    margin-top: 15px;
+}
+
+img {
+    width: 500px;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
