@@ -1,3 +1,4 @@
+
 const numeros = (array) => {
     const pares = []
     for (let i = 0; i < array.length; i++) {
