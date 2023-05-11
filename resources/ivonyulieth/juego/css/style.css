@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/juego/img/img\ 03.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background: rgb(201, 210, 213);
+    height: 50vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 60px;
+}
+
+.container h1{
+    font-size: 45px;
+}
+
+.num{
+    font-size: 60px;
+}
+
+.botons{
+    width: 90px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border-radius: 90px;
+    border: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    margin: 15px;
+    background-color: rgb(15, 165, 195);  
+    justify-content: center;
+    align-items: center;
+    
+}
