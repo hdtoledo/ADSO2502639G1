@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aqua;
+}
+
+.btncolor{
+    font-size: 20px;
+    box-shadow: 3px 3px 25px rgba(30, 120, 105, 0.8);
+    cursor: pointer;
+    background-color: rgb(177, 203, 209);
+    width: 250px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+.btncolor:active{
+    background-color: rgb(86, 143, 135);
+}
