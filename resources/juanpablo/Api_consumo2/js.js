@@ -9,6 +9,7 @@ try{
     result.innerHTML = `<h2 class= "loading">Cargando resultados...</h2>`;
     let fetchUrl = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`;
     let data = await fetch(fetchUrl).then((res) => res.json())
+    
 
 
     result.innerHTML = `
@@ -39,7 +40,7 @@ try{
     } - ${Object.keys(data[0].currencies)[0]}</span>
   </div>
 </div>
-div class="wrapper">
+<div class="wrapper">
     <div class="data-wrapper">
        <h4>Idioma: </h4>
         <span>${Object.values(data[0].languages)

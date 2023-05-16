@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-color: rgb(176, 164, 149);
+}
+
+.tag{
+    font-size: .9rem;
+    background-color: black;
+    border-radius: 5px;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.product-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.product-card{
+    background: #fff;
+    display: grid;
+    grid-template-rows: 55% 45%;
+    height: 80%;
+    width: 30%;
+    border-radius: 2em;
+    box-shadow: 0 0 80px rgba(68, 68, 68, 0.898);
+    overflow: hidden;
+}
+
+.product-image{
+    background-image: url('https://www.autoinfluence.com/wp-content/uploads/2021/02/2021-Chevy-Blazer-Black.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 10px;
+    width: 100% !important;
+    /* padding: 28rem; */
+    /* height: 66%; */
+}
+
+.product-description{
+    background-color: #538c8e;
+    color: #fff;
+    padding-left: 20px;
+    margin-top: -67px;
+    width: 100%;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.product-image{
+    width: 28rem;
+}
+
+.stars{
+    color: yellow;
+    font-size: 1em;
+}
+
+.colors-price{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.colors{
+    display: flex;
+    width: 6em;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.red{
+    background: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.gray{
+    background: gray;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.black{
+    background: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+pricing{
+    display: flex;
+    width: 12rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.old-price{
+    font-weight: 100;
+}
+
+button{
+    cursor: pointer;
+}
+#button{
+    background-color: #000;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+button white-button{
+    background-color: #fff;
+}
+
+.button-text{
+    color: #fff;
+    margin-left: 5px;
+}
+
+.feedback{
+    display: none;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
