@@ -1,0 +1,30 @@
+body{
+    background: rgb(200 200 200);
+}
+.container{
+    padding: 30px;
+    border: 3px solid grey;
+    width: 900px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+.primer{
+    color: rgb(15, 135, 15);
+    text-decoration: underline rgb(22, 209, 22);
+}
+.rojo{
+    color: rgb(164, 15, 15);
+}
+.topButton{
+    text-decoration: underline overline;
+}
+.ftz{
+    font-size: 60 px;
+}
+.azul{
+    color: rgb(22, 22, 166);
+}
+.rojo2{
+    color: rgb(154, 17, 17);
+    text-decoration: underline rgb(241, 5, 5);
+}
