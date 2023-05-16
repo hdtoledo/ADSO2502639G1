@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-color: rgb(78, 78, 78);
+    background-image: linear-gradient(to bottom,
+    rgb(175, 175, 175), rgb(0, 0, 0));
+}
+
+/* Etiqueta producto */
+
+.tag {
+    font-size: 0.9rem;
+    background-color: black;
+    border-radius: 5px;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+/* Producto */
+.product-title {
+font-size: 2rem;
+font-weight: 700;
+}
+
+.product-card {
+    background: #fff;
+    display: grid;
+    border-radius: 2em;
+    /* align-items: center; */
+    grid-template-rows: 55% 45%;
+    height: 80%;
+    width: 30%;
+    /* box-shadow: 1px 1px 10px 15px #ffffff; */
+    overflow: hidden;
+}
+
+.product-image {
+    /* border: 2px solid black; */
+    background-image: url("img/_.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 10px;
+    width: 100% !important;
+    height: 66%;
+}
+
+.product-description {
+    background-color: #d3d3d3;
+    color: #000000;
+    padding-left: 20px;
+    margin-top: -67px;
+    width: 100%;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.product-image img {
+    width: 28rem;
+}
+
+.stars {
+    color: yellow;
+    font-size: 1em;
+}
+
+/* Colores */
+.colors-price {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.colors {
+    display: flex;
+    width: 6rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.red {
+    background: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.gray {
+    background: gray;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.black {
+    background: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.pricing {
+    display: flex;
+    width: 12rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.old-price {
+font-weight: 100;
+}
+
+/* Botones */
+button {
+    cursor: pointer;
+}
+
+#button {
+    background-color: #000;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+button white-button {
+    background-color: #fff;
+}
+
+.button-text {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.feedback{
+    display: none;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}

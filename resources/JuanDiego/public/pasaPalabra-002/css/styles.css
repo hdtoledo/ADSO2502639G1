@@ -136,7 +136,7 @@ button:hover {
     font-weight: bold;
 }
 
-/* La siguiente clase es para los circulos de cada letra */
+/* La siguiente clase es para los círculos de cada letra */
 
 .circle {
     position: absolute;
@@ -152,4 +152,31 @@ button:hover {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+/* Clase para la pantalla final */
+#pantalla-final {
+    display: none;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, .7);
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+#pantalla-final span {
+    background: #000;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-bottom: 30px;
 }
