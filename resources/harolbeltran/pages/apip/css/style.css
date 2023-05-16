@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: linear-gradient(to top, rgba(30, 33, 38, 0.367), rgba(30, 32, 38, 0.57)), url("../img/pokemon-1624022_1280.webp") no-repeat center center;
+    color: rgb(0, 0, 0);
+    padding: 200px 0 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  h1{
+    font-family: "Permanent Marker", cursive;
+    color: rgb(255, 225, 0);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 8px 0px rgb(3, 41, 255);
+  }
+
+  h2{
+    font-family: "Permanent Marker", cursive;
+    color: rgb(53, 3, 255);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 0px rgb(220, 163, 21);
+  }
+
+  h3{
+    font-family: 'Bree Serif', serif;
+    color:rgba(33, 74, 144, 0.472);
+    text-shadow: 1.5px 0px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 500px;
+    min-height: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+  }
+
+  .container-busqueda{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 2rem;
+}
+  
+  input{
+    padding: 8px 15px;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(22, 105, 212);
+    background-color: aliceblue;
+}
+  
+  button {
+    width: 100px;
+    background-color: rgb(255, 228, 21);
+    border: none;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px rgb(22, 105, 212);
+    cursor: pointer;
+    font-size: medium;
+    gap: 10px;
+  }
+
+  button:active{
+    outline: none;
+    box-shadow: none;
+    top: 10px;
+    left: 2px;
+
+}
+  
+  .pokemonInfo {
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .pokemonInfo img {
+    width: 200px;
+  }
