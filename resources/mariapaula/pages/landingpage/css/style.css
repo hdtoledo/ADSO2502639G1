@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-barra{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.menu {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.menu img {
+    width: 150px;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 14px;
+}
+/*Button*/
+.container-btn {
+    padding-right: 110px;
+    padding-top: 12px;
+}
+.btn {
+    background-color: #F34F36;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+    height: 39px;
+    font-size: 16px;
+}
+
+
+/*Header*/
+
+.container-header {
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(-200deg, #2A4C62, #36768a );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+    
+}
+
+.texto1{
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+.container-text {
+    width: 450px;
+    
+}
+.container-text h1{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+}
+.container-text h2{
+    color: #B9E6E9;
+    font-size: 30px;
+    font-weight: 900;
+}
+p{
+    color: white;
+    padding-top: 20px;
+}
+.container-header img{
+    width: 430px;
+    height: 360px;
+    padding-top: 100px;
+    margin-left: 5px;
+}
+h3 {
+    padding: 1em 1.5em; 
+    align-items: center;
+    justify-items: center;
+    
+}
+/*login*/
+
+
+.container-inicio {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1em 1.5em; 
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+}
+input {
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: medium;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(172, 172, 172, 0.801);
+}
+h3 {
+    text-align: center;
+}
+.btn-recibir{
+    background-color: #F34F36;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+/*seccion2*/
+
+.sec-02 .container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0  ;
+    background-color: aliceblue;
+}
+.sec-02 .container .parrafo{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sec-02 .container .parrafo img{
+    width: 60px;
+    
+}
+.parrafo p {
+    color: gray;
+}
+.parrafo p b {
+    color: #5a8eb1;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parrafo h2 b {
+    color: #5a8eb1;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parrafo h2 {
+    color: gray;
+    font-size: 15px;
+}
+.parrafo h4 b {
+    color: #5a8eb1;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 550px;
+    
+}
+ 
+.solicitud{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Seccion 3*/
+
+.sec-03 .container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0  ;
+    background-color: aliceblue;
+}
+.sec-03 .container .logros{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sec-03 .container .logros img{
+    width: 500;
+}
+.sec-03 .container .logros h1  {
+    font-weight: 800;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-03 .container .logros h2 b {
+    color: #5a8eb1;
+    font-weight: 800;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.lista .element {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.lista .element .item{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+.lista .element .item img{
+    width: 30px;
+    height: 30px;
+}
+
+.lista .element .item span b {
+    color: #5a8eb1;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
