@@ -1,0 +1,24 @@
+/*IMPORTANTE: el estilo debería ir en un archivo aparte*/
+/*<link rel="stylesheet" href="style.css">*/
+
+.fila_head{
+    font-family:arial;
+    font-size:100%;
+    font-style:italic;
+    font-variant:small-caps;/*normal|small-caps|initial */
+    color:rgb(3, 69, 162);
+    }
+    
+    table{
+    border-collapse:collapse;
+    background-color:rgb(228, 166, 66);
+    border:1px dotted black;
+    border-bottom-style:dashed;/*Estilo de la línea del borde de abajo de la tabla*/
+    border-bottom-color:rgb(16, 16, 16);/*Color del borde de abajo de la tabla*/
+    margin:0 auto;
+    }
+    
+    td{ 
+    border:1px dotted black;/*Para aplicar borde a cada celda de la tabla*/
+    }
+    

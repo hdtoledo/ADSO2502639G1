@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Pasa Palabras</title>
 </head>
+
 <body>
     <section id="pantalla-inicial">
         <h1>Pasapalabra</h1>
         <button id="comenzar">Comenzar Juego</button>
     </section>
-    
-    <!-- seccion del juego -->
+
+    <!-- sección del juego -->
     <section id="pantalla-juego">
         <button id="salir">
             <i class="fa-solid fa-skull-crossbones"></i>
-        </i></button>
-        <!-- Aqui se generaran de forma dinamica las letras -->
+            </i></button>
+        <!-- Aquí se generaran de forma dinámica las letras -->
         <div class="container" id="container">
             <span id="tiempo">60</span>
         </div>
         <div class="contenedor-pregunta">
             <span id="letra-pregunta">Z</span>
-            <h2 id="pregunta"></h2>
+            <h2 id="pregunta">Esta es la pregunta...</h2>
             <input type="text" id="respuesta" placeholder="Escribe tu respuesta">
             <div class="botones">
                 <button id="responder">Responder</button>
@@ -33,6 +37,17 @@
             </div>
         </div>
     </section>
+
+    <!-- Seccion pantalla final -->
+    <section id="pantalla-final">
+        <h1>Resumen del Juego</h1>
+        <h3>Acertadas</h3>
+        <span id="acertadas">10</span>
+        <h3 id="puntaje">40% de acierto</h3>
+        <button id="reiniciar">Jugar de Nuevo</button>
+    </section>
+
     <script src="./js/script.js"></script>
 </body>
+
 </html>

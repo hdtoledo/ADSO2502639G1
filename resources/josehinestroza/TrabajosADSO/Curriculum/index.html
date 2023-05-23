@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!--Menu Header-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">JOSE MIX</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#inicio" onclick="seleccionar ()">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#sobremi" onclick="seleccionar ()">Sobre Mi</a>
+                    </li>
+                    <li>
+                        <a href="#skills" onclick="seleccionar ()">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#curriculum" onclick="seleccionar ()">Curriculum</a>
+                    </li>
+                    <li>
+                        <a href="#contacto" onclick="seleccionar ()">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--Section Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="WhatsApp Image 2023-05-02 at 8.41.01 AM (1).jpeg" alt="" />
+            </div>
+            <h1>Jose Hinestroza</h1>
+            <h2>Desarrollador De Aplicaciones</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Seletion Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mi</h2>
+            <p>
+                <span>Hola, soy Jose Luis.</span> Soy una persona muy extrovertida capaz de realizar muchas actividades,
+                me gustan muchos los deportes y no estoy como tan centrado en el tema del software ya que no es mi punto
+                fuerte.
+            </p>
+
+            <div class="fila">
+                <!--Datos Personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            31/01/2002
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +57 3229378951
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            hinestrozaj129@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Altamira, Huila, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Aprendiz</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Peliculas</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-volleyball"></i>
+                            <span>voleyball</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografia</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Tecnologia</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-sharp fa-solid fa-motorcycle"></i></i>
+                            <span>Viajar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!--Section Skills-->
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MediBang Paint</span>
+                        <div class="barra-skill">
+                            <div class="progreso medibang">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño interfaz</span>
+                        <div class="barra-skill">
+                            <div class="progreso diseño">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso equipo">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyect">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Secundaria</h4>
+                        <span class="casa">Institucion Educativa Divino Salvador</span>
+                        <span class="fecha">2014-2019</span>
+                        <p>Desde 6° hasta 11°</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller Academico</h4>
+                        <span class="casa">Colegio Divino Salvador</span>
+                        <span class="fecha">2019</span>
+                        <p>Graduado De Bachiller Academico</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnólogo Etapa Lectiva</h4>
+                        <span class="casa">Sena</span>
+                        <span class="fecha">Abril 2022 - Diciembre 2023</span>
+                        <p>Análisis y Desarrollo de Software</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Empresa:</h4>
+                        <span class="casa">Regency-Protinco</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Peaje-Atención Al Cliente</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Micro-empresa</h4>
+                        <span class="casa">Independiente</span>
+                        <span class="fecha">Julio 2014 Hasta La Fecha.</span>
+                        <p>Tortas Caseras</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Club Deportivo Fútbol</h4>
+                        <span class="casa">Jugador</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>Delantero</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Portafolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a
+                        href="../Calculadora/Index.html">
+                        <img src="calculadora.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Calculadora</h3>
+                            <p>Fotografia</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../Cambiar Color/index.html">
+                        <img src="Cambiacolor.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Cambiar Color</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../Carrusel/Index.html">
+                        <img src="carrusel.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Carrusel</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../CUADRO ADSO/index.html">
+                        <img src="CUADRO ADSO.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>CUADRO ADSO</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../DOM/Index.html">
+                        <img src="DOM.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>DOM</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../Ejercicio/index.html">
+                        <img src="Ejercicio.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Ejercicio</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../Ejercicio Javascript 02/index.html">
+                        <img src="javascript.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Ejercicio Javascript 02</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../Ejercicio Mensaje/index.html">
+                        <img src="Ejerciciomensaje.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Ejercicio Mensaje</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../Ejercicios 02/Ejercicio 1/index.html">
+                        <img src="003.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Ejercicio 02</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../Formulario/index.html">
+                        <img src="formulario.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Formulario</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../Login/index.html">
+                        <img src="Login.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Login</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../Pasapalabras/index.html">
+                        <img src="Pasapalabras.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Pasapalabras</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a
+                        href="../API Consumo/index.html">
+                        <img src="" alt="" />
+                        <div class="overlay">
+                            <h3>Pasapalabras</h3>
+                            <p>Text</p>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <!-- Section Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre" />
+                    <input type="email" placeholder="Numero Telefonico" />
+                    <input type="text" placeholder="Direccion de correo" />
+                    <input type="text" placeholder="Tema" />
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                    <button>
+                        Enviar <i class="fa-solid fa-papper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="/img/ubicacion2.png" alt="" />
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Garzón, Huila, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +57 320 247 2368
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-maíl: mariapaulaembuspolanco@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
