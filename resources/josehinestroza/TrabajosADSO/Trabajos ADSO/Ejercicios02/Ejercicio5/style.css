@@ -1,0 +1,16 @@
+.flex{
+	list-style-type:none; /*Quita los puntos de la lista*/
+	display:flex;
+	margin:20px;
+	padding:20px;
+	overflow:hidden;/*El contenido es recortado y no se muestran barras de desplazamiento. El contenido
+					  se ubica en la siguiente línea*/
+	background-color:#6eb783;
+}
+.flex a{
+	color:white;
+	text-align:center;
+	padding:10px;
+	text-decoration:none; /*Que los enlaces aparezcan sin subrayar */
+}
+.flex a:hover{background-color:rgb(78, 78, 188)} /*Hace que cambie el color de fondo(background)*/
