@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/luaa.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container{
+    background: rgba(104, 151, 240, 0.221);
+    height: 60vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    color: rgb(248, 251, 251);
+    
+}
+
+
+.PRIN{
+    color: rgba(0, 221, 255, 0.741);
+}
+
+.container h1{
+    font-size: 40px;
+}
+
+.num{
+    font-size: 60px;
+}
+
+.botons{
+    width: 90px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    box-shadow: 3px 3px 25px rgb(5, 211, 243);
+}
+

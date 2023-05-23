@@ -1,120 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/estilo.css">
-    <title>ejercicio 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/stylee.css">
+    <title>Portafolio</title>
 </head>
-<div>
-  <ul>
-      <li><a href="experiencia">Experiencia Laboral</a></li>
-      <li><a href="Habilidades">Habilidades y conocmientos</a></li>
-      <li><a href="Educacion">Educacion</a></li>
-      <li><a href="Perfiles">Perfiles sociales</a></li>
-      <li><a href="Contactar">Contactar</a></li>
-  </UL>
-</div>
- <hender>
-  <center><img src="./img/software-de-sistema-1-e1534948748523.jpeg" alt=""><center> 
+
 <body>
-  <h1 class="titulo">CRISTIAN LOBATON</h1>
-  <div id="emulador"></div>
+    <!-- Menu Header -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">@Cristhian</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#Skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#Curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#Portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#Contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- Section Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/perfilCris.jpeg" alt="">
+            </div>
+            <h1>Cristhian F.do Lovaton</h1>
+            <h2>ADSO - APRENDIZ</h2>
+            <div class="redes">
+                <a href="https://web.facebook.com/christian.lobaton.758"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/lovaton619"><i class="fa-brands fa-github"></i>
+                <a href="https://www.tiktok.com/@darkdraw"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Section Sobre Mi -->
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Cristhian.</span>Soy desarrollador wed y experto en UI/UX, con una experiencia de mas de
+                10 año en el area</p>
+        </div>
+        <div class="fila">
+            <!-- Datos Personales-->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        16-06-2000
+                    </li>
+                    <li>
+                        <strong>Telefono</strong>
+                        +57 316 382 85 12
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        cristancsindicue2000@gmail.com
+                    </li>
+                    <li>
+                        <strong>website</strong>
+                        www.cristiancanon.dev
+                    </li>
+                    <li>
+                        <strong>Direccion</strong>
+                        Garzon, Huila, Colombia
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>Freelance</span>
+                    </li>
+                </ul>
+            </div>
+            <!--Intereses-->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="container-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>juegos</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>Música</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-palette"></i>
+                        <span>Arte</span>
+                    </div>
+                    
+                    <div class="interes">
+                        <i class="fa-solid fa-film"></i>
+                        <span>Películas</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Libros</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>Fotografias</span>
+                    </div>
+                    
+                    <div class="interes">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>Tecnologia</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-volleyball"></i>
+                        <span>Deporte</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>Viajar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-downlad"></i>
+            <span class="overlay"></span>
+        </button>
+        </div>
+    </section>
+    <!-- Section Skills -->
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>86%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>74%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>83%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect-Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford></span>
+                        <span class="fecha">2010 - 2015</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Portfolio -->
+    <section id="portafolio" class="portfolio">
+        <div class="container-section">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+            
+                <div class="galeria">
+                    <div class="proyecto">
+                        <a href="calculadora/index.html"><img src="img/CALCULADORA.png">
+                            <div class="overlay">
+                                <p>Diseño web</p>
+                            </div>
+                        </a>
+                        <div class="galeria">
+                            <div class="proyecto">
+                                <a href="Colores/index.html"><img src="img/colores.png">
+                                    <div class="overlay">
+                                        <p>Diseño web</p>
+                                    </div>
+                                </a>
+                                <div class="galeria">
+                                    <div class="proyecto">
+                                        <a href="Contador/index.html"><img src="img/CONTADOR.png">
+                                                <p>Diseño web</p>
+                                            </div>
+                                        </a>
+                                       
+                                                </a><div class="galeria">
+                                                    <div class="proyecto">
+                                                        <a href="Pasapalabras/index.html"><img src="img/fondo.pasapalabras.jpeg">
+                                                                <p>Diseño web</p>
+                                                            </div>
+                                                        </a>
 
-  
-  <o>"Mi pasion principal se encuentra en las artes, enfocado en el dibujo tradicional y digital. Actualmente estoy incursionando en el mundo de la informatica y me considero una persona abierta a nuevas experiencias"</o><br>
- <hr>
-  <h3 class="titulo">Experiencia Laboral
+                            
 
-  </h3>
-  <table id="table">
-      <thead>
-      <tr>
-        <th>Empresa / Organización</th>
-        <th>Cargo</th>
-        <th>Ciudad</th>
-        <th>Fecha</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>S Maria auxiliadora</td>
-        <td>Manipulacion y reparto de alientos-</td>
-        <td>Garzon--</td>
-        <td>ENERO 2022</td>
-      </tr>
-      <tr>
-        <td>Finca cafetera</td>
-        <td>Oficios varios--</td>
-        <td>Meson--</td>
-        <td>Diciembre 2020</td>
-      </tr>
-      <tr>
-        <td>INPEC</td>
-        <td>Auxiliar-guarda--</td>
-        <td>Garzon--</td>
-        <td>Diciembre 2018</td>
-      </tr>
-      <tr>
-        <td>Restaurante Boronazo/td>
-        <td>Servicio al cliente--</td>
-        <td>Garzon--</td>
-        <td>2017</td>
-      </tr>
-      
-      </tbody>
-    </table>
-    <hr>
-    <h2 class="titulo"> Habilidades y conocmientos</h2>
-    <strong>Diseño digital</strong> Animacion digital, Fotografia e imagen.
-    <strong>Desarrollo Web:</strong> HTML5, CSS3, JavaScript, Python+Django, LESS & SASS, PHP, SEO, Node.js, MySQL, AngularJS, jQuery, Bootstrap.<br>
-    <strong>Marketing:</strong>email marketing, redes sociales, gamificación, nurture marketing, lead scoring,
-     etc.
-     <br>
-     <br>
-     <hr>
-    <h2 class="titulo">Educacion</h2>
-  </h3>
-  <table id="table">
-      <thead>
-          <tr>
-              <th>TITULO</th>
-              <th>ENTIDAD</th>
-              <th>PROMOCÍON</th>
-          </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>bachiller tecnico</td>
-          <td>Departamental</td>
-          <td>Diciembre 2016</td>
-        </tr>
-        <tr>
-          <td>Licenciatura de ingles</td>
-          <td>Uniamazonia-</td>
-          <td>agosto 2017</td>
-        </tr>
-        <tr>
-          <td>Soporte y mantenimineto a equipos de computo.....</td>
-          <td>Repara tu maquina--</td>
-          <td>Enero 2020</td>
-        </tr>
-      </tbody>
-      <br>
-    </table>
-    <hr>
-    
-    <h2>Contactar</h2>
-    <p>Tambien puedes encontrarme en:</p>
-  
-    <p>
-      <ul>
-        <li><a href="khrisswolfx@gmail.com"><strong>Email:</strong> khrisswolfx@gmail.com/ 
-        <li><a href="https://web.facebook.com/?_rdc=1&_rdr"><strong>Facebook:<strong> Christian.Lobaton/Facebook
-        <li><a href="https://www.instagram.com/"><strong>WhatsApp:<strong> 3204455832
-      </ul>
-    </p>
-    <hr>
+
+
+                        
+                    </div>
+                </div>
+    <!-- Section Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="email" placeholder="Numero Telefonico">
+                    <input type="text" placeholder="Direccion de Correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                    <button>Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Garzon, Huila, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Lamame: +57 3204455832
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-mail: khrisswolfx@gmail.com.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    </header>
 </body>
+
 </html>

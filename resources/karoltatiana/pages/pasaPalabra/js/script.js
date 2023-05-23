@@ -16,53 +16,53 @@ let estadoPreguntas = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const bd_juego = [
     {
         id: 'A',
-        pregunta: "¿Empresa reconocida que se dedica a los servidores?",
-        respuesta: "amazon"
+        pregunta: "¿cual es el arte de diseñar las letras?",
+        respuesta: "arte tipografico"
     },
     {
         id: 'B',
-        pregunta: "¿Termino en ingles que hace referencia a una copia de seguridad?",
-        respuesta: "backup"
+        pregunta: "¿Lo primero que haces al tener una idea para un nuevo dibujo?",
+        respuesta: "boceto"
     },
     {
         id: 'C',
-        pregunta: "¿Nombre de la memoria que almacena temporalmente los datos de la computadora?",
-        respuesta: "cache"
+        pregunta: "¿Programa que sirve para diseñar?",
+        respuesta: "canva"
     },
     {
         id: "D",
-        pregunta: "¿Archivo que controla los perifericos que se conectan a la computadora?",
-        respuesta:"driver"
+        pregunta: "¿red social donde se mueve más arte?",
+        respuesta:"deviantArt."
     },
     {
         id: 'E',
-        pregunta: "¿Mezclar los datos para proegerlos como medida de seguridad, es decir convertir texto normal a texto cifrado?",
-        respuesta: "encriptar"
+        pregunta: "¿materia que abarca a toda obra artística que haya sido creada por un medio digital?",
+        respuesta: "escultura digital"
     },
     {
         id: 'F',
-        pregunta: "¿Famosa red social creada por Mark Zuckerberg?",
-        respuesta: "Facebook"
+        pregunta: "¿Artista famoso de arte?",
+        respuesta: "Francisco de Goya"
     },
     {
         id: 'G',
-        pregunta: "¿Lenguaje de programacion creado por Google?",
-        respuesta: "Go"
+        pregunta: "¿El arte conocido por algunos como arte callejero es:?",
+        respuesta: "graffiti"
     },
     {
         id: 'H',
-        pregunta: "¿Lenguaje utilizado para estructurar las paginas web?",
-        respuesta: "HTML"
+        pregunta: "¿Nombre de una marca de tableta grafica?",
+        respuesta: "Huion"
     },
     {
         id: 'I',
-        pregunta: "¿Aspecto que presentan los programas tras su ejecucion mediante el cual ejercemos la comunicacion con estos?",
-        respuesta: "Interfaz"
+        pregunta: "¿App para dibujar en celular?",
+        respuesta: "ibisPaint"
     },
     {
         id: 'J',
-        pregunta: "¿Lenguaje de programacion con el cual se diseño el sistema operativo android?",
-        respuesta: "java"
+        pregunta: "¿Pintura que se denomina “nihonga” de donde viene?",
+        respuesta: "Japon"
     },
 ]
 
