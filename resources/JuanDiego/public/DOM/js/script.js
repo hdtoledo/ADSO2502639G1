@@ -1,8 +1,8 @@
 const redColor = document.querySelector('.red');
 const greenColor = document.getElementsByClassName('green');
 const blackColor = document.querySelector('.black');
-const cartButton = document.getElementById('button');
 const imgCard = document.querySelector('.product-img');
+const cartButton = document.getElementById('button');
 const feedbackBtn = document.querySelector('.feedback');
 const itemTag = document.getElementsByTagName('h3')[0];
 const iconRed = document.querySelector('.fa-gas-pump');
@@ -53,4 +53,4 @@ const feedback = () => {
 	cartButton.style.display = 'block';
 	feedbackBtn.style.display = 'none';
 };
-cartButton.addEventListener('click', feedback);
+feedbackBtn.addEventListener('click', feedback);
