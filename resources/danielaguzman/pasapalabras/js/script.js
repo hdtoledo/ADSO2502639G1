@@ -12,53 +12,53 @@ let estadoPreguntas = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const bd_juego = [
     {
         id: 'A',
-        pregunta: "¿Empresa reconocida que se dedica a los servidores?",
-        respuesta: "amazon"
+        pregunta: "¿Que deporte practico, micro,⚽️ baloncesto🏀 o tenis🎾?",
+        respuesta: "micro"
     },
     {
         id: 'B',
-        pregunta: "¿Termino en ingles que hace referencia a una copia de seguridad?",
-        respuesta: "backup"
+        pregunta: "¿Que dia practico micro😌?",
+        respuesta: "el miercoles"
     },
     {
         id: 'C',
-        pregunta: "¿Nombre de la memoria que almacena temporalmente los datos de la computadora?",
-        respuesta: "cache"
+        pregunta: "¿Con cuantos amig@s🧔🏻👱🏼 practico los miercoles?",
+        respuesta: "9"
     },
     {
         id: "D",
-        pregunta: "¿Archivo que controla los perifericos que se conectan a la computadora?",
-        respuesta:"driver"
+        pregunta: "¿Cuantas mujeres👱🏼 participan en el juego?",
+        respuesta:"8"
     },
     {
         id: 'E',
-        pregunta: "¿Mezclar los datos para proegerlos como medida de seguridad, es decir convertir texto normal a texto cifrado?",
-        respuesta: "encriptar"
+        pregunta: "¿Quien tapa en cada equipo, un hombre🧔🏻 o una mujer?",
+        respuesta: "un hombre"
     },
     {
         id: 'F',
-        pregunta: "¿Famosa red social creada por Mark Zuckerberg?",
-        respuesta: "Facebook"
+        pregunta: "¿Cuantos goles hago en el primer tiempo🙃?",
+        respuesta: "4"
     },
     {
         id: 'G',
-        pregunta: "¿Lenguaje de programacion creado por Google?",
-        respuesta: "Go"
+        pregunta: "¿Les doy la rebancha si o no🤔?",
+        respuesta: "si"
     },
     {
         id: 'H',
-        pregunta: "¿Lenguaje utilizado para estructurar las paginas web?",
-        respuesta: "HTML"
+        pregunta: "¿Hace 11 años participer en un equipo de futbol, cuantos años tenia🤭?",
+        respuesta: "13"
     },
     {
         id: 'I',
-        pregunta: "¿Aspecto que presentan los programas tras su ejecucion mediante el cual ejercemos la comunicacion con estos?",
-        respuesta: "Interfaz"
+        pregunta: "¿Respecto a las pregunta anterior, cuantos años tengo ahora🧐?",
+        respuesta: "24"
     },
     {
         id: 'J',
-        pregunta: "¿Lenguaje de programacion con el cual se diseño el sistema operativo android?",
-        respuesta: "java"
+        pregunta: "¿Cuantas 21 cree usted que me hago🤣?",
+        respuesta: "10"
     },
 ]
 

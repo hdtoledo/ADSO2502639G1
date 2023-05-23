@@ -58,13 +58,13 @@ button:hover{
 
 
 .bien-respondida {
-    background-color: #3edbbb !important;
+    background-color: #09f871 !important;
     color: #fff !important;
 }
 
 
 .mal-respondida{
-    background-color: #fb797b !important;
+    background-color: #f5060a !important;
     color: #fff !important;
 }
 
