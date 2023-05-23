@@ -1,0 +1,88 @@
+#urlIMG {
+    width: 500px;
+    height: 300px;
+    background: grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos del contenedor principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Estilos de la sección de detalles de la película */
+.movie-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.movie-details #urlIMG {
+    width: 200px;
+    height: 300px;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.movie-details h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.movie-details p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}

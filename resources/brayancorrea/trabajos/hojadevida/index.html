@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+        <link rel="stylesheet" href="style.css" />
+        <title>Portafolio</title>
+    </head>
+    <body>
+        <!--Menu Header-->
+        <div class="container-header">
+            <header>
+                <div class="logo">
+                    <a href="#">Brayan arciniegas</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio" onclick="seleccionar ()">Inicio</a >
+                        </li>
+                        <li>
+                            <a href="#sobremi" onclick="seleccionar ()">Sobre Mi</a>
+                        </li>
+                        <li>
+                            <a href="#skills" onclick="seleccionar ()">Skills</a >
+                        </li>
+                        <li>
+                            <a href="#curriculum" onclick="seleccionar ()"
+                                >Curriculum</a>
+                        </li>
+                        <li><a href="#portfolio">Ejercicios SENA</a></li>
+                        <li>
+                            <a href="#contacto" onclick="seleccionar ()"
+                                >Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>
+        <!--Section Inicio-->
+        <section id="inicio" class="inicio">
+            <div class="container-banner">
+                <div class="container-img">
+                    <img src="arci.png" alt="" />
+                </div>
+                <h1>Brayan Stiven Arciniegas Correa</h1>
+                <h2>Desarrollador de Software</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i ></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+        
+        <!--Seletion Sobre Mi-->
+        <section id="sobremi" class="sobremi">
+            <div class="container-section">
+                <h2>Sobre arcico</h2>
+                <p>
+                    <span>Hey, soy Stiven Arciniegas</span> soy una persona muy dedicada en mis objetivos
+                    muy juicioso, siempre tengo metas por las cuales me quiero enfocar, me gusta el deporte soy disciplinado a la 
+                    hora de estar entrenando, tengo habilidades informaticas, mas en la parte de android 
+                </p>
+
+                <div class="fila">
+                    <!--Datos Personales-->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                11-08-2002
+                            </li>
+                            <li>
+                                <strong>Telefono</strong>
+                                +57 300 843 8467
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                barciniegascorrea6@gmail.com
+                            </li>
+                            <li>
+                                <strong>Direccion</strong>
+                                calle 9 #6a-18
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>Aprendiz</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="container-intereses">
+                            <div class="intereses">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>Juegos</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>Música</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-film"></i>
+                                <span>Peliculas</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-volleyball"></i>
+                                <span>volleyball</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-dumbbell"></i>
+                                <span>GYM</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-laptop"></i>
+                                <span>Tecnologia</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-regular fa-futbol"></i>
+                                <span>futbol</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>Viajar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+        </section>
+        <!--Section Skills-->
+        <section id="skills" class="skills">
+            <div class="container-section">
+                <h2>Skills</h2>
+                <div class="fila">
+                    <!--Technical Skills-->
+                    <div class="col">
+                        <h3>Technical Skills</h3>
+                        <div class="skill">
+                            <span>Javascript</span>
+                            <div class="barra-skill">
+                                <div class="progreso javascript">
+                                    <span>10%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso htmlcss">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Photoshop</span>
+                            <div class="barra-skill">
+                                <div class="progreso photoshop">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>kinemaster</span>
+                            <div class="barra-skill">
+                                <div class="progreso medibang">
+                                    <span>100%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Android</span>
+                            <div class="barra-skill">
+                                <div class="progreso diseño">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Professional Skills-->
+                    <div class="col">
+                        <h3>Professional Skills</h3>
+                        <div class="skill">
+                            <span>Comunicacion</span>
+                            <div class="barra-skill">
+                                <div class="progreso comunicacion">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso equipo">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso creatividad">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicacion</span>
+                            <div class="barra-skill">
+                                <div class="progreso dedicacion">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Esfuerzo</span>
+                            <div class="barra-skill">
+                                <div class="progreso proyect">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section Curriculum-->
+        <section id="curriculum" class="curriculum">
+            <div class="container-section">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educacion</h3>
+                        <div class="item izq">
+                            <h4>Bachiller</h4>
+                            <span class="casa"
+                                >Institucion Educativa Divino Salvador</span
+                            >
+                            <span class="fecha">2007-2019</span>
+                            <p>Desde preescolar hasta 11°</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Tecnico</h4>
+                            <span class="casa">Jose Celestino Mutis</span>
+                            <span class="fecha">2022</span>
+                            <p>Tecnico en Investigacion Judicial y criminlaistica</p>
+                            <p>Tecnico en Sistemas (operaciones y soluciones informaticas)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Tecnologo</h4>
+                            <span class="casa">Sena</span>
+                            <span class="fecha">2022 - 2023</span>
+                            <p>Analisis y Desarrollo de Software</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col derecha">
+                        <h3>Experiencia de Trabajo</h3>
+                        <div class="item der">
+                            <h4>Empresa:</h4>
+                            <span class="casa">Ruta al sur </span>
+                            <span class="fecha">2020 - 2022</span>
+                            <p>Canguro</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Empresa</h4>
+                            <span class="casa">Alcaldia municipal</span>
+                            <span class="fecha"> 2021-Enero 2022</span>
+                            <p>Asistente en tesoreria</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Empresa</h4>
+                            <span class="casa">Sisgenota</span>
+                            <span class="fecha">2022 - Actualidad</span>
+                            <p>Desarrollador software web</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  Proyectos -->
+        <section id="portfolio" class="portfolio">
+            <div class="container-section">
+                <h2> Proyectos</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <a href="" target="_blank">
+                        <img src="sisgenota.png" alt="" />
+                        <div class="overlay">
+                            <h3>Sisgenota</h3>
+                            <p>plataforma de notas</p>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section Portafolio-->
+        <section id="portfolio" class="portfolio">
+            <div class="container-section">
+                <h2>Ejercicios</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <a href="../trabajos/curriculum/index.html" target="_blank">
+                        <img src="https://media.gq.com.mx/photos/6377b29fe8be97144f2ac86b/16:9/w_2560%2Cc_limit/curriculum-157404128.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>curriculum</h3>
+                            <p> </p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/bottoncambiacolordom/index.html" target="_blank">
+                        <img src="https://t2.uc.ltmcdn.com/es/posts/0/0/6/cuales_son_los_colores_primarios_18600_600_square.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Cambia color</h3>
+                            <p>boton cambia color</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/calculadora/index.html" target="_blank">
+                        <img src="https://m.media-amazon.com/images/I/71vGhf8Zz7L._AC._SR360,460.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Calculadora</h3>
+                            <p>funciones basicas de una calculadora</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/carrusel/index.html" target="_blank">
+                        <img src="https://a5i4f6g5.stackpathcdn.com/images/cms/Head-Banner--630x630_CBR500R-06ae7.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Carrusel de motos</h3>
+                            <p>alto cilindraje</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/contador/index.html" target="_blank">
+                        <img src="https://www.educando.edu.do/portal/wp-content/uploads/2016/01/suma-resta.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>Contador</h3>
+                            <p>Ejercicio </p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/DOM/index.html" target="_blank">
+                        <img src="https://desarrolloweb.com/media/264/dom.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>DOM</h3>
+                            <p>Ejercicio DOM</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/ejercicio 3/index.html" target="_blank">
+                        <img src="https://img.freepik.com/vector-premium/burbujas-vectoriales-signo-interrogacion-iconos-preguntas-aislados-blanco_566734-246.jpg" alt="" />
+                        <div class="overlay">
+                            <h3></h3>
+                            <p>Ejercicio 003</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/ejercicio java/script.js" target="_blank">
+                        <img src="https://www.programacionfacil.org/images/cursos/javascript/curso-javascript.png" alt="" />
+                        <div class="overlay">
+                            <h3>ejercicio Javascript</h3>
+                            <p>Ejercicio </p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/ejercicio02/index.html" target="_blank">
+                        <img src="data:image/jpeg;base64,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" alt="" />
+                        <div class="overlay">
+                            <h3>Ejercicio  002 </h3>
+                            <p>Ejercicio </p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/ES6/script.js" target="_blank">
+                        <img src="data:image/png;base64,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" alt="" />
+                        <div class="overlay">
+                            <h3>Ejercicio ES6  </h3>
+                            <p></p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/formulario/index.html" target="_blank">
+                        <img src="https://tiposdetexto.org/wp-content/uploads/2020/05/formulario.png" alt="" />
+                        <div class="overlay">
+                            <h3>formulario</h3>
+                            <p> 01</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/java/script.js" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEFsN-FaMzyQLVj387F8MixGGSaOwItLO0tg&usqp=CAU" alt="" />
+                        <div class="overlay">
+                            <h3>Javascript</h3>
+                            <p>Ejercicio </p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/login/index.html"_blank">
+                        <img src="https://img.freepik.com/vector-gratis/diseno-plantilla-pagina-inicio-sesion-usuario-sitio-web_1017-30786.jpg?w=2000" alt="" />
+                        <div class="overlay">
+                            <h3>login</h3>
+                            <p>Ejercicio </p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/mensaje/index.html" target="_blank">
+                        <img src="https://static.vecteezy.com/system/resources/previews/012/312/556/non_2x/cartoon-email-message-free-vector.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>mensaje </h3>
+                            <p></p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="../trabajos/pasapalabra/index.html" target="_blank">
+                        <img src="https://estaticos-cdn.prensaiberica.es/clip/92b9e88b-ef4f-4916-94da-0d16fd027ae2_16-9-discover-aspect-ratio_default_0.jpg" alt="" />
+                        <div class="overlay">
+                            <h3>pasapalabra</h3>
+                            <p>Ejercicio pasapalabra</p>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Contacto-->
+        <section id="contacto" class="contacto">
+            <div class="container-section">
+                <h2>Contacto</h2>
+                <div class="fila">
+                    <!--Formulario-->
+                    <div class="col">
+                        <input type="text" placeholder="Tu Nombre" />
+                        <input type="email" placeholder="Numero Telefonico" />
+                        <input type="text" placeholder="Direccion de correo" />
+                        <input type="text" placeholder="Tema" />
+                        <textarea
+                            name=""
+                            id=""
+                            cols="30"
+                            rows="10"
+                            placeholder="Tu Mensaje"
+                        ></textarea>
+                        <button>
+                            Enviar <i class="fa-solid fa-papper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!--Mapa-->
+                    <div class="col">
+                        <img src="/img/ubicacion2.png" alt="" />
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Altamira, Huila, Colombia
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    Llamame: +57 300 843 8467
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    E-maíl: barciniegascorrea6@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
