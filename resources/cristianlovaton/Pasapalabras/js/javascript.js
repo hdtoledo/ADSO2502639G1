@@ -9,53 +9,53 @@ let estadoPreguntas = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 const bd_juego = [
     {
         id: 'a',
-        pregunta: '¿Empresa reconocida que se dedica a los servidores?',
-        respuesta: 'amazon'
+        pregunta: '¿Quien pintó la famosa obra antibelicista "Guernica"?',
+        respuesta: 'Picasso'
     },
     {
         id: 'b',
-        pregunta: '¿Termino en ingles que hace referencia a una copia de seguridad?',
-        respuesta: 'backup'
+        pregunta: '¿Quien pinto la ultima cena?',
+        respuesta: 'Leonardo da Vinci'
     },
     {
         id: 'c',
-        pregunta: '¿Nombre de la memoria que almacena temporalmente los datos de la computadora?',
-        respuesta: 'cache'
+        pregunta: '¿Movimiento cultural y artistico europeo basado en el "renacer" de los valores cde la antiguedad clasica (XV-XVI)?',
+        respuesta: 'Renacimiento'
     },
     {
         id: 'd',
-        pregunta: '¿Archivo que controla los perifericos que se conectan a la computadora?',
-        respuesta: 'driver'
+        pregunta: '¿Que artista impresionisrta pinto "La noche estrellada"?',
+        respuesta: 'Vincent van Gogh'
     },
     {
         id: 'e',
-        pregunta: '¿Mezclar los datos para protegerlos como medida de seguridad, es decir convertir texto normal a texto cifrado?',
-        respuesta: 'encriptar'
+        pregunta: '¿Quien pinto la capilla sixtina?',
+        respuesta: 'Miguel Angel'
     },
     {
         id: 'f',
-        pregunta: '¿Famosa red social creada por Mark Zuckerberg?',
-        respuesta: 'facebook'
+        pregunta: '¿Donde nacio vincent Van Gooh?',
+        respuesta: 'Paises Bajos'
     },
     {
         id: 'g',
-        pregunta: '¿Lenguaje de programacion creado por Google?',
-        respuesta: 'go'
+        pregunta: '¿En qué museo se encuentra la obra original La noche estrellada, de Van Gogh?',
+        respuesta: 'MoMa en Nueva York'
     },
     {
         id: 'h',
-        pregunta: '¿Lenguaje utilizado para estructurar las paginas web?',
-        respuesta: 'html'
+        pregunta: '¿corriente artística contemporánea que surgió en Estados Unidos, durante los años 60?',
+        respuesta: 'minimalismo'
     },
     {
         id: 'i',
-        pregunta: '¿Aspecto que presentan los programas tras su ejecucion mediante el cual ejercemos la comunicacion?',
-        respuesta: 'interfaz'
+        pregunta: '¿Artista Colombiano Reconocido por pintar obras voluminosas (gordas)',
+        respuesta: 'Botero'
     },
     {
         id: 'j',
-        pregunta: '¿Lenguaje de programacion con el cual se diseño el sistema operativo android?',
-        respuesta: 'java'
+        pregunta: '¿Qué es la técnica de Caravaggio?',
+        respuesta: 'Oleo sobre lienzo'
     },
 ]
 
