@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
     display: flex;
     align-items: center;
-
+    background-color: #404258;
     justify-content: center;
     height: 100vh;
 }
@@ -16,11 +19,12 @@ body {
     flex-direction: column;
     gap: 10px;
     border-radius: 10px;
-    width: 50%;
+    width: 425px;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: #A5C9CA;
     min-width: 350px;
+    padding: 20px;
 }
 
 .showText {
@@ -35,4 +39,15 @@ body {
 
 h3 {
     display: none;
+}
+
+.myInput {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(99, 96, 96, 0.455);
+    padding: 6px 12px;
+    font-size: 17px;
+    font-weight: 400;
 }
