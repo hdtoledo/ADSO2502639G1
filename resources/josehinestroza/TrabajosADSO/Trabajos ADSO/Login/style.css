@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(112, 202, 151);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form label{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: fit-content;
+    background: rgb(174, 111, 84);
+    border-radius: 1.5em 1.5em 0em 0em;
+    align-items: center;
+    padding: 1.3em;
+}
+form label span{
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-family:cursive;
+}
+form label input{
+    width: 100%;
+    height: 1.8em;
+    background: rgb(180, 182, 190);
+    border: none;
+    border-radius: .2em;
+}

@@ -5,12 +5,16 @@
 }
 
 body {
+    background-color: antiquewhite;
+
+}
+
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow-y: hidden;
-    background-color: antiquewhite;
 }
 
 /* etiqueta del producto */
@@ -34,19 +38,9 @@ body {
     background: #fff;
     display: grid;
     grid-template-rows: 55% 45%;
-    height: 80%;
-    width: 30%;
+    min-height: 680px;
+    min-width: 425px;
     box-shadow: 10px 10px 25px 0px #3c3c3c;
-}
-
-.product-img {
-    background-image: url("https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_dfc5bc45064f4732a68e0bd28d39b6f5.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px 10px;
-    width: 28rem;
-    height: 66%;
 }
 
 .product-description {
@@ -55,6 +49,17 @@ body {
     padding-left: 20px;
     margin-top: -67px;
 }
+
+.product-img {
+    background-image: url("https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_dfc5bc45064f4732a68e0bd28d39b6f5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 10px;
+    /* width: 427px; */
+    height: 233px;
+}
+
 
 .product-details {
     display: flex;
@@ -75,7 +80,7 @@ body {
 .colors-price {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 85%;
     justify-content: space-between;
     margin-top: -15px;
 }
@@ -131,9 +136,9 @@ button {
     border-radius: 5px;
 }
 
-button white-button {
+/* button #white-button {
     background-color: #fff;
-}
+} */
 
 .button-text {
     color: #fff;
@@ -145,4 +150,5 @@ button white-button {
     padding: 10px 25px;
     border: none;
     border-radius: 5px;
+    width: 380px;
 }

@@ -405,7 +405,7 @@ html{
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: rgb(235, 5, 253);
+    background-color: rgb(158, 37, 168);
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -538,91 +538,6 @@ html{
     margin-bottom: 0px;
 }
 
-/* Section Contacto*/
-
-.contacto{
-    background-image: url("/resources/mariapaula/img/contact_bg.png");
-    background-color: #2b025a;
-    color: rgb(233, 5, 253);
-    padding: 50px;
-}
-.contacto .container-section{
-    max-width: 1100px;
-    margin: auto;
-}
-.contacto h2{
-    font-size: 48px;
-    font-family: "dosis";
-    text-align: center;
-    padding: 20px 0; 
-}
-.contacto .fila{
-    display: flex;
-}
-.contacto .col{
-    width: 50%;
-    padding: 10px;
-    position: relative;
-}
-.contacto .col input, .contacto .col textarea{
-    display: block;
-    width: 100%;
-    padding: 18px;
-    border: none;
-    margin-bottom: 20px;
-    background-color: rgb(233, 5, 253);
-    color: #fdfcfc;
-    font-size: 18px;
-}
-.contacto button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid rgb(196, 7, 133);
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: rgb(252, 248, 248);
-    position: relative;
-    z-index: 10;
-}
-.contacto button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: rgb(233, 5, 253);
-    transition: 1s;
-    z-index: -1;
-}
-.contacto button:hover .overlay{
-    width: 100%;
-}
-.contacto .col img{
-    width: 100%;
-}
-.contacto .col .info{
-    position: absolute;
-    top: 40%;
-    background-color: #6905db;
-    padding: 20px;
-    width: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.contacto .col .info ul {
-    list-style: none;
-}
-.contacto .col .info ul li {
-    margin-bottom: 20px;
-}
-.contacto .col .info ul li i{
-    color: #fcfafa;
-    display: inline-block;
-    margin-right: 20px;
-}
 
 /* Footer */
 
@@ -666,7 +581,111 @@ footer .arriba{
     transition: .3s;
 }
 /* Media Queries - Responsive */
+/* Ocultar el menú */
+@media screen and (max-width: 980px) {
+    nav {
+        display: none;
+    }
+    .nav-responsive {
+        display: block;
+    }
+    nav.responsive {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        right: 5px;
+        border-radius: 10px;
+        background-color: #45348b;
+        width: 180px;
+    }
 
+    nav.responsive ul {
+        display: block !important;
+    }
+
+    nav.responsive ul li {
+        border-bottom: 1px solid #f0eeee;
+        padding: 10px 0;
+        position: relative;
+    }
+     #contacto {
+        border: none !important;
+    }
+
+    nav.responsive nav.ocultar-menu {
+        opacity: 0;
+        transition: opacity 8s ease-in-out;
+    }
+    .responsive.cerrar-menu {
+        transform: translateX(-100%);
+    }
+    @keyframes cerrar-menu {
+        from {
+            transform: translateX(0%);
+            transition: opacity 8s ease-in-out;
+        }
+        to {
+            transition: opacity 0.5s;
+            transform: translateX(-100%);
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sobremi .fila {
+        display: block;
+    }
+
+    .sobremi .fila .col {
+        width: 100%;
+    }
+
+    .skills .fila {
+        display: block;
+    }
+
+    .skills .fila .col {
+        width: 100%;
+    }
+
+    .skills .fila .col .barra-skill {
+        width: 100%;
+    }
+
+    .curriculum .fila {
+        display: block;
+    }
+
+    .curriculum .fila .col {
+        width: 90%;
+    }
+
+    .curriculum .fila .derecha {
+        margin-left: 20px;
+    }
+
+    .portfolio .galeria {
+        display: block;
+        width: 100%;
+    }
+
+    .portfolio .galeria .proyecto {
+        max-width: 100%;
+    }
+
+    .portfolio .galeria .proyecto img {
+        width: 100%;
+    }
+
+    .contacto .fila {
+        display: block;
+    }
+
+    .contacto .fila .col {
+        width: 100%;
+    }
+}
 @media screen and (max-width:980px){
     nav{
         display: none;
@@ -692,6 +711,11 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px) {
+    .inicio{
+        height: fit-content;
+        margin-top: 4em;
+        padding-top: 2em;
+    }
     .sobremi .fila{
         display: block;
     }
