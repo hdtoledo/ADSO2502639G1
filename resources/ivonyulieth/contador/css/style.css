@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/juego/img/img\ 03.jpeg");
+    background-image: url("./");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
