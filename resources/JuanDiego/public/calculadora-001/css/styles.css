@@ -1,4 +1,4 @@
-*, *:bedore, *::after {
+*, *:before, *::after {
     box-sizing: border-box;
     font-family: Gotham Rounded, sans-serif;
     font-weight: normal;
@@ -47,9 +47,9 @@ body {
     word-break: break-all;
 }
 
-.output .previous-operand {
-    color: rgba(255, 255, 255, .75);
-    font-size: 2.5rem;
+.output .pervious-operand {
+    color: rgba(219, 219, 219, 0.614);
+    font-size: 1.3rem;
 }
 
 .output .current-operand {
