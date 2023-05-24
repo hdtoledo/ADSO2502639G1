@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Get Schwifty';
+    src: url('https://fonts.google.com/specimen/Get+Schwifty'); /* Reemplaza 'nombre-de-la-fuente.ttf' con el nombre del archivo de la fuente descargada */
+  }
+body{
+    font-family: 'Rick and Morty', cursive;
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid black;
+    text-shadow: 2px 2px 4px #39FF14;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://i.pinimg.com/originals/94/a4/4e/94a44e36e36278d416c029ad1a4449ea.jpg');
+    background-position: center;
+
+}
+
+.container-personaje{
+    background: #4d504d81;
+    min-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.container-personaje #character-status-color{
+    background: #15f305;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: none;
+    margin-left: 3rem;
+}
+
+#character-info{
+    display: flex;
+    align-items: center;
+}
+.character-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+#title {
+    width: 300px;
+}
+.status{
+    display: flex;
+    align-items: center;
+}
+
+/*estilo del boton*/
+#random-character-button{
+    border-radius: 10px;
+    border-style: none;
+    height: 60px;
+    width: 300px;
+    background: url('https://wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-portal-wallpaper-001.jpg');
+    cursor: pointer;
+    box-shadow:  0px 0px 20px 5px #15f305;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: 'Rick and Morty', cursive;
+    font-size: 15px;
+}
+#random-character-button:active{
+    box-shadow:  0px 0px 40px 10px #16fa06;
+}
+#character-image {
+    max-width: 300px;
+}
+
