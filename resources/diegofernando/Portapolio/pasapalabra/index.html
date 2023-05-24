@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Pasapalabras</title>
+</head>
+
+<body>
+    <div class="audio">
+    <h3>Musiquita :3</h3>
+<audio class="musica" src="./img/empty phases - mr.kitty (slowed and reverb).m4a" controls></audio>
+</div>
+
+    <video src="./img/Abstract-Tunnel.mp4" autoplay loop muted></video>
+    <section id="pantalla-inicial">
+        <h1>Pasapalabras</h1>
+        <button id="comenzar">Comenzar Juego</button>
+
+    </section>
+    <!-- Seccion del juego -->
+    <section id="pantalla-juego">
+
+        <div class="container">
+            <span id="tiempo">60</span>
+        </div>
+        <div class="contenedor-pregunta">
+            <span id="letra-pregunta">z</span>
+            <h2 id="pregunta">Esta es la pregunta ...</h2>
+            <input type="text" id="respuesta">
+            <div class="botones">
+                <button id="responder">Responder</button>
+                <button id="pasar">Pasa Palabra</button>
+
+            </div>
+        </div>
+    </section>
+    <section id="pantalla-final">
+        <h1>Resumen del Juego</h1>
+        <h3>Acertadas</h3>
+        <span id="acertadas">10</span>
+        <h3 id="puntaje">40% de acierto</h3>
+        <button id="reiniciar">Jugar de Nuevo</button>
+    </section>
+    
+    <script src="./js/java.js"></script>
+</body>
+
+</html>
