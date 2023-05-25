@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+*{
+font-family: 'Caveat', cursive;
+}
+
+body{
+    background-image: url("/resources/karoltatiana/pages/juego/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding-left: 500px;
+    padding-top: 130px;
+}
+
+.container-header{
+    background-color: rgb(255, 227, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    border: solid 1px;
+    box-shadow: 3px 3px 4px rgb(34, 0, 92);
+}
+
+.opciones img{
+    width: 100px;
+}
