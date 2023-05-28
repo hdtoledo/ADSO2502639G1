@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    padding-left: 500px;
+    padding-left: 450px;
     padding-top: 60px;
 }
 
@@ -22,7 +22,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 850px;
+    width: 800px;
     height: 700px;
     border: solid 1px;
     box-shadow: 3px 3px 4px rgb(34, 0, 92);
@@ -115,6 +115,7 @@ button:active{
     align-items: center;
     color: rgb(255, 153, 0);
     font-size: 25px;
+    font-weight: bold;
 }
 
 .resultados{
