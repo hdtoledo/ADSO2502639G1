@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #5a5a5a;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-shadow: 0 0 15px white;
+}
+
+.container{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container-contador{
+    width: 350rem;
+    border: 1px solid #eee;
+    height: 20rem;
+    padding: 1rem;
+    background-color: #2e2e2efa;
+    color: #fff;
+    text-align: center;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 15px white;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.container-contador >*{
+    margin-bottom: 2rem;
+}
+
+.contador{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.buttons button{
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: .8rem;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 15px white;
+}
+
+.buttons button:active{
+    transform: scale(.98);
+}
+
+button.quitar{
+    background-color: #ff0000;
+    font-family: 'Bruno Ace', cursive;
+
+}
+
+button.resetear{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Bruno Ace', cursive;
+}
+
+button.agregar{
+    background-color: #00ad37;
+    font-family: 'Bruno Ace', cursive;
+}
