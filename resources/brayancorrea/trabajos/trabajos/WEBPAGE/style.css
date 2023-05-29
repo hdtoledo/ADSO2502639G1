@@ -1,0 +1,223 @@
+
+body {
+    background-color: #ffffff;
+    font-family: nunito;
+}  
+
+.logot {
+    height: 40px;
+    width: 180px;
+    margin-top: -50px
+
+}
+
+.escala {
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+@media (min-width: 770px) and (max-width:  990px) {
+.escala {
+    margin-left: 5%;
+    margin-right: 5%;
+}}
+
+.demo{
+    background-color: #f34f36;
+    margin-left: 90%;
+    border-radius: 10%;
+    width: 14%;
+    height: 2em;
+    font-size: 20px;
+    color: #ffffff;
+    box-shadow: none ;
+    border: none;
+
+}
+
+.encabezado {
+    background-color: #2A4C62;
+    height: 40rem;
+
+}
+
+@media (min-width: 770px) and (max-width:  990px) {
+    .encabezado {
+        height: 70rem;
+
+
+    }}
+
+
+
+
+h1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 14rem;
+    font-size: 40px;
+    width: 400px;
+}
+@media (min-width: 770px) and (max-width:  990px) {
+    h1 {
+    margin-left: 32%;
+    margin-right: 15%;
+    padding: 22px;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 16rem;
+        
+    }}
+
+
+h2 {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 32px;
+    color: #B9E6E9;
+    font-size: 32.6px;
+    margin-top: -2rem;
+
+}
+
+.parra {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #ffffff;
+    width: 350px;
+    margin-top: -11rem;
+    font-size: 16px;
+
+}
+
+img {
+    margin-top: -14rem;
+
+}
+
+.laptop {
+    height:400px ;
+    width: 400px ;
+
+}
+
+@media (min-width: 770px) and (max-width:  990px) {
+    .laptop {
+        margin-top: 29rem;
+
+    }}
+
+.imagenla {
+    margin-left: 40%;
+    margin-right: 25%;
+ }
+ 
+ button{
+    margin-left: 5px;
+}
+
+.container {
+background-color: #ffffff;
+height: 30rem;
+width: 25rem;
+margin-left: 60%;
+margin-top: -380px;
+border-radius: 22px;
+box-shadow: 0px 0px 10px white;
+
+}
+
+.p1 {
+    color: black;
+    font-size: 22px;
+    padding-top: 22px;
+    margin-left: 90px;
+    width: 235px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.input-1 {
+    padding: 22px;    
+}
+
+.nombre {
+
+margin-top: 1rem ;
+width: 90%;
+height: 90%;
+font-size: 22px;
+border: none;
+outline: none;
+
+}
+
+.apellido {
+    width: 90%;
+    height: 90%;
+    margin-top: 0px;
+    font-size: 22px;
+    outline: none;
+    border: none;
+
+  
+
+}
+ .emial{
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+    font-size: 22px;
+    outline: none;
+    border: none;
+ }
+
+ .region select {
+    font-size: 17px;
+    background-color: #f9f7f7;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 22px;
+    border-radius: 22px;
+ }
+
+
+.pais select {
+    font-size: 17px;
+    background-color: #f9f7f7;
+    width: 50%;
+    margin-top: 0rem;
+    margin-left: 22px;
+    border-radius: 22px;
+
+}
+
+.inpust {
+    margin: 22px;
+}
+
+.captcha{
+    background-color: rgb(242, 242, 242);
+    width: 20rem;
+    height: 4rem;
+    margin-left: 2.5rem;
+    border: 1px solid  rgb(170, 160, 160);
+    box-shadow: 0px 0px 2px black;
+    margin-top: 2rem;
+
+}
+
+.rono {
+    color: black;
+    margin-top: -13rem;
+    font-size: 20px;
+}
+
+
+
+

@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(228, 228, 255);
+    overflow-x: hidden;
+}
+
+.menu {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+}
+
+.menu img {
+    width: 150px;
+    height: 35px;
+    padding-left: 75px;
+    padding-top: 12px;
+}
+
+.container-btn {
+    padding-right: 100px;
+    padding-top: 12px;
+} 
+
+.btn {
+    background: #F34F36;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 37px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-header {
+    background: linear-gradient(180deg, #2A4C62, #5293be);
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    padding-left: 8px;
+    padding-top: 45px;
+}
+
+.texto1 {
+    width: 400px;
+    height: 300px;
+    padding-top: 95px;
+}
+
+.container-text {
+    width: 400px;
+    height: 360px;
+    padding: 60px;
+    padding-left: 30px;
+}
+
+.container-text h1 {
+    color: white;
+    font-size: 35px; 
+    font-weight: 900;
+}
+
+.container-text h2{
+    color: #B9E6E9;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.container-text p{
+    color: white;
+    padding-top: 20px;
+}
+
+.container-header img {
+    width: 430px;
+    height: 360px;
+    padding-top: 100px;
+    margin-left: 7px;
+}
+
+.container-inicio {
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+.container-inicio .login {
+    background: white;
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+    padding: 15px;
+}
+
+.login h2 {
+    text-align: center;
+    font-size: 22px;
+    height: 40px;
+    padding: 0;
+}
+
+.btn-recibir{
+    background-color: #F34F36;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    height: 38px;
+    width: 120px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(172, 172, 172, 0.801);
+    padding: 15px;
+}
+
+/* Seccion numero 2*/
+
+.section2  {
+    background: rgb(228, 228, 255);
+    width: 100%;
+    display: flex;
+    height: 500px;
+}
+
+.container-parrafo {
+    text-align: center;
+    width: 400px;
+    font-size: 15px;
+    padding-left: 175px;
+    padding-top: 120px;
+}
+
+.container-parrafo .parrafo2 .negrilla {
+    color: #2A4C62;
+}
+
+container-parrafo .parrafo2 .negrilla .normal {
+    color: black;
+}
+
+.fundador {
+    padding: 15px;
+}
+
+.fundador h3 {
+    color: #2A4C62;
+    font-size: 20px;
+}
+
+.solicitud {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.solicitud h3 {
+    color: #2A4C62;
+    font-weight: bold;
+}
+
+.solicitud img {
+    width: 69px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen img {
+    width: 600px;
+    height: 350px;
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+/* Seccion Numero 3 */
+
+.container-info {
+    padding-left: 90px;
+    padding-right: 55px;
+}
+
+.section3 {
+    background: white;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.section3 .informacion {
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 80px;
+}
+
+.section3 .informacion h2 {
+    color: black;
+    font-size: 30px;
+}
+
+.section3 .informacion h3 {
+    color: #4e94c2;
+    font-size: 30px;
+    
+}
+
+.section3 .informacion img {
+    width: 470px;
+}
+
+.item {
+    display: flex;
+    padding-top: 20px;
+}
+
+.item .check img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.items .item h3 {
+    color: #2e78aa;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.items .item p {
+    font-size: 15px;
+    color: gray;
+}
+
+/* Seccion 4 */
+
+.container-planes {
+    width: 100%;
+    height: 620px;
+}
+
+.container-planes .section4 .plan {
+    display: flex;
+    width: 800px;
+    padding-left: 300px;
+    padding-top: 60px;
+}
+
+.container-planes .section4 .plan .img img{
+    width: 210px;
+}
+
+.container-planes .section4 .plan .texto {
+    width: 500px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.container-planes .section4 .plan .texto h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.container-planes .section4 .plan .texto h1 span{
+    color: #417ea7;
+    font-weight: 700;
+}
+
+.container-planes .section4 .plan .texto P {
+    padding-top: 20px;
+    color: gray;
+    font-size: 16px;
+}
+
+.beneficios {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.beneficios .secciones {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+}
+
+.beneficios .secciones p {
+    width: 250px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.beneficios .secciones img{
+    width: 100px;
+}
+
+.beneficios2 {
+    display: flex;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+.beneficios2 .secciones2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+}
+
+.beneficios2 .secciones2 p {
+    width: 250px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.beneficios2 .secciones2 img{
+    width: 100px;
+}
+
+/* Seccion 5 */
+
+.container-herramientas {
+    background: linear-gradient(180deg, #2A4C62, #5293be);
+}
+
+.seccion5 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion5 h1 {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.seccion5 h1 span {
+    color: #B9E6E9;
+}
+
+.seccion5 p {
+    color: white;
+    padding: 30px;
+    font-size: 18px;
+}
