@@ -11,58 +11,58 @@ let estadoPreguntas = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const bd_juego = [
     {
         id: 'a',
-        pregunta: "¿Empresa reconocida que se dedica a los servidores?",
-        respuesta: "amazon"
+        pregunta: "¿En que año se creo Minecraft?",
+        respuesta: "2009"
     },
     {
         id: 'b',
-        pregunta: "¿Termino en ingles que hace referencia a una copia de seguridad?",
-        respuesta: "backup"
+        pregunta: "¿Que poder tiene el enderman?",
+        respuesta: "teletransportarse"
     },
     {
         id: 'c',
-        pregunta: "¿Nombre de la memoria que almacena temporalmente los datos de la computadora?",
-        respuesta: "cache"
+        pregunta: "¿Que bloque se forma cuando el agua choca con una fuente principal de lava?",
+        respuesta: "obsidiana"
     },
     {
         id: 'd',
-        pregunta: "¿Archivo que controla los perifericos que se conectan a la computadora?",
-        respuesta: "driver"
+        pregunta: "¿Como se llama el creador de Minecraft?",
+        respuesta: "markus persson"
     },
     {
         id: 'e',
-        pregunta: "¿Mezclar los datos para protegerlos como medida de seguridad, es decir convertir texto normal a texto cifrado?",
-        respuesta: "encriptar"
+        pregunta: "¿Cual es el principal genero de videojuegos al que pertenece Minecraft?",
+        respuesta: "sandbox"
     },
     {
         id: 'f',
-        pregunta: "¿Famosa red social creada por Mark Zuckerberg?",
-        respuesta: "facebook"
+        pregunta: "¿Que compañia a compro Mojang por 2.500 millones de dolares?",
+        respuesta: "microsoft"
     },
     {
         id: 'g',
-        pregunta: "¿Lenguaje de programacion creado por Google?",
-        respuesta: "go"
+        pregunta: "¿Que lenguaje de programacion se utilizo para la primera version de Minecraft?",
+        respuesta: "java"
     },
     {
         id: 'h',
-        pregunta: "¿Lenguaje utilizado para estructurar las paginas web?",
-        respuesta: "html"
+        pregunta: "¿En que mob hubo un error que le dio origen al creeper?",
+        respuesta: "cerdo"
     },
     {
         id: 'i',
-        pregunta: "¿Aspecto que presentan los programas tras su ejecucion mediante el cual ejercemos la comunicacion con estos?",
-        respuesta: "interfaz"
+        pregunta: "¿Cuantas diemensiones tiene Minecraft?",
+        respuesta: "3"
     },
     {
         id: 'j',
-        pregunta: "¿Lenguaje de programacion con el cual se diseño el sistema operativo android?",
-        respuesta: "java"
+        pregunta: "¿Cuantos bloques mide un chunk en Minecraft?",
+        respuesta: "16"
     },
 ]
 
 const timer = document.getElementById('tiempo');
-const TIEMPO_DEL_JUEGO = 60;
+const TIEMPO_DEL_JUEGO = 65;
 let tiempoRestante = TIEMPO_DEL_JUEGO;
 let countdown;
 
