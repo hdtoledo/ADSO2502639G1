@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Nabla&family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+header{
+    background-color: rgba(160, 160, 160, 0.301);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 50px;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    font-family: 'Nabla', cursive;
+    /* box-shadow: 0 0 20px; */
+    text-shadow: 3px 3px 0 black;
+}
+
+video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.instrucciones{
+    margin-bottom: 2rem;
+    color: goldenrod;
+    font-size: 30px;
+    text-shadow: 3px 3px 0 rgba(255, 0, 0, 0.342);
+}
+
+.marcador{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    position: relative;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 25px;
+}
+
+.marcador .nombre{
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+    line-height: 1;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 3px solid;
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+}
+
+.marcador .nombre-jugador{
+    right: 85%;
+}
+
+.marcador .nombre-pc{
+    left: 85%;
+}
+
+.marcador .puntos{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.elegir-arma{
+    margin-bottom: 2rem;
+}
+
+.elegir-arma h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.armas{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.arma{
+    font-size: 2rem;
+    background-color: beige;
+    border: 2px solid white;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.arma:hover{
+    font-size: 2rem;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.mensaje{
+    margin-bottom: 2rem;
+    line-height: 1.8;
+    font-size: 25px;
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+}
+
+.mensaje .eleccion{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+border-radius: .25rem;
+padding-inline: .25rem;
+text-shadow: 2px 0px 0 rgb(143, 143, 143);
+}
+
+.mensaje #gana-punto{
+    color: rgb(255, 72, 0);
+    text-shadow: 20 0 0;
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 1rem;
+    padding: 20px;
+}
+
+.btn{
+    border: 3px solid white;
+    line-height: 1;
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn:hover{
+    border: 3px solid white;
+    line-height: 1;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.disabled{
+    display: none;
+}
