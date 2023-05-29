@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../CUADRO ADSO"
+		},
+		{
+			"path": "../Calculadora"
+		},
+		{
+			"path": "../Proyecto ADSO"
+		},
+		{
+			"path": "../DOM"
+		},
+		{
+			"path": "../Ejercicio Javascript 02"
+		},
+		{
+			"path": "../Login"
+		},
+		{
+			"path": "../Pasapalabras"
+		},
+		{
+			"path": "../Ejercicio"
+		},
+		{
+			"path": "../Ejercicio Mensaje"
+		},
+		{
+			"path": "../Ejercicios 02"
+		},
+		{
+			"path": "../Formulario"
+		},
+		{
+			"path": "../Cambiar Color"
+		},
+		{
+			"path": "../Carrusel"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Curriculum"
+	}
+}

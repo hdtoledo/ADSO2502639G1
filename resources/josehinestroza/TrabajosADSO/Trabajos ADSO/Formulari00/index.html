@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form reg Vue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <section class="form">
+        <h1>Formulario</h1>
+        <form id="app" @submit.prevent="checkForm" action="/registro" method="post">
+
+           
+            <div class="input-form">
+                <label for="name">Nombre</label>                
+                <input type="text" name="name" v-model="name">
+            </div>
+            <div class="input-form">
+                <label for="secondName">Apellidos</label>
+                <input type="text" name="secondName" v-model="secondName">
+            </div>
+
+            <div class="input-form">
+                <label for="email">Dirección de email</label>
+                <input type="email" name="email" v-model="email">
+            </div>
+
+            <div class="input-form">
+                <label for="password">Elija contraseña</label>
+                <input type="password" name="password" v-model="password">    
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Registrarse">
+            </div>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

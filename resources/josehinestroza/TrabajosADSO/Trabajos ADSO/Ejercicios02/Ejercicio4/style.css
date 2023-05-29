@@ -1,0 +1,16 @@
+.xul{
+	list-style-type:none; 
+	margin:20px;
+	padding:20px;
+	overflow:hidden;
+	background-color:#b04b4b;
+}
+.xli{float:left;} 
+
+.xli a{
+	color:white;
+	text-align:center;
+	padding:10px;
+	text-decoration:none; 
+}
+.xli a:hover{background-color:rgb(207, 136, 21)} /*Hace que cambie el color de fondo(background)*/
