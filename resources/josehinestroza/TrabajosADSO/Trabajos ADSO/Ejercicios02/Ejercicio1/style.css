@@ -1,0 +1,22 @@
+.azul {
+    font-size: 130%;
+    font-weight: bold;
+    font-family: cursive;
+    color: blue; 
+    }
+.rojo {
+    font-size: 130%;
+    font-weight: bold; 
+    font-family: cursive; 
+    color: red;
+    }
+
+    h1 {
+        font-family: cursive;
+        font-size: 60px;
+        text-align: center;
+    }
+    h4 {
+        font-family: cursive;
+        font-size: 40px;
+    }

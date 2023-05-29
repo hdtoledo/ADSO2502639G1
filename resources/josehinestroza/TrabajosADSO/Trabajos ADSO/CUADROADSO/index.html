@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div>
+        <button onclick="incrementar()">INCREMENTAR</button>
+        <span id="contador">0</span>
+        <button onclick="disminuir()">DISMINUIR</button>
+        <button onclick="borrar()">BORRAR</button>
+      </div>
+      
+      <script>
+        var contador = 0; // Inicializamos el contador a 0
+      
+        function incrementar() {
+          contador++; // Incrementamos el contador
+          document.getElementById("contador").innerHTML = contador; // Actualizamos el valor en el elemento HTML
+        }
+      
+        function disminuir() {
+          if (contador > -100) { // Verificamos que el contador no sea negativo
+            contador--; // Disminuimos el contador
+            document.getElementById("contador").innerHTML = contador; // Actualizamos el valor en el elemento HTML
+          }
+        }
+      
+        function borrar() {
+          contador = 0; // Reiniciamos el contador
+          document.getElementById("contador").innerHTML = contador; // Actualizamos el valor en el elemento HTML
+        }
+      </script>
+      
+ 
+
+    
+  
+    
+      
+</body>
+</html>

@@ -607,65 +607,134 @@
                                     color: #ffff;
                                     padding: 50px 20px;
                                 }
-                                
-                                .portafolio .container-section {
-                                    max-width: 1100px;
-                                    margin: auto;
-                                }
-                                
-                                .portafolio h2 {
-                                    font-size: 48px;
-                                    font-family: "righteous";
-                                    text-align: center;
-                                    padding: 20px 0;
-                                }
-                                
-                                .portafolio .galeria {
-                                    display: flex;
-                                    flex-wrap: wrap;
-                                    justify-content: space-around;
-                                }
-                                
-                                .portafolio .galeria .proyecto {
-                                    position: relative;
-                                    max-width: 340px;
-                                    height: fit-content;
-                                    margin: 10px;
-                                    cursor: pointer;
-                                }
-                                
-                                .portafolio .galeria img {
-                                    width: 100%;
-                                    display: block;
-                                }
-                                
-                                .portafolio .galeria .proyecto .overlay {
-                                    position: absolute;
-                                    top: 0;
+                                .container{
                                     width: 100%;
                                     height: 100%;
-                                    text-align: center;
-                                    background: linear-gradient( rgba(19, 114, 223, .6), rgba(19, 114, 223, .6));
                                     display: flex;
-                                    flex-direction: column;
                                     justify-content: center;
-                                    transition: 1s;
-                                    font-size: 18px;
-                                    letter-spacing: 3px;
+                                    align-items: center;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    gap: 30px;
+                                    
+                                    
+                                
+                                }
+                                
+                                .container .card{
+                                    position: relative;
+                                    width: 500px;
+                                    height: 230px;
+                                    padding: 15px;
+                                    background:linear-gradient(60deg, #151516 0%, #1d2229 100%);
+                                    overflow: hidden;
+                                    margin-bottom: 15px;
+                                    border-radius: 20px;
+                                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+                                }
+                                
+                                .container .card h2{
+                                    z-index: 99;
+                                    position: absolute;
+                                    bottom:25px;
+                                    right: 130px;
+                                    font-size: 50px;
+                                    font-weight: 700;
+                                    color: #fff;
+                                    pointer-events: none;
+                                    transition: 0.2s ease;
+                                    text-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+                                }
+                                
+                                .container .card p{
+                                    z-index: 99;
+                                    position: absolute;
+                                    bottom: 30px;
+                                    right: 130px;
+                                    width: 150px;
+                                    color: #fff;
                                     opacity: 0;
+                                    font-size: 12px;
+                                    text-align: right;
+                                    letter-spacing: 1px;
+                                    transition: 0.2s  ease;
                                 }
                                 
-                                .portafolio .galeria .proyecto h3 {
-                                    margin-bottom: 20px;
-                                    transition: 1s;
+                                .container .card span{
+                                    z-index: 99;
+                                    position: absolute;
+                                    top: 60px;
+                                    right: 35px;
+                                    width: 150px;
+                                    color: #fff;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                    transition: 0.2s  ease;
+                                    writing-mode: vertical-lr;
+                                    opacity: 0.7;
+                                
                                 }
                                 
-                                .portafolio .galeria .proyecto .overlay:hover {
+                                .container .card .pic{
+                                    z-index: 100;
+                                    width: 395px;
+                                    height: 200px;
+                                    background-image: url(https://i.pinimg.com/564x/34/85/ad/3485adb146701494b19413cc95885294.jpg);
+                                    background: cover;
+                                    border-radius: 12px;
+                                    filter: grayscale(100%);
+                                    transition: 0.3s ease;
+                                }
+                                
+                                .container .card button{
+                                    position: absolute;
+                                    right: 30px;
+                                    bottom: 40px;
+                                    width: 30px;
+                                    height: 30px;
+                                    background-color: #772a9b;
+                                    border: none;
+                                    border-radius: 30px;
+                                    cursor: pointer;
+                                    outline: none;
                                     opacity: 1;
+                                    transition: 0.3s ease;
                                 }
                                 
-                                .portafolio .galeria .proyecto .overlay:hover h3 {
-                                    margin-bottom: 0px;
+                                .container .card:hover button{
+                                    transform: scale(16.5);
+                                    opacity: 0.5;
+                                
+                                }
+                                
+                                .container .card:hover h2{
+                                    bottom: 80px;
+                                    right: 50px;
+                                }
+                                
+                                .container .card:hover p{
+                                    opacity: 1;
+                                    right: 60px;
+                                }
+                                
+                                .container .card:hover span{
+                                    opacity: 0;
+                                    top: 80px;
+                                }
+                                .container .card:hover .pic{
+                                    filter: grayscale(0);
+                                    width: 470px;
+                                
+                                }
+                                
+                                .container .card2 .pic{
+                                    background-image: url(https://i.pinimg.com/564x/69/7c/be/697cbea3b883923d931e1653d30f9027.jpg);
+                                    transition: 0.3s ease;
+                                }
+                                
+                                
+                                .container .card2 button{
+                                    background-color:#26c3a1 ;
                                 }
                                 
                                 .contacto {
@@ -876,7 +945,7 @@
 
                                     }
                                     .portafolio .galeria .proyecto{
-                                        max-width: 100%;
+                                        max-width: 90%;
                                     }
                                     .portafolio .galeria .proyecto img{
                                         max-width: 100%;
@@ -895,6 +964,14 @@
                                  a{
                                     text-decoration: none;
                                     color: white;
+                                 }
+
+                                 .imgs{
+                                    width: 15%;
+                                    height: 280px;
+                                   
+                                
+
                                  }
 
                                  

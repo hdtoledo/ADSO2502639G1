@@ -8,14 +8,16 @@ showTextButton.addEventListener('mousedown', () => {
 	const text = input.value;
 	if (text == '') {
 		showTextButton.style.display = 'none';
+		input.style.display = 'none';
 		errorText.style.display = 'block';
 		setTimeout(() => {
 			errorText.style.display = 'none';
+			input.style.display = 'block';
 			showTextButton.style.display = 'block';
-		}, 4000);
+		}, 3000);
 	} else {
 		output.textContent = text;
 		texto[0].style.display = 'block';
 	}
-	console.log(output);
+	input.value = '';
 });

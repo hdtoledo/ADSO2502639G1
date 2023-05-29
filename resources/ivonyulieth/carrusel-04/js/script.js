@@ -1,32 +1,42 @@
-//* Variables
-let containerImg = document.getElementById('containerImg')
-const arrayImgs = ["url('./img/img-01.jpg')","url('./img/img-02.jpg')","url('./img/img-03.jpg')","url('./img/img-04.jpg')","url('./img/img-05.jpg')","url('./img/img-06.jpg')","url('./img/img-07.jpg')"]
-let iterator = 0
 
-//* Btns
-let btn_right = document.getElementById('btn-right')
-let btn_left = document.getElementById('btn-left')
-
-btn_right.addEventListener('click', () => {
-    if(iterator < (arrayImgs.length - 1)){
-        iterator++
-        containerImg.style.backgroundImage = arrayImgs[iterator]
-    } else {
-        containerImg.style.backgroundImage = arrayImgs[0]
-        iterator = 0
-    }
-})
-
-btn_left.addEventListener('click', () => {
-    if(iterator <= 0 ){
-        iterator = (arrayImgs.length - 1)
-        containerImg.style.backgroundImage = arrayImgs[iterator]
-    } else{
-        iterator--
-        containerImg.style.backgroundImage = arrayImgs[iterator]
-    }
-    console.log(iterator)
-})
+const redColor = document.querySelector(".red");
+const blackColor = document.querySelector(".black");
+const imageCard = document.querySelector(".product-image");
+const feedbackBtn = document.querySelector(".feedback");
+const grayColor = document.getElementsByClassName("gray");
+const cartButton = document.getElementById("button");
+const itemTag = document.getElementsByTagName("h3")[0];
 
 
+
+redColor.addEventListener("click", () => {
+    cartButton.style.background = "red";
+    itemTag.style.backgroundColor = "red";
+    imageCard.style.backgroundImage = 'url("./img/images.jpeg")';
+});
+
+grayColor[0].addEventListener("click", () => {
+    cartButton.style.background = "gray";
+    itemTag.style.backgroundColor = "gray";
+    imageCard.style.backgroundImage = 'url("img/Chevrolet Corvette C8 Stingray White Vossen HF-5.jpeg")';
+});
+
+blackColor.addEventListener("click", () => {
+    cartButton.style.background = "black";
+    itemTag.style.backgroundColor = "black";
+    imageCard.style.backgroundImage = 'url("img/Corvette C8.jpeg")';
+});
+
+const cart = () => {
+    cartButton.style.display = "none";
+    feedbackBtn.style.display = "block";
+};
+cartButton.addEventListener("click", cart);
+
+
+const feedback = () => {
+    cartButton.style.display = "block";
+    feedbackBtn.style.display = "none";
+};
+feedbackBtn.addEventListener("click", feedback);
 
