@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Juego de Piedra Papel y Tijera</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-header">
+            <div class="titulo">
+                <h1>Juego de Piedra, Papel o Tijera</h1>
+                <h3>Selecciona una de las 3 opciones</h3>
+            </div>
+            <div class="opciones">
+                <div class="btn-piedra">
+                    <button class="piedra">
+                        <img src="./img/piedra.png" alt="">
+                    </button>
+                </div>
+                <div class="btn-papel">
+                    <button class="papel">
+                        <img src="./img/papel.png" alt="">
+                    </button>
+                </div>
+                <div class="btn-tijera">
+                    <button class="tijera">
+                        <img src="./img/tijera.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="elegir">
+                <div class="usuario">
+                    <h2>El usuario eligio: </h2>
+                    <div id="opcUser"></div>
+                </div>
+                <div class="eligio">
+                    <h2>La maquina eligio: </h2>
+                    <div id="opcMachine"></div>
+                </div>
+            </div>
+            <div class="resultado">
+                <h3 id="resultado">Empatado - Perdido - Ganado</h3>
+            </div>
+            <div class="container-puntaje">
+                <div class="puntaje">
+                    <h2>Puntaje</h2>
+                    <div class="resultados">
+                        <div class="resultado2">
+                            <p>Usuario:</p>
+                        </div>
+                        <div class="maquina">
+                            <p>Maquina: </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/scrip.js"></script>
+</body>
+</html>

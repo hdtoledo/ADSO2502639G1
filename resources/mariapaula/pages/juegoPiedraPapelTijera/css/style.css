@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+*{
+font-family: 'Caveat', cursive;
+}
+
+body{
+    background-image: url("/juegoPiedraPapelTijera/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding-left: 350px;
+    padding-top: 20px;
+}
+
+.container-header{
+    background: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: fit-content;
+    border: solid 1px;
+    box-shadow: 3px 3px 4px rgb(34, 0, 92);
+    padding: 1em 0;
+}
+.titulo h1 {
+    color: green;
+}
+.titulo h3 {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opciones{
+    display: flex;
+}
+.opciones img{
+    width: 70px;
+}
+.piedra {
+    background-color: rgb(147, 147, 156);
+    border-radius: 90px;
+    border: solid 1px;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 2px rgb(43, 39, 39);
+}
+.papel {
+    background-color:  rgb(147, 147, 156);
+    border-radius: 90px;
+    border: solid 1px;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 2px rgb(43, 39, 39);
+}
+.tijera{
+    background-color: rgb(147, 147, 156);
+    border-radius: 90px;
+    border: solid 1px;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 2px rgb(43, 39, 39);
+}
+.btn-papel {
+    padding: 30px;
+}
+
+.elegir {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.eligio{
+    padding-left: 115px;
+}
+.resultado h3{
+    color: red;
+}
+.container-puntaje{
+    background: rgba(117, 117, 148, 0.7);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.puntaje h2 {
+    color: rgb(70, 6, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.maquina{
+    padding-left: 199px;
+}
+#opcUser{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
+#opcMachine{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
