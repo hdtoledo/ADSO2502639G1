@@ -38,18 +38,47 @@ function iniciarTurno(e){
         ganaUsuario();
     }else if(
         (eleccionPc ==="piedra🪨" && eleccionUsuario === "tijera✂️")|| 
-        (eleccionPc ==="tijera✂️" && eleccionUsuario=== "papel📋")|| 
+        (eleccionPc ==="tijera" && eleccionUsuario=== "papel📋")|| 
         (eleccionPc ==="papel📋" && eleccionUsuario === "piedra🪨")
     ){
         ganaPc();
     }else{
         empate();
     }
+    reiniciar.addEventListener("click", reiniciarJuego);
+
+    mensaje.classList.remove("disable")
+    contenedorEleccionUsuario.innerText = eleccionUsuario;
+    contenedorEleccionPc.innerText= eleccionPc;
     
 
-    function ganaUsuario ()
+    function ganaUsuario (){
     puntoUsuario++;
+    contenedorPuntoUsuario.innerText = puntoUsuario;
+    contenedorGanaPunto.innerText = "!Ganaste un punto"
    
+    }
+
+    function ganaPc (){
+        puntosPc++;
+        contenedorPuntoPc.innerText = puntosPc;
+        contenedorGanaPunto.innerText = "!Gana un punto la computadora"
+       
+        }
+
+    function empate (){
+        
+            contenedorGanaPunto.innerText = "!Empate"
+           
+            }
+   
+    function reiniciarJuego(){
+        puntoUsuario = 0;
+        puntosPc= 0;
+
+        contenedorPuntoUsuario.innerText = puntoUsuario;
+        contenedorPuntoPc.innerText = puntosPc;
+    }
     
   
 
