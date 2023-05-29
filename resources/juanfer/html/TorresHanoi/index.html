@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Torres Hanoi</title>
+</head>
+<body>
+    <!-- TODO Tabla Jugadores -->
+    <div class="tablePlayers" id="tablePlayers">
+    </div>
+    <!-- TODO Pantalla Configuracion Game -->
+    <div class="container" id="config">
+        <h1>Torres De Hanoi</h1>
+        <span>Dificultad:</span>
+        <input type="number" name="" id="cantFichas" max="7" min="3" placeholder="3-7">
+        <input type="text" placeholder="Name Player" id="namePlayer">
+        <button id="start">Start Game</button>
+    </div>
+    <!-- TODO Btns Game -->
+    <div class="btnsGame" id="btnsGame">
+        <span id="nuevo">Nuevo</span>
+        <span id="">Reiniciar</span>
+        <span id="pause">Pausa</span>
+    </div>
+    <!-- TODO Pantalla Game -->
+    <main id="main">
+        <div class="infoGame">
+            <h1>Torres De Hanoi</h1>
+            <span id="moves">Movimientos: 0</span>
+            <div class="time" id="time">0:0</div>
+        </div>
+        <div class="mainGame">
+            <div class="torre" id="torre-1"></div>
+            <div class="torre" id="torre-2"></div>
+            <div class="torre" id="torre-3"></div>
+        </div>
+    </main>
+</body>
+<script src="./js/app.js"></script>
+</html>

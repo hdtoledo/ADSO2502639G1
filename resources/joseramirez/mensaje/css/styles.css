@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(218, 233, 122, 0.522);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    margin-top: 12px;
+}
+.container{
+    background-color: rgb(218, 255, 205);
+    width: 600px;
+    height: 408px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+.men-error{
+    color: red;
+}
+#output-mensaje {
+    color: blue;
+}
+#input{
+    width: 90%;
+    height: 50px;
+    font-size: 28px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.8);
+}
+.sendbtn{
+    background-color: green;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid;
+    padding: 10px 5px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.7);;
+}
+#output-mensaje{
+    margin-bottom: 15px;
+    font-size: 23px;
+}

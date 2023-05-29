@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Piedra, Papel y Tijera</title>
+</head>
+<body>
+    
+<header>
+    Piedra, Papel o Tijera
+</header>
+<video src="./img/video.mp4" autoplay muted loop></video>
+<main>
+<p class="instrucciones" id="instrucciones">
+    El que obtenga 5 puntos gana el juego
+</p>
+<div class="marcador">
+    <p class="nombre nombre-jugador">Usuario</p>
+    <p class="nombre nombre-pc">Maquina</p>
+    <p class="puntos">
+        <span id="puntos-usuario">0</span>
+        <span>-</span>
+        <span id="puntos-pc">0</span>
+    </p>
+</div>
+<div class="elegir-arma" id="elegir-arma">
+    <h2>Selecciona una de las tres opciones</h2>
+    <div class="armas">
+        <button class="arma" id="piedra🥌">🥌</button>
+        <button class="arma" id="papel🧻">🧻</button>
+        <button class="arma" id="tijera✂️">✂️</button>
+    </div>
+</div>
+<div class="mensaje disabled" id="mensaje">
+<p>
+    Usaste <span class="eleccion" id="eleccion-usuario">papel🧻</span>
+    <br>
+    y la maquina usó <span class="eleccion" id="eleccion-pc">piedra🪨</span>
+</p>
+<p id="gana-punto">Ganaste un punto! 🔥</p>
+</div>
+<button class="btn disabled" id="reiniciar">Reiniciar juego</button>
+</main>
+
+</body>
+<script src="./js/index.js"></script>
+</html>

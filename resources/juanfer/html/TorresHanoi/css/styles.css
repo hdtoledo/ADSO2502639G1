@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(170, 233, 233);
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    margin: 0;
+    font-size: 2.5em;
+    color: tomato;
+}
+main{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1em;
+    flex-direction: column;
+    display: none;
+}
+.btnsGame{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+    display: none;
+    align-items: center;
+}
+.btnsGame span{
+    cursor: pointer;
+    width: fit-content;
+    font-size: 1.5em;
+    padding: .3em 2em;
+    border-radius: 20px;
+    background: rgb(243, 39, 49);
+    color: white;
+    font-weight: bold;
+
+    transition: all .5s;
+}
+.btnsGame span:hover{
+    background: white;
+    color: rgb(243, 39, 49);
+}
+main .infoGame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .infoGame span{
+    font-size: 2em;
+    font-weight: bold;
+}
+main .mainGame{
+    display: flex;
+    gap: 2em;
+}
+.tablePlayers{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: fit-content;
+    height: fit-content;
+    background: rgb(251, 62, 29);
+    font-size: 1.3em;
+    display: none;
+    flex-direction: column;
+    color: rgb(243, 238, 238);
+    padding: .5em 2em;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.tablePlayers b{
+    color: rgb(3, 3, 3);
+    font-size: 1.2em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: rgba(180, 177, 177, 0.863);
+    border-radius: 20px;
+    padding: .7em 2em;
+    align-items: center;
+    box-shadow: 0 10px 20px rgb(32, 31, 31);
+}
+.container span{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.container button{
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 1.5em;
+    padding: .3em 2em;
+    border-radius: 20px;
+    background: rgb(243, 39, 49);
+    color: white;
+    font-weight: bold;
+
+    transition: all .5s;
+}
+.container button:hover{
+    background: white;
+    color: rgb(243, 39, 49);
+}
+.container input{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    margin: 1em 0;
+    border-bottom: 2px solid rgb(32, 31, 31);
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+
+.torre{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 219, 215);
+    gap: .4em;
+    align-items: center;
+    justify-content: end;
+    border-radius: 20px;
+    border-bottom: 15px solid rgb(34, 34, 34);
+    box-shadow: 0 0 15px rgb(44, 43, 43);
+}
+.ficha{
+    border-radius: 5px;
+}
+.ficha1{
+    width: 20px;
+    height: 20px;
+    background: yellow;
+}
+.ficha2{
+    width: 50px;
+    height: 20px;
+    background: orangered;
+}
+.ficha3{
+    width: 80px;
+    height: 20px;
+    background: chocolate;
+}
+.ficha4{
+    width: 110px;
+    height: 20px;
+    background: purple;
+}
+.ficha5{
+    width: 140px;
+    height: 20px;
+    background: peru;
+}
+.ficha6{
+    width: 170px;
+    height: 20px;
+    background: cyan;
+}
+.ficha7{
+    width: 200px;
+    height: 20px;
+    background: firebrick;
+}
