@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.mini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 40rem;
+    height: 35rem;
+    border: 2px solid;
+    border-radius:12px;
+
+}
+
+.mini h2{
+    font-size: 40px;
+    text-shadow: 1px 1px 1.5px black ;
+}
+
+
+.mini .contenedor-elemento{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.contenedor-elemento button{
+    border-radius: 100%;
+    height: 6rem;
+    width: 6rem;
+}
+
+.eleccion{
+    display: flex;
+    gap: 70px;
+}
+
+
+
+.resultado{
+    display: flex;
+    gap: 40px;
+}
+
+.resultado span:hover{
+    font-size: 30px;
+    transition: 1s;
+}
+
+.puntaje{
+    border: 2px solid #242424;
+    border-radius: 12px;
+    width: 500px;
+    height: 80px;
+}
+
+.puntaje h4{
+    text-align: center;
+}
+
+
+.puntaje-um{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+}
+
+
+
+
+
+
