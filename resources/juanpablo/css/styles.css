@@ -732,6 +732,15 @@
                                     transition: 0.3s ease;
                                 }
                                 
+                                .container .card3 .pic{
+                                    background-image: url(https://i.pinimg.com/564x/9a/de/31/9ade31e3e16ede31768d607c472a2f80.jpg);
+                                    transition: 0.3s ease;
+                                }
+
+                                
+
+
+                                
                                 
                                 .container .card2 button{
                                     background-color:#26c3a1 ;
