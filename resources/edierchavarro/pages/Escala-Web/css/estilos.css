@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5f0f0;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+main{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.entrada{
+    position: sticky;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 4em;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px grey;
+
+}
+.entrada .logo{
+    width: fit-content;
+    height: fit-content;
+}
+.entrada .logo img{
+    height: 2.5em;
+}
+.entrada .btn span{
+    background: #F34F36;
+    padding: 9px 4px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all .5s;
+}
+.entrada .btn span:hover{
+    font-size: 1.1em;
+}
+
+.pages{
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(#2A4C62, #52797c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+.pages .container{
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+.pages .container .info{
+    width: 450px;
+}
+.pages .container .info h2{
+    color: #FFFFFF;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+.pages .container .info h3{
+    color: #B9E6E9;
+    margin: 0;
+}
+.pages .container .info span{
+    color: white;
+    margin-top: 2em;
+    font-weight: bold;
+}
+.pages .container .img{
+    width: 370px;
+}
+.pages .container .img img{
+    width: 370px;
+}
+.pages .container form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1em 1.5em;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+}
+.pages .container form h2{ 
+    text-align: center;
+    margin: 0;
+}
+.pages .container form input{ 
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    text-align: left;
+    font-size: 1.2em;
+}
+.pages .container form span{ 
+    background: #F34F36;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+    padding: .5em 1em;
+}
+
+.fundador{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 1em;
+}
+.fundador .container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.fundador .container .fun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 26%;
+    gap: 1em;
+}
+.fundador .container .fun h2, h3{
+    margin: 0;
+    gap: inherit;
+    font-weight: bold;
+}
+.fundador .container .fun h3{
+    color: grey;
+    font-size: 1.2em;
+    font-weight: inherit;
+}
+.fundador .container .fun h4{
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #2A4C62;
+
+    transition: all .5s;
+}
+.fundador .container .fun h4:hover{
+    color: red;
+}
+.fundador .container .fun span{
+    color: grey;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+}
+.fundador .container .fun div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5em;
+    width: 100%;
+}
+.fundador .container .fun div img{
+    width: 80px;
+    height: 80px;
+}
+.fundador .container .img{
+    width: fit-content;
+}
+.fundador .container .img img{
+    width: 650px;
+}
+
+
+
+.lograr{
+    margin-top: 3em;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lograr .container{
+    width: 65%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 1em;
+}
+.lograr .container .fot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 1em;
+}
+.lograr .container .fot img{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+.lograr .container .fot h2,h3{
+    margin: 0;
+    font-size: 2em;
+    font-weight: 900;
+}
+.lograr .container .fot h3{
+    color: #2A4C62;
+}
+.lograr .container .continuo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.lograr .container .continuo .parrafo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4em;
+}
+.lograr .container .continuo span{
+    font-size: 1.0em;
+}
+.lograr .container .continuo img{
+    width: 40px;
+    height: 40px;
+}
+.lograr .container .continuo b{
+    color: #305c79;
+}
+
+
+.component{
+    margin-top: 3em;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.component .container .element{
+    width: 70%;
+    display: flex;
+}
+.component .container .element img{
+    width: 220px;
+    height: 220px;
+}
+.component .container .element .infor{
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    justify-content: center;
+}
+.component .container .element h1,h2{
+    margin: 0;
+    font-size: 2em;
+}
+.component .container .element h2{
+    color: #449ad3;
+}
+.component .container .element span{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.container .element{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+.container .element .groupElements{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    width: 500px;
+}
+.container .element .groupElements img{
+    width: 170px;
+    height: 170px;
+}
+.container .element .groupElements span{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.combin{
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(#2A4C62, #52797c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+.combin .container{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    text-align: center;
+    color: white;
+    padding: 2em 0;
+}
+.combin .container h1,h2{
+    margin: 0;
+    font-weight: bold;
+}
+.combin .container h1{
+    color: white;
+    font-size: 3em;
+}
+.combin .container h2{
+    color: #B9E6E9;
+    font-size: 2em;
+}
+.combin .container span{
+    font-size: 1.2em;
+}
+.combin .container ul li{
+    list-style: none;
+    font-size: 1.2em;
+}
+.combin .container img{
+    width: 70%;
+    min-width: 300px;
+}
+.combin .container button{
+    background: #F34F36;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+    padding: 1em 1.5em;
+    border: none;
+}
+
+
+.escala{
+    width: 100%;
+    height: fit-content;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+.escala .container{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    text-align: center;
+    padding: 2em 0;
+}
+.escala .container h1,h2{
+    margin: 0;
+    font-size: 2em;
+    font-weight: 900;
+}
+.escala .container h1{
+    color: rgb(36, 33, 33);
+}
+.escala .container h2{
+    color: #1d5b5f;
+}
+.escala .container .imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.escala .container .imgs img{
+    width: 430px;
+}
+
+
+
+
+
+.tour{
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(#2A4C62, #52797c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.tour .container{
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6em;
+}
+
+.tour .container .infor{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tour .container .infor b{
+    color: #B9E6E9;
+}
+.tour .container .infor h2{
+    color: #FFFFFF;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+.tour .container .infor h3{
+    color: white;
+    margin: 0;
+}
+.tour .container .infor img{
+    width: 90%;
+}
+.tour .container form{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+}
+.tour .container form h2{ 
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+}
+.tour .container form input{ 
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    text-align: left;
+    font-size: 1.2em;
+    width: 95%;
+}
+.tour .container form span{ 
+    background: #F34F36;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+    padding: .5em 1em;
+}
+
+
+
+
+.leads{
+    width: 100%;
+    height: fit-content;
+    background: #323435;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    flex-direction: column;
+}
+.leads .container{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.leads .container .inform{
+    width: 40%;
+}
+.leads .container .inform h3{
+    margin: 0;
+    font-size: 1em;
+}
+.leads .container .inform .icons {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+.leads .container .inform .icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    transition: all .5s;
+}
+.leads .container .inform .icons a:hover{
+    color: #F34F36;
+}
+
+.leads .container .tabla, .we{
+    width: 20%;
+}
+.leads .container .tabla{
+    border-right: 2px solid white;
+}
+.leads .container .tabla h2{
+    font-size: 1.5em;
+}
+.leads .container .tabla ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.leads .container .tabla ul li{
+    font-size: 1.5em;
+    list-style: none;
+    font-size: 1em;
+}
+.leads .container .tabla ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: all .5s;
+}
+.leads .container .tabla ul li a:hover{
+    color: #F34F36;
+}
+.leads .container .des{
+    display: flex;
+    flex-direction: column;
+}
+.leads .container .des h2{
+    font-size: 1.5em;
+}
+.leads .container .des ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1em;
+}
+.leads .container .des ul li{
+    font-size: 1.5em;
+    list-style: none;
+    font-size: 1em;
+}
+.leads .container .des ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: all .5s;
+}
+.leads .container .des ul li a:hover{
+    color: #F34F36;
+}
+.leads .container .des img{
+    width: 150px;
+}
+.leads .informacion{
+    margin-top: 2em;
+    width: 50%;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leads .informacion h2{
+    font-size: 1.3em;
+    margin: .5em 0;
+    color: white;
+}
+.leads .informacion .container .informacion-01 h2{
+    font-size: 1em;
+}
+.leads .informacion .container .informacion-01 .language{
+    display: flex;
+    gap: 1.5em;
+}
+.leads .informacion .container .informacion-02 a{
+    color: white;
+    transition: all .5s;
+}
+.leads .informacion .container .informacion-02 a:hover{
+    color: #F34F36;
+}

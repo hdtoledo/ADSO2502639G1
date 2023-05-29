@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500;600;700;800 & display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+:root {
+   background-color: #8ae9e0;
+    background-color: #d3e2ef;
+    background-color: #090909;
+}
+
+body {
+    background-color: black;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d3e2ef;
+    color: black;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+
+}
+
+.instrucciones {
+    margin-bottom: 2rem;
+}
+
+.marcador {
+    background-color: #8ae9e0;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    align-items: center;
+    color: var(--clr-purple);
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+    display: flex;
+}
+
+.marcador .nombre {
+    color: #d3e2ef;
+    background-color: black;
+    line-height: 1;
+    border-radius: .5rem;
+    border: 2px solid #8ae9e0;
+    position: absolute;
+    padding: .5rem;
+
+}
+
+.marcador .nombre-jugador {
+    right: 85%;
+}
+
+.marcador .nombre-computadora {
+    left: 85%;
+}
+
+.marcador .puntos {
+    font-size: 1.6rem;
+}
+
+.elegi-tu-arma {
+    margin-bottom: 2rem;
+}
+
+.elegi-tu-arma h2 {
+    font-weight: 400;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+.armas {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.arma {
+    font-size: 2rem;
+    background-color: #d3e2ef;
+   
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 0;
+    padding: .5rem;
+}
+
+.mensaje {
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.mensaje .eleccion {
+    color: black;
+    background-color: #8ae9e0;
+    border-radius: .25rem;
+    padding-inline: .25rem;
+}
+
+.btn {
+    border: 0;
+    line-height: 1;
+    background-color: #d3e2ef;
+    color: black;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.disabled {
+    display: none;
+}
+
