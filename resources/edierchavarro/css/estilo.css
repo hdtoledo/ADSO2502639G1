@@ -55,7 +55,7 @@ html {
 }
 
 .nav-responsive {
-    background-color: rgb(1, 1, 1);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 5px 10px;
     border-radius: 5px;
@@ -66,7 +66,7 @@ html {
 
 
 .inicio{
-    background:linear-gradient(to top, rgba(0, 0, 0, .8),rgba(0, 0, 0, .1)), url("../img/1366_2000.jpeg") no-repeat center center;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.8),rgb(215, 214, 214)), url("../img/1366_2000.jpeg") no-repeat center center;
     background-size: cover;
     height: 100vh;
     color: rgb(255, 255, 255);
@@ -84,11 +84,11 @@ html {
 }
 
 .container-banner img {
-    margin-top:40px;
+    margin-top:30px;
     display: block;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    border-radius: 80px;
+    border-radius: 50%;
 }
 
 .inicio .container-banner h1 {
