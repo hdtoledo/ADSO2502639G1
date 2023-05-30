@@ -643,8 +643,9 @@ html{
 .portafolio .galeria img{
     width: 100%;
     display: block;
-    height: 250px;
+    height: 220px;
     width: 300px;
+    border-radius: 30px;
 }
 
 .portafolio .galeria .proyecto .overlay{
@@ -671,6 +672,7 @@ html{
 
 .portafolio .galeria .proyecto .overlay:hover{
     opacity: 1;
+    border-radius: 30px;
 }
 
 .portafolio .galeria .proyecto .overlay:hover h3{
