@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Piedra, Papel o Tijera</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-header">
+            <div class="titulo">
+                <h1>Juego de Piedra, Papel o Tijera</h1>
+                <p>Selecciona una de las 3 opciones</p>
+            </div>
+            <div class="opciones">
+                <div class="btn-piedra">
+                    <button class="piedra">
+                        <img src="./img/piedra.png" alt="Piedra">
+                    </button>
+                </div>
+                <div class="btn-papel">
+                    <button class="papel">
+                        <img src="./img/papel.png" alt="Papel">
+                    </button>
+                </div>
+                <div class="btn-tijera">
+                    <button class="tijera">
+                        <img src="./img/tijera.png" alt="Tijera">
+                    </button>
+                </div>
+            </div>
+            <div class="elegir">
+                <div class="usuario">
+                    <h2>El usuario eligio:</h2>
+                    <div class="imagenes-resultados">
+                        <div id="opcUser"></div>
+                    </div>
+                </div>
+                <div class="maquina">
+                    <h2>La maquina eligio:</h2>
+                    <div class="imagenes-resultados">
+                        <div id="opcMachine"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="resultado">
+                <h3 id="resultado">Empatado - Perdido - Ganado</h3>
+            </div>
+            <div class="puntaje">
+                <h2>puntaje</h2>
+                <div class="resultados">
+                    <div class="usuarios">
+                        <p id="contadorUsuario">Usuario:</p>
+                    </div>
+                    <div class="maquinas">
+                        <p id="contadorMaquina">Maquina:</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="reset">
+                <button id="btn-reset" class="btn-reset">Reset</button>
+            </div>
+        </div> 
+    </div>
+    <script src="./js/scirpt.js"></script>
+</body>
+</html>

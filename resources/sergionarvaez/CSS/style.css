@@ -640,6 +640,8 @@ align-items: center;
 .portafolio .galeria img{
     width: 100%;
     display: block;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px #508dff;
 }
 
 .portafolio .galeria .proyecto .overlay{
@@ -656,6 +658,7 @@ align-items: center;
     font-size: 18px;
     letter-spacing: 3px;
     opacity: 0;
+    border-radius: 20px;
 }
 
 .portafolio .galeria .proyecto h3{

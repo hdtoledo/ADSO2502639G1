@@ -350,6 +350,8 @@ container-parrafo .parrafo2 .negrilla .normal {
 
 .container-herramientas {
     background: linear-gradient(180deg, #2A4C62, #5293be);
+    width: 100%;
+    height: 950px;
 }
 
 .seccion5 {
@@ -374,4 +376,257 @@ container-parrafo .parrafo2 .negrilla .normal {
     padding: 30px;
     font-size: 18px;
 }
+
+.seccion5 ul {
+    width: fit-content !important;
+    color: white;
+    padding-right: 140px;
+    font-size: 18px;
+}
+
+.uno {
+    padding-left: 210px;
+}
+
+.dos {
+    padding-left: 280px;
+}
+
+.tres {
+    width: 600px;
+    height: 70px;
+    text-align: center;
+    padding-left: 170px;
+}
+
+
+.marketing img {
+    width: 800px;
+}
+
+.solicitud {
+    background-color: #F34F36;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    height: 38px;
+    width: 165px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.seccion6 {
+    text-align: center;
+    background: white;
+    width: 100%;
+    height: 380px;
+}
+
+.seccion6 h1 {
+    padding: 25px;
+    padding-top: 40px;
+    line-height: 35px;
+}
+
+.seccion6 h1 span {
+    color: #2e78aa;
+}
+
+.container-imagenes img {
+    width: 350px;
+}
+
+.container-cuadro {
+    padding-left: 165px;
+    padding-top: 50px;
+}
+
+.container-tour {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    background: linear-gradient(180deg, #2A4C62, #5293be);
+}
+
+.tour {
+    background: white;
+    width: 370px;
+    height: 400px;
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+    padding: 15px;
+}
+
+.tour h2 {
+    width: 220px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.tour input{
+    font-size: 17px;
+}
+
+.comienza {
+    padding-top: 45px;
+    padding-left: 100px;
+}
+
+.comienza h1 {
+    text-align: center;
+    line-height: 35px;
+    color: #bed7e9;
+}
+
+.comienza h1 span {
+    color: white;
+}
+
+.comienza img {
+    width: 530px;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+.seccion8 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background: rgb(49, 44, 44);
+    padding-top: 60px;
+}
+
+.container-escala {
+    padding-left: 132px;
+    color: white;
+}
+
+.container-escala img{
+    width: 230px;
+    height: 55px;
+}
+
+.container-escala p {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 2px;
+}
+
+.container-escala h3 {
+    padding-top: 30px;
+}
+
+.container-escala .redes {
+    display: flex;
+}
+
+.container-escala a {
+    color: white;
+    width: 42px;
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 2px;
+}
+
+.container-escala .redes a {
+    font-size: 30px;
+}
+
+.funcionalidades {
+    color: white;
+    padding-left: 40px;
+    padding-right: 50px;
+    border-right: 1px solid white;
+    height: 320px;
+    padding-top: 12px;
+}
+
+.funcionalidades p {
+    padding-top: 30px;
+    line-height: 35px;
+    font-size: 13px;
+}
+
+.nosotros {
+    padding-top: 10px;
+    padding-left: 80px;
+    color: white;
+}
+
+.nosotros p {
+    font-size: 13px;
+    padding-top: 40px;
+    line-height: 28px;
+}
+
+.nosotros img {
+    width: 200px;
+}
+
+.derechos {
+    background: rgb(49, 44, 44);
+    color: white;
+    font-size: 14px;
+    height: 95px;
+}
+
+.derechos p {
+    text-align: center;
+}
+
+.condiciones {
+    display: flex;
+    justify-content: center;
+}
+
+.condiciones p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.disponibles {
+    display: flex;
+    justify-content: center;
+    padding-right: 180px;
+    font-size: 11px;
+    padding-top: 10px;
+}
+
+.idiomas {
+    display: flex;
+    padding-right: 100px;
+    text-decoration: underline;
+    
+}
+
+.idiomas .español {
+    padding-right: 20px;
+}
+
+.idioma {
+    display: flex;
+    padding-right: 25px;
+    text-decoration: underline;
+}
+
+.idioma .español {
+    padding-right: 20px;
+}
+
+
+
+
+
 
