@@ -5,7 +5,7 @@
 }
 
 .images{
-    background: url("https://cdn.pixabay.com/photo/2017/06/24/02/56/art-2436545_1280.jpg");
+    background: url("../img/000.jpg");
     width: 900px;
     height: 600px;
     background-position: center;
@@ -13,16 +13,16 @@
     background-attachment: fixed;
     background-size: cover;
     margin: 4rem auto;
-    border: 8px solid rgb(216, 152, 247);
+    border: 8px solid rgb(0, 0, 0);
     border-radius: 5px;
     position: relative;
-    box-shadow: 2px 2px 20px rgba(219, 9, 243, 0.6);
+    box-shadow: 2px 2px 20px rgba(124, 120, 125, 0.6);
 }
 
 .btn-left, .btn-right{
     position: absolute;
-    background-color: rgb(255, 233, 233);
-    border: 5px solid rgb(81, 4, 103);
+    background-color: rgb(183, 181, 181);
+    border: 5px solid rgb(93, 91, 93);
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;

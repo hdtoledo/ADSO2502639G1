@@ -48,6 +48,7 @@ body {
     width: 100%;
     height: 580px;
     justify-content: center;
+    padding-top: 60px;
 }
 
 .texto1 {
@@ -107,7 +108,7 @@ body {
     align-items: center;
     justify-items: center;
     gap: 2em;
-    padding: 15px;
+    padding-left: 45px;
 }
 
 .login h2 {
@@ -115,6 +116,13 @@ body {
     font-size: 23px;
     height: 40px;
     padding: 0;
+    padding-right: 60px;
+}
+
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-recibir{
@@ -129,13 +137,11 @@ body {
 }
 
 input {
-    padding: 8px 15px;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 40px;
     border: none;
     outline: none;
     border-bottom: 1px solid rgba(172, 172, 172, 0.801);
-    padding: 15px;
 }
 
 /*seccion2*/
@@ -412,6 +418,12 @@ input {
     margin: 0 auto 10px;
 }
 
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
 .containerImage img {
     height: 550px;
     max-width: unset;
@@ -420,15 +432,20 @@ input {
     display: block;
     box-sizing: border-box;
 }
+
 .btn6 {
     background-color: #F34F36;
     color: white;
     border-radius: 7px;
     border: none;
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 190px;
     cursor: pointer;
     line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
 /*seccion 7*/
 .sec-07 .container-cliente {
@@ -473,27 +490,36 @@ input {
     padding: 5em 0;
 }
 .generar {
-    width: 350px;
-    height: 400px;
+    width:380px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     background-color: white;
     padding: 1em 1.5em; 
-    border-radius: 40px;
+    border-radius: 20px;
     align-items: center;
     justify-items: center;
     gap: 2em;
+
 }
+
+
+.informa{
+    padding-top: 20px;
+}
+
 input {
     padding: 10px 5px;
     font-weight: 600;
-    font-size: medium;
+    font-size: 20px;
     border: none;
     outline: none;
     border-bottom: 1px solid rgba(172, 172, 172, 0.801);
 }
 h3 {
     text-align: center;
+    font-size: 23px;
+    padding-top: 10px;
 }
 .btn-recibir{
     background-color: #F34F36;

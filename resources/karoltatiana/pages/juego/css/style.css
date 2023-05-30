@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+*{
+font-family: 'Caveat', cursive;
+}
+
+body{
+    background-image: url("/resources/karoltatiana/pages/juego/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding-left: 450px;
+    padding-top: 60px;
+}
+
+.container-header{
+    background-color: rgb(255, 227, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 700px;
+    border: solid 1px;
+    box-shadow: 3px 3px 4px rgb(34, 0, 92);
+}
+
+.titulo h1{
+    color: rgb(0, 194, 0);
+    font-size: 40px;
+    width: 420px;
+    height: 30px;
+}
+
+.titulo p{
+    color: rgb(0, 98, 255);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.opciones{
+    display: flex;
+}
+
+.opciones img{
+    width: 70px;
+}
+
+.piedra{
+    background-color: rgb(246, 211, 168);
+    border-radius: 70px;
+    border: solid 1px;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 2px rgb(32, 18, 11);
+}
+
+.papel{
+    background-color: rgb(246, 211, 168);
+    border-radius: 70px;
+    border: solid 1px;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 2px rgb(32, 18, 11);
+}
+
+.tijera{
+    background-color: rgb(246, 211, 168);
+    border-radius: 90px;
+    border: solid 1px;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 2px rgb(32, 18, 11);
+}
+
+.btn-papel{
+    padding: 50px;
+}
+
+button:active{
+    outline: none;
+    box-shadow: none;
+    top: 10px;
+    left: 2px;
+}
+
+.elegir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eligio{
+    padding-left: 110px;
+}
+
+.resultado{
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.puntaje{
+    border: solid 1px black;
+    background-color: rgb(221, 210, 252);
+    width: 470px;
+    height: 130px;
+    border-radius: 30px;
+}
+
+.puntaje h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 153, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resultados{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.r-usuario{
+    padding-left: 100px;
+}
+.r-maquina{
+    padding-left: 140px;
+}
+
+#opcUser{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
+#opcMachine{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
