@@ -3,7 +3,7 @@ const btnRight =document.querySelector(".btn-right");
 const botones =document.querySelector(".btn");
 const imagenes =document.querySelector(".images");
 
-let imgMuestra = ["001","002","003","004"];
+let imgMuestra = ["000","001","002","003","004"];
 
 let contador = 0;
 

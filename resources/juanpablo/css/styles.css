@@ -128,12 +128,19 @@
                                 .sobremi {
                                     background-color:#1e2326 ;
                                     color: #fff;
-                                    padding: 50px 20px
+                                    padding: 50px 20px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    
                                 }
+                                
                                 
                                 .sobremi .container-section {
                                     max-width: 1100px;
                                     margin: auto;
+                                    
                                 }
                                 
                                 .sobremi h2 {
@@ -170,7 +177,9 @@
                                 
                                 .sobremi .fila .col ul {
                                     list-style: none;
-                                }
+                                   
+                                    
+                                                                    }
                                 
                                 .sobremi .fila .col ul li {
                                     margin: 12px 0;
@@ -731,6 +740,15 @@
                                     background-image: url(https://i.pinimg.com/564x/69/7c/be/697cbea3b883923d931e1653d30f9027.jpg);
                                     transition: 0.3s ease;
                                 }
+                                
+                                .container .card3 .pic{
+                                    background-image: url(https://i.pinimg.com/564x/9a/de/31/9ade31e3e16ede31768d607c472a2f80.jpg);
+                                    transition: 0.3s ease;
+                                }
+
+                                
+
+
                                 
                                 
                                 .container .card2 button{

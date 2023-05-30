@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PasaPalabras</title>
+  <link rel="stylesheet" media="all" href="./css/style.css" />
+</head>
+<body>
+<div class="hero"> 
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+</div>
+<main class="container-p">
+  <button class="regresar" id="regresar">regresar</button>
+  <section id="pantalla-inicial">
+    <h1>Pasapalabras</h1>
+    <button id="comenzar">Comenzar juego</button>
+  </section>
+  <!--? Section Game  -->
+  <section id="pantalla-juego">
+    <!-- * Aqui se generan de forma dinamica las letras -->
+    <div class="container" id="container">
+      <span id="tiempo">60</span>
+    </div>
+    <div class="contenedor-pregunta">
+      <span id="letra-pregunta">z</span>
+      <h2 id="pregunta">Esta es la pregunta....</h2>
+      <input type="text" id="respuesta" placeholder="Escribe tu respuesta">
+      <div class="botones">
+        <button id="responder">Responder</button>
+        <button id="pasar">Pasar</button>
+      </div>
+    </div>
+  </section>
+  <!--? Seccion pantalla final  -->
+  <section id="pantalla-final">
+    <h1>Resumen de Juego</h1>
+    <h3>Acertadas</h3>
+    <span id="acertadas">10</span>
+    <h3 id="puntaje">40% de acierto</h3>
+    <button id="reiniciar">Jugar de nuevo</button>
+  </section>
+</main>
+</body>
+<script src="./js/app.js"></script>
+</html>
