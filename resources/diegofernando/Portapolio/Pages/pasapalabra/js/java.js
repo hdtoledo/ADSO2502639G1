@@ -51,13 +51,13 @@ const bd_juego = [
     },
     {
         id: 'i',
-        pregunta: "¿Cuantas diemensiones tiene Minecraft?",
-        respuesta: "3"
+        pregunta: "¿Como se llama la dimension del infierno en Minecraft?",
+        respuesta: "nether"
     },
     {
         id: 'j',
         pregunta: "¿Cuantos bloques mide un chunk en Minecraft?",
-        respuesta: "16"
+        respuesta: "16x16"
     },
 ]
 
