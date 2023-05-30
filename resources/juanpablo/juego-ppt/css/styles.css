@@ -8,83 +8,53 @@
     padding: 0;
 }
 
-.container{
+header{
+    background-color:rgb(255, 179, 0) ;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90px;
+    font-size: 20px;
+}
+
+main{
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 179, 0, 0.7) ;
     height: 100vh;
-
 }
 
-.mini{
+.marcador{
+    display: flex;
+    gap: 10px;
+    margin: 30px 0;
+    
+}
+
+.marcador p{
+    padding: 10px 30px;
+}
+.marcador .puntos{
+    border:2px solid #fff ; 
+}
+
+.armas{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-    width: 40rem;
-    height: 35rem;
-    border: 2px solid;
-    border-radius:12px;
+    gap: 20px;
+
+}
+.elegi-tu-arma .arma{
+    border-radius:100%;
+    width: 70px;
+    height: 70px;
+    border: none;
+    margin: 30px 0;
 
 }
 
-.mini h2{
-    font-size: 40px;
-    text-shadow: 1px 1px 1.5px black ;
-}
-
-
-.mini .contenedor-elemento{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-
-}
-
-.contenedor-elemento button{
-    border-radius: 100%;
-    height: 6rem;
-    width: 6rem;
-}
-
-.eleccion{
-    display: flex;
-    gap: 70px;
-}
-
-
-
-.resultado{
-    display: flex;
-    gap: 40px;
-}
-
-.resultado span:hover{
-    font-size: 30px;
-    transition: 1s;
-}
-
-.puntaje{
-    border: 2px solid #242424;
-    border-radius: 12px;
-    width: 500px;
-    height: 80px;
-}
-
-.puntaje h4{
-    text-align: center;
-}
-
-
-.puntaje-um{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 150px;
-
-}
 
 
 
