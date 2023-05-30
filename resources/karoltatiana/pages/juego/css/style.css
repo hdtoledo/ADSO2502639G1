@@ -91,7 +91,7 @@ button:active{
     justify-content: center;
 }
 
-.maquina{
+.eligio{
     padding-left: 110px;
 }
 
@@ -129,4 +129,15 @@ button:active{
 }
 .r-maquina{
     padding-left: 140px;
+}
+
+#opcUser{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
+#opcMachine{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
 }
