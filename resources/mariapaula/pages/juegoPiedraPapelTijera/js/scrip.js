@@ -11,6 +11,7 @@ const opcUser = document.getElementById('opcUser');
 const resultado = document.getElementById('resultado');
 const contadorUsuarioHtml = document.getElementById('contadorUsuario');
 const contadorMaquinaHtml = document.getElementById('contadorMaquina');
+const reset = document.getElementById('btn-reset');
 
 
 let contadorUsuario = 0
@@ -102,6 +103,18 @@ tijeraBtn.addEventListener("click", () => {
     }
     
 });
+
+reset.addEventListener('click', () => {
+    contadorUsuario = 0;
+    contadorMaquina = 0;
+
+    contadorUsuarioHtml.textContent = `Usuario: ${contadorUsuario}`
+    contadorMaquinaHtml.textContent = `Maquina: ${contadorMaquina}`
+
+    
+    
+  });
+
 
 
 

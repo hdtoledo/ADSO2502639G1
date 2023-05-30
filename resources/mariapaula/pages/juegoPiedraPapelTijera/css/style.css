@@ -5,7 +5,7 @@ font-family: 'Caveat', cursive;
 }
 
 body{
-    background-image: url("/juegoPiedraPapelTijera/img/fondo.jpg");
+    background-image: url("../img/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -115,4 +115,17 @@ body{
     width: 80px;
     height: 80px;
     background-size: cover;
+}
+.reset{
+    padding-top: 10px;
+}
+.btn-reset{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(238, 212, 66);
+    color: rgb(36, 34, 34);
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
 }

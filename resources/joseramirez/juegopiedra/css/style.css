@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.container-juego{
+    background: rgba(74, 4, 250, 0.369);
+    border-radius: 10px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-resultados{
+    background: rgba(255, 255, 255, 0.291);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 350px;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+}
+.container-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+#piedra, #papel, #tijera{
+  font-size: 30px;
+    border-radius: 80%;
+    height: 55px;
+    width: 55px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    border: solid rgba(255, 255, 0, 0.405);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#eleccion-pc, #jugada{
+    font-size: 30px;
+}
+.elecciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+.container-jugadas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.puntuacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 400px;
+    min-width: 350px;
+}
+.container-resultados h2{
+    color: orangered;
+}
+p{
+    color: red;
+}
+h3{
+    color: blue;
+}
