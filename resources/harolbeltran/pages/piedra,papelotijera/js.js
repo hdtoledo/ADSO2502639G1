@@ -2,9 +2,9 @@
 let puntosUsuario = 0;
 let puntosPC = 0;
 
-let instrucciones = document.querySelector["#instrucciones"];
-let contenedorPuntosUsuario = document.querySelector["#puntos-usuario"];
-let contenedorPuntosPC = document.querySelector["#puntos-computadora"];
+let instrucciones = document.querySelector("#instrucciones");
+let contenedorPuntosUsuario = document.querySelector("#puntos-usuario");
+let contenedorPuntosPC = document.querySelector("#puntos-computadora");
 let mensaje = document.querySelector("#mensaje");
 let contenedorGanaPunto = document.querySelector("#gana-punto");
 let elegiTuArma = document.querySelector("#elegi-tu-arma");
@@ -18,78 +18,79 @@ botonesArmas.forEach(boton => {
 });
 
 function iniciarTurno(e) {
-
+    
     let eleccionPC = Math.floor(Math.random() * 3);
     let eleccionUsuario = e.currentTarget.id;
 
-    //piedra => 0
-    //papel => 1
-    //tijera => 2
+    // piedra => 0
+    // papel => 1
+    // tijera => 2
 
     if (eleccionPC === 0) {
         eleccionPC = "piedra🥌";
     } else if (eleccionPC === 1) {
-        eleccionPC = "papel🧾";
+        eleccionPC = "papel📋"
     } else if (eleccionPC === 2) {
-        eleccionPC = "tijera✂";
+        eleccionPC = "tijera✂️"
     }
 
     // piedra vence a tijera
     // tijera vence a papel
-    // papel vence a pidra
+    // papel vence a piedra
     // si son iguales es empate
 
     if (
-        (eleccionUsuario === "piedra🥌" && eleccionPC === "tijera✂") ||
-        (eleccionUsuario === "tijera✂" && eleccionPC === "papel🧾") ||
-        (eleccionUsuario === "papel🧾" && eleccionPC === "piedra🥌")
+        (eleccionUsuario === "piedra🥌" && eleccionPC === "tijera✂️") ||
+        (eleccionUsuario === "tijera✂️" && eleccionPC === "papel📋") ||
+        (eleccionUsuario === "papel📋" && eleccionPC === "piedra🥌")
     ) {
         ganaUsuario();
-     } else if (
-        (eleccionPC === "piedra🥌" && eleccionUsuario === "tijera✂") ||
-        (eleccionPC === "tijera✂" && eleccionUsuario === "papel🧾") ||
-        (eleccionPC === "papel🧾" && eleccionUsuario === "piedra🥌")
-     ) {
+    } else if (
+        (eleccionPC === "piedra🥌" && eleccionUsuario === "tijera✂️") ||
+        (eleccionPC === "tijera✂️" && eleccionUsuario === "papel📋") ||
+        (eleccionPC === "papel📋" && eleccionUsuario === "piedra🥌")
+    ) {
         ganaPC();
-     } else {
+    } else {
         empate();
-     }
-
-     mensaje.classList.remove("disabled");
-     contenedorEleccionUsuario.innerHTML = eleccionUsuario;
-     contenedorEleccionPC.innerHTML = eleccionPC;
-
-     if (puntosUsuario === 5 || puntosPC === 5) {
-        
-        if (puntosUsuario === 5) {
-        instrucciones.innerHTML = "🔥 !Ganaste el juego¡ 🔥"
-     }
-
-     if (puntosPC === 5) {
-        instrucciones.innerHTML = "😢!la computadora gano el juego¡😢"
-
-     }
-
-     elegiTuArma.classList.add("disabled");
-     reiniciar.classList.remove("disabled");
-     reiniciar.addEventListener("click", reiniciarJuego);
     }
+
+    mensaje.classList.remove("disabled");
+    contenedorEleccionUsuario.innerText = eleccionUsuario;
+    contenedorEleccionPC.innerText = eleccionPC;
+
+    if (puntosUsuario === 5 || puntosPC === 5) {
+
+        if (puntosUsuario === 5) {
+            instrucciones.innerText = "🔥 ¡Ganaste el juego! 🔥"
+        }
+
+        if (puntosPC === 5) {
+            instrucciones.innerText = "😭 ¡La computadora ganó el juego! 😭"
+        }
+
+        elegiTuArma.classList.add("disabled");
+        reiniciar.classList.remove("disabled");
+        reiniciar.addEventListener("click", reiniciarJuego);
+    }
+
+
 }
 
 function ganaUsuario() {
     puntosUsuario++;
-    contenedorPuntosUsuario.innerHTML = puntosUsuario;
-    contenedorGanaPunto.innerHTML = "!Ganaste un punto¡ 🔥" 
+    contenedorPuntosUsuario.innerText = puntosUsuario;
+    contenedorGanaPunto.innerText = "¡Ganaste un punto! 🔥"
 }
 
 function ganaPC() {
     puntosPC++;
-    contenedorPuntosPC.innerHTML= puntosPC;
-    contenedorGanaPunto.innerHTML = "!la computadora gano un punto¡ 😢"
+    contenedorPuntosPC.innerText = puntosPC;
+    contenedorGanaPunto.innerText = "¡La computadora ganó un punto! 😭"
 }
 
 function empate() {
-    contenedorGanaPunto.innerHTML = "!Empate¡ 😱"
+    contenedorGanaPunto.innerText = "¡Empate! 😱"
 }
 
 function reiniciarJuego() {
@@ -99,10 +100,10 @@ function reiniciarJuego() {
 
     puntosUsuario = 0;
     puntosPC = 0;
+    
+    contenedorPuntosUsuario.innerText = puntosUsuario;
+    contenedorPuntosPC.innerText = puntosPC;
 
-    contenedorPuntosUsuario.innerHTML = puntosUsuario;
-    contenedorPuntosPC.innerHTML = puntosPC;
-
-    instrucciones.innerHTML = "El primero en llegar a 5 puntos gana."
+    instrucciones.innerText = "El primero en llegar a 5 puntos gana."
 }
 
