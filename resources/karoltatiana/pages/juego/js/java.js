@@ -1,4 +1,3 @@
-
 const piedraBtn = document.querySelector('.piedra');
 const papelBtn = document.querySelector('.papel');
 const tijeraBtn = document.querySelector('.tijera');
@@ -10,9 +9,14 @@ const puntajeMaquina = document.querySelector('.r-maquina p');
 const opcMachineHtml = document.getElementById('opcMachine');
 const opcUser = document.getElementById('opcUser');
 const resultado = document.getElementById('resultado');
+const contadorUsuarioHtml = document.getElementById('contadorUsuario');
+const contadorMaquinaHtml = document.getElementById('contadorMaquina');
+const reset = document.getElementById('btn-reset');
 
 
-const opciones = ['piedra', 'papel', 'tijera'];
+let contadorUsuario = 0
+let contadorMaquina = 0
+let opciones = ['piedra', 'papel', 'tijera'];
 
 piedraBtn.addEventListener("click", () => {
     let opc = opciones[0]
@@ -32,13 +36,16 @@ piedraBtn.addEventListener("click", () => {
         resultado.innerText = 'empate'
     } else if (opcMachine == 'papel'){
         resultado.innerText = 'pierdes'
+        contadorMaquina++
+        contadorMaquinaHtml.textContent = `Maquina: ${contadorMaquina}`
     } else if (opcMachine == 'tijera'){
         resultado.innerText = 'ganas'
+        contadorUsuario++
+        contadorUsuarioHtml.textContent = `Usuario: ${contadorUsuario}`
     }
 
 
-    console.log(opc)
-    console.log(opcMachine)
+
 });
 papelBtn.addEventListener("click", () => {
     let opc = opciones[1]
@@ -58,12 +65,15 @@ papelBtn.addEventListener("click", () => {
         resultado.innerText = 'empate'
     } else if (opcMachine == 'piedra'){
         resultado.innerText = 'ganas'
+        contadorUsuario++
+        contadorUsuarioHtml.textContent = `Usuario: ${contadorUsuario}`
     } else if (opcMachine == 'tijera'){
         resultado.innerText = 'pierdes'
+        contadorMaquina++
+        contadorMaquinaHtml.textContent = `Maquina: ${contadorMaquina}`
     }
  
 
-    console.log(opc)
 });
 
 tijeraBtn.addEventListener("click", () => {
@@ -84,9 +94,21 @@ tijeraBtn.addEventListener("click", () => {
         resultado.innerText = 'empate'
     } else if (opcMachine == 'papel'){
         resultado.innerText = 'ganas'
+        contadorUsuario++
+        contadorUsuarioHtml.textContent = `Usuario: ${contadorUsuario}`
     } else if (opcMachine == 'piedra'){
         resultado.innerText = 'pierdes'
+        contadorMaquina++
+        contadorMaquinaHtml.textContent = `Maquina: ${contadorMaquina}`
     }
     
-    console.log(opc)
 });
+
+reset.addEventListener('click', () => {
+    contadorUsuario = 0;
+    contadorMaquina = 0;
+
+    contadorUsuarioHtml.textContent = `Usuario: ${contadorUsuario}`
+    contadorMaquinaHtml.textContent = `Maquina: ${contadorMaquina}`
+
+  });

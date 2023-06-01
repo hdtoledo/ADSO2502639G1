@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(199, 47, 250);
+}
+
+.container{
+    background-color: white;
+    box-shadow: 0 20px 20px rgba(19, 8, 31, 0.2);
+    width: 90vmin;
+    padding: 80px 50px;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(108, 21, 189);
+}
+
+.search-box{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+input{
+    padding: 5px;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgb(246, 245, 247);
+    border-color: rgb(132, 134, 136);
+    padding-left: 15px;
+}
+
+.text p{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.resultados{
+    position: relative;
+    display: none;
+}
+
+.resultados h3{
+    font-size: 20px;
+    color: rgb(117, 3, 174);
+}
+
+.resultados .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.resultados button{
+    background-color: transparent;
+    color: rgb(199, 47, 250);
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.resultados .palabra{
+    display: flex;
+    gap: 10px;
+    color: grey;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.significado{
+    color: gray;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sinonimo{
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
