@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #B9E6E9;
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+main .header{
+position: sticky;
+background-color: #ffff;
+display: flex;
+top: 0;
+width: 100%;
+height: 4em;
+align-items: center;
+justify-content: space-around;
+box-shadow: 0 0 10px black;
+}
+
+main .header .logo{
+    width: fit-content;
+    height: fit-content;
+}
+
+main .header .logo img{
+    height: 3em;
+}
+
+main .header .btn span{
+    background-color: #F34F36;
+    padding: .8em 2em;
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5ms;
+}
+
+main .header .btn span:hover{
+    font-size: 1.1em;
+}
+
+/* Header */
+
+main .sect-01{
+    width: 100%;
+    height: 35rem;
+    background-color: #2A4C62;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main .sect-01 .container{
+width: 60%;
+height: fit-content;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main .sect-01 .container .info{
+    width: 35%;
+}
+
+main .sect-01 .container .info h2{
+    color: #ffff;
+    font-size: 2.5em;
+    font-weight: bold !important;
+    margin: 0;
+}
+
+main .sect-01 .container .info h3{
+    color: #B9E6E9;
+}
+
+main .sect-01 .container .info span{
+    color: white;
+    margin-top: 2em;
+
+}
+
+main .sect-01 .container img{
+    width: 350px;
+    height: 350px;
+}
+
+main .sect-01 .container form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1em 1.5em;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+}
+main .sect-01 .container form h2{ 
+    text-align: center;
+    margin: 0;
+}
+main .sect-01 .container form input{ 
+    text-align: center;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    text-align: left;
+    font-size: 1.2em;
+}
+main .sect-01 .container form span{ 
+    background: #F34F36;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+    padding: .5em 1em;
+}
+
+/*! ////////////////////////     sect-02    ///////////////////////// */
+main .sect-02{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #B9E6E9;
+}
+main .sect-02 .container{
+    background-color: #9dcccf;
+    padding: 5cap;
+    width: 65%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 1em;
+}
+main .sect-02 .container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+main .sect-02 .container .resena{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 26%;
+    gap: 1em;
+}
+main .sect-02 .container .resena h2, h3{
+    margin: 0;
+    gap: inherit;
+    font-weight: bold;
+}
+main .sect-02 .container .resena h3{
+    color: grey;
+    font-size: 1.2em;
+    font-weight: inherit;
+}
+main .sect-02 .container .resena h4{
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #2A4C62;
+
+    transition: all .5s;
+}
+main .sect-02 .container .resena h4:hover{
+    color: red;
+}
+main .sect-02 .container .resena span{
+    color: grey;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+}
+main .sect-02 .container .resena div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5em;
+    width: 100%;
+}
+main .sect-02 .container .resena div img{
+    width: 80px;
+    height: 80px;
+}
+main .sect-02 .container .img{
+    width: fit-content;
+}
+main .sect-02 .container .img img{
+    width: 650px;
+}
+/*! ////////////////////////     sect-03    ///////////////////////// */
+main .sect-03{
+    margin-top: 3em;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .sect-03 .container{
+    width: 65%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 1em;
+}
+main .sect-03 .container .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 1em;
+}
+main .sect-03 .container .img h2,h3{
+    margin: 0;
+    font-size: 2em;
+    font-weight: 900;
+}
+main .sect-03 .container .img h3{
+    color: #2A4C62;
+}
+main .sect-03 .container .img img{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+main .sect-03 .container .list{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+main .sect-03 .container .list .listItem{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+main .sect-03 .container .list span{
+    font-size: 1.2em;
+}
+main .sect-03 .container .list img{
+    width: 40px;
+    height: 40px;
+}
+main .sect-03 .container .list b{
+    color: #2A4C62;
+}
+/*! ////////////////////////     sect-04    ///////////////////////// */
+main .sect-04{
+    margin-top: 3em;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .sect-04 .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+main .sect-04 .container .targetP{
+    width: 70%;
+    display: flex;
+}
+main .sect-04 .container .targetP img{
+    width: 220px;
+    height: 220px;
+}
+main .sect-04 .container .targetP .info{
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    justify-content: center;
+}
+main .sect-04 .container .targetP h1,h2{
+    margin: 0;
+    font-size: 2em;
+}
+main .sect-04 .container .targetP h2{
+    color: #2A4C62;
+}
+main .sect-04 .container .targetP span{
+    color: grey;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+main .container .targets{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+main .container .targets .card{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    width: 500px;
+}
+main .container .targets .card img{
+    width: 170px;
+    height: 170px;
+}
+main .container .targets .card span{
+    font-size: 1.4em;
+    font-weight: bold;
+}
