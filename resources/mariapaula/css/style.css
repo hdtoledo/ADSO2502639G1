@@ -10,7 +10,7 @@ html{
 }
 /* Menu */
 .container-header{
-    background: #01073b;
+    background: #c40606;
     position: fixed;
     width: 100%;
     top: 0;
@@ -28,7 +28,7 @@ html{
 .container-header header .logo a{
     font-family: "dosis";
     font-size: 36px;
-    color: rgb(243, 9, 223);
+    color: rgb(252, 249, 249);
     text-decoration: none;
 }
 .container-header header ul{
@@ -37,18 +37,18 @@ html{
 }
 .container-header header nav ul li a{
     text-align: none;
-    color: #fff;
+    color: #fcf8f8;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
 }
 .container-header header nav ul li a:hover{
-    color:rgb(158, 6, 204);
+    color:rgb(252, 9, 9);
 }
 .nav-responsive{
-    background-color: rgb(108, 8, 230);
-    color: #0e0131;
+    background-color: rgb(250, 2, 2);
+    color: #f8f4f4;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -56,7 +56,7 @@ html{
 }
 /*Section Inicio*/
 .inicio{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(2, 34, 53, .1)), url("/resources/mariapaula/img/fondo.jpg") no-repeat center center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(2, 34, 53, .1)), url("/mariapaula/img/fondo2.webp") no-repeat center center;
     background-size: cover;
     height: 60vw;
     color: #faf9f9;
@@ -65,7 +65,7 @@ html{
 }
 .inicio .container-banner{
     padding: 20px;
-    background-color: #2b025a;
+    background-color: #df0c0c;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -73,7 +73,7 @@ html{
 }
 .inicio .container-banner img{
     margin-top: 40px;
-    border: 10px solid rgb(221, 12, 158);
+    border: 10px solid rgb(252, 251, 251);
     display: block;
     width: 80%;
     margin: auto;
@@ -102,11 +102,11 @@ html{
     transition: .3s;
 }
 .inicio .container-banner .redes a:hover{
-    background-color: #ad0789;
+    background-color: #ad0404;
 }
 /*Section Sobre Mi*/
 .sobremi{
-    background-color: #2b025a;
+    background-color: #d80404;
     color: rgb(231, 228, 240);
     padding: 50px 20px;
 }
@@ -121,12 +121,12 @@ html{
         padding: 20px 0;
 }
 .sobremi .container-section p{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 .sobremi .container-section p span{
-    color: rgb(233, 5, 253);
+    color: rgb(43, 38, 38);
     font-weight: bold;
 }
 .sobremi .fila{
@@ -145,14 +145,16 @@ html{
 }
 .sobremi .fila .col ul li{
     margin: 12px 0;
+    font-size: 22px;
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: rgb(233, 5, 253);
+    color: rgb(43, 38, 38);
     width: 130px;
+
 }
 .sobremi .fila .col ul li span{
-    background-color: rgb(233, 5, 253);
+    background-color: rgb(43, 38, 38);
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -164,7 +166,7 @@ html{
 .sobremi .fila .col .container-intereses .intereses{
     width: 100px;
     height: 100px;
-    background-color: rgb(233, 5, 253);
+    background-color: rgb(43, 38, 38);
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -175,7 +177,7 @@ html{
     cursor: pointer;
 }
 .sobremi .fila .col .container-intereses .intereses:hover{
-    background-color: #7105ee;
+    background-color: #940202;
     ;
 }
 .sobremi .fila .col .container-intereses .intereses i{
@@ -185,7 +187,7 @@ html{
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid rgb(235, 5, 253);
+    border: 2px solid rgb(43, 38, 38);
     width: fit-content;
     display: block;
     margin: 20px auto;
@@ -201,7 +203,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(235, 5, 253);
+    background-color: rgb(43, 38, 38);
     z-index: -1;
     transition: 1s;
 }
@@ -210,7 +212,7 @@ html{
 }
 /* Section Skills */
 .skills{
-    background-color: #390377;
+    background-color: #c40505;
     color: #f5f2f8;
     padding: 50px 20px;
 }
@@ -249,7 +251,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: rgb(235, 5, 253);
+    background-color: rgb(43, 38, 38);
     position: absolute;
     top: 0;
     left: 0;
@@ -259,7 +261,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #2b025a;
+    background-color: #fa0404;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -370,7 +372,7 @@ html{
 /*Section Curriculum*/
 
 .curriculum{
-    background-color: #2b025a;
+    background-color: #d80404;
     color: #eef1f5;
     padding: 50px 20px;
 }
@@ -397,15 +399,15 @@ html{
     margin-bottom: 25px;    
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid rgb(235, 5, 253);
+    border-right: 2px solid rgb(43, 38, 38);
 }
 .curriculum .fila .derecha{
-    border-left: 2px solid rgb(235, 5, 253);
+    border-left: 2px solid rgb(43, 38, 38);
 }
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: rgb(158, 37, 168);
+    background-color: rgb(43, 38, 38);
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -413,7 +415,7 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #2b025a;
+    color: #fa0404;
     font-size: 22px;
     font-weight: bold;
     display: block;
@@ -427,16 +429,16 @@ html{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid rgb(235, 5, 253);
+    border-right: 2px solid rgb(43, 38, 38);
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid rgb(235, 5, 253);
+    border-left: 2px solid rgb(43, 38, 38);
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: rgb(235, 5, 253);
+    background-color: rgb(43, 38, 38);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -448,14 +450,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: rgb(235, 5, 253);
+    background-color: rgb(43, 38, 38);
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: rgb(235, 5, 253);
+    background-color: rgb(43, 38, 38);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -467,7 +469,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: rgb(235, 5, 253);
+    background-color: rgb(43, 38, 38);
     float: left;
     position: relative;
     bottom: 4px;
@@ -479,8 +481,8 @@ html{
 /* Section Portfolio */
 
 .portfolio{
-    background-color: #390377;
-    color: rgb(233, 5, 253);
+    background-color: #c40505;
+    color: rgb(247, 245, 245);
     padding: 50px 20px;
 }
 .portfolio .container-section{
@@ -518,7 +520,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgb(211, 12, 151), #d369b9);
+    background: linear-gradient( #f80303, rgb(43, 38, 38));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -542,7 +544,7 @@ html{
 /* Footer */
 
 footer{
-    background-color: #390377;
+    background-color: #d80404;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -556,7 +558,7 @@ footer .redes a{
     color: #f5eeee;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid rgb(235, 5, 253);
+    border: 1px solid rgb(43, 38, 38);
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -569,7 +571,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: rgb(235, 5, 253);
+    background-color: rgb(43, 38, 38);
     color: #fff;
     position: absolute;
     left: 50%;
@@ -596,7 +598,7 @@ footer .arriba{
         top: 80px;
         right: 5px;
         border-radius: 10px;
-        background-color: #45348b;
+        background-color: #fa0303;
         width: 180px;
     }
 
@@ -698,7 +700,7 @@ footer .arriba{
         position: absolute;
         right: 1em;
         top: 3.3em;
-        background-color: #ff03c0;
+        background-color: #ff0303;
         width: fit-content;
         margin-left: 1rem;
     }
@@ -706,7 +708,7 @@ footer .arriba{
         display: block !important;
     }
     .nav-responsive ul li{
-        border-bottom: 1px solid rgb(233, 5, 253);
+        border-bottom: 1px solid rgb(253, 5, 5);
         padding: 10px 0;
     }
 }
