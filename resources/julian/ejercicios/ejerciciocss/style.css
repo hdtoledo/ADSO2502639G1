@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(28, 82, 82);
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "press start 2p", cursive;
+}
+li{
+    color:#fff;
+    font-family: "titan one",cursive;
+    line-height: 3em;
+text-align:left;
+}
+p{
+    color:#fff;
+    font-family: "titan one",cursive;
+    line-height: 3em;
+text-align:center;
+}
+body{
+    background-size: cover;
+}
+
