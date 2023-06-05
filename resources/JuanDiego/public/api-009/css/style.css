@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #c53535;
+}
+
+hr {
+    border: none;
+    background-color: #999999;
+    border-radius: 50px;
+    width: 400px;
+    height: 1.5px;
+    margin: 20px 0;
+}
+
+/* -------- Section Main -------- */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* -------- Container API -------- */
+.container-api {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.container-api p {
+    width: 360px;
+    text-align: center;
+}
+
+/* -------- Container input -------- */
+.container-input {
+    text-align: left;
+    border: 2px solid #999999;
+    width: 400px;
+    border-radius: 10px;
+    color: #999999;
+    padding: 0 5px;
+}
+
+.container-input input {
+    width: 360px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.container-input:focus-within {
+    border: 2.5px solid #c53535ce;
+    color: #c53535;
+}
+
+/* -------- Container input -------- */
+.container-palabra {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-palabra .segundo {
+    display: flex;
+}
+
+
+/* -------- Container result -------- */
+.loanding {
+    margin-top: 10px;
+    color: #0d123b;
+    font-size: 16px;
+    text-align: center;
+}
+
+.word {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+
+}
+
+.word h2 {
+    font-size: 21px;
+    color: #d60000;
+}
+
+.definition {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.definition h2 {
+    font-size: 21px;
+    color: #d60000;
+}
+
+
+.sinonimo h2 {
+    font-size: 21px;
+    color: #d60000;
+}
+
+.sourceUrl h2 {
+    font-size: 21px;
+    color: #d60000;
+}
+
+.sourceUrl a {
+    color: #7b7b7b;
+}
+a:visited {
+    color: #7b7b7b;
+}
+span {
+    font-size: 15px;
+    color: #7b7b7b;
+}
+#sound {
+    cursor: pointer;
+}
