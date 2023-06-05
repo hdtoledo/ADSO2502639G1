@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Handlee', cursive;
+}
+
+/* < !-- -------- Section main -------- --> */
+
+section {
+    height: 100vh;
+    background-color: #F4EEE0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+    border-radius: 30px;
+    min-width: 850px;
+    max-height: 490px;
+    min-height: 300px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+.container-main h1 {
+    font-size: 36px;
+    color: #36d436;
+}
+
+.container-main span {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2828fc;
+    margin: 20px 0;
+}
+
+/* -------- Contenedor de imagenes -------- */
+.container-img {
+    display: flex;
+    height: 90px;
+    gap: 70px;
+}
+
+.container-img .circulo {
+    height: 90px;
+    border-radius: 100%;
+    /* position: relative; */
+}
+
+.container-img .container-item.piedra {
+    background-color: #36d4362c;
+    border-radius: 100%;
+}
+
+.container-img .container-item.piedra:active {
+    background-color: #299e2941;
+}
+
+.container-img .container-item.papel {
+    background-color: #2828fc2c;
+    border-radius: 100%;
+}
+
+.container-img .container-item.papel:active {
+    background-color: #2828fc41;
+}
+
+.container-img .container-item.tijeras {
+    background-color: #f85f5f2c;
+    border-radius: 100%;
+    /* border: 1px solid #000; */
+}
+
+.container-img .container-item.tijeras:active {
+    background-color: #a5373741;
+}
+
+.container-img img:hover {
+    cursor: pointer;
+}
+
+.container-img img:active {
+    box-shadow: #000;
+}
+
+.container-img .item img {
+    height: 50px;
+    position: relative;
+    top: -78px;
+    left: 20px;
+}
+
+/* -------- Container option -------- */
+.container-option {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    gap: 115px;
+}
+
+.container-option h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.container-option img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+/* -------- Resultado -------- */
+#resultado {
+    display: none;
+    margin: 20px 25px 25px 25px;
+    color: #fc4f4f;
+}
+
+/* -------- Container score -------- */
+.container-score {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-score h2 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #ffa600;
+}
+
+.container-score .score {
+    display: flex;
+    gap: 200px;
+}
+
+.container-score .score h3 {
+    font-size: 24px;
+}
