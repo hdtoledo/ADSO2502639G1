@@ -88,12 +88,37 @@ z-index: 99;
     display: none;
 }
 
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    .responsive{
+        display: block;
+        position: absolute;
+        right: 1em;
+        top: 3.3em;
+        background-color: #754af6;
+        width: fit-content;
+        margin-left: 1rem;
+    }
+    .responsive ul{
+        display: block !important;
+    }
+    .nav-responsive ul li{
+        border-bottom: 1px solid rgb(233, 204, 204);
+        padding: 10px 0;
+    }
+}
+
 /* foto de perfil */
 
 /* Inicio de sesion */
 
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,.1)), url(/resources/sergionarvaez/img/fondo.jpg) no-repeat center center;
+background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,.1)), url(/resources/sergionarvaez/img/fondo.jpg) no-repeat center center;
 background-size: cover;
 height: 60vw;
 color: #fff;
@@ -155,6 +180,7 @@ align-items: center;
     background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
+    height: fit-content;
 }
 
 .sobremi .container-section{
@@ -573,6 +599,14 @@ align-items: center;
     margin: auto;
 }
 
+.portafolio h2{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
 .portafolio h3{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -606,6 +640,8 @@ align-items: center;
 .portafolio .galeria img{
     width: 100%;
     display: block;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px #508dff;
 }
 
 .portafolio .galeria .proyecto .overlay{
@@ -622,6 +658,7 @@ align-items: center;
     font-size: 18px;
     letter-spacing: 3px;
     opacity: 0;
+    border-radius: 20px;
 }
 
 .portafolio .galeria .proyecto h3{
@@ -787,28 +824,49 @@ footer .arriba{
     nav{
         display: none;
     }
-}
+    .nav-responsive{
+        display: block;
+    }
 
-.nav-responsive{
-    display: block;
-}
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252a2e;
+        width: 180px;
+    }
 
-nav.responsive{
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 75px;
-    background-color: #252a2e;
-    width: 180px;
-}
+    nav.responsive ul{
+        display: block !important;
+    }
 
-nav.responsive ul{
-    display: block !important;
-}
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
 
-nav.responsive ul li{
-    border-bottom: 1px solid #fff;
-    padding: 10px 0;
+    #contacto {
+        border: none !important;
+    }
+
+    nav.responsive nav.ocultar-menu {
+        opacity: 0;
+        transition: opacity 8s ease-in-out;
+    }
+    .responsive.cerrar-menu {
+        transform: translateX(-100%);
+    }
+    @keyframes cerrar-menu {
+        from {
+            transform: translateX(0%);
+            transition: opacity 8s ease-in-out;
+        }
+        to {
+            transition: opacity 0.5s;
+            transform: translateX(-100%);
+        }
+    }
 }
 
 @media screen and (max-width:700px){

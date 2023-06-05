@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+:root{
+  --fn-family: 'Rammetto One', cursive;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.regresar{
+  display: none;
+  position: absolute;
+  top: 1em;
+  left: 0;
+}
+.hero {
+  background-color: #c518d1;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero__title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 50px;
+  z-index: 1;
+}
+
+.cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #800c7a;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+          transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -webkit-animation: cube 12s ease-in forwards infinite;
+          animation: cube 12s ease-in forwards infinite;
+}
+.cube:nth-child(2n) {
+  border-color: #1c5683;
+}
+.cube:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  left: 25vw;
+  top: 40vh;
+}
+.cube:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  left: 75vw;
+  top: 50vh;
+}
+.cube:nth-child(4) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+.cube:nth-child(5) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+.cube:nth-child(6) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+
+@-webkit-keyframes cube {
+  from {
+    -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+            transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
+            transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes cube {
+  from {
+    -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+            transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
+            transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+.container-p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+}
+#pantalla-inicial{
+  display: block; /** <----- display: none por block. */
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.645);
+  padding: 30px;
+  border: 2px solid rgb(40, 37, 37);
+  border-radius: 20px;
+}
+.subir{
+  position: relative;
+  z-index: 20;
+
+  animation: subir 4s both;
+}
+@keyframes subir {
+  0%{
+    position: absolute;
+    top: 31%;
+  }
+  100%{
+    top: -200%;
+    display: none;
+  }
+}
+#pantalla-inicial h1{
+  font-family: var(--fn-family);
+  font-size: 50px;
+  color: #0c4e80;
+}
+button{
+  background: rgba(113, 215, 79, 0.923);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 0 20px;
+  border-radius: 30px;
+  border-bottom: 4px solid rgba(150, 54, 134, 0.923);
+}
+/*? Pantalla inicial juego  */
+#pantalla-juego{
+  display: none;/** <----- display: block por none. */
+  position: absolute;
+}
+
+.visible{
+  position: absolute;
+  animation: visible 1.2s both;
+}
+@keyframes visible {
+  0%{
+    left: -100%;
+  }
+  100%{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/*? esta clse se agrega deinamicamente  */
+.pregunta-actual{
+  background-color: #302d2d !important;
+  color: #fff !important;
+}
+
+/*? Esta clse se agrega dinamicamente cuando haya respondido  correctamente una pregunta  */
+.bien-respondida{
+  background-color: rgb(72, 225, 143) !important;
+  color: antiquewhite !important;
+}
+
+/*? Esta clse se agrega dinamicamente cuando haya respondido  incorrectamente una pregunta  */
+.mal-respondida{
+  background-color: rgb(227, 109, 88) !important;
+  color: antiquewhite !important;
+}
+
+.contenedor-pregunta{
+  background-color: rgba(255, 255, 255, 0.645);
+  text-align: center;
+  width: 440px;
+  margin: auto;
+  border: 2px solid rgb(107, 103, 103);
+  border-radius: 20px;
+  padding: 11px 20px;
+}
+
+.contenedor-pregunta #pregunta{
+  margin: 0;
+  font-weight: normal;
+}
+
+.contenedor-pregunta input{
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  width: 60%;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  border: 2px solid snow;
+}
+
+.contenedor-pregunta  #letra-pregunta{
+  border: 2px solid #000;
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 30px;
+  position: relative;
+  bottom: 25px;
+  background: #fff;
+}
+
+.container{
+  position: relative;
+  width: 255px;
+  height: 255px;
+  margin: 50px auto;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.645);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container #tiempo{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/*? La siguente clase es para los circulos de cada letra  */
+
+.circle{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  background: #fff;
+  color: rgb(56, 52, 52);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#pantalla-final{
+  display: none;
+  flex-direction: column;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.645);
+  padding: 30px;
+  border: 2px solid #302d2d;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#pantalla-final span{
+  background: #302d2d;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+

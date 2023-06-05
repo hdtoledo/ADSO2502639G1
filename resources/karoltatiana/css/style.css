@@ -14,7 +14,7 @@ html{
 /*Menu*/
 
 .container-header{
-    background: #1e2026;
+    background: #20232c;
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,7 +34,7 @@ html{
 .container-header header .logo a{
     font-family: 'Ringteaous';
     font-size: 36px;
-    color: #ab3bf0;
+    color: #683bf0;
     text-decoration: none;
 }
 
@@ -47,17 +47,18 @@ html{
     text-align: none;
     color: white;
     margin: 0 15 px;
-    padding: 3px;
+    padding: 13px;
     transition: .5s;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .container-header header nav ul li a:hover{
-    color: #9558d2;
+    color: #774ef1;
 }
 
 .nav-responsive{
-    background-color: #8727e7;
+    background-color: #683bf0;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -79,7 +80,7 @@ html{
         position: absolute;
         right: 1em;
         top: 3.3em;
-        background-color: #a280da;
+        background-color: #754af6;
         width: fit-content;
         margin-left: 1rem;
     }
@@ -105,7 +106,7 @@ html{
 
 .inicio .container-banner{
     padding: 20px;
-    background-color: #1e2326;
+    background-color: #242530;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -114,7 +115,7 @@ html{
 
 .inicio .container-banner img{
     margin-top: 40px;
-    border: 10px solid #8925ee;
+    border: 10px solid #683bf0;
     display: block;
     width: 80%;
     margin: auto;
@@ -147,13 +148,13 @@ html{
 }
 
 .inicio .container-banner .redes a:hover{
-    background-color: #7a20db;
+    background-color: #683bf0;
 }
 
 /*Section Sobre Mi*/
 
 .sobremi{
-    background-color: #1e1e26;
+    background-color: #20232c;
     color: white;
     padding: 50px 20px;
 }
@@ -177,7 +178,7 @@ html{
 }
 
 .sobremi .container-section p span{
-    color: #9558d2;
+    color: #683bf0;
     font-weight: bold;
 }
 
@@ -205,12 +206,12 @@ html{
 
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #ab57ff;
+    color: #683bf0;
     width: 130px;
 }
 
 .sobremi .fila .col ul li span{
-    background-color: #a339ff;
+    background-color: #683bf0;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -235,7 +236,7 @@ html{
 }
 
 .sobremi .fila .col .container-intereses .interes:hover{
-    background-color: #ab22f5;
+    background-color: #683bf0;
 }
 
 .sobremi .fila .col .container-intereses .interes i{
@@ -263,7 +264,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #9c2efc;
+    background-color: #683bf0;
     z-index: -1;
     transition: 1s;
 }
@@ -275,7 +276,7 @@ html{
 /*Section skills*/
 
 .skills{
-    background-color: #25262e;
+    background-color: #242530;
     color: white;
     padding: 50px 20px;
 }
@@ -322,7 +323,7 @@ html{
 }
 
 .skills .skill .progreso{
-    background-color: #d024ff;
+    background-color: #683bf0;
     position: absolute;
     top: 0;
     left: 0;
@@ -333,7 +334,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #a201ff;
+    background-color: #4009e6;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -446,7 +447,7 @@ html{
 /*Section Curriculum*/
 
 .curriculum{
-    background-color: #1e1e26;
+    background-color: #20232c;
     color: white;
     padding: 50px 20px;
 }
@@ -499,7 +500,7 @@ html{
 }
 
 .curriculum .fila .item .casa{
-    color: #b759ff;
+    color: #6433f9;
     font-size: 22px;
     font-weight: bold;
     display: block;
@@ -507,7 +508,7 @@ html{
 
 .curriculum .fila .item .fecha{
     display: block;
-    color: #ec1eff;
+    color: #6c40f1;
     margin-bottom: 10px;
 }
 
@@ -516,18 +517,18 @@ html{
 }
 
 .curriculum .fila .izq{
-    border-right: 2px solid #d60bff;
+    border-right: 2px solid #6f44f1;
     margin-right: 20px;
 }
 
 .curriculum .fila .der{
-    border-left: 2px solid #d60bff;
+    border-left: 2px solid #7045f2;
     margin-left: 20px;
 }
 
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #d60bff;
+    background-color: #683bf0;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -540,7 +541,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #d60bff;
+    background-color: #531df4;
     float: right;
     position: relative;
     bottom: 4px;
@@ -548,7 +549,7 @@ html{
 
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #d60bff;
+    background-color: #683bf0;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -561,7 +562,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #d60bff;
+    background-color: #5523ed;
     float: left;
     position: relative;
     bottom: 4px;
@@ -575,7 +576,7 @@ html{
 /*Section Portfolio*/
 
 .portfolio{
-    background-color: #25262e;
+    background-color: #242530;
     color: rgb(255, 255, 255);
     padding: 50px 20px;
 }
@@ -614,8 +615,9 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgb(179, 29, 212), #d8202f);
+    background: linear-gradient(rgb(179, 29, 212), #683bf0);
     display: flex;
+    color: white;
     flex-direction: column;
     justify-content: center;
     transition: 1s;
@@ -634,109 +636,11 @@ html{
     margin-bottom: 0px;
 }
 
-/*Section Contacto*/
-
-.contacto{
-    background-image: url(../img/contact_bg.png);
-    background-color: #1e1e26;
-    color: white;
-    padding: 50px 0;
-}
-
-.contacto .container-section{
-    max-width: 1100px;
-    margin: auto;
-}
-
-.contacto h2{
-    font-size: 48px;
-    font-family: 'Ringteous';
-    text-align: center;
-    padding: 20px 0;
-}
-
-.contacto .fila{
-    display: flex;
-}
-
-.contacto .col{
-    width: 50%;
-    padding: 10px;
-    position: relative;
-}
-
-.contacto .col input, .contacto .col textarea{
-    display: block;
-    width: 100%;
-    padding: 18px;
-    border: none;
-    margin-bottom: 20px;
-    background-color: #25262e;
-    color: white;
-    font-size: 18px;
-}
-
-.contacto button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid white;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: white;
-    position: relative;
-    z-index: 10;
-}
-
-.contacto button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #990ae6;
-    transition: 1s;
-    z-index: -1;
-}
-
-.contacto button:hover .overlay{
-    width: 100%;
-}
-
-.contacto .col img{
-    width: 100%;
-}
-
-.contacto .col .info{
-    position: absolute;
-    top: 40%;
-    background-color: #25262e;
-    padding: 20px;
-    width: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.contacto .col .info ul{
-    list-style: none;
-}
-
-.contacto .col .info ul li{
-    margin-bottom: 20px;
-}
-
-.contacto .col .info ul li i{
-    color: #9558d2;
-    display: inline-block;
-    margin-right: 20px;
-}
 
 /*Footer */
 
 footer{
-    background-color: #25262e;
+    background-color: #20232c;
     color: white;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -766,7 +670,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #8d1bff;
+    background-color: #683bf0;
     color: white;
     position: absolute;
     left: 50%;
@@ -778,45 +682,108 @@ footer .arriba{
 }
 
 
-@media screen and (max-width:700px) {
-    .sobremi .fila{
+/* Ocultar el menú */
+@media screen and (max-width: 980px) {
+    nav {
+        display: none;
+    }
+    .nav-responsive {
         display: block;
     }
-    .sobremi .fila .col{
-        width: fit-content;
+    nav.responsive {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        right: 5px;
+        border-radius: 10px;
+        background-color: #45348b;
+        width: 180px;
     }
-    .skills .fila{
+
+    nav.responsive ul {
+        display: block !important;
+    }
+
+    nav.responsive ul li {
+        border-bottom: 1px solid #f0eeee;
+        padding: 10px 0;
+        position: relative;
+    }
+     #contacto {
+        border: none !important;
+    }
+
+    nav.responsive nav.ocultar-menu {
+        opacity: 0;
+        transition: opacity 8s ease-in-out;
+    }
+    .responsive.cerrar-menu {
+        transform: translateX(-100%);
+    }
+    @keyframes cerrar-menu {
+        from {
+            transform: translateX(0%);
+            transition: opacity 8s ease-in-out;
+        }
+        to {
+            transition: opacity 0.5s;
+            transform: translateX(-100%);
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sobremi .fila {
         display: block;
     }
-    .skills .fila .col{
+
+    .sobremi .fila .col {
         width: 100%;
     }
-    .skills .fila .col .barra-skill{
-        width: 100%;
-    }
-    .curriculum .fila{
+
+    .skills .fila {
         display: block;
     }
-    .curriculum .fila .col{
+
+    .skills .fila .col {
+        width: 100%;
+    }
+
+    .skills .fila .col .barra-skill {
+        width: 100%;
+    }
+
+    .curriculum .fila {
+        display: block;
+    }
+
+    .curriculum .fila .col {
         width: 90%;
     }
-    .curriculum .fila .derecha{
+
+    .curriculum .fila .derecha {
         margin-left: 20px;
     }
-    .portfolio .galeria{
+
+    .portfolio .galeria {
         display: block;
         width: 100%;
     }
-    .portfolio .galeria .proyecto{
+
+    .portfolio .galeria .proyecto {
         max-width: 100%;
     }
-    .portfolio .galeria .proyecto img{
+
+    .portfolio .galeria .proyecto img {
         width: 100%;
     }
-    .contacto .fila{
+
+    .contacto .fila {
         display: block;
     }
-    .contacto .fila .col{
+
+    .contacto .fila .col {
         width: 100%;
     }
 }

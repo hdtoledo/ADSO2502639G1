@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Open+Sans:ital,wght@1,400;1,500;1,700&display=swap');
+
+  *{
+    font-family: "Poppins" , sans-serif;
+  }
+   .img{
+    background: url(/CARRUSEL/img/pika.jpeg);
+    width: 900px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 4rem auto;
+    border: 8px solid;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 2px 2px 20px rgb(11, 11, 11);
+   }
+   
+   .btn-left, .btn-right{
+    position: absolute;
+    background-color: black;
+    border: 5px solid #fcfc0a;
+    color: #fcfc0a;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+   }
+
+   .btn-left{
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+   }
+
+   .btn-right{
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+   }

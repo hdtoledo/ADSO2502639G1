@@ -125,7 +125,7 @@ html {
 .sobremi{
     background-color: rgb(0, 0, 0);
     color: white;
-    padding: 50 px 20px;
+    padding: 50px 20px;
 }
 .sobremi .container-section{
     max-width: 1100px;
@@ -161,7 +161,7 @@ html {
     list-style: none;
 }
 .sobremi .fila .col ul li{
-    margin: 12px 0px;
+    margin: 12px 0;
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
@@ -200,13 +200,16 @@ html {
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(29, 105, 92);
     width: fit-content;
+    display: block;
+    margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
     color: rgb(255, 255, 255);
     position: relative;
     z-index: 10;
+    
 }
 .sobremi button .overlay{
     position: absolute;
@@ -214,7 +217,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(131, 122, 122);
+    background-color: rgb(29, 105, 92);
     z-index: -1;
     transition: 1s;   
 }
@@ -663,6 +666,7 @@ margin-left: 20px;
     position: relative;
     z-index: 10;
 }
+
 
 .contacto button .overlay {
     position: absolute;
