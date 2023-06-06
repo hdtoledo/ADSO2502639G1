@@ -30,6 +30,7 @@ main{
     padding: 2rem;
     gap: 10px;
     position: relative;
+    width: 520px;
 }
 
 .resultado{
@@ -41,7 +42,7 @@ main{
     flex-direction: column;
     justify-content: center;
     padding: 4rem;
-    width: 544px;
+    width: 520px;
     gap: 10px;
     padding-top: 0px;
 }
@@ -52,7 +53,7 @@ main{
 
 .data-wrapper1{
     display: flex;
-    gap: 16rem;
+    gap: 14rem;
 }
  button{
     padding: 5px 10px;
@@ -61,7 +62,7 @@ main{
 #icon{
     position: absolute;
     display: block;
-    left: 4.3rem;
+    left: 3.8rem;
     top: 107px;
     cursor: pointer;
   }
@@ -97,6 +98,9 @@ input:focus{
  
 }
 
+.hidden{
+    display: none;
+}
 
 
     

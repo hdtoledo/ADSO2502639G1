@@ -13,7 +13,9 @@ let word = inputEl.value;
 result.innerHTML = `
 <div class = "data-wrapper1">
 <h2> Word: ${data[0].word}</h2>
-<div class ="sound"><button>${data[0].phonetics[0].audio}🔈</button>
+<div class ="sound">
+<button id="playButton">🔈</button>
+<audio id="audioPlayer" src="${data[0].phonetics[0].audio}" type="audio/mpeg"></audio>
 </div>
 </div>
 <span>noun ${data[0].phonetics[0].text}</span>
@@ -33,10 +35,16 @@ result.innerHTML = `
 
 `
 
+parrafo.classList.add("hidden");
 
 
+const playButton =
+document.querySelector("#playButton");
+playButton.addEventListener("click", function(){
+  const audioPlayer =document.querySelector("#audioPlayer");
+  audioPlayer.play();
 
-
+})
 
 
 
@@ -49,7 +57,7 @@ function(event){
   if(event.key === "Enter"){
     event.preventDefault();
     getResults();
-    
+    parrafo.classList.add("hidden");
     
   }
 
