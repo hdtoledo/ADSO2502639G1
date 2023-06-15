@@ -51,6 +51,9 @@ main{
     color: red;
 }
 
+.loading{
+    text-align: center;
+}
 .data-wrapper1{
     display: flex;
     gap: 14rem;
