@@ -1,76 +1,64 @@
-const buscador = document.querySelector("#buscador")
+const inputEl = document.querySelector("#buscador")
+const result = document.querySelector(".resultado")
+const parrafo = document.querySelector(".disable")
 
-async function getResults(){
-    let word = buscador.value;
-        
+async function getResults (){
+
+
+let word = inputEl.value;
+  result.innerHTML = `<h2 class= "loading">Cargando resultados...</h2>`;
+  let fetchUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+  let data = await fetch(fetchUrl).then((res) => res.json())
+
+result.innerHTML = `
+<div class = "data-wrapper1">
+<h2> Word: ${data[0].word}</h2>
+<div class ="sound">
+<button id="playButton">🔈</button>
+<audio id="audioPlayer" src="${data[0].phonetics[0].audio}" type="audio/mpeg"></audio>
+</div>
+</div>
+<span>noun ${data[0].phonetics[0].text}</span>
+<div class = "data-wrapper">
+
+</div>
+<hr>
+<div class="data-wrapper">
+<h4>Significado:</h4>
+<span>${data[0].meanings[0].definitions[0].definition}</span>
+</div>
+<hr>
+<h4>Sinonimo:</h4>
+<span>${data[0].meanings[0].definitions[0].synonyms[1]}</span>
+
+
+
+`
+
+parrafo.classList.add("hidden");
+
+
+const playButton =
+document.querySelector("#playButton");
+playButton.addEventListener("click", function(){
+  const audioPlayer =document.querySelector("#audioPlayer");
+  audioPlayer.play();
+
+})
+
+
+
+
+}
+
+
+inputEl.addEventListener("keydown",
+function(event){
+  if(event.key === "Enter"){
+    event.preventDefault();
+    getResults();
+    parrafo.classList.add("hidden");
     
-try{
-    result.innerHTML = `<h2 class= "loading">Cargando resultados...</h2>`;
-    let fetchUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
-    let = await fetch(fetchUrl).then((res) => res.json())
+  }
 
-
-    result.innerHTML =   [
-        {
-          "word": "",
-          "phonetic": "həˈləʊ",
-          "phonetics": [
-            {
-              "text": "həˈləʊ",
-              "audio": "//ssl.gstatic.com/dictionary/static/sounds/20200429/hello--_gb_1.mp3"
-            },
-            {
-              "text": "hɛˈləʊ"
-            }
-          ],
-          "origin": "early 19th century: variant of earlier hollo ; related to holla.",
-          "meanings": [
-            {
-              "partOfSpeech": "exclamation",
-              "definitions": [
-                {
-                  "definition": "used as a greeting or to begin a phone conversation.",
-                  "example": "hello there, Katie!",
-                  "synonyms": [],
-                  "antonyms": []
-                }
-              ]
-            },
-            {
-              "partOfSpeech": "noun",
-              "definitions": [
-                {
-                  "definition": "an utterance of ‘hello’; a greeting.",
-                  "example": "she was getting polite nods and hellos from people",
-                  "synonyms": [],
-                  "antonyms": []
-                }
-              ]
-            },
-            {
-              "partOfSpeech": "verb",
-              "definitions": [
-                {
-                  "definition": "say or shout ‘hello’.",
-                  "example": "I pressed the phone button and helloed",
-                  "synonyms": [],
-                  "antonyms": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-}
-
-catch(error) {
-    if(word.length == 0){
-        result.innerHTML = `<h3>El campo no puede estar vacio !</h3>`;
-    }else{
-        result.innerHTML = `<h3>Por favor ingrese la palabra correcta. </h3>`;
-    }
-}
-}
-
-
-buscador.addEventListener("keydown", getResults);
+})

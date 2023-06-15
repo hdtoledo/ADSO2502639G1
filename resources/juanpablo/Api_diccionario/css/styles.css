@@ -15,11 +15,14 @@ main{
     align-items: center;
     height: 100vh;
     background-color: red;
+    flex-direction: column;
 }
 
 .container{
     background: #fff;
     border-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,12 +30,42 @@ main{
     padding: 2rem;
     gap: 10px;
     position: relative;
+    width: 520px;
 }
+
+.resultado{
+    background: #fff;
+    border-radius: 12px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    width: 520px;
+    gap: 10px;
+    padding-top: 0px;
+}
+
+.resultado h2,h4{
+    color: red;
+}
+
+.loading{
+    text-align: center;
+}
+.data-wrapper1{
+    display: flex;
+    gap: 14rem;
+}
+ button{
+    padding: 5px 10px;
+ }
 
 #icon{
     position: absolute;
     display: block;
-    left: 4.3rem;
+    left: 3.8rem;
     top: 107px;
     cursor: pointer;
   }
@@ -49,19 +82,28 @@ main{
 }
 
 .container p{
-    width: 480px;
+    width:480px;
     text-align: center;
-   
+
+}
+
+input{
+    outline: none;
 }
 
 input:focus + span>i {
 color:red;
 }
 
+
 input:focus{
     outline:solid red;
+ 
 }
 
+.hidden{
+    display: none;
+}
 
 
     

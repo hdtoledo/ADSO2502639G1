@@ -106,7 +106,7 @@ html {
     color: rgb(255, 255, 255);
     display: inline-block;
     text-decoration: none;
-    border: 1px solid rgb(180, 178, 178);
+    border: 1px solid rgb(229, 229, 229);
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -117,7 +117,7 @@ html {
 }
 
 .inicio .container-banner .redes a:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(29, 105, 92);
 }
 
 
@@ -125,7 +125,7 @@ html {
 .sobremi{
     background-color: rgb(0, 0, 0);
     color: white;
-    padding: 50 px 20px;
+    padding: 50px 20px;
 }
 .sobremi .container-section{
     max-width: 1100px;
@@ -200,7 +200,7 @@ html {
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(29, 105, 92);
     width: fit-content;
     display: block;
     margin: 20px auto;
@@ -217,7 +217,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(87, 86, 86);
+    background-color: rgb(29, 105, 92);
     z-index: -1;
     transition: 1s;   
 }

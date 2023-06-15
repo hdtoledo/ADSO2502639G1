@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y:hidden;
+    background-color: rgb(185, 109, 8);
+  }
+
+  .tag {
+    font-size: 0.9rem;
+    background-color: black;
+    border-radius: 5px;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .product-title {
+    font-size: 2rem;
+    font-weight: 700;
+
+  }
+
+  .product-card {
+    background: #ffffff;
+    display:grid;
+    grid-template-rows: 55% 45%;
+    height: 80%;
+    width: 47rem;
+    box-shadow:  10px 10px 25px 0px #3c3c3c;
+  }
+
+  .product-image{
+    background-image: url(https://www.ford.com.co/content/dam/Ford/website-assets/latam/co/nameplate/raptor/2023/colorizer/naranja-metalico/fco-f150-raptor-colorizer-naranja-metalico.jpg.dam.full.high.jpg/1684866271523.jpg);
+    background-position: center;
+    background-position: no-repeat;
+    background-size: cover;
+    padding: 40px 10px;
+    width:45rem ;
+    height: 60%;
+  }
+
+  .product-description {
+    background-color: #62c256;
+    color: #fff;
+    padding-left:  20px;
+    margin-top: -67px;
+    
+
+  }
+
+
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+  }
+
+  .product-image img {
+    width: 28rem;
+  }
+
+  .stars {
+    color: yellow;
+    font-size: 1em;
+  }
+
+  .colors-price{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: -15px;
+  }
+
+  .colors{
+    display: flex;
+    width: 6rem;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .red{
+    background-color:red ;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .gray{
+    background-color:gray;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .black{
+    background-color:black ;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .pricing{
+    display: flex;
+    width: 12rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .old-price{
+    font-weight: 100;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+#button{
+  background-color:#242424;
+  padding:  10px 25px;
+  border:none;
+  border-radius: 5px;
+}
+
+button white-button{
+  background-color: #fff;
+
+}
+
+.button-text{
+  color: #fff;
+  margin-left: 5px;
+
+}
+
+.feedback{
+  display: none;
+  padding: 10px 25px;
+  border:  none;
+  border-radius: 5px;
+}
+

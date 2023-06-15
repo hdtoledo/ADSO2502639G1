@@ -10,9 +10,9 @@
 }
 
 :root{
-    --color-gold: gold;
-    --color-beige: beige;
-    --color-purple: purple;
+    --color-gold: rgb(173, 154, 48);
+    --color-beige: rgb(132, 132, 94);
+    --color-purple: rgb(44, 12, 44);
 }
 
 body{
