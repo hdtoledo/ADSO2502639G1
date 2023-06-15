@@ -49,6 +49,7 @@ body{
 }
 
 .paginacion button{
+    align-items: center;
     cursor: pointer;
     border: none;
     display: flex;
