@@ -3,27 +3,27 @@ const btnAnterior = document.getElementById('btnAnterior');
 const btnSiguiente = document.getElementById('btnSiguiente');
 
 btnSiguiente.addEventListener('click', () => {
-    if(pagina < 1000){
+    if (pagina < 1000) {
         pagina += 1;
         cargarPeliculas();
     }
 });
 
 btnAnterior.addEventListener('click', () => {
-    if(pagina > 1000){
+    if (pagina > 1000) {
         pagina -= 1;
         cargarPeliculas();
     }
 });
 
-const cargarPeliculas = async() => {
+const cargarPeliculas = async () => {
     try {
         const respuesta = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=192e0b9821564f26f52949758ea3c473&language=es-MX&page=${pagina}`);
 
         console.log(respuesta);
 
         // Si la respuesta es correcta
-        if(respuesta.status === 200){
+        if (respuesta.status === 200) {
             const datos = await respuesta.json();
 
             let peliculas = '';
@@ -38,18 +38,18 @@ const cargarPeliculas = async() => {
 
             document.getElementById('contenedor').innerHTML = peliculas;
 
-        } else if(respuesta.status === 401){
+        } else if (respuesta.status === 401) {
             console.log('Pusiste la llave mal');
-        } else if(respuesta.status === 404){
+        } else if (respuesta.status === 404) {
             console.log('La pelicula que buscas no existe');
         } else {
             console.log('Hubo un error y no sabemos que paso');
         }
 
-        } catch(error){
-            console.log(error);
-        }
-
+    } catch (error) {
+        console.log(error);
     }
 
-    cargarPeliculas();
+}
+
+cargarPeliculas();

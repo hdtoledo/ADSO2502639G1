@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 *{
-    font-family: "Poppins", sans-serif;
+    font-family: 'Secular One', sans-serif;
 }
 
 body{
@@ -10,29 +10,38 @@ body{
     justify-content: center;
     align-items: center;
     overflow-y: hidden;
+    background: url("../api-consumo01/img/SPONGEBOB\ CHASE\ \(3840×2160\).png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .container{
     width: 500px;
     min-height: 200px;
+    color: white;
     padding: 20px;
     display: flex;
+    border: 2px solid rgb(9, 69, 147);
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: yellowgreen;
+    background-color: rgba(62, 62, 62, 0.823);
     border-radius: 20px;
-    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 0 40px rgb(13, 22, 74),
+    0 0 40px black;
 }
 
 .emoticon{
     font-size: 80px;
 }
+
 .broma{
     text-align: center;
     color: black;
     font-weight: 500;
     opacity: 0;
+    color: white;
 }
 
 .deslizar{
@@ -47,6 +56,8 @@ button{
     box-shadow: 5px 5px 0;
     cursor: pointer;
     position: relative;
+    background-color: rgb(4, 188, 255);
+    border-radius: 10px;
 }
 
 button:active{
@@ -55,25 +66,3 @@ button:active{
     left: 5px;
     box-shadow: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
