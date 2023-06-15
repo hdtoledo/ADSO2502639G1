@@ -514,7 +514,7 @@ html{
 }
 .portafolio .galeria .proyecto{
     position: relative;
-    max-width: 340px;
+    width: 340px;
     height: fit-content;
     margin: 10px;
     cursor: pointer;
