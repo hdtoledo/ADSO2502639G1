@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+*{
+    font-family: 'Bruno Ace', cursive;
+}
+
+body{
+    background: url(../img/Cómo\ hacer\ tu\ primer\ CV_\ 6\ elementos\ básicos.jpeg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.images{
+    background: url("../img/001.jpg");
+    width: 1400px;
+    height: 750px;
+    margin: 4rem auto;
+    border: 8px solid gray;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 2px 2px 20px black;
+    background-size: cover;
+}
+
+.btn-left, .btn-right{
+    position: absolute;
+    background-color: rgb(35, 35, 35);
+    border: 5px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-left{
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.btn-right{
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}

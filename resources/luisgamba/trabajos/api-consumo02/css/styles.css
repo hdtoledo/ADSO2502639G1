@@ -1,71 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "poppins", sans-serif;
 }
+
 html {
     font-size: 62.5%;
 }
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: blueviolet;
+    background:url(../img/_.jpeg);
+    background-position: center;
 }
+
 .container {
     width: 500px;
     min-height: 150px;
     padding: 20px;
     flex-direction: column;
-    background-color: white;
+    background-color: rgb(46, 46, 46);
     border-radius: 20px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
 }
+
 h1 {
-    color: blueviolet;
+    color: rgb(0, 255, 89);
     text-transform: uppercase;
-    text-shadow: 1px 1px black;
     margin-bottom: 1.5rem;
 }
+
+
 .container-busqueda {
     display: grid;
     grid-template-columns: 9fr 3fr;
     gap: 2rem;
 }
+
 input {
     padding: 5px 10px;
     font-weight: 500;
     border: none;
     outline: none;
-    border-bottom: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(62, 61, 63);
 }
+
+
 button {
-    background-color: blueviolet;
+    background-color: rgb(0, 151, 33);
     border: none;
     color: white;
     border-radius: 2rem;
     cursor: pointer;
 }
+
 .resultado {
     margin-top: 10px;
 }
+
 .resultado .flag-img {
     display: block;
     width: 45%;
     min-width: 7.5em;
     margin: 1.8em auto 1.2em auto;
 }
+
+
 .resultado h2 {
     font-weight: 600;
-    color: #222a43;
+    color: #ffffff;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 1.8em;
 }
+
 .resultado .data-wrapper {
     margin-bottom: 1em;
     letter-spacing: 0.3px;
@@ -73,22 +87,28 @@ button {
 .resultado h4 {
     display: inline;
     font-weight: 500;
-    color: #222a43;
+    color: #ffffff;
+    font-size: 15px;
 }
+
 .resultado span {
-    color: #5d6274;
+    color: #ffffff;
+    font-size: 15px;
 }
+
 .resultado h3 {
     margin-top: 10px;
     text-align: center;
     font-size: 1.2em;
     font-weight: 400;
-    color: #ff465a;
+    color: #009b15;
+    font-size: 15px;
 }
+
 .resultado .loading {
     margin-top: 10px;
     margin-bottom: -10px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     text-align: center;
 }
