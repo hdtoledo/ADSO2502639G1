@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <!-- -------- Section main -------- -->
+    <section>
+        <div class="main">
+            <div class="container-main">
+                <h1>Juego de Piedra, Papel o Tijera</h1>
+                <span>Selecciona una de las 3 opciones</span>
+
+                <!-- -------- Contenedor de imagenes -------- -->
+                <div class="container-img">
+                    <div class="container-item piedra" id="piedra">
+                        <a href="#"></a>
+                        <img class="circulo" src="./img/circulo.png" alt="circulo container">
+                        <div class="item">
+                            <img src="./img/piedra.png" alt="Piedra">
+                        </div>
+                    </div>
+                    <div class="container-item papel" id="papel">
+                        <img class="circulo" src="./img/circulo.png" alt="circulo container">
+                        <div class="item">
+                            <img src="./img/papel.png" alt="papel">
+                        </div>
+                    </div>
+                    <div class="container-item tijeras" id="tijeras">
+                        <img class="circulo" src="./img/circulo.png" alt="circulo container">
+                        <div class="item">
+                            <img src="./img/tijeras.png" alt="tijeras">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- -------- Container option -------- -->
+                <div class="container-option">
+                    <h2>El usuario eligió: <img id="user" src=""></h2>
+                    <h2>La maquina eligió: <img id="machine" src=""></h2>
+                </div>
+
+                <!-- -------- Resultado -------- -->
+                <h2 id="resultado">Empatado - Perdido - Ganado</h2>
+
+                <!-- -------- Container score -------- -->
+                <div class="container-score" id="score">
+                    <h2>Puntaje</h2>
+                    <div class="score">
+                        <h3 class="user-score">Usuario: <span id="userScore">0</span></h2>
+                        <h3 class="machine-score">Máquina: <span id="machineScore">0</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

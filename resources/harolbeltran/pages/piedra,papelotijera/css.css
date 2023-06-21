@@ -1,0 +1,131 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "heebo", sans-serif;
+}
+
+:root{
+    --color-gold: rgb(173, 154, 48);
+    --color-beige: rgb(132, 132, 94);
+    --color-purple: rgb(44, 12, 44);
+}
+
+body{
+    background-color: var(--color-purple);
+    color: var(--color-beige);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--color-beige);
+    color: var(--color-purple);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+.instrucciones{
+    margin-bottom: 2rem;
+}
+
+.marcador{
+    background-color: var(--color-gold);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--color-purple);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.marcador .nombre{
+    position: absolute;
+    color: var(--color-beige);
+    background-color: var(--color-purple);
+    line-height: 1;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 2px solid var(--color-gold);
+}
+
+.marcador .nombre-jugador{
+    right: 85%;
+}
+
+.marcador .nombre-computadora{
+    left: 85%;
+}
+.marcador .puntos{
+    font-size: 1.6rem;
+}
+
+.elegi-tu-arma{
+    margin-bottom: 2rem;
+}
+
+.elegi-tu-arma h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.armas{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.arma{
+    font-size: 2rem;
+    background-color: var(--color-beige);
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.mensaje{
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.mensaje .seleccion{
+    color: var(--color-purple);
+    background-color: var(--color-gold);
+    border-radius: .25rem;
+    padding-inline: .25rem;
+}
+
+.btn{
+    border: 0;
+    line-height: 1;
+    background-color: var(--color-gold);
+    color: var(--color-purple);
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.disabled{
+    display: none;
+}

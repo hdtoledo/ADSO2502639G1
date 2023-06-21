@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Dictionary</title>
+</head>
+<body>
+    <video src="./video/video-loop.mp4" loop autoplay muted></video>
+    <div class="wrapper">
+        <h1>Diccionario API</h1>
+        <div class="search">
+            <input type="text" placeholder="Busca una Palabra" required spellcheck="false">
+            <i class="fa fa-search"></i>
+            <span class="close">X</span>
+        </div>
+        <p class="info-text">Escriba una palabra, presiona ENTER y veras el resultado.</p>
+        <ul>
+            <li class="word">
+                <div class="details">
+                    <p>__</p>
+                    <span>_ _</span>
+                </div>
+                <i class="fas fa-volume-up"></i>
+            </li>
+            <div class="content">
+                <li class="meaning">
+                    <div class="details">
+                        <p>Meaning</p>
+                        <span>___</span>
+                    </div>
+                </li>
+                
+                <li class="synonyms">
+                    <div class="details">
+                        <p>Synonyms</p>
+                        <div class="list"></div>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+<script src="https://kit.fontawesome.com/a38bca9d9c.js" crossorigin="anonymous"></script>
+</html>

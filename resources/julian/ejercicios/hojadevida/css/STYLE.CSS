@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+body{
+    font-family: 'titan one' cursive;
+    background: url();
+    background-size: cover;
+}
+.perfil{border: 0;
+border-radius: 50%;
+width: 150px;
+height: 200px;
+;}
+
+nav{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    justify-content: center;
+    font-family: "titan one",cursive;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+h1{
+    color: rgb(3, 3, 3);
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Archivo Black', cursive;
+    
+}
+    o{
+        color:rgb(15, 15, 15);
+    font-family: "titan one",cursive;
+    line-height: 1em;
+    align-items: center;   
+}
+h2{
+    font-family: 'Archivo Black', cursive;
+}
+.contactar{
+    align-self: center;
+    align-items: last baseline;
+    
+}
