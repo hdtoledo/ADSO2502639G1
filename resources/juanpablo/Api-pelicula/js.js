@@ -31,15 +31,15 @@ const cargarPeliculas = async() =>{
             const datos = await respuesta.json();
 
             let peliculas = "";
-            datos.results.forEach(peliculas =>{
-                peliculas =+ `
+            datos.results.forEach(pelicula =>{
+                peliculas += `
                 <div class="pelicula">
-                <img class= "poster" src="https://image.tmdb.org/t/p/w500/${peliculas.poster_path}">
-                <h3 class="titulo">${peliculas.title}</h3>                
+                <img class= "poster" src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}">
+                <h3 class="titulo">${pelicula.title}</h3>                
                 </div>
                 `;
             });
-            document.getElementById("contenedor").innerHTML = peliculas
+            document.getElementById("contenedor").innerHTML = peliculas;
         }else if(respuesta.status === 401){
             console.log("Pusiste la llave mal");
         }else if(respuesta.status === 404){
