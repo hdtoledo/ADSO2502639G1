@@ -21,7 +21,7 @@ function stopWatch(){
 }
 
 function startTimer(){
-    if(timer=null){
+    if(timer!=null){
         clearInterval(timer);
     }
     timer = setInterval(stopWatch,1000);
