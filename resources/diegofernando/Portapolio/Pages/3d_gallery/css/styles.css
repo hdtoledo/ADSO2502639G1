@@ -17,6 +17,10 @@ body{
     overflow: hidden;
 }
 
+img{
+    height: 140px;
+}
+
 .image-container{
     position: relative;
     width: 200px;
