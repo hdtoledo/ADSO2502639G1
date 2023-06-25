@@ -17,6 +17,16 @@ body{
     overflow: hidden;
 }
 
+video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
 img{
     height: 140px;
 }
