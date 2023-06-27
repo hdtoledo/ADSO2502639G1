@@ -15,6 +15,16 @@ h1{
     text-shadow: 0 0 15px white;
 }
 
+video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
 .container{
     max-width: 90rem;
     margin: 0 auto;
