@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galería de Imágenes con Efectos de Transición</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .gallery-item {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <h2>Galería de Imágenes con Efectos de Transición</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="./img/channels4_profile.jpg" alt="Imagen 1">
+    </div>
+    <div class="gallery-item">
+      <img src="imagen2.jpg" alt="Imagen 2">
+    </div>
+    <div class="gallery-item">
+      <img src="imagen3.jpg" alt="Imagen 3">
+    </div>
+  </div>
+</body>
+</html>
