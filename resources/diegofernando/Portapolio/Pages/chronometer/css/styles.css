@@ -15,6 +15,16 @@ body{
     background-position: center;
 }
 
+video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
 .stopWatch{
     background-image: linear-gradient(rgba(138, 138, 138, 0.37), rgba(255, 255, 255, 0.308));
     max-width: 600px;
@@ -25,7 +35,7 @@ body{
     text-align: center;
     color: rgb(0, 0, 0);
     border-radius: 5em;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
 }
 
 .stopWatch h1{
