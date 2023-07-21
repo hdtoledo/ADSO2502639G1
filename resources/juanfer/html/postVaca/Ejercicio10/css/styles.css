@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background: rgb(14, 13, 13);
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+}
+main .ficha{
+    cursor: pointer;
+    width: 180px;
+    height: 180px;
+    background: antiquewhite;
+}
+main .ficha img{
+    width: 100%;
+    height: 100%;
+}
+
+.hidden{
+    visibility: hidden;
+}
