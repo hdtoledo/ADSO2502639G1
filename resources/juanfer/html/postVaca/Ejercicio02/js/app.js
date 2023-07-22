@@ -16,7 +16,7 @@ const arrObjetos = (arr, data) => {
 }
 
 async function getMethod(){
-    for (let i = 1; i < 70; i++) {
+    for (let i = 1; i < 20; i++) {
         const data = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`).then((e) => e.json())
 
         arrObjetos(arrObjects, data)
@@ -31,9 +31,8 @@ async function getMethod(){
         })
 
         galery.innerHTML = image_galery.join('')
-        
+
     }
-    // console.log(arrObjects)
 }
 
 getMethod()

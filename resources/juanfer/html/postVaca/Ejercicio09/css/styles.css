@@ -2,6 +2,8 @@ body{
     background-color: rgb(92, 90, 90);
     margin: 0;
     padding: 0;
+    background-image: url('../fondo.jpg');
+    background-size: cover;
 }
 
 main{
@@ -19,8 +21,9 @@ main .inputs{
     align-items: center;
     gap: 1.3em;
     padding: 1em 2.4em;
-    background: rgba(176, 211, 211, 0.815);
+    background: rgba(199, 216, 216, 0.452);
     border-radius: 20px;
+    backdrop-filter: blur(5px);
 }
 main .inputs input{
     background: none;

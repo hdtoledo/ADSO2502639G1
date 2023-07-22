@@ -34,18 +34,11 @@ const testimonialsHTML = document.getElementById('testimonials')
 
 //? Variables de entorno
 let x = 0
-// TODO Render del array de objetos
-// let testimoniosHTML = testimonials.map(testimonio => `
-//     <div class='container__testimonials'>
-//         <h2 class='name__testimonial'>${testimonio.name}</h2>
-//         <p class='testimonial'>${testimonio.testimanial}</p>
-//     </div>
-// `).join('')
-// testimonialsHTML.innerHTML = testimoniosHTML
+
 
 const getMethod = () => {
-    let intervalInner = setInterval(() => {
-        x > 6 ? x = 0 : x++
+    setInterval(() => {
+        x >= 6 ? x = 0 : x++
         let testimonialHTML = `
         <div class='container__testimonials'>
             <h2 class='name__testimonial'>${testimonials[x].name}</h2>
@@ -53,7 +46,10 @@ const getMethod = () => {
         </div>
         `
         testimonialsHTML.innerHTML = testimonialHTML
-    }, 7000)
+        setTimeout(() => {
+            testimonialsHTML.firstElementChild.classList.add('hidden_animation')
+        }, 8000)
+    }, 10000)
 }
 
 testimonialsHTML.innerHTML = `
@@ -62,10 +58,14 @@ testimonialsHTML.innerHTML = `
     <p class='testimonial'>${testimonials[x].testimanial}</p>
 </div>
 `
-
+const animation_initial = () => {
+    setTimeout(() => {
+        testimonialsHTML.firstElementChild.classList.add('hidden_animation')
+    }, 8000)
+}
 
 document.addEventListener('load', getMethod())
-
+document.addEventListener('load', animation_initial())
 
 
 

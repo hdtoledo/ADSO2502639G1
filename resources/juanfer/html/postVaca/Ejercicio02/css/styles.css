@@ -1,9 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(56, 56, 56);
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url('../fondo.jpg');
+    background-size: cover;
+    background-position: center;
 }
 main{
     width: 100vw;
@@ -25,8 +29,8 @@ h2{
 }
 .image{
     cursor: pointer;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     display: flex;
     border-radius: 50%;
     box-shadow: 0 0 10px antiquewhite;
@@ -39,6 +43,10 @@ h2{
     backdrop-filter: blur(10px);
     height: fit-content;
     z-index: 20;
+    position: relative;
+    top: 35%;
+    left: 55%;
+    padding: 1em 0;
 }
 .image:hover > .img_poke{
     left: 3%;
@@ -54,11 +62,13 @@ h2{
 .image .name_poke{
     position: relative;
     z-index: -10;
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: transparent;
     transition: all .5s;
     height: fit-content;
     font-size: 1.3em;
+    border-radius: 10px;
+    text-align: center;
 }

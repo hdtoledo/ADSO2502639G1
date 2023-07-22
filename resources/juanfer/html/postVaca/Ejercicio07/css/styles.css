@@ -6,6 +6,9 @@ body{
     height: 100vh;
     background-image: url('../img/fondo.jpg');
     background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 main{
     width: 100vw;
@@ -37,12 +40,11 @@ main .testimonials{
     left: 50%;
     transform: translateX(-50%);
 
-    animation: animationHiden 3s;
+    animation: animationHiden 4s;
 }
 
 @keyframes animationHiden {
     0%{
-        position: absolute;
         left: -50%;
     }
     100%{
@@ -59,4 +61,16 @@ main .testimonials{
     color: gainsboro;
     font-weight: bold;
     font-size: 2em;
+}
+.hidden_animation{
+    left: 150%;
+    animation: hidden_animation 2s;
+}
+@keyframes hidden_animation {
+    0%{
+        left: 50%;
+    }
+    100%{
+        left: 150%;
+    }
 }

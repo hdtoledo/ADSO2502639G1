@@ -1,30 +1,100 @@
-body{
-    margin: 0;
+* {
     padding: 0;
-    width: 100vw;
-    background: rgb(14, 13, 13);
-    overflow-x: hidden;
-}
-main{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    gap: 1.2em;
-}
-main .ficha{
-    cursor: pointer;
-    width: 180px;
-    height: 180px;
-    background: antiquewhite;
-}
-main .ficha img{
-    width: 100%;
-    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('../fondo.png');
 }
 
-.hidden{
-    visibility: hidden;
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+header h2{
+    font-size: 2.5em;
+    font-weight: bold;
+
+}
+
+
+
+.score {
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+    margin: auto;
+    padding: 20px;
+}
+
+.cell {
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 10px #a6a6a6;
+}
+
+.cell div {
+    height: 130px;
+    border-radius: 4px;
+}
+
+.front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #a6a6a6;
+    background-color: #f2f2f2;
+    transform: rotateY(90deg);
+}
+
+.back {
+    background-color: #333;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.flip {
+    transform: rotateY(0deg);
+}
+
+.match {
+    transform: rotateY(0deg);
+}
+
+.show {
+    transform: rotateY(0deg);
+}
+
+@media screen and (min-width: 770px) {
+    .head {
+        max-width: 760px;
+    }
+
+    .container {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .cell div {
+        height: 170px;
+    }
 }

@@ -3,7 +3,7 @@ body{
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background: rgb(39, 38, 38);
+    background-image: url('../fondo.jpg');
 }
 main{
     width: 100vw;

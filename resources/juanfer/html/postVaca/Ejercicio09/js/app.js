@@ -4,6 +4,9 @@ const time = document.getElementById('time')
 const submit = document.getElementById('btn-submit')
 
 const intervalCount = () => {
+    if(time.textContent == ''){
+        time.value = '12:00:00'
+    }
     let intervalHtml = setInterval(() => {
         const fechaObjetivo = new Date(`${date.value}T${time.value}`)
         const ahora = new Date().getTime()
