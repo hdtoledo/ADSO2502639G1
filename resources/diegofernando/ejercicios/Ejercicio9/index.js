@@ -1,40 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Temporizador de cuenta regresiva</title>
-</head>
-<body>
-    <h1>Temporizador de cuenta regresiva</h1>
-    <p id="countdown"></p>
+var targetDate = new Date("2023-12-31T23:59:59").getTime();
 
-    <script>
-        // Fecha y hora objetivo (ajusta esto según tus necesidades)
-        var targetDate = new Date("2023-12-31T23:59:59").getTime();
-
-        // Actualiza el temporizador cada segundo
         var countdown = setInterval(function () {
-            // Obtiene la fecha y hora actual
             var now = new Date().getTime();
 
-            // Calcula la diferencia entre la fecha y hora objetivo y la actual
             var timeRemaining = targetDate - now;
 
-            // Calcula días, horas, minutos y segundos restantes
             var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
             var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-            // Actualiza el contenido del elemento con el temporizador
             var countdownElement = document.getElementById("countdown");
             countdownElement.innerHTML = "Tiempo restante: " + days + " días, " + hours + " horas, " + minutes + " minutos, " + seconds + " segundos.";
 
-            // Si el tiempo ha terminado, muestra un mensaje
             if (timeRemaining < 0) {
                 clearInterval(countdown);
                 countdownElement.innerHTML = "¡Tiempo terminado!";
             }
-        }, 1000); // 1000 milisegundos = 1 segundo
-    </script>
-</body>
-</html>
+        }, 1000);
