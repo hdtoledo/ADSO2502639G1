@@ -1,42 +1,143 @@
-body{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
     background-image: url('../fondo.jpg');
-}
-main{
+    background-size: auto;
+    background-position: center;
     width: 100vw;
-    height: fit-content;
 }
+
 main header{
     width: 100%;
-    height: 3.4em;
-    background-color: rgb(73, 71, 71);
+    height: 4em;
+    background: rgba(161, 158, 153, 0.493);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 16px antiquewhite;
     display: flex;
+    align-items: center;
+}
+
+main header i{
+    cursor: pointer;
+    font-size: 2.4em;
+    color: aliceblue;
+    margin-left: .7em;
+}
+
+main .header__container{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100vh;
+    background: rgba(161, 158, 153, 0.493);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 
-    color: aliceblue;
-    font-weight: bold;
+    animation: showAnimation 1.6s;
 }
-main header .left, .right{
-    display: flex;
-    width: 100%;
+
+@keyframes showAnimation {
+    0%{
+        left: -26em;
+    }
+    100%{
+        left: 0;
+    }
 }
-main header .left{
-    justify-content: center;
-    align-items: center;
+
+main .hidden{
+    left: -26em;
+    animation: hiddenAnimation 1.6s;
 }
-main header .left img{
-    width: 40px;
+
+@keyframes hiddenAnimation {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: -26em;
+    }
+}
+
+main .header__container .close{
     cursor: pointer;
+    position: relative;
+    right: -5em;
+    top: -1em;
+    font-size: 2em;
+
+    transition: all .7s;
 }
-@keyframes animate {
-    
+main .header__container .close:hover{
+    color: antiquewhite;
 }
-main header .right ul{
+main .header__container img{
+
+    animation: animateRotation 25s ease-in-out both;
+}
+
+@keyframes animateRotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+main .header__container ul{
+    width: 100%;
     display: flex;
-    list-style: none;
     gap: .8em;
+    flex-direction: column;
+}
+main .header__container ul li{
+    list-style: none;
+    border-bottom: 2px solid grey;
+    width: 80%;
+}
+main .header__container ul li{
+    display: flex;
+}
+main .header__container ul li a{
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+
+
+    transition: all .7s;
+}
+main .header__container ul li a:hover{
+    color: antiquewhite;
+}
+main .header__container ul li a:hover > i{
+    
+    animation: iAnimate 1s;
+}
+main .header__container ul li a i{
+    font-size: 1em;
+}
+
+@keyframes iAnimate {
+    0%{
+        transform: translatey(0);
+    }
+    50%{
+        transform: translatey(-7px);
+    }
+    100%{
+        transform: translatey(0);
+    }
+}
+
+main .header__container ul li a i{
+    margin-left: 1em;
 }

@@ -14,11 +14,9 @@ function suffleImage() {
     })
 }
 
-
 function clicking() {
 
     for (let i = 0; i < card.length; i++) {
-
 
         front[i].classList.add('show')
 
