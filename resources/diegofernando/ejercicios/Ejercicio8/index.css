@@ -1,0 +1,22 @@
+body{
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+    transform: translate(0vh, 
+    40vh);
+}
+
+textarea{
+    width: 30rem;
+    font-size: 30px;
+    height: 30px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Chela+One&display=swap');
+
+*{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Chela One', cursive;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(255, 214, 160);
+  }
+
+  h1{
+    padding-top: 140px;
+    padding-left: 80px;
+  }
+
+  .container2{
+    padding-top: 50px;
+    padding-left: 70px;
+  }
+.container{
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.386);
+    border: 1px solid #cccccc;
+    padding: 50px;
+    max-width: 30px;
+    margin: 0 auto;
+}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffff42;
+    min-width: 160px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(144, 70, 0);
+  }
+  .dropdown-item:hover {
+    background-color: #ff9100;
+  }
