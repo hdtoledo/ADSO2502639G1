@@ -3,6 +3,21 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-image: url(./wall.jpg);
+    background-position: center;
+    background-size: contain;
+    overflow-x: hidden;
+  }
+
+  img{
+    margin-bottom: 30px;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   header {
@@ -44,7 +59,9 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
-    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
   }
   
   /* Media Queries para diseño responsivo */
@@ -54,7 +71,8 @@ body {
     }
 
     footer{
-      margin-bottom: 0px;
+      position: relative;
+    bottom: 0;
     }
   }
   
@@ -66,6 +84,19 @@ body {
     nav ul li {
       display: block;
       margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 824px){
+    img{
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 526px){
+    img{
+      width: 250px;
+      margin-bottom: 20px;
     }
   }
   
