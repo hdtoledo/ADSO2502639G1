@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Menu Despegable</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="/img/Starbucks.png" alt="">
+            </div>
+            <span class="logo-name">Menu</span>
+        </div>
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                    <span class="link-name">Panel</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fa-duotone fa-file"></i>
+                    <span class="link-name">Documentos</span>
+                </a></li> 
+                <li><a href="#">
+                    <i class="fa-duotone fa-coins"></i>
+                    <span class="link-name">Ganancias</span>
+                </a></li> 
+                <li><a href="#">
+                    <i class="fa-solid fa-message"></i>
+                    <span class="link-name">Notificaciones</span>
+                </a></li> 
+                <li><a href="#">
+                    <i class="fa-duotone fa-users"></i>
+                    <span class="link-name">Clientes</span>
+                </a></li> 
+            </ul>
+
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="fa-duotone fa-right-from-bracket"></i>
+                    <span class="link-name">Cerrar Sesion</span>
+                </a></li>
+
+                <li><a href="#">
+                    <i class="fa-duotone fa-moon"></i>
+                    <span class="link-name">Modo Oscuro</span>
+                </a>
+
+                <div class="mode-toggle">
+                    <span class="switch"></span>
+                </div>  
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="fa-duotone fa-toggle-on"></i>
+
+            <div class="search-box">
+                <i class="fa-duotone fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+
+            <img src="/img/usuario.png" alt="">
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="fa-duotone fa-gauge-simple-high"></i>
+                    <span class="text">Panel</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="fa-duotone fa-user"></i>
+                        <span class="text">Total Usuarios</span>
+                        <span class="number">5,580</span>
+                    </div>
+
+                    <div class="box box2">
+                        <i class="fa-duotone fa-sign-hanging"></i>
+                        <span class="text">Ventas</span>
+                        <span class="number">25,170</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="fa-duotone fa-book"></i>
+                        <span class="text">Productos</span>
+                        <span class="number">2,190</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/index.js"></script>
+</body>
+</html>
