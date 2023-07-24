@@ -4,6 +4,6 @@ const inputText = document.getElementById('inputText')
 let countLetters = 0
 
 document.addEventListener('keyup', () => {
-    countLetters = inputText.textLength
+    countLetters = inputText.value.split('').length
     count.textContent = `Count: ${countLetters}`
 })
