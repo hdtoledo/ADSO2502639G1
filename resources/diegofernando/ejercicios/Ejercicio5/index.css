@@ -44,12 +44,17 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-bottom: 0px;
   }
   
   /* Media Queries para diseño responsivo */
   @media (max-width: 768px) {
     main {
       grid-template-columns: 1fr;
+    }
+
+    footer{
+      margin-bottom: 0px;
     }
   }
   
