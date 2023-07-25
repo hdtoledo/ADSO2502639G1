@@ -1,0 +1,776 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+  * {
+      font-family: 'Nunito';
+  }
+
+  body {
+      background: rgb(244, 250, 253);
+
+  }
+
+  header {
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  header img {
+      margin-left: 7rem;
+      width: 170px;
+  }
+
+  header #demo {
+      background: #F34F36;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      height: 35px;
+      width: 160px;
+      margin-right: 8rem;
+  }
+
+  .login {
+      background: linear-gradient(to top,
+              #396688,
+              #2A4C62);
+      background-size: cover;
+      margin-left: -10px;
+      margin-right: -10px;
+      height: 48vh;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .login img {
+      height: 400px;
+
+  }
+
+  .login .info {
+      width: 490px;
+      margin-left: 7rem;
+  }
+
+  .login .tour-solicitud {
+      background: #fff;
+      color: black;
+      height: 40vh;
+      min-width: 30vh;
+      border-radius: 15px;
+      margin-right: 10rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .tour-solicitud input,
+  select {
+      color: rgba(132, 132, 132);
+      margin: 5px 10px;
+      padding: 8px 12px;
+      width: 85%;
+      border-color: rgba(220, 216, 216, 0.706);
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 18px;
+  }
+
+  .tour-solicitud select {
+      margin-left: -2px;
+      width: 90%;
+  }
+
+  .tour-solicitud #celular {
+      display: none;
+  }
+
+  .tour-solicitud button {
+      margin-top: 20px;
+      background: #F34F36;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      height: 35px;
+      width: 120px;
+  }
+
+  .tour-solicitud h2 {
+      text-align: center;
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+  }
+
+  .info-fund {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .info-landing {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+  }
+
+  .landingpage {
+      display: flex;
+      flex-direction: column;
+      margin-top: 9rem;
+
+  }
+
+  .info-land img {
+      height: 310px;
+      margin-left: 4rem;
+  }
+
+  .landingpage span {
+      color: rgb(72, 117, 136);
+  }
+
+  .landingpage p {
+      max-width: 400px;
+  }
+
+  .info-landing h2 {
+      color: rgb(72, 117, 136);
+      font-size: 18px;
+  }
+
+  .info-land {
+      margin-top: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .info-landing h3 {
+      font-size: 15px;
+      color: rgb(135, 136, 136);
+  }
+
+  .in {
+      width: 400px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+  }
+
+  .otto {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .otto img {
+      height: 70px;
+  }
+
+  .otto a {
+      text-decoration: none;
+  }
+
+  .otto :hover {
+      color: #F34F36;
+  }
+
+  /*seccion3*/
+  .container-pages {
+      margin-top: 3rem;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 15px;
+
+  }
+
+  .container-pages .cont-allpage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 15px;
+      margin: 3rem;
+  }
+
+  .container-pages .espectativas p {
+      font-size: 27px;
+  }
+
+  .espectativas span {
+      color: #396688;
+  }
+
+  .espectativas img {
+      width: 468px;
+      height: 475px;
+  }
+
+  .list .elements li {
+      list-style-type: none;
+      background-image: url('../img/Vector_check.png');
+      background-size: 25px 25px;
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      margin-top: 1.5rem;
+
+  }
+
+  .elements span {
+      font-size: 17px;
+      color: #396688;
+  }
+
+  .elements p {
+      font-size: 13px;
+      color: #2A4C62;
+  }
+
+  /*seccion4 info los expertos*/
+
+  .container-expertos {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+
+  }
+
+  .container-expertos .expert {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .expert img {
+      width: 180px;
+      height: 175px;
+      margin-right: 2.5rem;
+  }
+
+  .expert .text {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .expert .text .tit {
+      font-size: 35px;
+  }
+
+  .text .ar {
+      font-size: 30px;
+      color: #396688;
+  }
+
+  .text p {
+      max-width: 450px;
+  }
+
+  .sec-inf,
+  .inf-gen {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .sec-inf .inf,
+  .inf-gen .inf {
+      display: flex;
+      align-items: center;
+      margin-left: 4rem;
+      margin-top: 3rem;
+  }
+
+  .sec-inf .inf,
+  .inf-gen .inf p {
+      max-width: 320px;
+      max-height: 87px;
+      font-size: 17px;
+  }
+
+  .sec-inf .inf img,
+  .inf-gen .inf img {
+      margin-right: 30px;
+      width: 100px;
+      height: 100px;
+  }
+
+  /*seccion crm*/
+  .info-crm {
+      background: linear-gradient(to top,
+              #396688,
+              #2A4C62);
+      background-size: cover;
+      margin-left: -10px;
+      margin-right: -10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .info-crm .container-elem {
+      margin-top: 3rem;
+      text-align: center;
+  }
+
+  .container-elem .title {
+      color: #fff;
+      font-size: 35px;
+  }
+
+  .container-elem .sub-title {
+      color: #b9e6e9;
+      font-size: 36px;
+  }
+
+  .info-crm .crm {
+      /* text-align: center; */
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      flex-direction: column;
+      width: 600px;
+  }
+
+
+  .crm li {
+      margin: 0 2px 4px 4px;
+  }
+
+  .info-crm .crm img {
+      width: 793px;
+      height: 550px;
+  }
+
+  .crm button {
+      margin-top: 20px;
+      background: #F34F36;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      height: 35px;
+      width: 120px;
+      margin-bottom: 3rem;
+  }
+
+  .puntuacion {
+      margin-top: -15px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .puntuacion img {
+      width: 300px;
+      height: 150px;
+  }
+
+  .puntuacion .container-punt {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+  }
+
+  .container-punt p {
+      font-size: 35px;
+  }
+
+  .container-punt span {
+      color: #396688;
+  }
+
+  .inff {
+      font-size: 30px;
+      color: #fff;
+  }
+
+  .inff span {
+      color: #b9e6e9;
+  }
+
+  .inff img {
+      width: 513px;
+      height: 350px;
+  }
+
+  .columa .contacto {
+      margin-top: 50px;
+  }
+
+  .login2 {
+    background: linear-gradient(to top,
+            #396688,
+            #2A4C62);
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login2 img {
+    height: 400px;
+
+}
+
+.login2 .info {
+    width: 490px;
+    margin-left: 7rem;
+}
+
+.login2 .tour-solicitud {
+    background: #fff;
+    color: black;
+    height: 40vh;
+    min-width: 30vh;
+    border-radius: 15px;
+    margin-right: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tour-solicitud #celular {
+    display: none;
+}
+
+  footer {
+      background-color: #252a2e;
+      color: #fff;
+      padding: 1px 0 20px 0;
+      text-align: center;
+      position: relative;
+      margin-left: -10px;
+      margin-right: -10px;
+      margin-bottom: -10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .columa .contacto a {
+      color: #fff;
+      display: inline-block;
+      text-decoration: none;
+      border: 1px solid #fff;
+      border-radius: 100%;
+      width: 42px;
+      height: 42px;
+      line-height: 42px;
+      margin: 40px 5px;
+      font-size: 20px;
+      transition: 1s;
+  }
+
+  .columa .contacto a:hover {
+      background: #F34F36;
+  }
+
+  .colums{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+  }
+
+  .columa {
+    margin-top: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .columa img {
+      width: 200px;
+  }
+
+  .columb a,
+  .columc a {
+      color: #fff;
+      text-decoration: none;
+  }
+
+  .columb a:hover,
+  .columc a:hover {
+      color: #F34F36;
+  }
+
+  .columb ul,
+  .columc ul {
+      list-style-type: none;
+  }
+
+  .columb li,
+  .columc li {
+
+      padding: 8px 12px;
+  }
+
+  .columc img {
+      width: 200px;
+  }
+
+  .columb {
+      width: 900px;
+      border-right: solid #fff;
+  }
+
+  /*responsive*/
+@media screen and (max-width:990px){
+    header{
+        justify-content: center;
+    }
+    header img {
+        margin-left: 0.5rem;
+        margin-right: 6rem;
+    }
+    .login{
+        height: 100vh;
+        flex-direction: column;
+    }
+    .login img{
+        width: 300px;
+        height: 300px;
+    }
+    .login .info{
+        width: 400px;
+    }
+    .login .tour-solicitud{
+        height: 38vh;
+        width: 20vh;
+        margin-left: 15rem;
+    }
+    .info-land{
+        flex-direction: column;
+    }
+   .cont-allpage{
+    flex-direction: column;
+   }
+    
+   .container-expertos .expert{
+    flex-direction: column;
+   }
+
+   .container-expertos .sec-inf{
+    flex-direction: column;
+   }
+   .container-expertos .inf-gen{
+    flex-direction: column;
+   }
+   .info-crm .container-elem {
+    width: 600px;
+   }
+   .info-crm .crm img {
+    width: 493px;
+    height: 350px;
+}
+.container-punt p{
+    width: 400px;
+}
+.container-punt .img-calif{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.resp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+.resp .inff{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+}
+footer{
+    flex-direction: column;
+}
+.columa{
+    width: 400px;
+}
+.columj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.columb{
+    width: 220px;
+}
+}
+
+@media screen and (max-width:770px){
+    header img{
+        width: 100px;
+    }
+    header #demo {
+        height: 19px;
+      width: 100px;
+      font-size: 10px;
+    }
+    .login{
+        height: 75vh;
+    }
+    .login .info{
+        width: 150px;
+        font-size: 10px;
+    }
+    .login img{
+        width: 200px;
+        height: 200px;
+    }
+    .login .tour-solicitud{
+        height: 29vh;
+        min-width: 50px;
+        margin-left: 15rem;
+        font-size: 10px;
+    }
+    .login .tour-solicitud input, select{
+        font-size: 10px
+    }
+    .tour-solicitud button{
+        height: 19px;
+        width: 100px;
+        font-size: 10px
+    }
+    .info-land .landingpage{
+        margin-top: -2rem;
+        width: 200px;
+    }
+    .landingpage, .in h2, .in h3{
+        font-size: 10px;
+    }
+    .landingpage .in img{
+        width: 40px;
+        height: 40px;
+    }
+    .in .otto{
+        width: 180px;
+    }
+    .info-land img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .cont-allpage .espectativas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cont-allpage .espectativas p{
+        font-size: 10px;
+    }
+    .cont-allpage .espectativas img{
+        width: 350px;
+        height: 350px;
+    }
+    .list .items p, .items span{
+        font-size: 10px
+    }
+    .list .elements li {
+        background-size: 20px 20px;
+        padding-left: 25px;
+        margin-top: 1rem;
+    }
+    .expert img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .expert{
+        width: 350px;
+    }
+    .expert .text{
+        width: 250px;
+    }
+    .expert .text p, .expert .text span{
+        font-size: 10px;
+    }
+    .expert .text .tit{
+        font-size: 15px;
+    }
+    .sec-inf .inf p, .inf-gen .inf p{
+        font-size: 10px;
+    }
+    .sec-inf .inf, .inf-gen .inf{
+        width: 300px;
+    }
+    .sec-inf .inf img, .inf-gen .inf img{
+        width: 70px;
+        height: 70px;
+    }
+    .container-elem .title, .container-elem .sub-title{
+        font-size: 15px;
+    }
+    .info-crm .crm{
+        width: 350px;
+    }
+    .info-crm .crm img{
+        width: 200px;
+        height: 200px;
+
+    }
+    .crm p, ul li{
+        font-size: 10px;
+    }
+    .info-crm .crm button{
+        height: 20px;
+        width: 90px;
+        font-size: 10px;
+    }
+    .puntuacion .container-punt p{
+        font-size: 12px;
+    }
+    .puntuacion .container-punt .img-calif img{
+        width: 150px;
+    }
+    .resp{
+        height: 100vh;
+    }
+    .resp .inff p{
+        font-size: 12px;
+    }
+
+    .resp .inff img{
+        width: 150px;
+        height: 150px;
+    }
+    .columa{
+        width: 300px;
+    }
+    .columa img{
+        width: 150px;
+    }
+    .columa p, .columa h3{
+        font-size: 12px;
+    }
+    .columa .contacto a {
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        margin: 20px 2px;
+        font-size: 10px;
+    }
+}

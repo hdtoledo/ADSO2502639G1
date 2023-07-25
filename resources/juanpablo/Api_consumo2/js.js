@@ -9,6 +9,8 @@ try{
     result.innerHTML = `<h2 class= "loading">Cargando resultados...</h2>`;
     let fetchUrl = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`;
     let data = await fetch(fetchUrl).then((res) => res.json())
+
+    console.log(data)
     
 
 
