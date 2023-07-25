@@ -1,0 +1,12 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 77, 77);
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}

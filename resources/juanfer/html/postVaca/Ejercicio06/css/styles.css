@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(194, 187, 187);
+    background-image: url('../img/img_01.jpg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    transition: all 1s;
+}
+main{
+    width: 1000px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px antiquewhite;
+    background-image: url('../img/img_01.jpg');
+    transition: all 1s;
+}

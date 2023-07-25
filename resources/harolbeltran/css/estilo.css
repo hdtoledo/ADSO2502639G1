@@ -106,7 +106,7 @@ html {
     color: rgb(255, 255, 255);
     display: inline-block;
     text-decoration: none;
-    border: 1px solid rgb(180, 178, 178);
+    border: 1px solid rgb(229, 229, 229);
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -117,7 +117,7 @@ html {
 }
 
 .inicio .container-banner .redes a:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(29, 105, 92);
 }
 
 

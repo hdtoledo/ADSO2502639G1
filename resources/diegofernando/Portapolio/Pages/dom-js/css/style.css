@@ -10,9 +10,16 @@ body {
     justify-content: center;
     align-items: center;
     overflow-y: hidden;
-    background-color: rgb(78, 78, 78);
-    background-image: linear-gradient(to bottom,
-    rgb(175, 175, 175), rgb(0, 0, 0));
+}
+
+video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
 }
 
 /* Etiqueta producto */
@@ -40,6 +47,7 @@ font-weight: 700;
     grid-template-rows: 55% 45%;
     height: 80%;
     width: 30%;
+    background-color: #8f8f8f85;
     /* box-shadow: 1px 1px 10px 15px #ffffff; */
     overflow: hidden;
 }
@@ -56,11 +64,12 @@ font-weight: 700;
 }
 
 .product-description {
-    background-color: #d3d3d3;
-    color: #000000;
+    background-color: #0000003f;
+    color: #ffffff;
     padding-left: 20px;
     margin-top: -67px;
     width: 100%;
+    backdrop-filter: blur(5px);
 }
 
 .product-details {

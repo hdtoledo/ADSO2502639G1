@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --primary-color: #0a75f0;
+    --panel-color: #f5f5f5;
+    --text-color: #000;
+    --black-light-color: #070707;
+    --border-color: #e6e5e5:
+    --toggle-color: #aca6a6;
+    --box1-color: #4DA3FF;
+    --box2-color: #ffe6ac;
+    --box3-color: #e7d1fc;
+    --title-icon-color: #fff;
+    --tran-05: all 0.5s ease;
+    --tran-03: all 0.3s ease;
+    --tran-03: all 0.2s ease;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--primary-color);
+}
+
+body.dark{
+    --primary-color: #3a3b3c;
+    --panel-color: #242526;
+    --text-color: #ccc;
+    --black-light-color: #ccc;
+    --border-color: #4d4c4c;
+    --toggle-color: #fff;
+    --box1-color: #3a3b3c;
+    --box2-color: #3a3b3c;
+    --box3-color: #3a3b3c;
+    --title-icon-color: #ccc
+}
+
+::-wekit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+

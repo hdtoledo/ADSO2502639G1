@@ -1,0 +1,22 @@
+body {
+    background-color: beige;
+}
+
+.gallery {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+
+
