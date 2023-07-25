@@ -13,11 +13,12 @@ body{
     border: 10px solid white;
     background-image: url(./img/1.jpg);
     background-size: cover;
-    height: 50rem;
-    width: 1500px;
+    height: 40rem;
+    width: 1000px;
     border-radius: 2rem;
     background-position: center;
     animation: fade 10s infinite;
+    object-fit: cover;
 }
 
 @keyframes fade {
