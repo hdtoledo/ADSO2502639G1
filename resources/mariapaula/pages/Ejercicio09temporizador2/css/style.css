@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Chela+One&display=swap');
+
+*{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Chela One', cursive;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(to left, red, yellow);
+  }
+  
+  .container2{
+    padding-top: 200px;
+    padding-left: 70px;
+  }
+  .container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 8px 15px 7px rgba(19, 8, 31, 0.2);
+    border: 1px solid #cccccc;
+    padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
