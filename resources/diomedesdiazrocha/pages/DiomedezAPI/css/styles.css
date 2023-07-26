@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: rgb(196, 196, 136);
+}
+main{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+main h2, span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+main #containImg{
+    width: 600px;
+    height: 500px;
+    background-color: antiquewhite;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(72, 67, 67);
+}
+main button{
+    outline: none;
+    font-size: 1.5em;
+    width: fit-content;
+    background: orangered;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

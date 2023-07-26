@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+
+    <form onsubmit="return validarFormulario()" >
+    <div class="Formulario">
+                <h1>Nuevo Usuario</h1>
+            <input type="text" placeholder="Nombres" id="nombres" required/>
+            <input type="text" placeholder="Apellidos" required/>
+            <input type="text" placeholder="Correo electrónico" required />
+            <input type="text" placeholder="Dirección" id="direccion" />
+            <input type="password" placeholder="Crear Contraseña" required />
+            <input type="text" placeholder="Telefono" required id="telefono"/>
+            <input type="submit" value="Enviar">
+        </form> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

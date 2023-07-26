@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(./wall.jpg);
+    background-position: center;
+    background-size: contain;
+    overflow-x: hidden;
+  }
+
+  img{
+    margin-bottom: 30px;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+  }
+  
+  /* Media Queries para diseño responsivo */
+  @media (max-width: 768px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+
+    footer{
+      position: relative;
+    bottom: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 824px){
+    img{
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 526px){
+    img{
+      width: 250px;
+      margin-bottom: 20px;
+    }
+  }
+  

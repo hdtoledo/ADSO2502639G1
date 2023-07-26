@@ -1,0 +1,12 @@
+body{
+    background: black;
+    color: antiquewhite;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 50px;
+}

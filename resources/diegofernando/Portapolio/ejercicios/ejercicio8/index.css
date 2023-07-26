@@ -1,0 +1,25 @@
+body{
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+    transform: translate(0vh, 
+    40vh);
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+input{
+    width: 30rem;
+    font-size: 30px;
+    height: 35px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+
+p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}

@@ -69,6 +69,8 @@ html{
     color: #fff;
     display: flex;
     align-items: center;
+    padding-top: 7em;
+    padding-bottom: 39em;
 }
 .inicio .container-banner{
     padding: 20px;
