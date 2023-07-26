@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .demo-btn {
+    background-color: #F34F36;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-container {
+    margin-top: 90px;
+    width: 250px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    float: right;
+    background: #e5e4e4;
+    
+   
+
+ 
+  }
+  
+  .login-container h2 {
+    text-align: center;
+  }
+  
+  .login-container input,
+  .login-container select,
+  .login-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    align-content:last baseline;
+  }
+  
+  #tour-btn {
+    background-color: #F34F36;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

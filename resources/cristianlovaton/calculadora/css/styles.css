@@ -1,21 +1,83 @@
-#appBg {
-    height: 420px;
-    width: 300px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-#appBg form {
-    height: 100%;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-}
-
-#appBg input[type=textfield] {
-    height: 100%;
-    width: 100%;
-    cursor: default;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb;
-
-}
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+   }
+   
+   body {
+       height: 100vh;
+       padding: 5;
+       margin: 10px;;
+       background: linear-gradient(
+         to top,
+         rgba(0, 0, 0, 0.646),
+         rgb(0, 0, 0) 
+         ),
+         url(../img/pexels-brett-sayles-3653997.jpg) no-repeat center center;
+       background-size: cover;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+   
+   .container{
+       background: rgba(260, 260, 260, 2);
+       height:50vh;
+       max-width: 1000px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 40px;
+       box-shadow: 4px 4px 30px hsla(136, 100%, 22%, 0.75);
+   }
+   
+   
+   .calculator-grid {
+       display: grid;
+       justify-content: center;
+       align-content: center;
+       min-height: 100vh;
+       grid-template-columns: repeat(4, 100px);
+       grid-template-rows: minmax(100px, auto) repeat(5, 100px);
+   }
+   
+   
+   .calculator-grid >button {
+       cursor: pointer;
+       font-size: 1.5rem;
+       border: 6px solid rgb(6, 99, 19);
+       outline: none;
+       background-color: rgba(7, 234, 60, 0.75);
+       border-radius: 75px;
+       margin: 5px;
+   
+   }
+   .calculator-grid >button:active{
+       background: #025302;
+   } 
+   
+   .span-two{
+       grid-column: span 2;
+   }
+   .output {
+       grid-column: 1 / -1;
+       background-color: rgba(0, 0, 0, 0.75);
+       display: flex;
+       align-items: flex-end;
+       justify-content: space-around;
+       flex-direction: column;
+       word-wrap: break-word;
+       word-break: break-word;
+       word-break: break-all;
+       border-radius: 25px;
+   }
+   .output .previus-operand{
+       color: #4ff4ee;
+       font-size: 1.5rem;
+   }
+   
+   .output .current-operand {
+       color: #34dbe0;
+       font-size: 2.5rem;
+   }
