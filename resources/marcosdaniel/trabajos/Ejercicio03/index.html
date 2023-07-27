@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temporizador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #timer {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Temporizador en una página web </h1>
+    <div id="timer">Tiempo transcurrido: 0 segundos</div>
+    <button onclick="startTimer()">Iniciar</button>
+    <button onclick="stopTimer()">Detener</button>
+
+    <script>
+        let startTime;
+        let intervalId;
+
+        function startTimer() {
+            startTime = Date.now();
+            intervalId = setInterval(updateTimer, 1000); // Actualizar cada segundo (1000 ms)
+        }
+
+        function stopTimer() {
+            clearInterval(intervalId);
+        }
+
+        function updateTimer() {
+            const currentTime = Date.now();
+            const elapsedTime = Math.floor((currentTime - startTime) / 1000); // Convertir a segundos
+            document.getElementById('timer').textContent = `Tiempo transcurrido: ${elapsedTime} segundos`;
+        }
+    </script>
+</body>
+</html>

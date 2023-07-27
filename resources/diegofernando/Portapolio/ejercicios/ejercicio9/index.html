@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" href="index.css">
+<html lang="en">
 <head>
-    <title>Cuenta regresiva</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Temporizador</title>
 </head>
 <body>
-    <h1>Temporizador de cuenta regresiva</h1>
-    <p id="countdown"></p>
-
-    <script src="./index.js">
-    </script>
+    <main>
+        <div class="inputs">
+            <input type="date" name="data" id="date">
+            <input type="text" placeholder="hh:mm:ss" value="12:00:00" id="time">
+            <span id="btn-submit">Cuenta Regresiva</span>
+        </div>
+        <div id="temporizador">
+            
+        </div>
+    </main>
 </body>
+<script src="./index.js"></script>
 </html>

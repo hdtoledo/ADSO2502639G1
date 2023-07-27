@@ -1,41 +1,46 @@
-<html>
-    <head>
-        <title>Calculadora</title>
-        
-        <link rel="stylesheet" href="./css/styles.css">
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="preconnect" href="html://fonts.gstatic.com">
-        <link href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;1,100" rel="stylesheet">
-    </head>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/javascript" defer></script>
+</head>
+
 <body>
 
-    <div id="appBg">
-        <form name="Calculator">
-            <input type="Textfield" name="ans" value=""autocomplete="off" readonly >
 
-            <input type="button" value="7" onclick="document.calculator.ans.value+='7'"> 
-            <input type="button" value="8" onclick="document.calculator.ans.value+='8'"> 
-            <input type="button" value="9" onclick="document.calculator.ans.value+='9'"> 
-            <input type="button" value="+" onclick="document.calculator.ans.value+='+'"> 
-            <br>
-            <input type="button" value="4" onclick="document.calculator.ans.value+='4'"> 
-            <input type="button" value="5" onclick="document.calculator.ans.value+='5'"> 
-            <input type="button" value="6" onclick="document.calculator.ans.value+='6'"> 
-            <input type="button" value="-" onclick="document.calculator.ans.value+='-'"> 
-            <br>
-            <input type="button" value="1" onclick="document.calculator.ans.value+='1'"> 
-            <input type="button" value="2" onclick="document.calculator.ans.value+='2'"> 
-            <input type="button" value="3" onclick="document.calculator.ans.value+='3'"> 
-            <input type="button" value="X" onclick="document.calculator.ans.value+='*'"> 
-            <br>
-            <input type="button" value="0" onclick="document.calculator.ans.value+='0'"> 
-            <input type="reset" value="C">
-            <input type="button" value="=" onclick="document.calculator.ans.value+='7'">            
-            <input type="button" value="/" onclick="document.calculator.ans.value+='7'">
+    <div class="container">
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-previous-operand class="previus-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            <button data-all-clear class="span-two">Limpiar</button>
+            <button data-delete>Borrar</button>
+            <button data-operation>÷</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>-</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-equals class="span-two">=</button>
+        </div>
+    </div>
 
-        
-        </form>
-    </div>
-    </div>
 </body>
+
+</html>

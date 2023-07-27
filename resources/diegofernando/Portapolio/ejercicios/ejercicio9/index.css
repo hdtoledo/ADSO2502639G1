@@ -1,12 +1,56 @@
 body{
-    display: grid;
+    background-color: rgb(95, 95, 95);
+    margin: 0;
+    padding: 0;
+    background-image: url('../fondo.jpg');
+    background-size: cover;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(77, 77, 77);
     color: aliceblue;
-    font-weight: 800;
-    font-size: 20px;
-    margin: 100px;
+}
+main .inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3em;
+    padding: 1em 2.4em;
+    background: rgba(0, 0, 0, 0.452);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+main .inputs input{
+    background: none;
+    outline: none;
+    border: none;
     text-align: center;
-    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    color: aliceblue;
+}
+
+main span{
+    cursor: pointer;
+    background: rgb(22, 22, 22);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: .5em 2em;
+    border: 3px solid rgb(26, 25, 25);
+    border-radius: 20px;
+}
+
+#temporizador {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 0 0 7px black;
 }

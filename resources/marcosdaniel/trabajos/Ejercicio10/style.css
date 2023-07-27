@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .game-container {
+    width: 600px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .memory-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card.flipped {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .card {
+    /* ... Otros estilos ... */
+    transition: background-color 0.3s ease, transform 0.6s;
+  }
+  
+  .card.rotate {
+    animation-name: rotateCard;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes rotateCard {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(180deg);
+    }
+  }
+  
+  

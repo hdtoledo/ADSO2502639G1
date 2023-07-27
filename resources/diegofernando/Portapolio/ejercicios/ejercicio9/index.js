@@ -1,20 +1,32 @@
-var targetDate = new Date("2023-12-31T23:59:59").getTime();
+const date = document.getElementById('date')
+const time = document.getElementById('time')
 
-        var countdown = setInterval(function () {
-            var now = new Date().getTime();
+const submit = document.getElementById('btn-submit')
 
-            var timeRemaining = targetDate - now;
+const intervalCount = () => {
+    if(time.textContent == ''){
+        time.value = '12:00:00'
+    }
+    let intervalHtml = setInterval(() => {
+        const fechaObjetivo = new Date(`${date.value}T${time.value}`)
+        const ahora = new Date().getTime()
+        const tiempoRestante = fechaObjetivo - ahora
 
-            var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+        if (tiempoRestante <= 0) {
+            clearInterval(intervalHtml);
+            document.getElementById("temporizador").innerHTML = "¡Tiempo terminado!";
+        } else {
+            const dias = Math.floor(tiempoRestante / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((tiempoRestante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutos = Math.floor((tiempoRestante % (1000 * 60 * 60)) / (1000 * 60));
+            const segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
 
-            var countdownElement = document.getElementById("countdown");
-            countdownElement.innerHTML = "Tiempo restante: " + days + " días, " + hours + " horas, " + minutes + " minutos, " + seconds + " segundos.";
+            document.getElementById("temporizador").innerHTML = `
+            <p>Tiempo restante:</p>
+            <p>${dias} días, ${horas} horas, ${minutos} minutos, ${segundos} segundos</p>
+        `;
+        }
+    }, 1000)
+}
 
-            if (timeRemaining < 0) {
-                clearInterval(countdown);
-                countdownElement.innerHTML = "¡Tiempo terminado!";
-            }
-        }, 1000);
+submit.addEventListener('click', intervalCount)
