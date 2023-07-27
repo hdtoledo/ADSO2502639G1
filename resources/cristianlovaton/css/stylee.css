@@ -63,7 +63,7 @@ html{
 }
 /*Section Inicio */
 .inicio{
-   background: linear-gradient(to top,rgba(0, 242, 255, 0.8),rgb(9, 169, 255)),url(/img/fono.jpeg) no-repeat center center;
+   background: linear-gradient(to top,rgba(0, 0, 0, 0.8),rgb(2, 79, 7)),url(../imagenes/linkin.jpeg) no-repeat center center;
    background-size:  cover;
    height: 100vh;
    color: #fff;
@@ -523,13 +523,16 @@ html{
 }
 /* Section Contacto */
 .contacto{
-    background-image: url(../img/ubicacion.jpg);
+    background-image: url(../img/mapa\ europa.jpeg);
     background-color: #1e2326;
     color: #fff;
-    padding: 50px 0;
+    padding: 20px 0;
+    display: flex;
+    content: 50px;
+
 }
 .contacto .container-section{
-    max-width: 1100px;
+    max-width: 1600px;
     margin: auto;
 }
 .contacto h2{

@@ -96,6 +96,7 @@ html{
 /*Section Inicio*/
 
 .inicio{
+    padding-top: 80px;
     background: linear-gradient(to top, rgba(32, 30, 38, 0.63), rgba(31, 30, 38, 0.647)), url("../img/fondo.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;

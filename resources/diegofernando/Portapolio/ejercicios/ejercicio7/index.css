@@ -4,7 +4,6 @@ body{
   background: rgb(0, 0, 0);
   width: 100vw;
   height: 100vh;
-  background-image: url('../img/fondo.jpg');
   background-size: cover;
   background-position: center;
   overflow-y: hidden;

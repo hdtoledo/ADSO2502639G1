@@ -1,0 +1,102 @@
+/* Estilos base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  html{
+    background-color: #333;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .hero {
+    background-image: url("img/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .products img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+  text-align: center ;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    header {
+      text-align: center;
+    }
+  
+    nav {
+      text-align: center;
+    }
+  
+    main {
+      padding: 20px 10px;
+    }
+  
+    .hero {
+      height: 250px;
+      font-size: 1.2em;
+    }
+  
+    .products {
+      grid-template-columns: 1fr;
+    }
+  }
+  
