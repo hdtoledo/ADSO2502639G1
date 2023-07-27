@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(92, 90, 90);
+    margin: 0;
+    padding: 0;
+    background-image: url('../fondo.jpg');
+    background-size: cover;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3em;
+    padding: 1em 2.4em;
+    background: rgba(199, 216, 216, 0.452);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+main .inputs input{
+    background: none;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+main span{
+    cursor: pointer;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: .5em 2em;
+    border: 3px solid rgb(26, 25, 25);
+    border-radius: 20px;
+}
+
+#temporizador {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 0 0 7px black;
+}

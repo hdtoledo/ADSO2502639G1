@@ -1,0 +1,45 @@
+body{
+    background-color: darkgray;
+}
+
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider{
+    border: 10px solid white;
+    background-image: url(./img/1.jpg);
+    background-size: cover;
+    height: 40rem;
+    width: 1000px;
+    border-radius: 2rem;
+    background-position: center;
+    animation: fade 10s infinite;
+    object-fit: cover;
+}
+
+@keyframes fade {
+    20%{
+        background-image: url(./img/5.jpg);
+        background-size: cover;
+    }
+    40%{
+        background-image: url(./img/4.jpg);
+        background-size: cover;
+    }
+    60%{
+        background-image: url(./img/3.jpg);
+        background-size: cover;
+    }
+    80%{
+        background-image: url(./img/2.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./img/1.jpg);
+        background-size: cover;
+    }
+}

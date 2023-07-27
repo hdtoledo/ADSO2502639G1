@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form{
+    width: 400px;
+    height: 450px;
+    background: rgba(55, 58, 58, 0.644);
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgb(224, 219, 212);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form label {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2em;
+    position: relative;
+    top: -80px;
+}
+
+form h2{
+    margin: 0;
+    width: fit-content;
+    padding: .2em .32em;
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 7em;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+    background-color: gray;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form label span{
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(29, 29, 29);
+}
+
+form label input{
+    background: none;
+    border: none;
+    outline: none;
+    background: rgba(82, 80, 80, 0.767);
+    font-size: 1.7em;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 3px aliceblue;
+}
+form label button{
+    border: none;
+    background: none;
+    color: white;
+    text-transform: capitalize;
+    background: antiquewhite;
+    color: rgb(44, 42, 42);
+    font-size: 1.4em;
+    padding: .3em 2em;
+    border-radius: 15px;
+    transition: all .5s;
+    cursor: pointer;
+}
+form label button:hover{
+    background: rgb(44, 42, 42);
+    color: antiquewhite;
+    box-shadow: 0 0 10px white;
+}
+.alert{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    background: rgba(40, 40, 49, 0.74);
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.alert span{
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(233, 76, 76);
+}
+.alert button{
+    border: none;
+    background: none;
+    color: white;
+    text-transform: capitalize;
+    background: antiquewhite;
+    color: rgb(44, 42, 42);
+    font-size: 1.4em;
+    padding: .3em 2em;
+    border-radius: 15px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.alert button:hover{
+    background: rgb(44, 42, 42);
+    color: antiquewhite;
+    box-shadow: 0 0 10px white;
+}
