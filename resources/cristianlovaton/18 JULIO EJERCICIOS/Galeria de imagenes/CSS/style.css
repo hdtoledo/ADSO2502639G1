@@ -1,0 +1,48 @@
+body {
+    background-color: #352306; /* Azul claro */
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #4169e1; /* Azul real */
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8ccdd4; /* Blanco */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000080; /* Azul marino */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #808080; /* Gris */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4169e1; /* Azul real */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #000080; /* Azul marino */
+}
