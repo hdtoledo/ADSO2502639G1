@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(199, 47, 250);
+}
+
+.container-header {
+    width: 590px;
+    min-height: 320px;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 15px 7px rgba(19, 8, 31, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    color: rgb(108, 21, 189);
+    font-size: 40px;
+    text-shadow: 1px 1px black;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .form  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.form  input{
+    padding: 5px;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgb(233, 211, 253);
+    border-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    box-shadow: 1.5px 1.5px 1px rgb(32, 18, 11);
+    
+}
+.form  input:focus{
+    border: 2px solid rgb(199, 47, 250);
+}
+h3{
+    color: rgb(88, 88, 88);
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+i{
+    z-index: 1;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+.data-wrapper{
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+h2 {
+    font-size: 20px;
+    color: rgb(108, 21, 189);
+    font-weight: bold;
+    padding-top: 20px;
+}
+h4{
+    padding-right: 300px;
+    font-weight: bold;
+    color: rgb(108, 21, 189);
+}
+
+span {
+    color: #5d6274;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(142, 47, 250);
+}
+
+.volumen i{
+    background-color: transparent;
+    color: rgb(108, 21, 189);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 419px;
+}
+
+#sound i{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: rgb(199, 47, 250);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 450px;
+
+}
+

@@ -1,0 +1,103 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+ *{
+    font-family: 'Shadows Into Light',serif;
+    margin: 0px;
+    padding: 0px;
+ }
+
+body{
+    background: white;
+}
+.mimy{
+    padding: 100px;
+    margin: 50px;
+   border-radius: 30px;
+  border: 2px solid;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+h1{
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ 
+p{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contenedor-elemento img{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 50px;
+
+}
+
+.contenedor-elemento{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.usuarios {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.container-element{
+    margin-top: 30px;
+    border-radius: 30px;
+  border: 3px solid;
+}
+.color h1{
+    color:coral;
+}
+.puntuaciones{
+    
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+}
+.puntuaciones{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+}
+
+.contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor1 h2{
+    color: red;
+}
+.color{
+    background-color:rgb(24, 156, 227);
+    border-radius: 30px;
+}

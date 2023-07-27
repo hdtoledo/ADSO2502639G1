@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 155px;
+    width: 120px;
+    position: relative;
+}
+
+.numero{
+    height: 100%;
+    width: 100%;
+    font-size: 20rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* background-color: aliceblue; */
+    color: rgb(0, 0, 0);
+    position: absolute;
+    mix-blend-mode: screen;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

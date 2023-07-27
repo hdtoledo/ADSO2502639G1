@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #40c5c9;
+  }
+  
+  .gallery {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .controls button {
+    border: none;
+    background-color: #253c54;
+    color: #000000;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Botones deshabilitados cuando no hay más imágenes en esa dirección */
+  .controls button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  

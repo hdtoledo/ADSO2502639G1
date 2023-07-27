@@ -27,13 +27,17 @@ p{
     text-align: center;
       
 }
-.contenedor{
-    width: 20px;
+div.contenedor img{
+    width: 300px;
     margin-right: 20px;
-    border-radius: 20px;
-    
-    
+    border-radius: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
+
 th {
     color :blackgit ;
     font-size: 20px;

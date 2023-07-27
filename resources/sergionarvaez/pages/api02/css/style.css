@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-image: url("/resources/sergionarvaez/pages/api02/img/desierto-del-namib_b01a8e02.jpg");
+}
+
+.container {
+    width:500px;
+    min-height: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 20px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.6);
+}
+
+.nombre {
+    font-size: 35px;
+    color: white;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.frase {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    opacity: 0;
+    text-shadow: 5px 5px 5px black;
+}
+
+.deslizar {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid white;
+    padding: 20px;
+    box-shadow: 5px 10px 20px black;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 2px black;
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+}
+
+button:active {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: none;
+}
+
+
+
+

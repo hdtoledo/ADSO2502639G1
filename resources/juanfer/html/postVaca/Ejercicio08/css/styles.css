@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(24, 23, 23);
+    background-image: url('../fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid salmon;
+    border-radius: 20px;
+    font-size: 2.8em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    transition: all 1.5s;
+}
+input:focus{
+    background-color: rgba(250, 235, 215, 0.596);
+    box-shadow: 0 10px 0 antiquewhite;
+    backdrop-filter: blur(7px);
+}
+input::placeholder{
+    text-shadow: 0 0 15px antiquewhite;
+}
+.count{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    font-size: 3em;
+    color: antiquewhite;
+    text-shadow: 0 0 10px antiquewhite;
+    margin: 0;
+}

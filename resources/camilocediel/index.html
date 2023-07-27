@@ -1,164 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css"
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portafolio</title>
 </head>
-
-
-</header>
-<h1>Curriculum</h1>
-<hr>
 <body>
-    <div class="container a">
-        <nav>
-            <ul>
-                <li><a href="#perfilProfesional">EXPERIENCIA </a></li>
-                <li><a href="#experiencia">Habilidades Y Conocimientos</a></li>
-                <li><a href="#historialEdu">educacion</a></li>
-                <li><a href="#expWork">Perfiles sociales</a></li>
-                <li><a href="#contacto">Contactar</a></li>
-            </ul>
-
-        </nav>
+    <div class="container-header">
+       <header>
+          <div class="logo">
+    <a href="#">CC</a>
     </div>
-        
-
-<div class="container perfil">
-<div id="perfil"></div>
-<header>
-    <div class=".logo">
-        <img src="./img/logo.jpg" alt="">
+    <nav id="nav" class="nav">
+        <ul>
+            <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+            <li><a href="#sobremi"onclick="seleccionar()">Sobre Mi</a></li>
+            <li><a href="#skills"onclick="seleccionar()">Skills</a></li>
+            <li><a href="#curriculum"onclick="seleccionar()">Curriculum</a></li>
+            <li><a href="#portfolio"onclick="seleccionar()">Portfolio</a></li>
+            <li><a href="#contacto"onclick="seleccionar()">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class=" fa-solid fa-bars"></i>
     </div>
-</header>
-    <div class="infoPersonal" id="infoPersonal">
-<h2>Camilo Cediel</h2>
-<div id="info">
-   <p> Me apasionan temas como: la analitica web, la obtimizacion web, los negocios en internet. tambien todo lo que tenga que ver con fronted que son las partes del diseño de un aplicativo movil o web, me gusta tambien la parte del backend que es todo lo interno de un aplicativo</p>
-<a1> " Pero creo que es mejor que me conozcas en </a1>
-    "<a href="https://www.youtube.com/watch?v=eOTY6fOTRTk" target="_blank">mi vídeo de presentación</a>
-</div>
-</div>
-</div>
-</div>
-    <p></p>
-    <div>
-        <hr>
-        <h2 id="experiencia">Experiencia profecional </h2>
-        <table id ="expertise">
-        <thead>
-            <tr1>
-                <th>Empresa / Organización</th>
-                <th>Cargo</th>
-                <th>Localización</th>
-                <th>Desde-hasta</th>
-            </tr1>
-            <thead>
-                <tbody>
-                    <tr>
-                        <td> E systems </td>
-                        <td> Desarrollador software </td>
-                        <td> Medellin </td>
-                        <td> Abril 2022 </td>
-                    </tr>
-                    <tr>
-                        <td> Buho agencia creativa</td>
-                        <td> Programador </td>
-                        <td> Medellin </td>
-                        <td> Marzo 2020 febrero 2022</td>
-                    </tr>
-                    <tr> 
-                        <td> Ingeneo </td>
-                        <td> Ingeniero en informatica </td>
-                        <td> Medellin </td>
-                        <td>septiembre 2017 agosto 2019</td>
-                    </tr>
-                    <tr>
-                        <td> Itsoftware</td>
-                        <td> Desarrollador software</td>
-                        <td> Bogota </td>
-                        <td> Enero 2015 octubre 2018</td>
-                    </tr>
-                    
-                </tbody>
-                <hr>
-            </table>
-            <hr>
-            <h2 id="habilidades">Habilidades y Conocimientos</h2>
-            <div id="contenido">
-            <li>
-                <strong>Desarrollo web:</strong>
-                HTML5, CSS3, JavaScript, PythonHTML5, PHP, MySQL, etc.
-            </li>
-            <LI>
-                <STrong>Marketing:</STrong>
-                Redes sociales, email marketing, etc.
-            </LI>
-            <li>
-                <strong>Aplicaciones Moviles:</strong>
-                Phonegap
-            </li>
-            <li>
-                <strong>Emprendimiento:</strong>
-                DeSof INC
-            </li>
-            </div>
-                <hr>
-                <h2 id="educacion">Educación</h2>
-                <table id="education">…
-                
-                    <tr>
-                        <th> Titulo</th>
-                        <th> Entidad</th>
-                        <th> Promocion</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td> Diseñador software</td>
-                        <td> Universidad los Andes </td>
-                        <td> 2017 </td>
-                    </tr>
-                    <tr>
-                        <th> Desarrollador web </th>
-                        <th> Universidad del rosario </th>
-                        <th>2014</th>
-                    </tr>
-                    <tr>
-                        <th> ingeniero de sistemas </th>
-                        <th> universidad del rosario</th>
-                        <th> 2010</th>
-                    </tr>
-                </tbody>
-            </table>
-            <hr>
-            <h2 id="perfiles-sociales">Perfiles sociales</h2>
-            <p1 class="inline">También puedes encontrarme en:</p1>
-            <ul class="inline">…</ul>
-            
+      </header>   
+    </div>
+<section id="inicio" class="inicio">
+    <div class="container-banner">
+        <div class="container-img">
+            <img src="./img/WhatsApp Image 2023-03-01 at 7.23.38 PM.jpeg" 
+        </div>
+        <h1>Camilo Cediel</h1>
         
-           
-                <a href="https://web.facebook.com/profile.php?id=100009572182021"><img class="icono" src="./img/facebook.png" alt=""></a>
-        
-                 
-                    <a href="https://www.instagram.com/camilo_cediel11/"><img class="icono1" src="./img/instagram (1).png" alt=""></a>
-            
-                
-            </ul>
-            <hr>
-            <div>
-            <h2> Contactar</h2>
-            <ul>
-                <li>(+57)3229156754</li>
-                <li>camilocediel54352@gmail.com</li>
-                <li>github.com/Cediel24  </li>
-            </ul>
-            </div>
+        <div class="redes">
+            <a href="https://web.facebook.com/profile.php?id=100009572182021"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/Cediel24/Portafolio"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/camilo_cediel11/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/camilo-cediel-361200275/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+</section>
+<section id="sobremi" class="sobremi">
+    <div class="container-section">
        
+
+<div class="fila">
+    <div class="col">
+        <h3>Datos personales</h3>
+        <ul>
+
+            <li><strong>Cumpleaños</strong>  04/04/2003</li>
+             <li><strong>Telefono</strong> +57 3229156754</li>
+            <li> <strong>Email</strong> camilocediel54352@gmail.com</li>
+            <li>  <strong>Website</strong> </li>
+            <li> <strong>Direccion</strong>Garzon, Huila, Colombia </li>
+            <li><strong>Cargo</strong> Aprendiz
+            </li>
+        </ul>
+    </div>
+    <div class="col">
+        <h3>Intereses</h3>
+        <div class="container-intereses">
+            <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>Juegos</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>Musica</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-film"></i>
+                <span>Peliculas</span>
+            </div>
+
+            <div class="interes">
+                <i class="fa-solid fa-laptop"></i>
+                <span>Tecnologia</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-futbol"></i>
+                <span>Deporte</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>Viajar</span>
+            </div>  
+         </div>
+     </div>     
+ </div>
+ <button>
+    Desargar CV <i class="fa-solid fa-download"></i>
+    <span class="overlay"></span>
+</button>
+</section>
+
+
+
+<section id="skills" class="skills ">
+    <div class="container-section ">
+        <h2>Skills</h2>
+        <div class="fila ">
+            <div class="col ">
+                <h3>Technical Skills</h3>
+                <div class="skill ">
+                    <span>Javascript</span>
+                    <div class="barra-skill ">
+                        <div class="progreso javascript ">
+    <span>75%</span>
+</div>
+</div>
+</div>
+<div class="skill">
+    <span>HTML & CSS</span>
+    <div class="barra-skill ">
+        <div class="progreso htmlcss ">
+            <span>89%</span>
+        </div>
+    </div>
+</div>
+<div class="skill ">
+    <span>Photoshop</span>
+    <div class="barra-skill ">
+        <div class="progreso photoshop ">
+            <span>90%</span>
+        </div>
+    </div>
+</div>
+<div class="skill ">
+    <span>Wordpress</span>
+    <div class="barra-skill ">
+        <div class="progreso wordpress ">
+            <span>80%</span>
+        </div>
+    </div>
+</div>
+<div class="skill ">
+    <span>React</span>
+    <div class="barra-skill ">
+        <div class="progreso react ">
+            <span>70%</span>
+        </div>
+    </div>
+</div>
+</div>
+
+    <div class="col">
+         <h3>Professional Skills</h3>
+          <div class="skill">
+             <span>Comunicacion</span>
+              <div class="barra-skill" >
+                            <div class="progreso comunicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso equipo">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyect">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ <section id="curriculum" class="curriculum">
+    <div class="container-section">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educacion</h3>
+                <div class="item izq">
+                    <h4>Arte y Multimedia</h4>
+                    <span class="casa">Universidad de Oxford</span>
+                    <span class="fecha">2010 - 2014</span>
+                    <div class="conectori">
+                        <div class="circuloi"></div>                       
+                    </div>
+                    
+                </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 -2014</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div> 
+                            
+              
+                    </div>
+                </div>
+           </div>
+
+    <div class="col derecha">
+        <h3>Experiencia de trabajo</h3>
+        <div class="item der">
+            <h4>Fronted Developer</h4>
+            <span class="casa">Nombre compañia</span>
+            <span class="fecha">2010 -2014</span>
+                <div class="circulod"></div>
+            </div>
+        </div>
+        <div class="item der">
+            <h4>Fronted Developer</h4>
+            <span class="casa">Nombre Compañia</span>
+            <span class="fecha">2010 - 2014</span>
+            <div class="circulod"></div>
+          </div>
+        </div>
+        <div class="item der">
+            <h4>Frontend Devoloper</h4>
+            <span class="casa">Nombre de Compañia</span>
+            <span class="fecha">2010 - 2014</span>
+            <div class="conectord">
+                <div class="circulod"></div>
+                </div>
+             </div>
+           </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+<section id="portfolio" class="portfolio">
+    <div class="container-section">
+           <h2>Portfolio</h2>
+              <div class="galeria">
+
+                <div class="proyecto">
+                    <a href="./trabajos/calculadora/" target="_blank">
+                    <img src="./img/938c49223e249c3ec22f9ac3188d9ee1.jpg" alt="" />
+                    <div class="overlay">
+                        <h3>Curriculum</h3>
+                        <p>Calculadora/p>
+                    </div>
+                </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="./trabajos/juego/juego/" target="_blank">
+                    <img src="./img/p2.jpg" alt="" />
+                    <div class="overlay">
+                        <h3>RepoPrueba</h3>
+                        <p>juego</p>
+                    </div>
+                </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="" target="_blank">
+                    <img src="./img/p3.jpg" alt="" />
+                    <div class="overlay">
+                        <h3>Javascript</h3>
+                        <p>ejercicios-javascript</p>
+                    </div>
+                </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="./trabajos/apichiste/" target="_blank">
+                    <img src="./img/p6.jpg" alt="" />
+                    <div class="overlay">
+                        <h3>Javascript</h3>
+                        <p>chiste</p>
+                    </div>
+                </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="./trabajos/cambio de color/" target="_blank">
+                    <img src="./img/p4.jpg" alt="" />
+                    <div class="overlay">
+                        <h3>cambio de color </h3>
+                        <p></p>
+                    </div>
+                </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="./trabajos/container/" target="_blank">
+                    <img src="./img/github.png" alt="" />
+                    <div class="overlay">
+                        <h3>container</h3>
+                        <p>Ejercicio 006</p>
+                    </div>
+                </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="./trabajos/mensaje/" target="_blank">
+                    <img src="./img/mensaje.png" alt="" />
+                    <div class="overlay">
+                        <h3>Mensaje</h3>
+                        <p>Ejercicio 007</p>
+                    </div>
+                </a>
+                </div>
+               
+            <div class="proyecto">
+                <a href="./trabajos/DOM/" target="_blank">
+                <img src="./img/carros.png" alt="" />
+                <div class="overlay">
+                    <h3>Dom</h3>
+                    <p>Ejercicio 010</p>
+                </div>
+            </a>
+            </div>
+
+            <div class="proyecto">
+                <a href="" target="_blank">
+                <img src="./img/pasapalabras.png" alt="" />
+                <div class="overlay">
+                    <h3>curriculum</h3>
+                    <p>Ejercicio 011</p>
+                </div>
+            </a>
+        </div>
             
+        <div class="proyecto">
+            <a href="./trabajos/carrusel/" target="_blank">
+            <img src="./img/images.jpeg" alt="" />
+            <div class="overlay">
+                <h3>Carrucel</h3>
+                <p>Ejercicio 012</p>
+            </div>
+        </a>
+           </div>
+           <div class="proyecto">
+            <a href="./trabajos/apichiste/" target="_blank">
+            <img src="./img/chistes.png" alt="" />
+            <div class="overlay">
+                <h3>Happy</h3>
+                <p>Ejercicio 013</p>
+            </div>
+        </a>
+           </div>
+           <div class="proyecto">
+            <a href="./trabajos/listadependientes/" target="_blank">
+            <img src="./img/chistes.png" alt="" />
+            <div class="overlay">
+                <h3>lista de pendientes</h3>
+                <p></p>
+            </div>
+        </a>
+    </a>
+</div>
+<div class="proyecto">
+ <a href="./trabajos/paises/" target="_blank">
+ <img src="./img/67446350-cartel-con-nombres-de-países-3d.webp" alt="" />
+ <div class="overlay">
+     <h3>paises</h3>
+     <p></p>
+ </div>
+</a>
+</a>
+</div>
+<div class="proyecto">
+ <a href="./trabajos/Juegopiedrapapeltijera/" target="_blank">
+ <img src="./img/png-transparent-rock-paper-scissors-scissors-stone-cloth-thumbnail.png" alt="" />
+ <div class="overlay">
+     <h3>piedra-papel-tijera</h3>
+     <p></p>
+ </div>
+</a>
+
+</div>
+<div class="proyecto">
+ <a href="./trabajos/ApiPeliculas/" target="_blank">
+ <img src="./img/elementos-objetos-peliculas-cine_1017-33459.avif" alt="" />
+ <div class="overlay">
+     <h3>APIpeliculas</h3>
+     <p></p>
+ </div>
+           </div>
+          </div>
+        </div>
+    </div>      
+</section>
+
+<section id="contacto" class="contacto ">
+    <div class="container-section ">
+        <h2>Contacto</h2>
+        <div class="fila ">
+
+            <div class="col ">
+                <input type="text " placeholder="Tu Nombre ">
+                <input type="email " placeholder="Numero Telefonico ">
+                <input type="text " placeholder="Direccion de correo ">
+                <input type="text " placeholder="Tema ">
+                <textarea name=" "id=" " cols="30 " rows="10 " placeholder="Tu Mensaje "></textarea>
+                <button>Enviar  <i class="fa-solid fa-paper-plane "></i>
+                    <span class="overlay "></span>
+                </button>
+                </div>
+
+                <div class="col ">
+                    <img src="">
+                    <div class="info ">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot "></i>
+                                Garzon-Huila Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen "></i>
+                                Llameme: 3229156754
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope "></i>
+                                E-mail: camilocediel54352@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <a href="#inicio " class="arriba ">
+        <i class="fa-solid fa-angles-up "></i>
+    </a>
+ 
+</footer>
+<script src="js/js.js"></script>
+
+
 
 </body>
 </html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #24272e;
+}
+header{
+  background: #e25b4d;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Gamja Flower', cursive;
+}
+header>h1{
+  font-size: 50px;
+}
+.marcador{
+  border: 3px solid #fff;
+  margin: 20px auto;
+  width: 200px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+.badge{
+  background: #e25b4d;
+  font-size: 14px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 1px 2px;
+  font-family: 'Poppins', sans-serif;
+}
+.user-label{
+  position: absolute;
+  top: auto;
+  left: -25px;
+  height: 40%;
+  width: 30%;
+}
+.comp-label{
+  position: absolute;
+  top: auto;
+  right: -25px;
+  height: 40%;
+  width: 30%;
+}
+#user-score, #comp-score{
+  padding: 5px;
+  font-size: 30px;
+}
+.result{
+  font-size: 40px;
+  color: #fff;
+}
+.result>p{
+  text-align: center;
+  font-family: 'Gamja Flower', cursive;
+}
+.opciones{
+  text-align: center;
+  margin: 50px 0;
+}
+.choice{
+  display: inline-block;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  padding: 15px;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+.choice:hover{
+  background: #e25b4d;
+  cursor: pointer;
+}
+#accion{
+  text-align: center;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 30px;
+  color: #fff;
+}
+
+.verde{
+  border: 3px solid #3CCF1A;
+  box-shadow: 0 0 10px #4BC62E;
+}
+.rojo{
+  border: 3px solid #D30E0E;
+  box-shadow: 0 0 10px #CC2A2A;
+}
+.gris{
+  border: 3px solid #D0C7C7;
+  box-shadow: 0 0 10px #BFB6B6;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: fit-content;
+    align-items: center;
+    background-color: rgba(118, 118, 118, 0.494);
+    border-radius: 1.5em;
+    padding: 2em;
+    gap: 2em;
+    box-shadow: 0 0 20px;
+}
+.container h2{
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+.container input{
+    outline: none;
+    border: none;
+    font-size: 1.3em;
+    width: 70%;
+    height: 2em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 0 5px rgb(113, 115, 113) inset;
+    font-family: 'Righteous', cursive;
+}
+.container span{
+    background: rgb(229, 250, 189);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    color: black;
+    padding: .3em 2em;
+    cursor: pointer;
+    border-radius: 1em;
+    margin: 0;
+
+    transition: all .6s;
+}
+.container span:hover{
+    background: white;
+    color: rgb(93, 89, 89);
+    box-shadow: 0 0 5px rgb(93, 89, 89) inset,
+    0 0 5px rgb(105, 255, 150);
+}
+.container ul{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    position: relative;
+    top: -1em;
+    color: white;
+}
+.container ul li{
+    list-style: decimal;
+
+}
+
+p{
+    color: white;
+    font-size: 35px;
+}

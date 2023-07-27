@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+.stopWatch {
+    background: linear-gradient(
+        to top,
+        rgba(30, 35, 39, 0.356),
+        rgba(30, 35, 38, 0.544)
+      ),
+      url(../img/background.jpg) no-repeat center center;
+    max-width: 600px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.stopWatch h1 {
+    font-size: 80px;
+    margin: 10px 0;
+}
+
+/*-------div controles-----------*/
+.controls {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*---------------botones modificados------------*/
+.controls .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 30px;
+    cursor: pointer;
+    font-size: 25px;
+ }
+ .btnsplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 30px;
+    cursor: pointer;
+    font-size: 30px;
+    background: rgba(241, 9, 9, 0.483);
+ }
+ .btns:hover{
+    background: rgba(241, 9, 9, 0.483);
+    width: 70px;
+    height: 70px;
+ }
+ .btnsplay:hover{
+    background: rgba(241, 9, 9, 0.731);
+ }
+ /*----------animation of clock--------- */
+ .container {
+    margin: 30px 0;
+    font-size: 25px;
+    animation: rotar 10s infinite linear;
+    display: none;
+ }
+ @keyframes rotar {
+    0%{
+    transform: rotate(0deg);
+    }
+    100%{
+    transform: rotate(360deg);
+    }
+}
+.paused {
+    animation-play-state: paused;
+  }
