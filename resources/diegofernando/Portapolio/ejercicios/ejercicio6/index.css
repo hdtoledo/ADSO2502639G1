@@ -7,7 +7,7 @@ body{
   width: 100vw;
   height: 100vh;
   background: rgb(194, 187, 187);
-  background-image: url('../ejercicio6/img/1.jpg');
+  background-image: url('./img/img_01.jpg');
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(10px);
@@ -21,6 +21,6 @@ main{
   background-position: center;
   border-radius: 20px;
   box-shadow: 0 0 10px antiquewhite;
-  background-image: url('../ejercicio6/img/1.jpg');
+  background-image: url('./img/img_01.jpg');
   transition: all 1s;
 }
