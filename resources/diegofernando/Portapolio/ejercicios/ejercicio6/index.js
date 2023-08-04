@@ -1,28 +1,16 @@
-// Obtener las imágenes del slider
-const sliderImages = document.querySelectorAll('.slider img');
+const containerImg = document.getElementById('imgContain')
+const body = document.getElementById('body')
 
-// Inicializar el índice de la imagen activa
-let activeIndex = 0;
+let count = 2
 
-// Función para mostrar la siguiente imagen en el slider
-function showNextImage() {
-  // Ocultar la imagen actual
-  sliderImages[activeIndex].classList.remove('active');
-  
-  // Incrementar el índice de la imagen activa
-  activeIndex++;
-  
-  // Si se alcanza el final del slider, volver al principio
-  if (activeIndex >= sliderImages.length) {
-    activeIndex = 0;
-  }
-  
-  // Mostrar la siguiente imagen
-  sliderImages[activeIndex].classList.add('active');
-}
-
-// Mostrar la primera imagen
-sliderImages[activeIndex].classList.add('active');
-
-// Establecer el intervalo para mostrar automáticamente las imágenes
-setInterval(showNextImage, 3000); // Cambia de imagen cada 3 segundos (ajusta el tiempo según tus necesidades)
+setInterval(() => {
+    if(count > 8){
+        count = 1
+        body.style.backgroundImage = `url(./img/img_0${count}.jpg)`
+        containerImg.style.backgroundImage = `url(./img/img_0${count}.jpg)`
+    } else {
+        containerImg.style.backgroundImage = `url(./img/img_0${count}.jpg)`
+        body.style.backgroundImage = `url(./img/img_0${count}.jpg)`
+        count++
+    }
+}, 5000);

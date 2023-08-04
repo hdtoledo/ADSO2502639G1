@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/stylee.css">
+    <script>
+        function validarFormulario() {
+            var nombre = document.forms["registro"]["nombre"].value;
+            var correo = document.forms["registro"]["correo"].value;
+            var contraseña = document.forms["registro"]["contraseña"].value;
+            
+            if (nombre == "") {
+                alert("Por favor, ingresa tu nombre.");
+                return false;
+            }
+            
+            if (correo == "") {
+                alert("Por favor, ingresa tu correo electrónico.");
+                return false;
+            }
+            
+            if (contraseña == "") {
+                alert("Por favor, ingresa una contraseña.");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+    <form name="registro" onsubmit="return validarFormulario()" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required><br><br>
+        
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" name="correo" required><br><br>
+        
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" name="contraseña" required><br><br>
+        
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
