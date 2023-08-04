@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lunasima&family=Montserrat:wght@400;500&family=Nunito:wght@200;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form label{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: fit-content;
+    background: rgb(247, 16, 0);
+    border-radius: 1.5em 1.5em 1.5em 1.5em;    align-items: center;
+    padding: 1.3em;
+    gap: 1em;
+}
+form label span{
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+}
+
+form label input{
+    width: 100%;
+    height: 1.8em;
+    background: rgb(228, 222, 233);
+    border: none;
+    border-radius: .2em;
+}
+
+button{
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    box-shadow: 3px 3px 0;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(9, 185, 17);
+    color: white;
+}
+
+button:active{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: none;
+}
