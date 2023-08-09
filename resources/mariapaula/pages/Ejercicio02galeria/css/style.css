@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lunasima&family=Montserrat:wght@400;500&family=Nunito:wght@200;400;500;600;700;800;900&display=swap');
+
+:root{
+    background: #c700ff;
+}
+*{
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #c700ff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    overflow: hidden;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: 30px;
+    color: #2a0c97;
+    font-size: 50px;
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 550px;
+}
+
+.card{
+    position: relative;
+    left: 0px;
+    width: 90px;
+    border-radius: 16px;
+    height: 320px;
+    overflow: hidden;
+    background-color: var(--background);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    flex: 0.25;
+}
+.card img{
+    height: 320px;
+}
+.card:hover{
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
