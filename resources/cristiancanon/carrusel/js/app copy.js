@@ -1,6 +1,6 @@
 //* Variables
 let containerImg = document.getElementById('containerImg')
-const arrayImgs = ["url('./img/img-01.jpg')","url('./img/img-02.jpg')","url('./img/img-03.jpg')","url('./img/img-04.jpg')","url('./img/img-05.jpg')","url('./img/img-06.jpg')","url('./img/img-07.jpg')"]
+const arrayImgs = ["url('./img/imagen1.jpg')","url('./img/paisaje-2.webp')","url('./img/foto-3.jpg')","url('./img/imagen-4.avif')","url('./img/imagen-5.jpg')","url('./img/imagen-6.avif')","url('./img/imagen-7.jpg')"]
 let iterator = 0
 
 //* Btns
